@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/ubuntu@sha256:9c4bf7dbb981591d4a1169138471afe4bf5ff5418841d00e30a7ba372e38d6c1",
     "platform": "linux/amd64"

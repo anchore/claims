@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/python@sha256:5e96e03a493a54904aa8be573fc0414431afb4f47ac58fbffd03b2a725005364",
     "platform": "linux/arm"

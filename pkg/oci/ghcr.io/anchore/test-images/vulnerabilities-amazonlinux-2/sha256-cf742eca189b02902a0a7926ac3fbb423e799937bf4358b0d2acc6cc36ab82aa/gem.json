@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/vulnerabilities-amazonlinux-2@sha256:cf742eca189b02902a0a7926ac3fbb423e799937bf4358b0d2acc6cc36ab82aa",
     "platform": "linux/amd64"

@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/anchore/test_images@sha256:746d31247006cc06434ce91ccf3523b2c230ff6c378ffed7ca1c60bbb48ea86f",
     "platform": "linux/amd64"

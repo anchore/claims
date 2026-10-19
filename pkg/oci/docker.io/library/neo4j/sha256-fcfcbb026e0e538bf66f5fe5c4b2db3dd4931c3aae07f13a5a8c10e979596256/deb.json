@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/neo4j@sha256:fcfcbb026e0e538bf66f5fe5c4b2db3dd4931c3aae07f13a5a8c10e979596256",
     "platform": "linux/amd64"

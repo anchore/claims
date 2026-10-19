@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "quay.io/hummingbird/nodejs@sha256:3c798f5a9da72e241f4cbeecc8bd1d653db69d92131ea8d676067b95ae18a5c2",
     "platform": "linux/amd64"

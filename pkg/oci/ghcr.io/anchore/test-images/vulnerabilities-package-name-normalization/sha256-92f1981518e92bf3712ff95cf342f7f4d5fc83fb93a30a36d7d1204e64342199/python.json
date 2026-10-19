@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/vulnerabilities-package-name-normalization@sha256:92f1981518e92bf3712ff95cf342f7f4d5fc83fb93a30a36d7d1204e64342199",
     "platform": "linux/amd64"

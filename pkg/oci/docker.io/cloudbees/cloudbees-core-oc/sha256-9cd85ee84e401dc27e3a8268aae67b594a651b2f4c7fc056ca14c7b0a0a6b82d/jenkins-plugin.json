@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/cloudbees/cloudbees-core-oc@sha256:9cd85ee84e401dc27e3a8268aae67b594a651b2f4c7fc056ca14c7b0a0a6b82d",
     "platform": "linux/amd64"

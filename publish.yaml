@@ -1,4 +1,11 @@
-# which snapshot claims/latest-<major>.json names, which is what every `@main` claims source reads.
+# format: the MODEL of the label file format this corpus is written in. It names the pointer every
+# `@main` claims source of that MODEL reads, claims/latest-<format>.json, and every label file's
+# `schema` must be a version of it: v1 takes 1.0.0, 1.2.0 and so on (SchemaVer, as in
+# schema/schema-<version>.json). It is not yardstick's version; a yardstick reads one MODEL, so a
+# new one means a yardstick release that reads it and a migration of every file here.
+format: v1
+
+# latest: which snapshot claims/latest-<format>.json names.
 #
 #   latest: main        follow the tip of main (each merge moves latest to its own snapshot)
 #   latest: <sha>       pin latest to the snapshot published for that commit on main, until changed back

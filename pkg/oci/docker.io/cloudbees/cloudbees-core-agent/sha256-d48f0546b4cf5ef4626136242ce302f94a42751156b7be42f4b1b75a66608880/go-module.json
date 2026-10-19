@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/cloudbees/cloudbees-core-agent@sha256:d48f0546b4cf5ef4626136242ce302f94a42751156b7be42f4b1b75a66608880",
     "platform": "linux/amd64"

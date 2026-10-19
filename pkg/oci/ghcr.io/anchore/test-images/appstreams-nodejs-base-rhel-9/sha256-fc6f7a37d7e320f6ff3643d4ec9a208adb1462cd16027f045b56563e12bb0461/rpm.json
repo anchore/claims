@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/appstreams-nodejs-base-rhel-9@sha256:fc6f7a37d7e320f6ff3643d4ec9a208adb1462cd16027f045b56563e12bb0461",
     "platform": "linux/amd64"

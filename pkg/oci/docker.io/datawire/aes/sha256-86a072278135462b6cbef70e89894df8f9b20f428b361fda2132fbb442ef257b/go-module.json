@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/datawire/aes@sha256:86a072278135462b6cbef70e89894df8f9b20f428b361fda2132fbb442ef257b",
     "platform": "linux/amd64"

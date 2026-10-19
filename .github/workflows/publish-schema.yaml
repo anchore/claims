@@ -1,0 +1,51 @@
+name: "Publish Schema"
+
+# every merge to main that touches schema/ copies the whole directory to R2 under claims/schema/,
+# so each schema-<version>.json a label file names is readable at a stable address. Validation
+# already holds schema/ to what the pinned yardstick writes, so this only copies.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "schema/**"
+      - ".github/workflows/publish-schema.yaml"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: publish-schema
+  cancel-in-progress: false
+
+jobs:
+  Publish-Schema:
+    name: "Publish Schema"
+    # a manual run from a branch must not publish that branch's schemas
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        shell: bash
+    env:
+      R2_BUCKET: oss-prod-anchore
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          persist-credentials: false
+
+      # a published schema is only ever amended in its descriptions, so a short cache is enough
+      - name: Upload schema/ to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YARDSTICK_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YARDSTICK_R2_SECRET_ACCESS_KEY }}
+          AWS_ENDPOINT_URL: ${{ secrets.YARDSTICK_R2_ENDPOINT }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          for f in schema/*.json; do
+            aws s3api put-object --bucket "$R2_BUCKET" --key "claims/$f" --content-type application/json \
+              --cache-control "public, max-age=3600" --body "$f" >/dev/null
+            echo "published claims/$f" | tee -a "$GITHUB_STEP_SUMMARY"
+          done

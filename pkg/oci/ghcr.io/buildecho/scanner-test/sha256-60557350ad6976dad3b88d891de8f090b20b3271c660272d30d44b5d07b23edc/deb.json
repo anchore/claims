@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/buildecho/scanner-test@sha256:60557350ad6976dad3b88d891de8f090b20b3271c660272d30d44b5d07b23edc",
     "platform": "linux/arm64"

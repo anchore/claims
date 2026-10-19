@@ -1,7 +1,7 @@
 name: "Publish"
 
 # every merge to main that touches the corpus (or publish.yaml) is validated, bundled and uploaded
-# to R2 as a snapshot, and claims/latest-<major>.json is moved to what publish.yaml names: the tip
+# to R2 as a snapshot, and claims/latest-<format>.json is moved to what publish.yaml names: the tip
 # of main by default, or a pinned commit's snapshot.
 on:
   push:
@@ -43,8 +43,6 @@ jobs:
         shell: bash
     env:
       R2_BUCKET: oss-prod-yardstick
-      # yardstick's label format major (labels.Major); a new major publishes beside the old one
-      FORMAT_MAJOR: v1
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
         with:

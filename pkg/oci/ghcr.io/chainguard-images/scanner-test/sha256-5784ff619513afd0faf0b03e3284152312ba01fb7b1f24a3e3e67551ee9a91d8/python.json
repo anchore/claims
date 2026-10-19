@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/chainguard-images/scanner-test@sha256:5784ff619513afd0faf0b03e3284152312ba01fb7b1f24a3e3e67551ee9a91d8",
     "platform": "linux/amd64"

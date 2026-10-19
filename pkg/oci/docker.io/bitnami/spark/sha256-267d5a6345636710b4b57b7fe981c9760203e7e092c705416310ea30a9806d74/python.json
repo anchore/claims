@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/bitnami/spark@sha256:267d5a6345636710b4b57b7fe981c9760203e7e092c705416310ea30a9806d74",
     "platform": "linux/amd64"

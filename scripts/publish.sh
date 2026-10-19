@@ -6,15 +6,15 @@
 #
 #   claims/snapshots/<hex>.zip        the snapshot, never overwritten
 #   claims/commits/<sha>.json         {"digest"} for HEAD
-#   claims/latest-<major>.json        {"digest","commit"} for what publish.yaml says, written last
+#   claims/latest-<format>.json       {"digest","commit"} for what publish.yaml says, written last
 #
-# needs R2_BUCKET and FORMAT_MAJOR, plus the aws cli's own AWS_ACCESS_KEY_ID,
+# the format comes from publish.yaml. Needs R2_BUCKET, plus the aws cli's own AWS_ACCESS_KEY_ID,
 # AWS_SECRET_ACCESS_KEY and AWS_ENDPOINT_URL. DRY_RUN=1 prints each write instead of making it.
 set -euo pipefail
 
 digest=$1
 zip=$2
-: "${R2_BUCKET:?}" "${FORMAT_MAJOR:?}"
+: "${R2_BUCKET:?}"
 hex=${digest#sha256:}
 commit=$(git rev-parse HEAD)
 root=$(cd "$(dirname "$0")/.." && pwd)
@@ -31,6 +31,20 @@ record() {
   printf '%s\n' "$1" >"$work/$2"
   echo "$work/$2"
 }
+
+format=$(sed -n 's/^format:[[:space:]]*//p' "$root/publish.yaml" | tr -d "\"' ")
+if ! grep -Eq '^v[0-9]+$' <<<"$format"; then
+  echo "publish.yaml: format is \"$format\"; want a major like v1" >&2
+  exit 1
+fi
+# a file in another MODEL would be published under the wrong pointer; a file says 1.2.0 where
+# publish.yaml says v1
+stray=$(grep -rLE "\"schema\": *\"${format#v}\\.[0-9]+\\.[0-9]+\"" --include='*.json' --exclude='sbom*.json' "$root/pkg" $([ -d "$root/global" ] && echo "$root/global") || true)
+if [ -n "$stray" ]; then
+  echo "these files are not in format $format, which publish.yaml names:" >&2
+  echo "$stray" >&2
+  exit 1
+fi
 
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
@@ -79,5 +93,5 @@ case "$pin" in
 esac
 
 body=$(printf '{"digest":"%s","commit":"%s"}' "$latest_digest" "$latest_commit")
-put "claims/latest-$FORMAT_MAJOR.json" application/json no-cache "$(record "$body" latest.json)"
-echo "latest-$FORMAT_MAJOR is $latest_digest (commit $latest_commit)"
+put "claims/latest-$format.json" application/json no-cache "$(record "$body" latest.json)"
+echo "latest-$format is $latest_digest (commit $latest_commit)"

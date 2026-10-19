@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/postgres@sha256:1a67ab960138c479d66834cd6bcb5b5582c53869e6052dbf4ff48d4a94c13da3",
     "platform": "linux/amd64"

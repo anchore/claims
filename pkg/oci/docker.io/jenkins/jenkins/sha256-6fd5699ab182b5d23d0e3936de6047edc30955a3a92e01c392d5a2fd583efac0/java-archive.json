@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/jenkins/jenkins@sha256:6fd5699ab182b5d23d0e3936de6047edc30955a3a92e01c392d5a2fd583efac0",
     "platform": "linux/amd64"

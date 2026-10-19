@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/fedora@sha256:2b0571b74dee5d891610276601c6680d622686113488076e7b35c18b455ce879",
     "platform": "linux/amd64"

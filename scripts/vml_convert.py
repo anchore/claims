@@ -28,6 +28,10 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 
+# the label file format this conversion writes, as in schema/schema-<version>.json. It is the
+# pinned yardstick's (`yardstick claims schema`), so bump it with the pin when the format moves.
+SCHEMA_VERSION = "1.0.0"
+
 # justifications this conversion writes; vocabulary.yaml defines them
 NOT_RECORDED = "not-recorded"
 LABELERS_DISAGREE = "labelers-disagree"
@@ -352,7 +356,7 @@ def convert(records, vocab, split_ref, sbom_for, lookup):
     files = {}
     for (d, typ, purl, vid), cs in sorted(by_key.items()):
         c = cs[0][0]
-        f = files.setdefault(f"{d}/{typ}.json", {"schema": "v1", "subject": {"image": f"{c.repository}@{c.digest}"}, "labels": []})
+        f = files.setdefault(f"{d}/{typ}.json", {"schema": SCHEMA_VERSION, "subject": {"image": f"{c.repository}@{c.digest}"}, "labels": []})
         if c.platform:
             f["subject"]["platform"] = c.platform
         label = merge(purl, vid, cs)

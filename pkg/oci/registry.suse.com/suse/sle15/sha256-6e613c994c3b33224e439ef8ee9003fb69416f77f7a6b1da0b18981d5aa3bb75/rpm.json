@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "registry.suse.com/suse/sle15@sha256:6e613c994c3b33224e439ef8ee9003fb69416f77f7a6b1da0b18981d5aa3bb75",
     "platform": "linux/amd64"

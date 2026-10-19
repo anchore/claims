@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/vulnerabilities-no-distro@sha256:347fba6fbfa15d4e11217f9d49bf70a5a6eef35c6c642dc8c5db89115912d0c1",
     "platform": "linux/amd64"

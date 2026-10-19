@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/grafana/grafana@sha256:a11c6829cdfe7fd791e48ba5b511f3562384361fb4c568ec2d8a5041ac52babe",
     "platform": "linux/amd64"

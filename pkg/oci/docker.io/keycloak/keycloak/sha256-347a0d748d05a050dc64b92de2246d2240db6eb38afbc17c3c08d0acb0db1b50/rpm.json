@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/keycloak/keycloak@sha256:347a0d748d05a050dc64b92de2246d2240db6eb38afbc17c3c08d0acb0db1b50",
     "platform": "linux/amd64"

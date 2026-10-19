@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/vulnerabilities-alpine-3.6@sha256:58637f273108e3e9eb4df4d73f7b6b1da303cbbf64f65e65fb7762482f2de63d",
     "platform": "linux/amd64"

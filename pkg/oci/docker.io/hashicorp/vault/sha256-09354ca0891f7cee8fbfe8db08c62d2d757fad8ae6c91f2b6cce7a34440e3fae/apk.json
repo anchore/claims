@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/hashicorp/vault@sha256:09354ca0891f7cee8fbfe8db08c62d2d757fad8ae6c91f2b6cce7a34440e3fae",
     "platform": "linux/amd64"

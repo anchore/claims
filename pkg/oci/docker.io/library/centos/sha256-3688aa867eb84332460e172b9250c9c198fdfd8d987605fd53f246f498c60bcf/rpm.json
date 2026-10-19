@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/library/centos@sha256:3688aa867eb84332460e172b9250c9c198fdfd8d987605fd53f246f498c60bcf",
     "platform": "linux/amd64"

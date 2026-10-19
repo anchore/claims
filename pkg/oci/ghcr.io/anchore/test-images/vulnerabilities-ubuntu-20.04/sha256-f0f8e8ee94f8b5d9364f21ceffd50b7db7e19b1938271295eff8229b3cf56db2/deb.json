@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/vulnerabilities-ubuntu-20.04@sha256:f0f8e8ee94f8b5d9364f21ceffd50b7db7e19b1938271295eff8229b3cf56db2",
     "platform": "linux/amd64"

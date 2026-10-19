@@ -126,12 +126,25 @@ tasks:
       - "unzip -q {{ .BUNDLE_DIR }}/*.zip -d {{ .BUNDLE_DIR }}/tree"
       - "{{ .YARDSTICK }} claims validate {{ .BUNDLE_DIR }}/tree"
 
+  check-schema:
+    desc: Check schema/ holds the label file schema the pinned yardstick enforces (`yardstick claims schema` writes it)
+    deps: [tools]
+    cmds:
+      - "{{ .YARDSTICK }} claims schema schema"
+      - cmd: |
+          if [ -n "$(git status --porcelain -- schema)" ]; then
+            echo "schema/ is not what the pinned yardstick writes; commit what 'make check-schema' left there" >&2
+            git status --short -- schema >&2
+            exit 1
+          fi
+
   validate-changed:
     desc: "Validate only the image directories changed since BASE (default origin/main); a catalog or vocabulary change validates the whole corpus"
     deps: [tools]
     env:
       PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
     cmds:
+      - task: check-schema
       - "scripts/validate_changed.sh"
 
   ## Port from vulnerability-match-labels #################################

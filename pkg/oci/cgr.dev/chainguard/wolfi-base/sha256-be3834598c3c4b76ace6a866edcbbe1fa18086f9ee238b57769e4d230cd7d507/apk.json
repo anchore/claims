@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "cgr.dev/chainguard/wolfi-base@sha256:be3834598c3c4b76ace6a866edcbbe1fa18086f9ee238b57769e4d230cd7d507",
     "platform": "linux/amd64"

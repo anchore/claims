@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/photon4@sha256:1fcd94525a47fa3fb959e6c82fec473df477d256fbb520ab4d06b69769e52470",
     "platform": "linux/amd64"

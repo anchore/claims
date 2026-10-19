@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/syft_bin@sha256:c27b02c6322180fd8a7a3097d2b430bfdf9ea52ecf136edf258458e82f2c6f21",
     "platform": "linux/amd64"

@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "docker.io/elastic/kibana@sha256:b9e3e52f61e0a347e38eabe80ba0859f859023bc0cc8836410320aa7eb5d3e02",
     "platform": "linux/amd64"

@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/alpine-package-cpe-vuln-match@sha256:0825acea611c7c5cc792bc7cc20de44d7413fd287dc5afc4aab9c1891d037b4f",
     "platform": "linux/amd64"

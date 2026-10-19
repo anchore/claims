@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/golang@sha256:d1819e59e89e8ea90073460acb4ebb2ee18ccead9fa880dae91e8fc61b19ca1c",
     "platform": "linux/amd64"

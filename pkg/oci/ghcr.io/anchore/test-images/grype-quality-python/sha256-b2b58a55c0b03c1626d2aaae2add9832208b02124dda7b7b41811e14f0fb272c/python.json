@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/grype-quality-python@sha256:b2b58a55c0b03c1626d2aaae2add9832208b02124dda7b7b41811e14f0fb272c",
     "platform": "linux/amd64"

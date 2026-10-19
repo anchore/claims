@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/postmarketos@sha256:05b42fdb332f8a5794c9d1e6ab83cd32030bf0cd3ef797ada5546419e9ad293d",
     "platform": "linux/amd64"

@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "registry.suse.com/bci/bci-base@sha256:ae18370c24511ed8b9d6d5376260663f5e535e0d52b0803a9e3e7858760606bf",
     "platform": "linux/amd64"

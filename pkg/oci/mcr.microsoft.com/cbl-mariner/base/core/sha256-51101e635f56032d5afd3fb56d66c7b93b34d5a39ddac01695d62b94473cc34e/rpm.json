@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "mcr.microsoft.com/cbl-mariner/base/core@sha256:51101e635f56032d5afd3fb56d66c7b93b34d5a39ddac01695d62b94473cc34e",
     "platform": "linux/arm64"

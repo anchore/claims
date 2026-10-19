@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "ghcr.io/anchore/test-images/ubuntu-content@sha256:f8e72da9f67caf90714926e7b21f0da93ca1e528b37a97dffe71e2ec38872a8b",
     "platform": "linux/amd64"

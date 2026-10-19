@@ -1,5 +1,5 @@
 {
-  "schema": "v1",
+  "schema": "1.0.0",
   "subject": {
     "image": "registry.suse.com/suse/sles12sp4@sha256:94b537f5b312e7397b5d0bbb3d892f961acdd9454950fc233d77f771e25335fb",
     "platform": "linux/ppc64le"
