@@ -1,0 +1,1351 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/chainguard-images/scanner-test@sha256:59bddc101fba0c45d5c093575c6bc5bfee7f0e46ff127e6bb4e5acaaafb525f9",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-48hw-cv6f-mcpj",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5f83d9bb-61d6-43ca-800f-c6d4217bbf3a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:13:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:13:06Z",
+      "lastUpdated": "2026-09-18T15:13:06Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-9r55-p3jw-v652",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 555e7c2d-839e-41a1-b518-506e28beaad5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:07:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:07:51Z",
+      "lastUpdated": "2026-09-18T15:07:51Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-fj27-x67r-v4g5",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b085302e-9f7e-406f-ae02-a35f91a4b0a4: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:08:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:08:11Z",
+      "lastUpdated": "2026-09-18T15:08:11Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-jcqv-rj94-jmx3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06faa6bb-2e10-4db2-b0c4-54edc4547b8a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:08:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:08:33Z",
+      "lastUpdated": "2026-09-18T15:08:33Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-jj7c-h3wm-vjfw",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b1ead14-6c59-44d2-9ad3-393a0f36a323: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:11:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:11:03Z",
+      "lastUpdated": "2026-09-18T15:11:03Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-mm53-x3wx-jgr2",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0d34845e-59c5-4418-8327-5756457c4a6f: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:12:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:12:00Z",
+      "lastUpdated": "2026-09-18T15:12:00Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-r8f8-4pgh-4m8v",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 42cc382b-f0c8-4b68-9aa7-c6d1e9dcfba1: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:12:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:12:28Z",
+      "lastUpdated": "2026-09-18T15:12:28Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-rrv5-483w-xmr9",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9f21aac-2db7-41dd-87c2-072eea31ba5b: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:13:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:13:16Z",
+      "lastUpdated": "2026-09-18T15:13:16Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-wp4q-9jq4-gv74",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1479ac7f-196d-4233-bbd5-1dbc8fd4eab3: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:13:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:13:34Z",
+      "lastUpdated": "2026-09-18T15:13:34Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/busybox@1.36.0-r0",
+      "vulnerability": "GHSA-xm63-5pjx-vrhp",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0877ad4d-6ddd-4997-b960-84f0161e85b5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-18T15:12:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-18T15:12:45Z",
+      "lastUpdated": "2026-09-18T15:12:45Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-4527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2df549c0-51ab-4b0a-bc13-87c43a6314bd: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:51Z",
+      "lastUpdated": "2023-12-20T13:06:51Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-4911",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1767e8f9-18e5-494c-98d3-9dfcb0980a5b: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:53Z",
+      "lastUpdated": "2023-12-20T13:06:53Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-5156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1fb073a-569f-45e1-a04f-34613074fbe2: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:55Z",
+      "lastUpdated": "2023-12-20T13:06:55Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-6246",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f9e11673-0dcf-49b0-b7e7-4628ff92719c: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:01Z",
+      "lastUpdated": "2024-02-09T21:05:01Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-6779",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df36e79e-ed63-485b-8d59-33c958c9d0c6: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:03Z",
+      "lastUpdated": "2024-02-09T21:05:03Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "CVE-2023-6780",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d324fb3-294d-4bf1-a596-588433f463ea: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:06Z",
+      "lastUpdated": "2024-02-09T21:05:06Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-hmf7-f8gf-8f4p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d08eb9f3-d175-48a4-8dc8-7b24a38c7cec: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:56Z",
+      "lastUpdated": "2023-12-20T13:06:56Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-jjr8-97p7-vmmg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2fb88e9d-c16d-4bfd-a852-5a9255787b9a: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:18Z",
+      "lastUpdated": "2024-02-09T21:05:18Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-m77w-6vjw-wh2f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 62898235-c0d3-4d55-a6b5-d14bd76f5799: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:59Z",
+      "lastUpdated": "2023-12-20T13:06:59Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-m7p3-g2hx-xfc3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c381dcf6-c6f4-4146-a951-d72a3265232a: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:01Z",
+      "lastUpdated": "2023-12-20T13:07:01Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-p5vr-h433-qhqr",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d88c9b5c-8896-4e71-8f94-3884a3b4ce06: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:20Z",
+      "lastUpdated": "2024-02-09T21:05:20Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc-locale-posix@2.37-r6",
+      "vulnerability": "GHSA-p6rw-gvvh-q8v4",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74ddab00-f650-4cbb-a769-d1e102ed0b4f: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:21Z",
+      "lastUpdated": "2024-02-09T21:05:21Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "dan",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f102714-52d9-4aff-925b-a34d40d1e2c8: fp with grype@v0.24.0-348-g30dfcd7. There's a secdb entry for Chainguard Linux.\n",
+          "author": "dan",
+          "at": "2023-03-28T14:36:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.24.0-348-g30dfcd7"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-28T14:36:28Z",
+      "lastUpdated": "2023-03-28T14:36:28Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "dan",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d3980716-8b45-44c8-8d1b-ebf1182eb4c4: fp with grype@v0.24.0-348-g30dfcd7. There's a secdb entry for Chainguard Linux.",
+          "author": "dan",
+          "at": "2023-03-28T14:36:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.24.0-348-g30dfcd7"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-28T14:36:30Z",
+      "lastUpdated": "2023-03-28T14:36:30Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "dan",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 853ce69a-5301-43ae-a38e-c2f5f89bbca3: fp with grype@v0.24.0-348-g30dfcd7. There's a secdb entry for Chainguard Linux.",
+          "author": "dan",
+          "at": "2023-03-28T14:38:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.24.0-348-g30dfcd7"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-28T14:38:21Z",
+      "lastUpdated": "2023-03-28T14:38:21Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "dan",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8252d6a9-92f0-45f3-832c-f052b7453266: fp with grype@v0.24.0-348-g30dfcd7. There's a secdb entry for Chainguard Linux.",
+          "author": "dan",
+          "at": "2023-03-28T14:38:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.24.0-348-g30dfcd7"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-28T14:38:25Z",
+      "lastUpdated": "2023-03-28T14:38:25Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "dan",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b1163049-82ce-4420-994d-dd21dc2482ca: fp with grype@v0.24.0-348-g30dfcd7. There's a secdb entry for Chainguard Linux.",
+          "author": "dan",
+          "at": "2023-03-28T14:38:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.24.0-348-g30dfcd7"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-28T14:38:29Z",
+      "lastUpdated": "2023-03-28T14:38:29Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-4527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 66af3f50-d04e-429f-bb37-95fd0d588633: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:04:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:04:53Z",
+      "lastUpdated": "2023-12-20T13:04:53Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-4911",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8294f10f-97f7-446e-80ba-a962234e899f: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:34Z",
+      "lastUpdated": "2023-12-20T13:06:34Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-5156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9df5434-a5a7-4c81-a9d3-d10248329b69: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:38Z",
+      "lastUpdated": "2023-12-20T13:06:38Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-6246",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8e25d870-85ec-426d-a1a5-2fc9ac1b58f5: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:46Z",
+      "lastUpdated": "2024-02-09T21:04:46Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-6779",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e38df4f6-604c-4ba1-911b-665d07347028: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:51Z",
+      "lastUpdated": "2024-02-09T21:04:51Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "CVE-2023-6780",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54b151f3-4800-49df-b254-f7864a2f0917: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:53Z",
+      "lastUpdated": "2024-02-09T21:04:53Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-hmf7-f8gf-8f4p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d86017f-032b-4b54-ac99-144f241e0307: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:40Z",
+      "lastUpdated": "2023-12-20T13:06:40Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-jjr8-97p7-vmmg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 32fbbf0b-3e0b-429c-8695-d4d826ade2fb: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:57Z",
+      "lastUpdated": "2024-02-09T21:04:57Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-m77w-6vjw-wh2f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af694256-39c4-4390-a839-6424b4412b42: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:43Z",
+      "lastUpdated": "2023-12-20T13:06:43Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-m7p3-g2hx-xfc3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8d1783b1-8962-4d8a-a95b-446a0628a1a6: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:06:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:06:45Z",
+      "lastUpdated": "2023-12-20T13:06:45Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-p5vr-h433-qhqr",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7053801f-d0c9-40fb-acf9-c230b8e949bf: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:58Z",
+      "lastUpdated": "2024-02-09T21:04:58Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/glibc@2.37-r6",
+      "vulnerability": "GHSA-p6rw-gvvh-q8v4",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4c383aa-f678-4f26-a101-89f5c643f765: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:04:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:04:58Z",
+      "lastUpdated": "2024-02-09T21:04:58Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-4527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 07f0b861-4014-409a-8c67-833b6bb6b043: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:07Z",
+      "lastUpdated": "2023-12-20T13:07:07Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-4911",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fc2b6080-68b4-4df4-869c-969b80281397: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:08Z",
+      "lastUpdated": "2023-12-20T13:07:08Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-5156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e75c01b-b9f5-439a-8ff4-8b6067b54b62: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:09Z",
+      "lastUpdated": "2023-12-20T13:07:09Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-6246",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3fc240f6-0276-4761-ab05-f25ed10e1607: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:23Z",
+      "lastUpdated": "2024-02-09T21:05:23Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-6779",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e2fb3fc8-2658-4a24-b992-ccb24f3ce82e: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:23Z",
+      "lastUpdated": "2024-02-09T21:05:23Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "CVE-2023-6780",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels abb877be-a45b-406a-a707-95df2ec636e1: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:24Z",
+      "lastUpdated": "2024-02-09T21:05:24Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-hmf7-f8gf-8f4p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e56783b5-95c9-44f2-9144-78b062beb511: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:10Z",
+      "lastUpdated": "2023-12-20T13:07:10Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-jjr8-97p7-vmmg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cfd53dd1-694b-418e-9b8e-5cafcb7905ac: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:26Z",
+      "lastUpdated": "2024-02-09T21:05:26Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-m77w-6vjw-wh2f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1506c4ff-e10e-409a-8132-83c83eccdefd: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:11Z",
+      "lastUpdated": "2023-12-20T13:07:11Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-m7p3-g2hx-xfc3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d13d6c4c-5f18-4f9f-9a9a-e75702862267: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T13:07:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T13:07:12Z",
+      "lastUpdated": "2023-12-20T13:07:12Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-p5vr-h433-qhqr",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6803e137-f81c-41ef-92b5-1cf4de3a4ace: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:27Z",
+      "lastUpdated": "2024-02-09T21:05:27Z"
+    },
+    {
+      "package": "pkg:apk/chainguard/ld-linux@2.37-r6",
+      "vulnerability": "GHSA-p6rw-gvvh-q8v4",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 838722ec-9389-4e2a-99ca-f91f1cb3c72f: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:05:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:05:28Z",
+      "lastUpdated": "2024-02-09T21:05:28Z"
+    }
+  ]
+}

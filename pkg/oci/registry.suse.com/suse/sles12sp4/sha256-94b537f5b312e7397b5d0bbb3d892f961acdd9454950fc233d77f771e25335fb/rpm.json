@@ -1,0 +1,4385 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "registry.suse.com/suse/sles12sp4@sha256:94b537f5b312e7397b5d0bbb3d892f961acdd9454950fc233d77f771e25335fb",
+    "platform": "linux/ppc64le"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/sles/coreutils@8.25-13.10.1",
+      "vulnerability": "CVE-2017-18018",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 56360fb3-a3cf-4be8-9d76-ef8a133c0042: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:36:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:36:35Z",
+      "lastUpdated": "2026-08-28T09:36:35Z"
+    },
+    {
+      "package": "pkg:rpm/sles/cpio@2.11-36.15.1",
+      "vulnerability": "CVE-2023-7207",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41ca9827-bf38-4e6d-82b0-6607c36ae983: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:15:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:15:01Z",
+      "lastUpdated": "2026-08-28T11:15:01Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2015-8985",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cee10f77-82b2-470d-b587-aaa2b646d3e9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:00Z",
+      "lastUpdated": "2024-01-04T13:23:00Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 692cff51-121f-4210-a32f-bff6543a646f: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:33:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:33:16Z",
+      "lastUpdated": "2026-08-28T09:33:16Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2021-35942",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels daa0d0ce-b173-42d1-9cdc-970033369c8e: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:54:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:54:59Z",
+      "lastUpdated": "2026-08-28T10:54:59Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2021-3999",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c2f367c-d05c-4fe7-adb0-25e3ab8f4982: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:02Z",
+      "lastUpdated": "2024-01-04T13:23:02Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2022-23218",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2aa95cb5-9b77-44a7-b99f-a67fe450d5f6: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:07Z",
+      "lastUpdated": "2024-01-04T13:23:07Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2022-23219",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd2a1c5e-0e3b-4405-a8fb-308a4161e6c6: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:07Z",
+      "lastUpdated": "2024-01-04T13:23:07Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2023-4813",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da2c7633-9f56-4911-8b12-cba83a632249: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:13:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:13:05Z",
+      "lastUpdated": "2026-08-28T11:13:05Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2024-2961",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3010541-4f10-4238-bc8e-0d32be4d2fc5: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:23:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:23:31Z",
+      "lastUpdated": "2026-08-28T11:23:31Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2024-33600",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 080d3e3e-ed26-4f14-a817-2c4bf5f335b9: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:23:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:23:49Z",
+      "lastUpdated": "2026-08-28T11:23:49Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2024-33601",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 38fa6d35-c9ac-46a7-a9d4-3bcea1ac7636: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:24:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:24:21Z",
+      "lastUpdated": "2026-08-28T11:24:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/glibc@2.22-114.15.1",
+      "vulnerability": "CVE-2024-33602",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f4beb08-4e65-4875-ac6d-fcb1cf29350d: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:25:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:25:02Z",
+      "lastUpdated": "2026-08-28T11:25:02Z"
+    },
+    {
+      "package": "pkg:rpm/sles/gpg2@2.0.24-9.8.1",
+      "vulnerability": "CVE-2018-9234",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c94149ed-c828-437f-b04e-4d9b6e2f2bbf: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:46:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:46:28Z",
+      "lastUpdated": "2026-08-28T09:46:28Z"
+    },
+    {
+      "package": "pkg:rpm/sles/gpg2@2.0.24-9.8.1",
+      "vulnerability": "CVE-2022-34903",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c7a3853a-e043-4717-8c54-06545f04ea87: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:08Z",
+      "lastUpdated": "2024-01-04T13:23:08Z"
+    },
+    {
+      "package": "pkg:rpm/sles/krb5@1.12.5-40.40.2",
+      "vulnerability": "CVE-2022-42898",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 076b1def-9f99-4a49-b1bc-a94b469a06d7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:09Z",
+      "lastUpdated": "2024-01-04T13:23:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/krb5@1.12.5-40.40.2",
+      "vulnerability": "CVE-2023-36054",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0ea20258-f89a-43c0-81d1-1e1cc67e07e2: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:09:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:09:59Z",
+      "lastUpdated": "2026-08-28T11:09:59Z"
+    },
+    {
+      "package": "pkg:rpm/sles/krb5@1.12.5-40.40.2",
+      "vulnerability": "CVE-2024-26458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ac3b5966-b228-49f3-b0fe-4d6ecfdf58d1: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:18:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:18:37Z",
+      "lastUpdated": "2026-08-28T11:18:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/krb5@1.12.5-40.40.2",
+      "vulnerability": "CVE-2024-37370",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a6383e8-06f3-467c-87a4-a14219155a58: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:25:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:25:42Z",
+      "lastUpdated": "2026-08-28T11:25:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/krb5@1.12.5-40.40.2",
+      "vulnerability": "CVE-2024-37371",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af5fe314-f603-4963-9b58-08a13a7954c7: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:25:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:25:58Z",
+      "lastUpdated": "2026-08-28T11:25:58Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libblkid1@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4e63a912-8643-4165-91c2-b6667210fe4a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:09Z",
+      "lastUpdated": "2024-01-04T13:23:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libblkid1@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4ae1ece6-5edc-44cb-9170-07f075d8e24c: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:18:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:18:56Z",
+      "lastUpdated": "2026-08-28T11:18:56Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcap2@2.26-14.6.1",
+      "vulnerability": "CVE-2023-2603",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 13954eaa-6ae6-4cbf-ba43-48cdb35e019a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:05:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:05:54Z",
+      "lastUpdated": "2026-08-28T11:05:54Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcom_err2@1.43.8-3.14.1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e900ff84-b5c0-4f21-ba0e-095081df99ac: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:10Z",
+      "lastUpdated": "2024-01-04T13:23:10Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-27781",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26d21d80-2642-41ed-9681-c5a6601df4a2: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:10Z",
+      "lastUpdated": "2024-01-04T13:23:10Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-27782",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e2d777fa-9afa-4565-a4f7-22c2e706ecd0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:10Z",
+      "lastUpdated": "2024-01-04T13:23:10Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-32206",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f3fc909-f88e-41d8-b7c9-9b0f88a326c9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:11Z",
+      "lastUpdated": "2024-01-04T13:23:11Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-32208",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe55446a-2ccf-4883-9f00-58af9f0f08cd: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:13Z",
+      "lastUpdated": "2024-01-04T13:23:13Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-32221",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 96aa478f-8253-49fc-b9fe-529a3cd46b6b: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:14Z",
+      "lastUpdated": "2024-01-04T13:23:14Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-35252",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b2172a4-8dcb-4dc1-9584-457d9cf50d0b: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:15Z",
+      "lastUpdated": "2024-01-04T13:23:15Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2022-43552",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a964485-a418-42d4-8a3c-e11eae32132c: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:16Z",
+      "lastUpdated": "2024-01-04T13:23:16Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-23916",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 667a8164-de3a-413c-84a6-762d05198538: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:17Z",
+      "lastUpdated": "2024-01-04T13:23:17Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-27533",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8be8809-5f9f-4372-971b-43be9c0add9f: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:17Z",
+      "lastUpdated": "2024-01-04T13:23:17Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-27534",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f508458-35d6-4af9-981a-88d3d84784f9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:18Z",
+      "lastUpdated": "2024-01-04T13:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-27535",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f443091d-5f86-4d53-aa89-88f25551c8ec: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:18Z",
+      "lastUpdated": "2024-01-04T13:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-27536",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35e244d4-4111-454b-82b3-c0ce853b23b1: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:18Z",
+      "lastUpdated": "2024-01-04T13:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-27538",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 539be617-a3d4-46ec-82ed-5f90a9c2793f: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:19Z",
+      "lastUpdated": "2024-01-04T13:23:19Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-28320",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5f8d40b9-8c92-41ed-9b03-8b9047f17475: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:19Z",
+      "lastUpdated": "2024-01-04T13:23:19Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-28321",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72f44b37-eb6f-4f53-a0e1-fd77ea8777b8: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:19Z",
+      "lastUpdated": "2024-01-04T13:23:19Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-28322",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71ac42df-3a90-4ce9-923d-fcb6926949c1: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:20Z",
+      "lastUpdated": "2024-01-04T13:23:20Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-38546",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 243fefbe-824d-4950-afd1-c9bc7571fecb: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:11:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:11:15Z",
+      "lastUpdated": "2026-08-28T11:11:15Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2023-46218",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0332d54-8954-447e-a489-ca944ce2b6e6: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:12:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:12:29Z",
+      "lastUpdated": "2026-08-28T11:12:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libcurl4@7.60.0-4.30.1",
+      "vulnerability": "CVE-2024-11053",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35be8166-67be-4771-9977-1f43dce57f8f: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:15:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:15:30Z",
+      "lastUpdated": "2026-08-28T11:15:30Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2021-45960",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a9baaf0-2ee0-487a-8893-9f2e45d29cd9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:20Z",
+      "lastUpdated": "2024-01-04T13:23:20Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2021-46143",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c29b004-eb3e-47e4-9aee-5e3064ccd44e: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:21Z",
+      "lastUpdated": "2024-01-04T13:23:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22822",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0893507-602e-4c80-b924-b5903f583672: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:21Z",
+      "lastUpdated": "2024-01-04T13:23:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22823",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f08d845-308f-4c64-96c4-f1b6a6fe0911: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:21Z",
+      "lastUpdated": "2024-01-04T13:23:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22824",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4386c555-b7c4-4d82-8551-922f448854c0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:22Z",
+      "lastUpdated": "2024-01-04T13:23:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22825",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8215af8e-f6aa-4ede-b602-ffc0038f9a65: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:22Z",
+      "lastUpdated": "2024-01-04T13:23:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22826",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3725500d-7986-4655-a62b-0fe69421534d: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:22Z",
+      "lastUpdated": "2024-01-04T13:23:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-22827",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd8ca475-c033-4094-bdab-5e67ac76b50a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:23Z",
+      "lastUpdated": "2024-01-04T13:23:23Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-23852",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbe3e6e9-f94f-425c-9211-8ccef122e9c0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:23Z",
+      "lastUpdated": "2024-01-04T13:23:23Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-23990",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7407664b-31fb-47e9-b28f-e9f4bc135bfd: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:28Z",
+      "lastUpdated": "2024-01-04T13:23:28Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-25235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce944a23-56b1-4dfb-9e41-79553b1b40a7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:28Z",
+      "lastUpdated": "2024-01-04T13:23:28Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-25236",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 180115c0-87dc-4893-8f51-144f96eea845: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:29Z",
+      "lastUpdated": "2024-01-04T13:23:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-25313",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels db28bd10-6029-4449-8a1b-4efa4c6245b7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:29Z",
+      "lastUpdated": "2024-01-04T13:23:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-25314",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90ba8b89-5b86-4ef8-b094-654e0be421d9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:29Z",
+      "lastUpdated": "2024-01-04T13:23:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-25315",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f4294d33-0c18-42c6-be54-90f4e1418bbd: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:29Z",
+      "lastUpdated": "2024-01-04T13:23:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-40674",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2e34a0d5-7028-408f-b3a1-382d52e9fded: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:30Z",
+      "lastUpdated": "2024-01-04T13:23:30Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2022-43680",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b86321a3-4ed4-497a-87e5-2313f661f9a0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:30Z",
+      "lastUpdated": "2024-01-04T13:23:30Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2023-52425",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1108844e-0ea8-41c2-b08d-84163d97c67d: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:14:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:14:17Z",
+      "lastUpdated": "2026-08-28T11:14:17Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2024-45490",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5f0ad9bc-402b-4f13-b45c-5518cf54fece: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:26:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:26:22Z",
+      "lastUpdated": "2026-08-28T11:26:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2024-45491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad82db5a-8b34-4b05-af2d-50964153b279: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:26:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:26:45Z",
+      "lastUpdated": "2026-08-28T11:26:45Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2024-45492",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8565e9fe-9caf-47ab-b39b-76062e476051: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:27:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:27:05Z",
+      "lastUpdated": "2026-08-28T11:27:05Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libexpat1@2.1.0-21.9.1",
+      "vulnerability": "CVE-2024-50602",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b37e3ca-68ee-48e6-87b1-36e999c79e4c: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:27:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:27:21Z",
+      "lastUpdated": "2026-08-28T11:27:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libfdisk1@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d75674f3-9124-458e-9906-3f433801b6a8: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:30Z",
+      "lastUpdated": "2024-01-04T13:23:30Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libfdisk1@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be4b2964-6151-40d7-bcc9-15247ef01c36: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:19:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:19:06Z",
+      "lastUpdated": "2026-08-28T11:19:06Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libgcrypt20@1.6.1-16.77.1",
+      "vulnerability": "CVE-2014-5270",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4052d903-2ea9-4f5b-b08a-9ddea9ab58f1: tp",
+          "author": "williammurphy",
+          "at": "2026-08-27T16:16:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-27T16:16:09Z",
+      "lastUpdated": "2026-08-27T16:16:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libgcrypt20@1.6.1-16.77.1",
+      "vulnerability": "CVE-2024-2236",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be03943b-060f-4d66-a3ef-278c47229cf7: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:17:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:17:31Z",
+      "lastUpdated": "2026-08-28T11:17:31Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libgmp10@5.1.3-2.121",
+      "vulnerability": "CVE-2021-43618",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 19a273e9-248d-44bb-85a7-c1680bdf5abf: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:56:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:56:12Z",
+      "lastUpdated": "2026-08-28T10:56:12Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libksba8@1.3.0-23.1",
+      "vulnerability": "CVE-2022-3515",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 539d8b9e-882b-4ebb-ab2a-ae1e0c66731c: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:44Z",
+      "lastUpdated": "2024-01-04T13:23:44Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libksba8@1.3.0-23.1",
+      "vulnerability": "CVE-2022-47629",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0075fdcc-4165-4426-ac64-f1e9bcc349e3: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:43Z",
+      "lastUpdated": "2024-01-04T13:23:43Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libldap-2_4-2@2.4.41-22.2.3",
+      "vulnerability": "CVE-2020-15719",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df37820a-9317-4f82-b60c-0d19399f2aa8: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:57:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:57:41Z",
+      "lastUpdated": "2026-08-28T09:57:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libldap-2_4-2@2.4.41-22.2.3",
+      "vulnerability": "CVE-2020-25709",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 746199ef-824e-4448-b118-5e8e785188ef: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:03:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:03:30Z",
+      "lastUpdated": "2026-08-28T10:03:30Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libldap-2_4-2@2.4.41-22.2.3",
+      "vulnerability": "CVE-2020-25710",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0807bac5-8f03-4fb1-818c-67cc50bd3082: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:04:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:04:26Z",
+      "lastUpdated": "2026-08-28T10:04:26Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libldap-2_4-2@2.4.41-22.2.3",
+      "vulnerability": "CVE-2022-29155",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 799d770d-0fb5-4e60-b71c-44f58799469b: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:43Z",
+      "lastUpdated": "2024-01-04T13:23:43Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libldap-2_4-2@2.4.41-22.2.3",
+      "vulnerability": "CVE-2023-2953",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a0dc6bf-6332-48ff-95dc-33411c5941f2: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:09:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:09:20Z",
+      "lastUpdated": "2026-08-28T11:09:20Z"
+    },
+    {
+      "package": "pkg:rpm/sles/liblzma5@5.0.5-6.3.1",
+      "vulnerability": "CVE-2022-1271",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 445e5dda-4843-4900-bf07-4a3838a2c47f: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libmount1@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1d1d19e6-5c81-4531-b03f-7593eb159bad: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libmount1@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d7feabb-9259-4f07-bf13-c0f3d7eae1e5: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:19:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:19:54Z",
+      "lastUpdated": "2026-08-28T11:19:54Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses5@5.9-75.1",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 51e45ba9-a3f9-41c6-8fa4-0c85af1b2e6a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:00:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:00:37Z",
+      "lastUpdated": "2026-08-28T11:00:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses5@5.9-75.1",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18174571-64bb-41c9-b6f2-4154edb47aa8: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:07:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:07:29Z",
+      "lastUpdated": "2026-08-28T11:07:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses5@5.9-75.1",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c71e63d-528c-47da-8e6a-2665af527e38: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:13:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:13:22Z",
+      "lastUpdated": "2026-08-28T11:13:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses6@5.9-75.1",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 55bcc759-bf66-46bf-854c-2df51a66904b: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:04:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:04:40Z",
+      "lastUpdated": "2026-08-28T11:04:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses6@5.9-75.1",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 99cfa4c8-fc15-476b-9623-1812e17a6066: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:07:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:07:42Z",
+      "lastUpdated": "2026-08-28T11:07:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libncurses6@5.9-75.1",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da503e0a-890f-4180-9479-535f5fd5669a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:13:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:13:48Z",
+      "lastUpdated": "2026-08-28T11:13:48Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libnghttp2-14@1.39.2-3.5.1",
+      "vulnerability": "CVE-2023-35945",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a50456ff-e43c-415e-b3b3-0fd06a7c41cd: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:09:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:09:44Z",
+      "lastUpdated": "2026-08-28T11:09:44Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-0778",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3501b61-e0b6-478c-a3c8-e5e963da986b: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:46Z",
+      "lastUpdated": "2024-01-04T13:23:46Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-1292",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0e8bdaf-91e7-41d0-9570-799e15bf4da7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-2068",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 955bb400-3001-4065-90cf-ab8faa8c39bf: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0215",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9034aa4-3966-45ea-80cf-1777005028f9: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0286",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dba425ae-71cf-4924-9773-317315f54464: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:42Z",
+      "lastUpdated": "2024-01-04T13:23:42Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0466",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1ca1008a-61d2-4a31-b78c-c64e69e3c3e7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:41Z",
+      "lastUpdated": "2024-01-04T13:23:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-3817",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7097991-9e9d-49ed-ac61-73452fe9f022: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:10:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:10:34Z",
+      "lastUpdated": "2026-08-28T11:10:34Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libopenssl1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-5678",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 286ef4e0-e57c-4cd5-955c-56b39d14d728: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:14:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:14:34Z",
+      "lastUpdated": "2026-08-28T11:14:34Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-2326",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eba1ffca-9803-4f8a-974a-a107c3acc609: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:20:33Z",
+      "lastUpdated": "2026-08-28T09:20:33Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-8381",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7e1eddf-ffdd-4823-837c-c3a75875f957: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:20:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:20:54Z",
+      "lastUpdated": "2026-08-28T09:20:54Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-8392",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 340dee3e-211b-4696-a46d-6209050fcf9a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:23:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:23:14Z",
+      "lastUpdated": "2026-08-28T09:23:14Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-8876",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04894b8a-9c9b-4770-a579-01bc788c405d: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:24:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:24:01Z",
+      "lastUpdated": "2026-08-28T09:24:01Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-8935",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f0c5b56-77db-4135-8d3c-83b7d59f1372: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:24:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:24:29Z",
+      "lastUpdated": "2026-08-28T09:24:29Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-9104",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da3774da-616b-4a5e-bf12-a8b477b9d660: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:27:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:27:04Z",
+      "lastUpdated": "2026-08-28T09:27:04Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2015-9105",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b24c4277-9018-4665-a8ab-481b161b1d1b: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:33:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:33:06Z",
+      "lastUpdated": "2026-08-28T09:33:06Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2016-6207",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1efba105-5912-4460-bfa8-c2b81197e5ea: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:35:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:35:40Z",
+      "lastUpdated": "2026-08-28T09:35:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2017-16231",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6fba342-5102-4dd3-81b1-99218e737d11: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:36:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:36:12Z",
+      "lastUpdated": "2026-08-28T09:36:12Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libpcre1@8.45-8.7.1",
+      "vulnerability": "CVE-2022-1586",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c08720cc-08cd-4b9d-acf5-e16a53b647e7: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:41Z",
+      "lastUpdated": "2024-01-04T13:23:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsasl2-3@2.1.26-14.2.1",
+      "vulnerability": "CVE-2022-24407",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a7c4b8bd-874c-48f2-a419-696a263fa771: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:41Z",
+      "lastUpdated": "2024-01-04T13:23:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsmartcols1@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cfd01b47-706a-4f43-82a4-dde35aba3783: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:41Z",
+      "lastUpdated": "2024-01-04T13:23:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsmartcols1@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 292b7303-479e-400f-8852-fe26e9e54eda: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:20:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:20:01Z",
+      "lastUpdated": "2026-08-28T11:20:01Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsystemd0@228-150.98.1",
+      "vulnerability": "CVE-2017-7874",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c6f8e9df-5801-4dee-9e32-5d11d2860de7: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:39:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:39:19Z",
+      "lastUpdated": "2026-08-28T09:39:19Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsystemd0@228-150.98.1",
+      "vulnerability": "CVE-2022-3821",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c332f578-2e13-43b4-8e9b-cf96a2e9a6a8: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:41Z",
+      "lastUpdated": "2024-01-04T13:23:41Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsystemd0@228-150.98.1",
+      "vulnerability": "CVE-2022-4415",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 234da35c-92ba-45f5-8290-dd1490785b81: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:40Z",
+      "lastUpdated": "2024-01-04T13:23:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libsystemd0@228-150.98.1",
+      "vulnerability": "CVE-2023-26604",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5dc585f-b3b0-4d51-bc56-564c5e1bb03e: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:48Z",
+      "lastUpdated": "2024-01-04T13:23:48Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libtasn1-6@4.9-3.10.1",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f78da1e7-d84c-4640-a59b-8f3a3f0c7ec1: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:40Z",
+      "lastUpdated": "2024-01-04T13:23:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libtasn1-6@4.9-3.10.1",
+      "vulnerability": "CVE-2024-12133",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae769a37-096d-4915-981b-aa48462bba25: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:17:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:17:02Z",
+      "lastUpdated": "2026-08-28T11:17:02Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libtasn1@4.9-3.10.1",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 80b55ceb-8ab9-4553-bdac-7bd42763c22a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:40Z",
+      "lastUpdated": "2024-01-04T13:23:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libtasn1@4.9-3.10.1",
+      "vulnerability": "CVE-2024-12133",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 50cde226-8a91-4824-a66d-bf3720723113: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:16:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:16:51Z",
+      "lastUpdated": "2026-08-28T11:16:51Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libudev1@228-150.98.1",
+      "vulnerability": "CVE-2017-7874",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9e709c9-9245-41db-b54b-a4969bcad684: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:39:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:39:28Z",
+      "lastUpdated": "2026-08-28T09:39:28Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libudev1@228-150.98.1",
+      "vulnerability": "CVE-2022-3821",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cd962127-a753-44a5-a5b3-34bd6256ca98: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:40Z",
+      "lastUpdated": "2024-01-04T13:23:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libudev1@228-150.98.1",
+      "vulnerability": "CVE-2022-4415",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76734b8c-42c8-4eb2-a705-73e80446b00c: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:40Z",
+      "lastUpdated": "2024-01-04T13:23:40Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libudev1@228-150.98.1",
+      "vulnerability": "CVE-2023-26604",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e6b415b4-f9b0-4c0d-b7f7-a67bc28b615b: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:39Z",
+      "lastUpdated": "2024-01-04T13:23:39Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libuuid1@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3bbdf0c7-d0d2-4e2f-a943-f6ad1bb2e28f: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:39Z",
+      "lastUpdated": "2024-01-04T13:23:39Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libuuid1@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5d914bf-cc19-43c6-b404-2fc4d3988c0a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:20:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:20:09Z",
+      "lastUpdated": "2026-08-28T11:20:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2016-3709",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76aa11cd-ef22-448a-a78c-4dd6b1cbb87a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:39Z",
+      "lastUpdated": "2024-01-04T13:23:39Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2017-16931",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8799140-5244-4f03-9682-df2d9d4942c1: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:36:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:36:25Z",
+      "lastUpdated": "2026-08-28T09:36:25Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2017-16932",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aad729df-1e59-4edc-9367-51951115069d: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:50Z",
+      "lastUpdated": "2024-01-04T13:23:50Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2019-19956",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8b6a243-fd7d-463a-bf85-40c11c4c10c0: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:46:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:46:36Z",
+      "lastUpdated": "2026-08-28T09:46:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2019-20388",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3443187a-787f-46d9-9ab8-9719889e7854: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:47:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:47:36Z",
+      "lastUpdated": "2026-08-28T09:47:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2020-24977",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e93d85c-fbd0-4f5b-90de-3314f486b22a: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:59:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:59:10Z",
+      "lastUpdated": "2026-08-28T09:59:10Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2020-7595",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87a4502f-4584-4518-af08-3ec1736ade18: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:46:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:46:03Z",
+      "lastUpdated": "2026-08-28T10:46:03Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2021-3541",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c33e2c62-d65c-4354-800f-1d90dd2986f0: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:50:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:50:17Z",
+      "lastUpdated": "2026-08-28T10:50:17Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2022-23308",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 59a7617c-7152-47e3-ac49-0e42f5debd23: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:39Z",
+      "lastUpdated": "2024-01-04T13:23:39Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2022-29824",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7638b56c-0682-4951-a643-f301522e07b0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:38Z",
+      "lastUpdated": "2024-01-04T13:23:38Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2022-40303",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d34f51a-7b3c-48c7-93a6-045a423db96e: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:38Z",
+      "lastUpdated": "2024-01-04T13:23:38Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2022-40304",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1861e69c-b88f-407d-8a2c-05233d94182a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:38Z",
+      "lastUpdated": "2024-01-04T13:23:38Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2022-49043",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8d16bc8d-2c41-42a0-a5c4-de17e9dddeb8: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:05:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:05:20Z",
+      "lastUpdated": "2026-08-28T11:05:20Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2023-28484",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3053b62-021f-4b6b-8089-6764887a1904: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:06:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:06:57Z",
+      "lastUpdated": "2026-08-28T11:06:57Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2023-29469",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 023ff797-59ab-41ab-856f-c5a1d47a4977: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:07:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:07:16Z",
+      "lastUpdated": "2026-08-28T11:07:16Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2023-39615",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5c3f641-9827-4e2e-bffb-58444c76fd0b: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:11:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:11:36Z",
+      "lastUpdated": "2026-08-28T11:11:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2023-45322",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0c43112c-2d23-454b-b18c-89bc06f4672d: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:11:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:11:58Z",
+      "lastUpdated": "2026-08-28T11:11:58Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2024-25062",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e7d669c-e976-44c2-8775-deb1b5be42ac: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:18:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:18:09Z",
+      "lastUpdated": "2026-08-28T11:18:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libxml2-2@2.9.4-46.46.1",
+      "vulnerability": "CVE-2024-34459",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9dbcafa4-2fe5-41f3-887d-a69a5c15e466: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:25:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:25:20Z",
+      "lastUpdated": "2026-08-28T11:25:20Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libz1@1.2.11-3.3.1",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1f4d1ac-f62c-4403-816b-d21999fbdbc1: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:38Z",
+      "lastUpdated": "2024-01-04T13:23:38Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libz1@1.2.11-3.3.1",
+      "vulnerability": "CVE-2022-37434",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b4c8614-0ec3-4eac-852d-053b4d102a59: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:38Z",
+      "lastUpdated": "2024-01-04T13:23:38Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libz1@1.2.11-3.3.1",
+      "vulnerability": "CVE-2023-45853",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 305779f9-99f6-4a4e-ba3e-82569d0c2f95: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:12:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:12:14Z",
+      "lastUpdated": "2026-08-28T11:12:14Z"
+    },
+    {
+      "package": "pkg:rpm/sles/ncurses-utils@5.9-75.1",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f87dad8a-f237-4a2e-b188-46e462a7e050: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:04:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:04:52Z",
+      "lastUpdated": "2026-08-28T11:04:52Z"
+    },
+    {
+      "package": "pkg:rpm/sles/ncurses-utils@5.9-75.1",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1d567634-3406-4b6a-8989-1ec90ad85156: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:07:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:07:53Z",
+      "lastUpdated": "2026-08-28T11:07:53Z"
+    },
+    {
+      "package": "pkg:rpm/sles/ncurses-utils@5.9-75.1",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c751fbe3-f919-4da6-aa3c-bf5f3468899b: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:13:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:13:54Z",
+      "lastUpdated": "2026-08-28T11:13:54Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-0778",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d99748c8-dfdc-4bdc-9512-c02476145419: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-1292",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 91d3501b-8222-4adc-9525-552e126ac698: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2022-2068",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5a78117-580d-4d2e-8092-7ad413280c1a: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0215",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7a88c998-f8b5-4497-966a-58ab7d579b64: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0286",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bade9a22-9388-40c5-9896-fb98b398f3b1: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-0466",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 479760b5-d30c-46d4-a81a-b9d756a139b0: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:37Z",
+      "lastUpdated": "2024-01-04T13:23:37Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-3817",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce5be584-a7a0-4882-9f97-5d1a3a31acf9: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:10:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:10:48Z",
+      "lastUpdated": "2026-08-28T11:10:48Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl-1_0_0@1.0.2p-3.42.2",
+      "vulnerability": "CVE-2023-5678",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a7086a9e-c87e-488e-ad5a-0867793c59a4: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:14:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:14:43Z",
+      "lastUpdated": "2026-08-28T11:14:43Z"
+    },
+    {
+      "package": "pkg:rpm/sles/openssl@1.0.2p-1.13",
+      "vulnerability": "CVE-2021-3449",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 074fa057-c409-4916-8d92-7189014f8644: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:48:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:48:46Z",
+      "lastUpdated": "2026-08-28T10:48:46Z"
+    },
+    {
+      "package": "pkg:rpm/sles/pam@1.1.8-24.49.1",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1dcda9c7-92a4-4638-a013-f894ed4c0c77: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:15:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:15:14Z",
+      "lastUpdated": "2026-08-28T11:15:14Z"
+    },
+    {
+      "package": "pkg:rpm/sles/pam@1.1.8-24.49.1",
+      "vulnerability": "CVE-2024-22365",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 09101015-89f7-454e-8ea1-8241d95766a3: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:17:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:17:52Z",
+      "lastUpdated": "2026-08-28T11:17:52Z"
+    },
+    {
+      "package": "pkg:rpm/sles/perl-base@5.18.2-12.23.1",
+      "vulnerability": "CVE-2017-20230",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 521cf285-422b-4dbb-b6b5-bc94ad219152: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:37:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:37:10Z",
+      "lastUpdated": "2026-08-28T09:37:10Z"
+    },
+    {
+      "package": "pkg:rpm/sles/perl-base@5.18.2-12.23.1",
+      "vulnerability": "CVE-2023-31484",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cc487e11-7a8e-4a0a-b4c2-45e2ab5e2b51: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:36Z",
+      "lastUpdated": "2024-01-04T13:23:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/permissions@20170707-3.30.1",
+      "vulnerability": "CVE-2016-10729",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 84173b16-4a4f-43f6-b212-c835fd87af9c: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:35:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:35:09Z",
+      "lastUpdated": "2026-08-28T09:35:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/rpm@4.11.2-16.21.1",
+      "vulnerability": "CVE-2021-20266",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d2e3584-63e8-4b5a-bf88-141b7020004e: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:46:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:46:25Z",
+      "lastUpdated": "2026-08-28T10:46:25Z"
+    },
+    {
+      "package": "pkg:rpm/sles/rpm@4.11.2-16.21.1",
+      "vulnerability": "CVE-2021-3421",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 14b68238-2ea4-48e1-9532-a0820c18daa3: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:48:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:48:00Z",
+      "lastUpdated": "2026-08-28T10:48:00Z"
+    },
+    {
+      "package": "pkg:rpm/sles/rpm@4.11.2-16.21.1",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41e11b85-18e4-4cd8-911c-cb66faec4a72: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:53:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:53:39Z",
+      "lastUpdated": "2026-08-28T10:53:39Z"
+    },
+    {
+      "package": "pkg:rpm/sles/rpm@4.11.2-16.21.1",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86792653-58a2-4b7a-bbf3-f28d66bd9653: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:54:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:54:12Z",
+      "lastUpdated": "2026-08-28T10:54:12Z"
+    },
+    {
+      "package": "pkg:rpm/sles/rpm@4.11.2-16.21.1",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ead61414-4490-4530-accc-96418886375f: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T10:54:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T10:54:22Z",
+      "lastUpdated": "2026-08-28T10:54:22Z"
+    },
+    {
+      "package": "pkg:rpm/sles/shadow@4.2.1-27.19.1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce5698e5-9c49-4a35-af3c-52629c748f74: tp",
+          "author": "williammurphy",
+          "at": "2026-08-27T16:15:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-27T16:15:43Z",
+      "lastUpdated": "2026-08-27T16:15:43Z"
+    },
+    {
+      "package": "pkg:rpm/sles/shadow@4.2.1-27.19.1",
+      "vulnerability": "CVE-2018-16588",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0bbd0162-52fb-44a0-b8c3-29c12a6361df: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:46:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:46:21Z",
+      "lastUpdated": "2026-08-28T09:46:21Z"
+    },
+    {
+      "package": "pkg:rpm/sles/shadow@4.2.1-27.19.1",
+      "vulnerability": "CVE-2023-29383",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5a7cc90-c1ef-4455-9cc4-642e0563473d: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:36Z",
+      "lastUpdated": "2024-01-04T13:23:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/shadow@4.2.1-27.19.1",
+      "vulnerability": "CVE-2023-4641",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f26a7bf7-29df-4d1e-9e7d-dd0027a5e32d: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:12:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:12:44Z",
+      "lastUpdated": "2026-08-28T11:12:44Z"
+    },
+    {
+      "package": "pkg:rpm/sles/terminfo-base@5.9-75.1",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1bcd6dc-bbcd-4cbc-aadd-67ee8f7bb8dc: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:05:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:05:01Z",
+      "lastUpdated": "2026-08-28T11:05:01Z"
+    },
+    {
+      "package": "pkg:rpm/sles/terminfo-base@5.9-75.1",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a6edc29-5b9f-4f71-8840-53a6502e08e8: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:08:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:08:51Z",
+      "lastUpdated": "2026-08-28T11:08:51Z"
+    },
+    {
+      "package": "pkg:rpm/sles/terminfo-base@5.9-75.1",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4df411b-4f4c-4013-bd54-0703b63e0c93: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:14:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:14:02Z",
+      "lastUpdated": "2026-08-28T11:14:02Z"
+    },
+    {
+      "package": "pkg:rpm/sles/util-linux@2.29.2-7.14",
+      "vulnerability": "CVE-2021-37600",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18676518-99f7-49b3-94e0-0ae6c03cad57: tp with grype@v0.73.5",
+          "author": "westonsteimel",
+          "at": "2024-01-04T13:23:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-04T13:23:36Z",
+      "lastUpdated": "2024-01-04T13:23:36Z"
+    },
+    {
+      "package": "pkg:rpm/sles/util-linux@2.29.2-7.14",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e4cf535c-cb6c-46f5-85c8-d29fa27c0d9f: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T11:20:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T11:20:16Z",
+      "lastUpdated": "2026-08-28T11:20:16Z"
+    },
+    {
+      "package": "pkg:rpm/sles/zypper@1.13.60-21.41.3",
+      "vulnerability": "CVE-2017-7435",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31a2f1db-8753-484b-8b20-17f4084e41cc: tp",
+          "author": "williammurphy",
+          "at": "2026-08-28T09:38:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-08-28T09:38:04Z",
+      "lastUpdated": "2026-08-28T09:38:04Z"
+    }
+  ]
+}

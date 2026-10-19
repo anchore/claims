@@ -1,0 +1,515 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/photon4@sha256:1fcd94525a47fa3fb959e6c82fec473df477d256fbb520ab4d06b69769e52470",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/photon/curl-libs@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-11053",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05db4086-9c4d-4012-b37b-930120c77fb2: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:39:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:39:11Z",
+      "lastUpdated": "2026-02-09T15:39:11Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl-libs@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-7264",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2376cf3e-15ae-4b1e-a1e8-ac683825a34e: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:43:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:43:17Z",
+      "lastUpdated": "2026-02-09T15:43:17Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl-libs@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-8096",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 589e3a70-fabd-45bc-bf5e-e6563004359e: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:44:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:44:27Z",
+      "lastUpdated": "2026-02-09T15:44:27Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl-libs@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-9681",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 302d22fd-f3b1-4a79-9b6f-bfb0fb77ccd4: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:45:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:45:46Z",
+      "lastUpdated": "2026-02-09T15:45:46Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-11053",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fffd67a2-e33d-487e-bd5a-fab5aec72ca7: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:39:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:39:07Z",
+      "lastUpdated": "2026-02-09T15:39:07Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-7264",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 20e5e9ce-f03c-48f7-ad7a-e0f451ae6101: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:43:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:43:09Z",
+      "lastUpdated": "2026-02-09T15:43:09Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-8096",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8be64520-0eea-40bb-904a-5e65125e84c4: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:43:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:43:51Z",
+      "lastUpdated": "2026-02-09T15:43:51Z"
+    },
+    {
+      "package": "pkg:rpm/photon/curl@8.7.1-2.ph4",
+      "vulnerability": "CVE-2024-9681",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7083fba1-f1fd-458f-b11f-94ba167d4962: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:45:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:45:37Z",
+      "lastUpdated": "2026-02-09T15:45:37Z"
+    },
+    {
+      "package": "pkg:rpm/photon/expat-libs@2.4.9-2.ph4",
+      "vulnerability": "CVE-2024-45490",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f2601f1-dd72-4103-a257-98c4004c78b3: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:40:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:40:39Z",
+      "lastUpdated": "2026-02-09T15:40:39Z"
+    },
+    {
+      "package": "pkg:rpm/photon/expat-libs@2.4.9-2.ph4",
+      "vulnerability": "CVE-2024-45491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0921ea2-c234-4f3b-8274-7265c14e109c: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:40:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:40:56Z",
+      "lastUpdated": "2026-02-09T15:40:56Z"
+    },
+    {
+      "package": "pkg:rpm/photon/expat-libs@2.4.9-2.ph4",
+      "vulnerability": "CVE-2024-45492",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7e21717-58dd-4b5f-bc75-59a472910123: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:41:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:41:20Z",
+      "lastUpdated": "2026-02-09T15:41:20Z"
+    },
+    {
+      "package": "pkg:rpm/photon/expat-libs@2.4.9-2.ph4",
+      "vulnerability": "CVE-2024-50602",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee52359f-e7c8-4db0-9e39-50c233b0e4ac: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:41:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:41:50Z",
+      "lastUpdated": "2026-02-09T15:41:50Z"
+    },
+    {
+      "package": "pkg:rpm/photon/expat-libs@2.4.9-2.ph4",
+      "vulnerability": "CVE-2024-8176",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 896e91f4-a534-47b2-be04-531b3029a539: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:44:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:44:46Z",
+      "lastUpdated": "2026-02-09T15:44:46Z"
+    },
+    {
+      "package": "pkg:rpm/photon/krb5@1.17-11.ph4",
+      "vulnerability": "BDSA-2025-0719",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca73727f-efd0-4ad1-adfe-bdf3f46e2c56: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:36:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:36:51Z",
+      "lastUpdated": "2026-02-09T15:36:51Z"
+    },
+    {
+      "package": "pkg:rpm/photon/krb5@1.17-11.ph4",
+      "vulnerability": "CVE-2024-3596",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8775dbd0-3a9b-420a-92a9-6668e30b8ac9: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:39:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:39:38Z",
+      "lastUpdated": "2026-02-09T15:39:38Z"
+    },
+    {
+      "package": "pkg:rpm/photon/krb5@1.17-11.ph4",
+      "vulnerability": "CVE-2024-37370",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8eb0468-830a-4cfe-b41e-c9c99ea7bc1c: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:39:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:39:57Z",
+      "lastUpdated": "2026-02-09T15:39:57Z"
+    },
+    {
+      "package": "pkg:rpm/photon/krb5@1.17-11.ph4",
+      "vulnerability": "CVE-2024-37371",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7118f9a-ee97-4542-bb03-300c7de5080b: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:40:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:40:14Z",
+      "lastUpdated": "2026-02-09T15:40:14Z"
+    },
+    {
+      "package": "pkg:rpm/photon/libxml2@2.9.12-14.ph4",
+      "vulnerability": "CVE-2022-49043",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8463bd4-a065-4958-bd8e-84e7aba7e3bc: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:37:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:37:23Z",
+      "lastUpdated": "2026-02-09T15:37:23Z"
+    },
+    {
+      "package": "pkg:rpm/photon/libxml2@2.9.12-14.ph4",
+      "vulnerability": "CVE-2024-56171",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a562303-4b34-4cd8-bba7-5949f58e1f8f: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:42:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:42:13Z",
+      "lastUpdated": "2026-02-09T15:42:13Z"
+    },
+    {
+      "package": "pkg:rpm/photon/nss-libs@3.72-5.ph4",
+      "vulnerability": "CVE-2024-0743",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 57d18093-38eb-4098-b481-ed0ce36c6fd7: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:38:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:38:49Z",
+      "lastUpdated": "2026-02-09T15:38:49Z"
+    },
+    {
+      "package": "pkg:rpm/photon/openssl@3.0.14-2.ph4",
+      "vulnerability": "CVE-2024-6119",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72db37dc-a931-4d3c-bed4-a74b07a6b9e2: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:42:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:42:42Z",
+      "lastUpdated": "2026-02-09T15:42:42Z"
+    },
+    {
+      "package": "pkg:rpm/photon/openssl@3.0.14-2.ph4",
+      "vulnerability": "CVE-2024-9143",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6476a214-346c-4bb9-9e87-e0388c6e128d: tp",
+          "author": "williammurphy",
+          "at": "2026-02-09T15:45:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-09T15:45:11Z",
+      "lastUpdated": "2026-02-09T15:45:11Z"
+    }
+  ]
+}

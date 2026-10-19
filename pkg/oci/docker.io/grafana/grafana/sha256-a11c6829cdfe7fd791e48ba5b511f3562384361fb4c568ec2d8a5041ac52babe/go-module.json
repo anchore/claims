@@ -1,0 +1,469 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/grafana/grafana@sha256:a11c6829cdfe7fd791e48ba5b511f3562384361fb4c568ec2d8a5041ac52babe",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2022-23498",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5e20109-6d4a-464f-a789-d15e3a5cfd8d: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:11:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:11:45Z",
+      "lastUpdated": "2023-05-23T10:11:45Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2022-23552",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 685c6acc-e0c4-4787-8090-cc7769e5bd83: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:12:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:12:02Z",
+      "lastUpdated": "2023-05-23T10:12:02Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2022-39324",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c615055c-622b-4499-9e01-e8d4db10230f: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:12:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:12:10Z",
+      "lastUpdated": "2023-05-23T10:12:10Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2023-0507",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26e578b6-b29b-4ed2-a750-0d9fd2074a2e: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:12:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:12:40Z",
+      "lastUpdated": "2023-05-23T10:12:40Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2023-0594",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c80c594c-658f-4166-a89d-416ea97c588a: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:12:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:12:57Z",
+      "lastUpdated": "2023-05-23T10:12:57Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2023-1387",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f7e5938-c1af-4491-8de8-2c82cee2d57d: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:16Z",
+      "lastUpdated": "2023-05-23T10:13:16Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2023-1410",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 063c5b94-ab24-419c-9096-a569244562ae: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:20Z",
+      "lastUpdated": "2023-05-23T10:13:20Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "CVE-2023-22462",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 919f8979-1d92-4c51-950e-0d07d7326e4d: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:26Z",
+      "lastUpdated": "2023-05-23T10:13:26Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "GHSA-7rqg-hjwc-6mjf",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9f9914ae-6ef9-4d10-86ed-9ec5098f0ba8: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:39Z",
+      "lastUpdated": "2023-05-23T10:13:39Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "GHSA-hjv9-hm2f-rpcj",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 107d4606-749a-44c5-846f-3420c8a8167e: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:43Z",
+      "lastUpdated": "2023-05-23T10:13:43Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "GHSA-qrrg-gw7w-vp76",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e15933c8-3320-4748-9e04-57a9600a29d9: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:44Z",
+      "lastUpdated": "2023-05-23T10:13:44Z"
+    },
+    {
+      "package": "pkg:golang/github.com/grafana/grafana@v9.2.4",
+      "vulnerability": "GHSA-xw5p-hw8j-xg4q",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b6e59cd-70ac-450f-95b0-e135aefa1d93: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:45Z",
+      "lastUpdated": "2023-05-23T10:13:45Z"
+    },
+    {
+      "package": "pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1",
+      "vulnerability": "CVE-2022-46146",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f75a239c-5134-4c97-b154-6d787dec7afb: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:52Z",
+      "lastUpdated": "2023-05-23T10:13:52Z"
+    },
+    {
+      "package": "pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1",
+      "vulnerability": "GHSA-7rg2-cxvp-9p7p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da0b2a1b-366d-4cbf-a788-d98ee51bd394: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:13:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:13:53Z",
+      "lastUpdated": "2023-05-23T10:13:53Z"
+    },
+    {
+      "package": "pkg:golang/github.com/prometheus/prometheus@v1.8.2-0.20211011171444-354d8d2ecfac",
+      "vulnerability": "CVE-2019-3826",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b3a70da-496d-4c6c-aaa3-dc545675cfd8: fp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:14:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:14:11Z",
+      "lastUpdated": "2023-05-23T10:14:11Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20220909164309-bea034e7d591",
+      "vulnerability": "GHSA-fxg5-wq6x-vr4w",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 823a688a-e495-4221-9447-aa2bde697b58: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:14:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:14:33Z",
+      "lastUpdated": "2023-05-23T10:14:33Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20220909164309-bea034e7d591",
+      "vulnerability": "GHSA-vvpx-j8f3-3w6h",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 667f4422-e18c-4ef2-9cc6-f5442ec06c56: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:14:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:14:40Z",
+      "lastUpdated": "2023-05-23T10:14:40Z"
+    }
+  ]
+}

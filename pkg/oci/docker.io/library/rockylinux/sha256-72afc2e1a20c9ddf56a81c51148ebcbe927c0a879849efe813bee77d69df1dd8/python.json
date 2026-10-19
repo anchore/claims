@@ -1,0 +1,177 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/rockylinux@sha256:72afc2e1a20c9ddf56a81c51148ebcbe927c0a879849efe813bee77d69df1dd8",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-20266",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 38b1cbae-68ea-40b6-8b40-2dcd16c86b27: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", which has a patch for this issue. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:50:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:50:38Z",
+      "lastUpdated": "2023-08-02T23:50:38Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3421",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d44da478-23b9-4b62-9a02-72fb9580c7ad: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", which has a patch for this issue. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:49:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:49:34Z",
+      "lastUpdated": "2023-08-02T23:49:34Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3521",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3205af9e-c0b5-4333-bd74-ae826eef02df: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", which has a patch for this issue. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:49:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:49:34Z",
+      "lastUpdated": "2023-08-02T23:49:34Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b77d5b2e-a40d-4023-a1a2-fa3907b67b3f: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", against which this CVE should actually be reported. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:49:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:49:35Z",
+      "lastUpdated": "2023-08-02T23:49:35Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df6ce59d-443a-498e-9ede-ebde7a200e5a: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", against which this CVE should actually be reported. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:49:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:49:36Z",
+      "lastUpdated": "2023-08-02T23:49:36Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a383ef30-f7bf-410c-8e8c-ba7df9cc22cc: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", against which this CVE should actually be reported. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-02T23:49:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T23:49:37Z",
+      "lastUpdated": "2023-08-02T23:49:37Z"
+    }
+  ]
+}

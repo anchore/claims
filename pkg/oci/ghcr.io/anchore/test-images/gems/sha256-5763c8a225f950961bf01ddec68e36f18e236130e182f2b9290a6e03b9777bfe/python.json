@@ -1,0 +1,37 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/gems@sha256:5763c8a225f950961bf01ddec68e36f18e236130e182f2b9290a6e03b9777bfe",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/pip@21.1.1",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1dd2c1c4-c7fa-4c25-a2d0-7ee9b011c0ee: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T12:09:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T12:09:59Z",
+      "lastUpdated": "2023-03-01T12:09:59Z"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/vulnerabilities-package-name-normalization@sha256:92f1981518e92bf3712ff95cf342f7f4d5fc83fb93a30a36d7d1204e64342199",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/aiohttp-session@2.3.0",
+      "vulnerability": "GHSA-fpwp-69xv-c67f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1efe0719-5bc9-4fc8-adc1-1d773fc3dfb3: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:27Z",
+      "lastUpdated": "2022-09-29T18:20:27Z"
+    },
+    {
+      "package": "pkg:pypi/aiohttp-session@2.3.0",
+      "vulnerability": "GHSA-mr4x-c4v9-x729",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ade921ff-56d8-4b9a-8d8f-fddfb9cffcf8: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:28Z",
+      "lastUpdated": "2022-09-29T18:20:28Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "CVE-2019-20477",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels efd8da02-2c8f-4783-ad8f-16a5581cce68: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:31Z",
+      "lastUpdated": "2022-09-29T18:20:31Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "CVE-2020-14343",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d3cc31eb-4ca1-497b-beda-7fb1445beb66: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:32Z",
+      "lastUpdated": "2022-09-29T18:20:32Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "CVE-2020-1747",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b3d0e20-a792-4c0e-9e5b-e35aa1b3b302: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:32Z",
+      "lastUpdated": "2022-09-29T18:20:32Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "GHSA-3pqx-4fqf-j49f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9280ba8-af54-4de2-ad62-883f9578483b: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:33Z",
+      "lastUpdated": "2022-09-29T18:20:33Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "GHSA-6757-jp84-gxfx",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b378a64a-9582-4989-837d-7f8a5eb61c60: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:33Z",
+      "lastUpdated": "2022-09-29T18:20:33Z"
+    },
+    {
+      "package": "pkg:pypi/pyyaml@5.1",
+      "vulnerability": "GHSA-8q59-q68h-6hv4",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe07d5f4-7915-49fe-bc1a-d0f4009bce4d: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:34Z",
+      "lastUpdated": "2022-09-29T18:20:34Z"
+    },
+    {
+      "package": "pkg:pypi/url-regex@1.0.0",
+      "vulnerability": "GHSA-hg3w-7hj9-m3f7",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 65d3ea44-92f2-4344-ab14-3ec09d6023b5: tp with grype@34e08a0",
+          "author": "westonsteimel",
+          "at": "2022-09-29T18:20:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "34e08a0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T18:20:36Z",
+      "lastUpdated": "2022-09-29T18:20:36Z"
+    }
+  ]
+}

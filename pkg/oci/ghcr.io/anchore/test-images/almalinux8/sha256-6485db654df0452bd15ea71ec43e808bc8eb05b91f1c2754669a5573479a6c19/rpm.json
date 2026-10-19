@@ -1,0 +1,3971 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/almalinux8@sha256:6485db654df0452bd15ea71ec43e808bc8eb05b91f1c2754669a5573479a6c19",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-1000876",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60848950-df1c-45b9-8d6e-ab5e1dd59235: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:21Z",
+      "lastUpdated": "2025-07-29T11:44:21Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-12641",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52b1c0b6-ce57-4d06-965a-169d1ccba4f9: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:27Z",
+      "lastUpdated": "2025-07-29T11:44:27Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-12697",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3bc2c532-edd3-4e88-8f74-80b2de0f158d: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:28Z",
+      "lastUpdated": "2025-07-29T11:44:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-12698",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5577b11-8e34-4845-9f92-6b8d9e82048f: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:28Z",
+      "lastUpdated": "2025-07-29T11:44:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-12700",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed2db5c9-cd2a-43a3-8590-61c964df4ae1: fp with grype[reference]@v0.98.0-13-g5a6a7224. Not affected per https://access.redhat.com/security/cve/CVE-2018-12700",
+          "author": "willmurphy",
+          "at": "2025-08-26T18:32:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.98.0-13-g5a6a7224"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-08-26T18:32:37Z",
+      "lastUpdated": "2025-08-26T18:32:37Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-12934",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5b7a928-3d59-43a2-9dcd-41b47c27f01b: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:37Z",
+      "lastUpdated": "2025-07-29T11:44:37Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-17360",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8c2fd0c-0c20-4fc0-9306-b8abe072c20b: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:37Z",
+      "lastUpdated": "2025-07-29T11:44:37Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-17794",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 65d73f80-72bd-4427-8e2b-45f8354f3ee0: tp. Valid vulnerability in binutils",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T11:44:38Z",
+      "lastUpdated": "2025-07-29T11:44:38Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-17985",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fdfb6dea-811c-438a-8541-afe5d6cfb829: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:55:03Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels cc5e9feb-bb3a-4d13-be70-ce7f358b9a82: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:55:03Z",
+      "lastUpdated": "2025-07-29T11:44:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18309",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f32a818-8e58-4749-b977-9e5d518d925a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:55:18Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 8deee0ad-1d1f-4fd2-8b11-9a7f0c9570f8: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:55:18Z",
+      "lastUpdated": "2025-07-29T11:44:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18483",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c4b6de2-bf8e-405a-b4dd-de390c76384a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:55:29Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 29ed01ff-6470-4c5c-a9e5-83ba64dc4f54: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:55:29Z",
+      "lastUpdated": "2025-07-29T11:44:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18484",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca1fad76-adb1-4430-a4dc-5aeb49bd0ee9: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:55:45Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 4a869f9e-3f94-45b4-ac12-a2d8f9cd98bf: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:44:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:55:45Z",
+      "lastUpdated": "2025-07-29T11:44:46Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18605",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 710244c0-917e-44ab-9466-577a8389f375: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:55:56Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 74dfeacb-3ac3-4673-b571-6900ce84cfd3: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:55:56Z",
+      "lastUpdated": "2025-07-29T11:48:38Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18606",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels deae3ff6-f4a3-46d4-b0e8-b5de3822d6c0: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:56:31Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 9ca67871-dada-4f5c-9c6c-5fe5a2d62141: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:56:31Z",
+      "lastUpdated": "2025-07-29T11:48:38Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18607",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a82f3a0-d949-4067-bd30-b2052b6604d7: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:56:48Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 6fc96d93-124f-449f-93a2-34cac6285907: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:56:48Z",
+      "lastUpdated": "2025-07-29T11:48:38Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18700",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 51e61a8b-e3e4-489b-90a0-a7a0c49557b1: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:57:02Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 3c494eb7-c42e-4746-a649-ba063d733643: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:57:02Z",
+      "lastUpdated": "2025-07-29T11:48:39Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-18701",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d29b1cc4-222d-4d7d-8d86-632035cd7025: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:57:14Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 55e793d7-3c17-42be-a129-ddb8f91c9d3b: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:57:14Z",
+      "lastUpdated": "2025-07-29T11:48:39Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-19932",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c73aaa10-38ff-446d-a258-1c0659ab344f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:57:27Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels e9923bc6-0839-439e-b081-03db15457e41: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:57:27Z",
+      "lastUpdated": "2025-07-29T11:48:40Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20002",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9543829-551b-4a29-a57f-5893b885f5a9: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:57:39Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 8696e123-1654-4ede-9f77-a4c3b73f27fa: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:57:39Z",
+      "lastUpdated": "2025-07-29T11:48:40Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20623",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9ba4a25-626a-4e11-a5d8-f4791b54d777: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:58:00Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 3de441c5-07be-46b6-a7b6-007ed5ea4da0: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:58:00Z",
+      "lastUpdated": "2025-07-29T11:48:40Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20651",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cde4900d-b0af-463d-9ba0-851a2dedb61f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:58:15Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 6e7c05b6-6d41-4a51-9203-464a82564951: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:58:15Z",
+      "lastUpdated": "2025-07-29T11:48:40Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20657",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86d1b39b-c7ec-4ea7-8ef3-70b01f333e92: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:58:36Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 86348dc8-f3bf-4cee-83c8-1412f8cac439: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:48:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:58:36Z",
+      "lastUpdated": "2025-07-29T11:48:41Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20671",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 09dd485e-aa16-4af4-a05f-b10c45dde46f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:59:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:59:08Z",
+      "lastUpdated": "2025-07-24T17:59:08Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-20673",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7fa15d89-efbc-4478-87e8-c7f3fd65fff3: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:59:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:59:26Z",
+      "lastUpdated": "2025-07-24T17:59:26Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2018-6872",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 091f47b0-7f76-4997-8113-04f078646fc2: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:59:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:59:44Z",
+      "lastUpdated": "2025-07-24T17:59:44Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2019-12972",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6899a611-6a14-4b2e-bcb9-bf1e4cff658f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:00:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:00:19Z",
+      "lastUpdated": "2025-07-24T18:00:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2019-14250",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b71447a3-01c5-4d43-a032-35141b56ba6f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:03:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:03:28Z",
+      "lastUpdated": "2025-07-24T18:03:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2019-9071",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 19f15b8d-e5f5-4b24-97d0-61c956613894: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:03:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:03:58Z",
+      "lastUpdated": "2025-07-24T18:03:58Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2019-9075",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 528b153b-da45-4e90-9d32-3b43e668452c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:04:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:04:13Z",
+      "lastUpdated": "2025-07-24T18:04:13Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2019-9077",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5411fd76-4dd7-4dc0-b6b9-f7dd0fcbeeac: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:04:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:04:32Z",
+      "lastUpdated": "2025-07-24T18:04:32Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-16598",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a7dcc4bb-6896-4fcc-8104-460ddfadf825: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:04:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:04:50Z",
+      "lastUpdated": "2025-07-24T18:04:50Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-35493",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1497e661-cab9-4623-82b0-9638887ceff6: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:05:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:05:05Z",
+      "lastUpdated": "2025-07-24T18:05:05Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-35494",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 310a0c1b-f723-43d0-b46f-ef46396527b6: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:05:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:05:48Z",
+      "lastUpdated": "2025-07-24T18:05:48Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-35495",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ec45f871-e792-4d2c-965d-f0e28adb44d8: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:06:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:06:04Z",
+      "lastUpdated": "2025-07-24T18:06:04Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-35496",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 22cfb292-02f4-4e6e-b314-2515e34b08df: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:06:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:06:16Z",
+      "lastUpdated": "2025-07-24T18:06:16Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2020-35507",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8b1d637c-d824-4ca8-bf3b-55c42ccf027a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:06:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:06:32Z",
+      "lastUpdated": "2025-07-24T18:06:32Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2021-3826",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 43a2be71-fe9d-4a63-842f-8bdf4855f011: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:07:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:07:35Z",
+      "lastUpdated": "2025-07-24T18:07:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2021-45078",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa9b5b04-132a-466c-bbbc-2082f247b8b5: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:07:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:07:53Z",
+      "lastUpdated": "2025-07-24T18:07:53Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-38533",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 107314ee-19af-4cff-b4c4-18775b3c65db: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:10:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:10:30Z",
+      "lastUpdated": "2025-07-29T12:10:30Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-44840",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8981bd0a-e660-4153-b1fe-a88e8d9b3f94: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:10:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:10:31Z",
+      "lastUpdated": "2025-07-29T12:10:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-47007",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b51d21db-1785-4e51-a9b9-19578f011414: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:10:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:10:31Z",
+      "lastUpdated": "2025-07-29T12:10:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-47008",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6699aba6-f72a-454b-8920-eaa6da4aa559: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:10:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:10:31Z",
+      "lastUpdated": "2025-07-29T12:10:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-47010",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9362c362-cb39-4874-9301-0fe8dc401a5a: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:12:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:12:35Z",
+      "lastUpdated": "2025-07-29T12:12:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/binutils@2.30-125.el8_10",
+      "vulnerability": "CVE-2022-47011",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b805043-43e7-492b-942e-fc70b9d5ee46: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:12:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:12:35Z",
+      "lastUpdated": "2025-07-29T12:12:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/dbus-common@1.12.8-26.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 39752d4d-ec47-4b46-91c7-68104e91c394: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:08:19Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 30daf297-24ef-41b4-9d6c-91e0da9cebd5: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:50:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:08:19Z",
+      "lastUpdated": "2025-07-29T11:50:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/dbus-daemon@1.12.8-26.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c0d64df-6147-4534-96b0-6d8ed85a9f5f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:08:48Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 6871e651-95e6-4cd8-b8e8-e816e6ee9422: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:50:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:08:48Z",
+      "lastUpdated": "2025-07-29T11:50:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/dbus-libs@1.12.8-26.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 159029a3-f93d-48f9-a2f5-c4b1a137f5ac: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:08:50Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 3c424b13-3efa-46b5-a54c-9d7379197168: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:50:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:08:50Z",
+      "lastUpdated": "2025-07-29T11:50:32Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/dbus-tools@1.12.8-26.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0780ca8d-0cbf-4501-8351-bedd5c9ca618: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:08:50Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 366324da-394b-423b-97d8-1a78c61f3d15: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:50:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:08:50Z",
+      "lastUpdated": "2025-07-29T11:50:32Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/dbus@1.12.8-26.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7678bcef-53d4-4073-a540-deb3269f607b: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:08:06Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 61a0bfd9-0ec7-48f2-b84e-c15b4ef64e3e: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T11:50:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:08:06Z",
+      "lastUpdated": "2025-07-29T11:50:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/elfutils-default-yama-scope@0.190-2.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af39d15d-1eba-4c17-aa76-66800dcf8003: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:08:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:08:45Z",
+      "lastUpdated": "2026-01-23T16:08:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/elfutils-libelf@0.190-2.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 721024a0-5f64-4080-8d00-e5d250ceaac2: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:08:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:08:49Z",
+      "lastUpdated": "2026-01-23T16:08:49Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/elfutils-libs@0.190-2.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d01cabe-9bf8-4629-807b-06da10266f4b: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:08:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:08:50Z",
+      "lastUpdated": "2026-01-23T16:08:50Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/expat@2.2.5-17.el8_10",
+      "vulnerability": "CVE-2013-0340",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46331a0d-1e01-45ff-9f20-a29b179eaf92: tp with grype[custom-db]@v0.103.0-5-g9fb4183b",
+          "author": "willmurphy",
+          "at": "2025-11-12T13:56:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.103.0-5-g9fb4183b"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-11-12T13:56:34Z",
+      "lastUpdated": "2025-11-12T13:56:34Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/file-libs@5.33-26.el8",
+      "vulnerability": "CVE-2019-8905",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b1ff4d7c-5af0-4b48-b37c-e34288a1e4bb: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:10:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:10:34Z",
+      "lastUpdated": "2025-07-24T18:10:34Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/file-libs@5.33-26.el8",
+      "vulnerability": "CVE-2019-8906",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 00912d2d-cf8a-47ab-85e0-fd6475b4774e: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:10:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:10:36Z",
+      "lastUpdated": "2025-07-24T18:10:36Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/gnutls@3.6.16-8.el8_10.3",
+      "vulnerability": "CVE-2021-4209",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b57a7675-378d-44df-88f2-6356997de20d: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:13:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:13:42Z",
+      "lastUpdated": "2025-07-24T18:13:42Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/krb5-libs@1.18.2-32.el8_10",
+      "vulnerability": "CVE-2020-17049",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4ade17e-4664-4346-86ea-d5ba9cc741b4: tp",
+          "author": "willmurphy",
+          "at": "2025-10-13T16:28:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-10-13T16:28:26Z",
+      "lastUpdated": "2025-10-13T16:28:26Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libarchive@3.3.3-5.el8",
+      "vulnerability": "CVE-2018-1000879",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bef76a2a-dad0-4823-bdcc-5eba7c8252c8: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:17:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:17:52Z",
+      "lastUpdated": "2025-07-24T18:17:52Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libarchive@3.3.3-5.el8",
+      "vulnerability": "CVE-2018-1000880",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45384e15-f16a-4adf-96d8-8adaee97c20c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:20:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:20:29Z",
+      "lastUpdated": "2025-07-24T18:20:29Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libarchive@3.3.3-5.el8",
+      "vulnerability": "CVE-2020-21674",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93d4fd00-88de-4fdd-892d-47eac607b274: fp with grype[reference]@v0.104.0-0-gb1706ca1",
+          "author": "willmurphy",
+          "at": "2025-11-21T16:06:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.104.0-0-gb1706ca1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-11-21T16:06:12Z",
+      "lastUpdated": "2025-11-21T16:06:12Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libgcc@8.5.0-26.el8_10.alma.1",
+      "vulnerability": "CVE-2018-20657",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54e56592-127d-4e3c-838d-36660f8873df: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:21:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:21:35Z",
+      "lastUpdated": "2025-07-24T18:21:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libgcc@8.5.0-26.el8_10.alma.1",
+      "vulnerability": "CVE-2019-14250",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b88ab969-3e40-4605-bd0e-a57bc26a6ebc: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:21:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:21:57Z",
+      "lastUpdated": "2025-07-24T18:21:57Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libgcrypt@1.8.5-7.el8_6",
+      "vulnerability": "CVE-2019-12904",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 021879bb-b669-4851-be1d-79a8f849dd62: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:22:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:22:16Z",
+      "lastUpdated": "2025-07-24T18:22:16Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libstdc%2B%2B@8.5.0-26.el8_10.alma.1",
+      "vulnerability": "CVE-2018-20657",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f095388f-f74b-4daf-b639-9d401c68bb0c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:24:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:24:22Z",
+      "lastUpdated": "2025-07-24T18:24:22Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libstdc%2B%2B@8.5.0-26.el8_10.alma.1",
+      "vulnerability": "CVE-2019-14250",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4c194077-fc1f-4968-8423-b6299a1f0bb6: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:24:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:24:35Z",
+      "lastUpdated": "2025-07-24T18:24:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libtasn1@4.13-5.el8_10",
+      "vulnerability": "CVE-2018-1000654",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e765ec6c-9098-48ba-9a8f-ca3a2894ccba: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:24:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:24:56Z",
+      "lastUpdated": "2025-07-24T18:24:56Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/libzstd@1.4.4-1.el8",
+      "vulnerability": "CVE-2021-24032",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 607fbb91-a41e-4ae4-beee-ff54cb707d66: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:25:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:25:54Z",
+      "lastUpdated": "2025-07-24T18:25:54Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/lz4-libs@1.8.3-3.el8_4",
+      "vulnerability": "CVE-2019-17543",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bcd9f03c-6afb-4d4f-8cd6-f51a494967d0: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:26:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:26:10Z",
+      "lastUpdated": "2025-07-24T18:26:10Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb-common@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-32084",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9761fb90-e8b1-4504-a474-1a3c2a2b2608: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:03:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:03:28Z",
+      "lastUpdated": "2025-07-24T17:03:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb-common@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-32091",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cc8805e4-1def-47a8-accc-c19760fa617a: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:03:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:03:32Z",
+      "lastUpdated": "2025-07-24T17:03:32Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb-common@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-38791",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0dc4fef7-65e8-4d37-bae8-e573163acb36: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:04:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:04:53Z",
+      "lastUpdated": "2025-07-24T17:04:53Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb-common@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-47015",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1bcda29a-d7b1-4b31-915c-0a4961b1ab83: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:05:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:05:48Z",
+      "lastUpdated": "2025-07-24T17:05:48Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-32084",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 191dbd41-a7fd-4329-87f1-215e9aae1e21: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:05:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:05:53Z",
+      "lastUpdated": "2025-07-24T17:05:53Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-32091",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d43569e0-ca9f-44b9-8d49-443fa2a96c38: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:05:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:05:56Z",
+      "lastUpdated": "2025-07-24T17:05:56Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-38791",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ab709e7-d9b8-46bc-a602-1020ae6b0b68: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:06:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:06:04Z",
+      "lastUpdated": "2025-07-24T17:06:04Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/mariadb@10.3.39-1.module_el8.8.0%2B3609%2B204d4ab0?epoch=3",
+      "vulnerability": "CVE-2022-47015",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b132ad04-6e6f-474e-a804-af3ba7609f3b: fp. AlmaLinux build numbers are lower than RHEL build numbers",
+          "author": "willmurphy",
+          "at": "2025-07-24T17:06:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T17:06:08Z",
+      "lastUpdated": "2025-07-24T17:06:08Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19211",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3f722ce-1d76-42ec-bcd8-e714d9169e17: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:26:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:26:52Z",
+      "lastUpdated": "2025-07-24T20:26:52Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19217",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26f59609-3ca5-4899-aabd-77a27d4e8f26: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:10:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:10:15Z",
+      "lastUpdated": "2026-01-23T16:10:15Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19185",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2eaa2def-3031-4c3a-8ee1-79e8e2c90168: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:26:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:26:57Z",
+      "lastUpdated": "2025-07-24T20:26:57Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19186",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 08a2c0ee-ea89-4bb7-af1f-74edb5ef02e8: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:26:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:26:59Z",
+      "lastUpdated": "2025-07-24T20:26:59Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19187",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0ffc115-46c0-45d7-97bc-ca1ced64e64c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:00Z",
+      "lastUpdated": "2025-07-24T20:27:00Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19188",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12658b34-fc90-4e80-a024-d1a5c7af4d1b: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:02Z",
+      "lastUpdated": "2025-07-24T20:27:02Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19189",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f14466f6-65ed-4db1-9430-85dbe863e916: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:04Z",
+      "lastUpdated": "2025-07-24T20:27:04Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19190",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5aaeb5c8-a1f8-47c8-8186-1b156a2f9acf: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:06Z",
+      "lastUpdated": "2025-07-24T20:27:06Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-base@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a7d655fc-9060-4a32-9b22-aec624f7e869: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:08Z",
+      "lastUpdated": "2025-07-24T20:27:08Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19211",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4ef9c8e3-5c09-4fbc-9ff3-12315e012760: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:11Z",
+      "lastUpdated": "2025-07-24T20:27:11Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19217",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25b3898c-d04d-48b5-9327-cd7db8de8787: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:10:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:10:17Z",
+      "lastUpdated": "2026-01-23T16:10:17Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19185",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bf2c1dc7-ba37-41a3-8609-1d0e18aa394c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:19Z",
+      "lastUpdated": "2025-07-24T20:27:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19186",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd7edeaf-d228-4827-b408-664703ef21a8: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:27Z",
+      "lastUpdated": "2025-07-24T20:27:27Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19187",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7ece4e3f-5409-4b39-9d4d-7c5adfe54ce1: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:28Z",
+      "lastUpdated": "2025-07-24T20:27:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19188",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93d64e2c-cc46-4a90-985a-b57f8f74e106: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:29Z",
+      "lastUpdated": "2025-07-24T20:27:29Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19189",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 657db8f2-9596-409a-87cf-3e2c753bad0c: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:30Z",
+      "lastUpdated": "2025-07-24T20:27:30Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19190",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 039ca4f4-f01d-4ca4-b6d0-ec95a7003889: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:31Z",
+      "lastUpdated": "2025-07-24T20:27:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses-libs@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ead0298c-64cc-48f1-b2c8-a147fe16eb2a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:27:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:27:33Z",
+      "lastUpdated": "2025-07-24T20:27:33Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19211",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d5730625-6a8f-42eb-994d-199851c0c204: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T18:26:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T18:26:21Z",
+      "lastUpdated": "2025-07-24T18:26:21Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2018-19217",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fc25802b-1dc0-4c8e-8aec-9874991810d1: fp with grype[reference]@v0.105.0-5-gedaf953d",
+          "author": "williammurphy",
+          "at": "2026-01-23T16:10:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.105.0-5-gedaf953d"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:10:10Z",
+      "lastUpdated": "2026-01-23T16:10:10Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19185",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ed461d6-4820-4693-a313-bb5138edb4a0: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:50:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:50:08Z",
+      "lastUpdated": "2025-07-24T19:50:08Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19186",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 80e297d5-43f9-4286-86d9-4a6109f725b7: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:50:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:50:30Z",
+      "lastUpdated": "2025-07-24T19:50:30Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19187",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2648b689-a1b8-4871-9730-66a389c6c992: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:50:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:50:43Z",
+      "lastUpdated": "2025-07-24T19:50:43Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19188",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e6b0d1f5-9773-48df-8b33-7cc5278c11ab: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:50:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:50:57Z",
+      "lastUpdated": "2025-07-24T19:50:57Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19189",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a665cf83-0dc7-4afc-ab30-63e0fc600347: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:51:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:51:31Z",
+      "lastUpdated": "2025-07-24T19:51:31Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2020-19190",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18913a10-f66a-4272-ad52-2031363d93f0: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T19:52:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T19:52:33Z",
+      "lastUpdated": "2025-07-24T19:52:33Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/ncurses@6.1-10.20180224.el8",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 487a5d3d-39e1-48f5-bceb-c1d9727cc4ea: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:26:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:26:45Z",
+      "lastUpdated": "2025-07-24T20:26:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/platform-python@3.6.8-70.el8_10.alma.1",
+      "vulnerability": "CVE-2019-9674",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 82433f45-3d1b-4e19-b7ff-74d1eb365d26: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:28:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:28:02Z",
+      "lastUpdated": "2025-07-24T20:28:02Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/python3-libs@3.6.8-70.el8_10.alma.1",
+      "vulnerability": "CVE-2019-9674",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe85c740-a865-42e3-b8ec-b62884666fde: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:28:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:28:23Z",
+      "lastUpdated": "2025-07-24T20:28:23Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/python3-pip-wheel@9.0.3-24.el8",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fffb054-c49e-48be-9351-e92740d99404: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:28:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:28:43Z",
+      "lastUpdated": "2025-07-24T20:28:43Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/sqlite-libs@3.26.0-19.el8_9",
+      "vulnerability": "CVE-2019-19244",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cef5fd70-3518-49a5-9847-0c472f4c06d8: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:30:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:30:05Z",
+      "lastUpdated": "2025-07-24T20:30:05Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/sqlite-libs@3.26.0-19.el8_9",
+      "vulnerability": "CVE-2019-9936",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c440dbfa-d71f-47f4-9d05-4a3e940a62c9: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:30:18Z",
+      "lastUpdated": "2025-07-24T20:30:18Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/sqlite-libs@3.26.0-19.el8_9",
+      "vulnerability": "CVE-2019-9937",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7811cf07-fb71-404a-bfec-88cbe7617868: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:30:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:30:30Z",
+      "lastUpdated": "2025-07-24T20:30:30Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd-libs@239-82.el8_10.5",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fbde20ee-e888-40a0-9143-0b3ca89f3c37: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:42Z",
+      "lastUpdated": "2025-07-24T20:33:42Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd-libs@239-82.el8_10.5",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87c9e302-3df0-407b-8f3e-f5c4e614fa3a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:43Z",
+      "lastUpdated": "2025-07-24T20:33:43Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd-pam@239-82.el8_10.5",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74dd0a10-5881-4af9-a721-2bd73c921b10: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:45Z",
+      "lastUpdated": "2025-07-24T20:33:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd-pam@239-82.el8_10.5",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4708f4e6-4d5e-4be6-a7d8-2d1e7e04ba94: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:45Z",
+      "lastUpdated": "2025-07-24T20:33:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd@239-82.el8_10.5",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 48a92f1d-a667-4375-bb5c-03e0ad38af9b: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:32:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:32:28Z",
+      "lastUpdated": "2025-07-24T20:32:28Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/systemd@239-82.el8_10.5",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dff57159-17ee-440c-a415-5bb33baaa774: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:21Z",
+      "lastUpdated": "2025-07-24T20:33:21Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/tar@1.30-10.el8_10?epoch=2",
+      "vulnerability": "CVE-2005-2541",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels de9463b6-701f-48f8-a3be-9b1ac563f433: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:33:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:33:59Z",
+      "lastUpdated": "2025-07-24T20:33:59Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/tar@1.30-10.el8_10?epoch=2",
+      "vulnerability": "CVE-2019-9923",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0d00dd2-55bd-4e9c-888d-3311f6229e0f: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:34:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:34:12Z",
+      "lastUpdated": "2025-07-24T20:34:12Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/tar@1.30-10.el8_10?epoch=2",
+      "vulnerability": "CVE-2021-20193",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae63ac14-84e4-4867-98bc-f9cd463c72a3: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:34:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:34:21Z",
+      "lastUpdated": "2025-07-24T20:34:21Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2018-20786",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6469f3f7-a5d3-4b15-bfed-3bc8af8ba8df: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:34:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:34:36Z",
+      "lastUpdated": "2025-07-24T20:34:36Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2020-20703",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1102d312-7443-42a4-a027-94e2f447a5f1: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:34:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:34:45Z",
+      "lastUpdated": "2025-07-24T20:34:45Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2021-3236",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e73fea64-e1ad-4d75-a90f-1b74d5fd160e: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:35:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:35:43Z",
+      "lastUpdated": "2025-07-24T20:35:43Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2021-3927",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7825feb5-9bd2-4d5f-8b93-0dada2623991: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:35:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:35:57Z",
+      "lastUpdated": "2025-07-24T20:35:57Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2021-3974",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5fe5c32-51ff-49b7-8200-027f51eb2126: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:36:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:36:10Z",
+      "lastUpdated": "2025-07-24T20:36:10Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2021-4166",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 34a4f09b-f4e9-41c7-9c8c-7ffc300dfd4a: tp with grype[custom-db]@v0.96.1-8-gaf058b5f",
+          "author": "willmurphy",
+          "at": "2025-07-24T20:36:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.96.1-8-gaf058b5f"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-24T20:36:20Z",
+      "lastUpdated": "2025-07-24T20:36:20Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-0351",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21a55790-c586-4f32-b1d7-6d09a27127c0: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:13:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:13:19Z",
+      "lastUpdated": "2025-07-29T12:13:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-1619",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3090bf40-8cbd-4aa9-96cf-9a9e13d7658e: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:13:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:13:19Z",
+      "lastUpdated": "2025-07-29T12:13:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-1720",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1269441-1639-470f-aef5-96c8fc3efa85: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:13:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:13:19Z",
+      "lastUpdated": "2025-07-29T12:13:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2124",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 64086501-b608-4f30-8f0b-9484b107db4b: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:13:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:13:20Z",
+      "lastUpdated": "2025-07-29T12:13:20Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2125",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dea3e3e0-8be1-4804-81ed-ec813f582f66: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:14:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:14:35Z",
+      "lastUpdated": "2025-07-29T12:14:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2126",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b414bc72-4169-49b0-8feb-2bfc78b86388: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:14:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:14:35Z",
+      "lastUpdated": "2025-07-29T12:14:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2129",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 985693e3-1ed4-4350-9bd5-7dfc21baf996: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:14:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:14:35Z",
+      "lastUpdated": "2025-07-29T12:14:35Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2175",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1154f6c6-3df1-4361-8b26-d6642b0f2ab8: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:14:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:14:36Z",
+      "lastUpdated": "2025-07-29T12:14:36Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2182",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2db4060d-ddfe-4e4d-9185-554fe69e1728: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:21Z",
+      "lastUpdated": "2025-07-29T12:22:21Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2183",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 15e2947b-0842-47c3-bf61-a1b3e8898238: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:22Z",
+      "lastUpdated": "2025-07-29T12:22:22Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2206",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a64619a-861f-4c7f-a6ba-17cedffcf0af: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:22Z",
+      "lastUpdated": "2025-07-29T12:22:22Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2207",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 759a3945-259d-48b8-99b0-9de87f7f2296: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:22Z",
+      "lastUpdated": "2025-07-29T12:22:22Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2208",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ed098a0-d9e4-42db-a197-b306cb605f72: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:23Z",
+      "lastUpdated": "2025-07-29T12:22:23Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2210",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35c8e796-b755-4b1c-ad97-53c4ebab8b89: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:22:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:22:23Z",
+      "lastUpdated": "2025-07-29T12:22:23Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2284",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8c02db0-3f62-4eb0-9f7c-c6b09f75aa03: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:18Z",
+      "lastUpdated": "2025-07-29T12:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2285",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 43a7839e-a922-4eff-9ff2-27eaf488ee29: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:18Z",
+      "lastUpdated": "2025-07-29T12:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2286",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 514b46c6-abf4-4f88-af16-308c0833052a: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:18Z",
+      "lastUpdated": "2025-07-29T12:23:18Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2287",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97cb43b1-00a5-474b-a268-5271388a4cec: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:19Z",
+      "lastUpdated": "2025-07-29T12:23:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2343",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41b7d264-938d-4c1d-ac8f-b363b285889a: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:19Z",
+      "lastUpdated": "2025-07-29T12:23:19Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2344",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 98ce3749-695f-49aa-82e9-0559db8c699f: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:23:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:23:20Z",
+      "lastUpdated": "2025-07-29T12:23:20Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2345",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f465b759-1c2e-4fb2-adac-3ee344e49941: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:26Z",
+      "lastUpdated": "2025-07-29T12:37:26Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2522",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5b01967-d5c2-433a-99fb-d62285b687fb: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:26Z",
+      "lastUpdated": "2025-07-29T12:37:26Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2819",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd8ab961-9212-4ae7-88f0-cffdc497ebd8: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:26Z",
+      "lastUpdated": "2025-07-29T12:37:26Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2845",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 65454f93-fd71-4afd-acdd-9f7df4114056: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:27Z",
+      "lastUpdated": "2025-07-29T12:37:27Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2849",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18bfed9f-fa4f-4b8a-ba5c-0cde1f784e56: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:27Z",
+      "lastUpdated": "2025-07-29T12:37:27Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2923",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7535ac93-c433-4376-bd46-e729ff9e68c8: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:27Z",
+      "lastUpdated": "2025-07-29T12:37:27Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2946",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8d272cd-7806-42c8-a4d0-fe2ef6170c57: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:44Z",
+      "lastUpdated": "2025-07-29T12:37:44Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-2980",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a3f91be3-fd3a-48a2-a9e5-e17a191a915e: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:44Z",
+      "lastUpdated": "2025-07-29T12:37:44Z"
+    },
+    {
+      "package": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?epoch=2",
+      "vulnerability": "CVE-2022-3037",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 946ae239-963a-48d2-8321-dd73459d6f4a: tp",
+          "author": "willmurphy",
+          "at": "2025-07-29T12:37:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-07-29T12:37:44Z",
+      "lastUpdated": "2025-07-29T12:37:44Z"
+    }
+  ]
+}

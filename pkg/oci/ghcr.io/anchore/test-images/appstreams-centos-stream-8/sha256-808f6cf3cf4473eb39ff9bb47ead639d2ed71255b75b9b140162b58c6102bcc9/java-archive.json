@@ -1,0 +1,1095 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/appstreams-centos-stream-8@sha256:808f6cf3cf4473eb39ff9bb47ead639d2ed71255b75b9b140162b58c6102bcc9",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/com.google.guava/guava@20.0",
+      "vulnerability": "CVE-2018-10237",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa5e97c5-3929-4802-b7b8-2db7fe0271c1: fp with grype@v0.65.0. This package is actually the rpm guava20 from RHEL8. According to https://access.redhat.com/security/cve/CVE-2018-10237, guava20 from RHEL8 is not affected.",
+          "author": "willmurphy",
+          "at": "2023-08-01T17:08:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T17:08:09Z",
+      "lastUpdated": "2023-08-01T17:08:09Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@20.0",
+      "vulnerability": "CVE-2020-8908",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77279ee0-0c2f-4991-bb2e-e5f4ebeb4c9a: fp with grype@v0.65.0. The package actually present is the RPM guava20. This CVE is reported against that package, and shouldn't be reported against the jar too. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-03T13:18:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-03T13:18:08Z",
+      "lastUpdated": "2023-08-03T13:18:08Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@20.0",
+      "vulnerability": "GHSA-5mg8-w23w-74h3",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c7b5a34e-b496-4fe6-83f2-29180a616850: fp with grype@v0.65.0. The actual package present is the RPM guava20, which has CVE-2020-8908 reported against it. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-03T13:18:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-03T13:18:43Z",
+      "lastUpdated": "2023-08-03T13:18:43Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@20.0",
+      "vulnerability": "GHSA-mvr2-9pj6-7w5j",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c083a603-8a14-42e3-9073-fd4df3e78414: fp with grype@v0.65.0. The actual package is the guava20 RPM, which https://access.redhat.com/security/cve/CVE-2018-10237 lists as not affected. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-03T13:19:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-03T13:19:57Z",
+      "lastUpdated": "2023-08-03T13:19:57Z"
+    },
+    {
+      "package": "pkg:maven/commons-io/commons-io@2.6",
+      "vulnerability": "CVE-2021-29425",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73007868-42bb-4725-a50f-0691954348d7: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T15:58:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T15:58:34Z",
+      "lastUpdated": "2022-11-01T15:58:34Z"
+    },
+    {
+      "package": "pkg:maven/commons-io/commons-io@2.6",
+      "vulnerability": "GHSA-gwrp-pvrq-jmwv",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 547dd9f5-7a54-45d6-bcd9-5e0c948267af: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T15:58:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T15:58:36Z",
+      "lastUpdated": "2022-11-01T15:58:36Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.0",
+      "vulnerability": "CVE-2006-0254",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d83a2cd1-85f6-4233-a302-cd0b431eb984: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:32:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:32:53Z",
+      "lastUpdated": "2022-10-06T20:32:53Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.0",
+      "vulnerability": "CVE-2008-0732",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 53e8995f-d45c-4ca6-aa45-129ebc009b12: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:32:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:32:53Z",
+      "lastUpdated": "2022-10-06T20:32:53Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.0",
+      "vulnerability": "CVE-2011-5034",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5412de73-284b-444d-b5ef-a6b1c8f01286: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:32:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:32:54Z",
+      "lastUpdated": "2022-10-06T20:32:54Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.5",
+      "vulnerability": "CVE-2020-13956",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6d78bb1-f692-471f-8433-54c71e4e9a0a: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:33:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:33:44Z",
+      "lastUpdated": "2022-10-06T20:33:44Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.5",
+      "vulnerability": "GHSA-7r82-7xv7-xcpj",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 29a3733c-0c57-4d7d-8e0d-a7bed48e2ba9: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:33:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:33:45Z",
+      "lastUpdated": "2022-10-06T20:33:45Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df03eea6-90c7-4a4e-9e6e-1f03c84777da: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:55:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:55:59Z",
+      "lastUpdated": "2022-11-01T16:55:59Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-connector-basic@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1f705e0-ec03-4a3c-ad9d-a0805cca0083: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:01Z",
+      "lastUpdated": "2022-11-01T16:56:01Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-impl@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 38e8f740-1c9a-4b77-a249-c2306ec2ecff: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:02Z",
+      "lastUpdated": "2022-11-01T16:56:02Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8857782f-93c9-4a4a-94a1-70f0666f8c8d: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:04Z",
+      "lastUpdated": "2022-11-01T16:56:04Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-transport-wagon@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 19ec1124-21a2-4213-89ed-f8ba85162d1d: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:05Z",
+      "lastUpdated": "2022-11-01T16:56:05Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.1.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fbc4f314-353e-4448-8099-4f99120b3316: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:10Z",
+      "lastUpdated": "2022-11-01T16:56:10Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.2.1",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbc86a5a-d7fb-4bbf-9876-02cca5acf38b: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:34:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:34:04Z",
+      "lastUpdated": "2022-11-01T18:34:04Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.wagon/file@3.1.0",
+      "vulnerability": "CVE-2007-1536",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06f67dab-c9d9-4596-a06f-080e0c55e28f: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T20:31:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T20:31:57Z",
+      "lastUpdated": "2022-10-06T20:31:57Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.wagon/file@3.1.0",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f24a062-7226-4d36-a019-2e9a06d5d61e: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:33:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:33:09Z",
+      "lastUpdated": "2022-11-01T18:33:09Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.wagon/http-shared@3.1.0",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a40c86d-0381-4ea7-8c4a-bf712ee05f36: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:50:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:50:42Z",
+      "lastUpdated": "2022-11-01T16:50:42Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.wagon/http@3.1.0",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b62374c-8f47-47a7-9a8c-6eacac7c4e89: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:50:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:50:36Z",
+      "lastUpdated": "2022-11-01T16:50:36Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven.wagon/provider-api@3.1.0",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1380afa9-7d99-4889-b4cb-399bb2f4e000: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:34:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:34:37Z",
+      "lastUpdated": "2022-11-01T18:34:37Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-artifact@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4404fed-6933-4a78-aef6-5e3490634683: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:26Z",
+      "lastUpdated": "2023-08-14T14:54:26Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-builder-support@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9a987a5-c8e4-4470-9d00-47842b547cdc: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:26Z",
+      "lastUpdated": "2023-08-14T14:54:26Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-compat@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da06bafb-1f9a-46e5-806b-87e415d7e669: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:55:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:55:27Z",
+      "lastUpdated": "2022-11-01T16:55:27Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-compat@3.5.4",
+      "vulnerability": "GHSA-2f88-5hg8-9x2x",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aade1574-7bdc-4480-bb86-115c5257a262: tp with grype@v0.65.2-7-gca0ddba",
+          "author": "wagoodman",
+          "at": "2023-08-24T18:07:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-7-gca0ddba"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-24T18:07:10Z",
+      "lastUpdated": "2023-08-24T18:07:10Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-core@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7a190150-6842-419f-bee0-f3d72f7a9d6f: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:55:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:55:27Z",
+      "lastUpdated": "2022-11-01T16:55:27Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-core@3.5.4",
+      "vulnerability": "GHSA-2f88-5hg8-9x2x",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ededd386-ee6a-4cbd-9b54-4a983cd0198d: tp with grype@v0.65.2-7-gca0ddba",
+          "author": "wagoodman",
+          "at": "2023-08-24T18:07:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-7-gca0ddba"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-24T18:07:59Z",
+      "lastUpdated": "2023-08-24T18:07:59Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-embedder@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 084788eb-ee8d-41df-88d8-8384429f2606: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:21Z",
+      "lastUpdated": "2023-08-14T14:54:21Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-model-builder@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d300b561-93ea-43fb-a012-1e5a573e1be1: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:22Z",
+      "lastUpdated": "2023-08-14T14:54:22Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-model@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c175c2b5-eef9-475d-b18d-43f2ebea073f: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:22Z",
+      "lastUpdated": "2023-08-14T14:54:22Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-repository-metadata@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9ceeacc-d130-4972-afce-49514cc68f77: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:23Z",
+      "lastUpdated": "2023-08-14T14:54:23Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-resolver-provider@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37c6fa3b-d096-4183-86d5-0a9e9303d4ce: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:56:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:56:03Z",
+      "lastUpdated": "2022-11-01T16:56:03Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-settings-builder@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 832a5a26-0cb1-4717-8c05-f73e544b9a84: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:18Z",
+      "lastUpdated": "2023-08-14T14:54:18Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-settings@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7f27574f-1133-4ab9-b7ef-f96430292d25: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-14T14:54:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T14:54:18Z",
+      "lastUpdated": "2023-08-14T14:54:18Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.maven/maven-slf4j-provider@3.5.4",
+      "vulnerability": "CVE-2021-26291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbaa417f-e8d3-444a-b77e-921049d136ce: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T16:02:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T16:02:50Z",
+      "lastUpdated": "2022-11-01T16:02:50Z"
+    },
+    {
+      "package": "pkg:maven/org.jsoup/jsoup@1.11.3",
+      "vulnerability": "CVE-2021-37714",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97d0fab4-bd78-423d-87f7-6d5d85ee0862: fp with grype@v0.65.0. The jar \"jsoup @ 1.11.3\" is really part of the rpm. This vulnerability should only be reported against the RPM. See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T18:12:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T18:12:42Z",
+      "lastUpdated": "2023-08-01T18:12:42Z"
+    },
+    {
+      "package": "pkg:maven/org.jsoup/jsoup@1.11.3",
+      "vulnerability": "GHSA-m72m-mhq2-9p6c",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 07e93a1d-e8e2-4fde-9b44-9ceb5cc03d2f: fp with grype@v0.65.0. The jar \"jsoup @ 1.11.3\" is really part of the rpm. This vulnerability should only be reported against the RPM, where it is called CVE-2021-37714. See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T18:14:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T18:14:16Z",
+      "lastUpdated": "2023-08-01T18:14:16Z"
+    }
+  ]
+}

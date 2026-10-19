@@ -1,0 +1,624 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/python@sha256:5e96e03a493a54904aa8be573fc0414431afb4f47ac58fbffd03b2a725005364",
+    "platform": "linux/arm"
+  },
+  "labels": [
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ea33366-cd00-40f3-9112-144ed634100b: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:25:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:25:55Z",
+      "lastUpdated": "2023-02-21T10:25:55Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2013-0340",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e383af19-8948-44e7-a1a1-954173f23aad: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:25:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:25:59Z",
+      "lastUpdated": "2023-02-21T10:25:59Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2015-20107",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ba243ae-71dc-4f8b-96dc-095d2622e1e5: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:26:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:26:43Z",
+      "lastUpdated": "2022-09-29T21:26:43Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2016-3189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 84e746f8-661c-4541-8750-f5b5e9cb3ead: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:08Z",
+      "lastUpdated": "2023-02-21T10:26:08Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 48e45276-850f-4e6f-bab0-67d36bac2122: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:30:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:30:30Z",
+      "lastUpdated": "2022-09-29T21:30:30Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2019-10160",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ccc54377-9c34-4c87-bea6-8717f9085440: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:24:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:24:47Z",
+      "lastUpdated": "2022-09-29T21:24:47Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2019-12900",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c1680d47-1ea6-47f4-ac8b-70d05561c681: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:20:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:20:51Z",
+      "lastUpdated": "2022-09-29T21:20:51Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2019-17514",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ef9ed64-0979-4c61-82c7-b6852df11783: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:30:10Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 6eb27b3d-c36c-4ed4-8de1-51c25951a533: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-30T12:44:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:30:10Z",
+      "lastUpdated": "2022-09-30T12:44:07Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2019-18348",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8931759-dae2-41d6-9858-cb379608fef2: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:13Z",
+      "lastUpdated": "2023-02-21T10:26:13Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2019-20907",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9762c702-17a5-41d6-8afb-cb75d6e3b5d8: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:31:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:31:14Z",
+      "lastUpdated": "2022-09-29T21:31:14Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-10735",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 451729f6-1402-476e-ab05-e935edfa92b1: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:18Z",
+      "lastUpdated": "2023-02-21T10:26:18Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-14422",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d61f6659-478d-4175-91a7-78ea0321e141: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:19Z",
+      "lastUpdated": "2023-02-21T10:26:19Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-15523",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2d6dab67-b93b-4c41-b4c3-c32eccb382d2: fp with grype@v0.61.1. only vulnerable on windows",
+          "author": "westonsteimel",
+          "at": "2023-05-22T16:09:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-22T16:09:34Z",
+      "lastUpdated": "2023-05-22T16:09:34Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-15801",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e149503-d30b-444c-b121-18dd75eb3f8e: fp with grype@v0.61.1. only vulnerable on windows",
+          "author": "westonsteimel",
+          "at": "2023-05-22T16:11:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-22T16:11:27Z",
+      "lastUpdated": "2023-05-22T16:11:27Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-26116",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e04889b-28ac-491f-8756-7bc1f65e8265: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-30T12:40:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-30T12:40:40Z",
+      "lastUpdated": "2022-09-30T12:40:40Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-27619",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d719a671-9336-47d9-8825-fdec241ef151: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:25:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:25:20Z",
+      "lastUpdated": "2022-09-29T21:25:20Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-8315",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e2bbab82-5a20-44b9-9e79-3b89c0a9a658: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:25Z",
+      "lastUpdated": "2023-02-21T10:26:25Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2020-8492",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5cd128e6-d2c8-4925-9b41-6698645b318e: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:27Z",
+      "lastUpdated": "2023-02-21T10:26:27Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-23336",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 14838f0d-dec7-4870-bb2b-16fbbf0534ff: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-30T12:45:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-30T12:45:10Z",
+      "lastUpdated": "2022-09-30T12:45:10Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-28861",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 24df1e4d-4429-44e1-b431-f108ebcfad0f: unclear with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:31Z",
+      "lastUpdated": "2023-02-21T10:26:31Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-29921",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab3dfe56-d375-49fc-95a3-7b7ce27820cc: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:23:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:23:12Z",
+      "lastUpdated": "2022-09-29T21:23:12Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-3177",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 29d87b0c-833c-4cc9-8749-75b848f79c34: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-29T21:26:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-29T21:26:08Z",
+      "lastUpdated": "2022-09-29T21:26:08Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-3426",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a28389d-1587-4c20-a885-49b180177b4b: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:35Z",
+      "lastUpdated": "2023-02-21T10:26:35Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-3733",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b52a0500-48eb-4059-9158-7d0245cf895f: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:38Z",
+      "lastUpdated": "2023-02-21T10:26:38Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-3737",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd171c80-cd59-4ff3-abc1-1148eb158382: tp",
+          "author": "westonsteimel",
+          "at": "2022-09-30T12:42:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-09-30T12:42:00Z",
+      "lastUpdated": "2022-09-30T12:42:00Z"
+    },
+    {
+      "package": "pkg:generic/python@3.8.0",
+      "vulnerability": "CVE-2021-4189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 146c1afd-1948-42c1-b69d-fc308af288ec: tp with anchorectl@v1.3.0+enterprise=4.5.0+profile=nightly",
+          "author": "westonsteimel",
+          "at": "2023-02-21T10:26:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-21T10:26:42Z",
+      "lastUpdated": "2023-02-21T10:26:42Z"
+    }
+  ]
+}

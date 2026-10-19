@@ -1,0 +1,117 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/anchore/test_images@sha256:746d31247006cc06434ce91ccf3523b2c230ff6c378ffed7ca1c60bbb48ea86f",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "CVE-2018-10237",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5be4b802-d094-4177-8db8-0e9072e42a2f: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:48:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:48:30Z",
+      "lastUpdated": "2023-01-27T17:48:30Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "CVE-2020-8908",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0cf0a124-988e-443b-ae2c-086bd108392c: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:48:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:48:32Z",
+      "lastUpdated": "2023-01-27T17:48:32Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "GHSA-5mg8-w23w-74h3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d2c65101-f0b1-45d1-9b6c-ce29ade2883e: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:48:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:48:34Z",
+      "lastUpdated": "2023-01-27T17:48:34Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "GHSA-mvr2-9pj6-7w5j",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7324abf2-f301-4a61-8ec3-fc05e95e7e60: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:48:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:48:35Z",
+      "lastUpdated": "2023-01-27T17:48:35Z"
+    }
+  ]
+}

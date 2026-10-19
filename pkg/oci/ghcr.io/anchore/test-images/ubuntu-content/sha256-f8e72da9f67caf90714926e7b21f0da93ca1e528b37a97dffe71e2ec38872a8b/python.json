@@ -1,0 +1,63 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/ubuntu-content@sha256:f8e72da9f67caf90714926e7b21f0da93ca1e528b37a97dffe71e2ec38872a8b",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/numpy@1.21.2",
+      "vulnerability": "CVE-2021-34141",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb8a625b-8e0c-4809-b648-6320c5a18ad3: tp with grype@v0.53.1",
+          "author": "westonsteimel",
+          "at": "2022-11-25T16:50:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.53.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-25T16:50:31Z",
+      "lastUpdated": "2022-11-25T16:50:31Z"
+    },
+    {
+      "package": "pkg:pypi/numpy@1.21.2",
+      "vulnerability": "GHSA-fpfv-jqm9-f5jm",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77ea2b0b-ae38-40b6-9faf-ecf6e2022b6d: tp with grype@v0.53.1",
+          "author": "westonsteimel",
+          "at": "2022-11-25T16:50:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.53.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-25T16:50:36Z",
+      "lastUpdated": "2022-11-25T16:50:36Z"
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/vulnerabilities-amazonlinux-2@sha256:cf742eca189b02902a0a7926ac3fbb423e799937bf4358b0d2acc6cc36ab82aa",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "CVE-2018-10237",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b389567-fd7c-4556-bcd2-5102ef5c8e7a: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:09:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:09:56Z",
+      "lastUpdated": "2023-01-27T17:09:56Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "CVE-2020-8908",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 576a65cf-c9db-40d4-8171-1e2cd4891a24: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:09:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:09:59Z",
+      "lastUpdated": "2023-01-27T17:09:59Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "GHSA-5mg8-w23w-74h3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a3d0eac1-c437-4855-a14b-344d98c210b5: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:10:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:10:00Z",
+      "lastUpdated": "2023-01-27T17:10:00Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@23.0",
+      "vulnerability": "GHSA-mvr2-9pj6-7w5j",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a72b78b-ff85-414d-bc00-b4c148c1c270: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:10:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:10:01Z",
+      "lastUpdated": "2023-01-27T17:10:01Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2012-5568",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0d05c20f-a49e-4be3-8da2-298c8a84643c: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:39Z",
+      "lastUpdated": "2023-01-27T17:22:39Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2016-5425",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1874423a-d77e-4bb4-bcb6-ce80f478a02e: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:37Z",
+      "lastUpdated": "2023-01-27T17:22:37Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2016-6325",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f22b34c-76dc-4417-80e8-3ce43a3e3ab3: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:36Z",
+      "lastUpdated": "2023-01-27T17:22:36Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-12615",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7d926cd-cbf1-47a2-b265-6c35024eb2d9: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:36Z",
+      "lastUpdated": "2023-01-27T17:22:36Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-12616",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74e249cb-3b8b-4c0e-ad3a-7acb4a2e1953: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:35Z",
+      "lastUpdated": "2023-01-27T17:22:35Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-12617",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9a0ada9-28c5-4ef7-bbb7-bc9c63b5b706: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:35Z",
+      "lastUpdated": "2023-01-27T17:22:35Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-5647",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 268b1423-980a-436b-8ddb-db1a231ba1c6: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:33Z",
+      "lastUpdated": "2023-01-27T17:22:33Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-5664",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 455b2631-555b-4d82-8f2a-323d88587482: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:32Z",
+      "lastUpdated": "2023-01-27T17:22:32Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2017-7674",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5355e2fc-d8e5-4cf7-a842-c4449d65312e: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:32Z",
+      "lastUpdated": "2023-01-27T17:22:32Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-11784",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 02a56ff6-a5ec-4ae3-a20b-31ab19b6115e: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:31Z",
+      "lastUpdated": "2023-01-27T17:22:31Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-1304",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels db5ce4be-91dc-439c-ab73-b425577df989: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:29Z",
+      "lastUpdated": "2023-01-27T17:22:29Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-1305",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 279d979f-e1e0-436e-a884-ec115c128318: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:29Z",
+      "lastUpdated": "2023-01-27T17:22:29Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-1336",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9946543-a910-4c59-9076-47f9f03aedca: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:28Z",
+      "lastUpdated": "2023-01-27T17:22:28Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-8014",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca66cd97-6318-4c5f-90e9-143452cbe5e3: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:27Z",
+      "lastUpdated": "2023-01-27T17:22:27Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2018-8034",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0901675-aab1-41ae-888f-c7f8b7616da8: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:27Z",
+      "lastUpdated": "2023-01-27T17:22:27Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2019-0221",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5f2ef30-a6ae-4e66-a09b-08d3285f0bf8: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:26Z",
+      "lastUpdated": "2023-01-27T17:22:26Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2019-0232",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f4f66ac-acb5-4898-a42e-c2347f3f93bb: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:25Z",
+      "lastUpdated": "2023-01-27T17:22:25Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2019-12418",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1900181-df9f-4364-993d-1ca86e7da249: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:21Z",
+      "lastUpdated": "2023-01-27T17:22:21Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2019-17563",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 34649566-d2b4-418c-9bd1-dfccf4559cde: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:20Z",
+      "lastUpdated": "2023-01-27T17:22:20Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2019-2684",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a01f650-48a1-4cf1-a9f9-40fe2657f086: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:20Z",
+      "lastUpdated": "2023-01-27T17:22:20Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2020-13935",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae27d63a-0f89-48a7-8dd3-640313341318: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:19Z",
+      "lastUpdated": "2023-01-27T17:22:19Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2020-1935",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 864d4770-9c02-4c14-b4c4-90edf759efb6: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:19Z",
+      "lastUpdated": "2023-01-27T17:22:19Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2020-1938",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 27c9057d-42c4-4efc-8267-01e9e75e3a01: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:19Z",
+      "lastUpdated": "2023-01-27T17:22:19Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2020-8022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b030507-3c84-4077-8438-1c9c62037d9f: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:18Z",
+      "lastUpdated": "2023-01-27T17:22:18Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2020-9484",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4039ee08-7331-4777-9839-c3e57b4a2b57: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:18Z",
+      "lastUpdated": "2023-01-27T17:22:18Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2021-24122",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c603e40-c195-4a5e-bf33-6671d4fbf878: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:17Z",
+      "lastUpdated": "2023-01-27T17:22:17Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2021-25329",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 56e7f4ce-c0b9-4ec2-888e-71169763577e: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:17Z",
+      "lastUpdated": "2023-01-27T17:22:17Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@7.0.76",
+      "vulnerability": "CVE-2021-30640",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5c12cb55-b948-4d2b-9c90-99efe5cd6d86: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:22:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:22:16Z",
+      "lastUpdated": "2023-01-27T17:22:16Z"
+    }
+  ]
+}

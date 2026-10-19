@@ -1,0 +1,101 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "registry.suse.com/bci/bci-base@sha256:ae18370c24511ed8b9d6d5376260663f5e535e0d52b0803a9e3e7858760606bf",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/sles/libgcrypt20@1.11.1-160000.2.2",
+      "vulnerability": "CVE-2024-2236",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa32d5ff-2d98-490d-844d-bb2752b7faf9: tp",
+          "author": "williammurphy",
+          "at": "2026-05-28T13:02:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-28T13:02:09Z",
+      "lastUpdated": "2026-05-28T13:02:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libgpg-error0@1.54-160000.2.2",
+      "vulnerability": "CVE-2024-2236",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4d03160e-8ffd-4e1c-98fc-7649377e9dd8: tp",
+          "author": "williammurphy",
+          "at": "2026-05-28T13:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-28T13:09:09Z",
+      "lastUpdated": "2026-05-28T13:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/sles/libz1@1.2.13-160000.2.2",
+      "vulnerability": "CVE-2023-45853",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 169ca946-f8b3-4524-a50a-15819b749286: tp",
+          "author": "williammurphy",
+          "at": "2026-05-28T12:52:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-28T12:52:14Z",
+      "lastUpdated": "2026-05-28T12:52:14Z"
+    },
+    {
+      "package": "pkg:rpm/sles/pam@1.7.1-160000.2.2",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a6afdaba-8905-4337-8722-7416dd5206cc: tp",
+          "author": "williammurphy",
+          "at": "2026-05-28T12:52:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-28T12:52:54Z",
+      "lastUpdated": "2026-05-28T12:52:54Z"
+    }
+  ]
+}

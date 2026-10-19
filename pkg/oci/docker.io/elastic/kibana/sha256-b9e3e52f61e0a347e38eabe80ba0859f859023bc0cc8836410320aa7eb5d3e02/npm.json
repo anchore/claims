@@ -1,0 +1,370 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/elastic/kibana@sha256:b9e3e52f61e0a347e38eabe80ba0859f859023bc0cc8836410320aa7eb5d3e02",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:npm/archiver@5.3.1",
+      "vulnerability": "CVE-2006-1611",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca760606-5531-471f-82be-f708508c40b7: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:04:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:04:47Z",
+      "lastUpdated": "2022-11-14T17:04:47Z"
+    },
+    {
+      "package": "pkg:npm/archiver@5.3.1",
+      "vulnerability": "CVE-2018-25046",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 22a650c4-4d03-4747-aa25-15e0e1a92085: fp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:09Z",
+      "lastUpdated": "2023-03-14T15:59:09Z"
+    },
+    {
+      "package": "pkg:npm/archiver@5.3.1",
+      "vulnerability": "CVE-2019-10743",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bf39f45-8f9f-4c09-bf9b-672a7d09b5a7: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:05:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:05:38Z",
+      "lastUpdated": "2022-11-14T17:05:38Z"
+    },
+    {
+      "package": "pkg:npm/archiver@5.3.1",
+      "vulnerability": "CVE-2021-29281",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d30c008a-0767-44f6-a8dc-ce8b1c26bc53: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:04:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:04:58Z",
+      "lastUpdated": "2022-11-14T17:04:58Z"
+    },
+    {
+      "package": "pkg:npm/cookie@0.5.0",
+      "vulnerability": "CVE-2017-18589",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e23da52a-18a8-43be-ad49-c953d5b3caa9: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:05:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:05:43Z",
+      "lastUpdated": "2022-11-14T17:05:43Z"
+    },
+    {
+      "package": "pkg:npm/d3-color@2.0.0",
+      "vulnerability": "GHSA-36jr-mh4h-2g58",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 994aee55-1fd1-415a-bd72-99c0a3bca7c1: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:05:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:05:52Z",
+      "lastUpdated": "2022-11-14T17:05:52Z"
+    },
+    {
+      "package": "pkg:npm/kibana@8.5.0",
+      "vulnerability": "CVE-2020-10743",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b1183191-2b71-4063-9df3-fe605882b5fc: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:08Z",
+      "lastUpdated": "2022-11-14T17:06:08Z"
+    },
+    {
+      "package": "pkg:npm/moment-timezone@0.5.34",
+      "vulnerability": "GHSA-56x4-j7p9-fcf9",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 238d62da-c114-4163-b767-17ff482d0f22: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:57Z",
+      "lastUpdated": "2022-11-14T17:06:57Z"
+    },
+    {
+      "package": "pkg:npm/moment-timezone@0.5.34",
+      "vulnerability": "GHSA-v78c-4p63-2j6c",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2215aac3-3a0b-428e-97c4-7693279ec20e: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:57Z",
+      "lastUpdated": "2022-11-14T17:06:57Z"
+    },
+    {
+      "package": "pkg:npm/openpgp@5.3.0",
+      "vulnerability": "CVE-2001-0381",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5702fe64-ce8d-46b2-bbfd-698143d922b7: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:07:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:07:37Z",
+      "lastUpdated": "2022-11-14T17:07:37Z"
+    },
+    {
+      "package": "pkg:npm/slash@3.0.0",
+      "vulnerability": "CVE-2002-1647",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 39a1141b-041b-4625-a69e-d98cae05e2de: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:07:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:07:57Z",
+      "lastUpdated": "2022-11-14T17:07:57Z"
+    },
+    {
+      "package": "pkg:npm/trim@1.0.1",
+      "vulnerability": "CVE-2020-7753",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbf29e30-08fc-4044-b267-2f6e6067afd4: fp with grype@v0.52.0. According to https://github.com/advisories/GHSA-w5p7-h5w8-2hfq only affects < 0.0.3\n",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:11:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:11:36Z",
+      "lastUpdated": "2022-11-14T17:11:36Z"
+    },
+    {
+      "package": "pkg:npm/xtend@2.1.2",
+      "vulnerability": "CVE-2019-10249",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3a8b8c8e-1bbc-4c17-9563-f7d1578fa59e: fp with grype@v0.52.0. This vulnerability is for an Eclipse plugin, not the unreleated npm library",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:09:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:09:24Z",
+      "lastUpdated": "2022-11-14T17:09:24Z"
+    }
+  ]
+}

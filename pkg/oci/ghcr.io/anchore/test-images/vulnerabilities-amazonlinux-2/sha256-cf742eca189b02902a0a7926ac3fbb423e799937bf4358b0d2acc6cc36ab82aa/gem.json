@@ -1,0 +1,63 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/vulnerabilities-amazonlinux-2@sha256:cf742eca189b02902a0a7926ac3fbb423e799937bf4358b0d2acc6cc36ab82aa",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:gem/ftpd@0.2.1",
+      "vulnerability": "CVE-2013-2512",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 13ae77b2-cb58-428a-8599-a7631fbb74dd: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:09:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:09:42Z",
+      "lastUpdated": "2023-01-27T17:09:42Z"
+    },
+    {
+      "package": "pkg:gem/ftpd@0.2.1",
+      "vulnerability": "GHSA-7vxr-6cxg-j3x8",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76318dcf-046a-4ddb-83bf-08404f73bb2b: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:09:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:09:43Z",
+      "lastUpdated": "2023-01-27T17:09:43Z"
+    }
+  ]
+}

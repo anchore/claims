@@ -1,0 +1,1215 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/alpine@sha256:ddac200f3ebc9902fb8cfcd599f41feb2151f1118929da21bcef57dc276975f9",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2015-9261",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9dbd4ed3-72a5-4cf7-91de-460dfec73570: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:46:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:46:19Z",
+      "lastUpdated": "2022-09-15T18:46:19Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2016-2147",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97149925-10d6-444e-85e8-8956ac98ca12: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:46:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:46:37Z",
+      "lastUpdated": "2022-09-15T18:46:37Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2016-2148",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f2ceee33-3126-41e8-9cd6-153c8acd1112: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:46:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:46:39Z",
+      "lastUpdated": "2022-09-15T18:46:39Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2016-6301",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aefbd97a-f670-4e1a-8683-8b34d29db61e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:00Z",
+      "lastUpdated": "2022-09-15T18:48:00Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2017-16544",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9f411178-fdde-4b47-9123-0e6ff1ddd7d2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:03Z",
+      "lastUpdated": "2022-09-15T18:48:03Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2018-1000500",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 658ae3cc-ec02-4ac4-b30d-f7f6481c7774: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:18Z",
+      "lastUpdated": "2022-09-15T18:48:18Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2018-1000517",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b0f5fc0-0a37-4e60-9347-7ca6e5e589f3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:33Z",
+      "lastUpdated": "2022-09-15T18:48:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2018-20679",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05aa061e-54f9-4e12-ab57-08c60c5da42f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:35Z",
+      "lastUpdated": "2022-09-15T18:48:35Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2019-5747",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a499de3e-7cd2-4adf-9fca-af76e66299fb: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:48:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:48:37Z",
+      "lastUpdated": "2022-09-15T18:48:37Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42376",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 572f7295-0f76-43e5-ba36-068347ad1d76: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:32Z",
+      "lastUpdated": "2022-11-01T18:28:32Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42378",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8f3e4d8-3b73-4796-ace4-6738e1f4fe9c: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:33Z",
+      "lastUpdated": "2022-11-01T18:28:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42379",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1e1f40e-6d02-4f12-8d20-8ff21878995d: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:34Z",
+      "lastUpdated": "2022-11-01T18:28:34Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42381",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed4a0876-f4e6-405b-811b-8980b6afd99e: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:35Z",
+      "lastUpdated": "2022-11-01T18:28:35Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42384",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0f0ea1f-9641-4635-bb70-f87a03ca28ba: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:38Z",
+      "lastUpdated": "2022-11-01T18:28:38Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42385",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fc03d17a-1158-49ee-8ed5-b0f81329613d: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:39Z",
+      "lastUpdated": "2022-11-01T18:28:39Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.23.2-r3",
+      "vulnerability": "CVE-2021-42386",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 62eb5cfa-2ba2-436b-a5aa-114e267e0962: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:40Z",
+      "lastUpdated": "2022-11-01T18:28:40Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3735",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e214b93f-8cb6-4b86-9e72-8cdbfa4f3ddd: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:01:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:01:23Z",
+      "lastUpdated": "2023-03-08T12:01:23Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3736",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb40823d-97fd-4433-b89f-038c9cc9e9b6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:53:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:53:01Z",
+      "lastUpdated": "2022-09-15T18:53:01Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3737",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be838420-aa57-44e6-ab3c-1b8e31fef60c: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:01:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:01:55Z",
+      "lastUpdated": "2023-03-08T12:01:55Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3738",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bfc18374-6aa2-4320-97d8-b0548a2264f3: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:07Z",
+      "lastUpdated": "2023-03-08T12:02:07Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8692d44-d49b-4b80-9795-e39b7e299f60: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:53:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:53:14Z",
+      "lastUpdated": "2022-09-15T18:53:14Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ddfcfd1a-c902-4dcf-a669-9a37f69fc53f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:53:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:53:21Z",
+      "lastUpdated": "2022-09-15T18:53:21Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0737",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 707733f4-19dc-4366-b16c-a9eade1883f3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:53:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:53:27Z",
+      "lastUpdated": "2022-09-15T18:53:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0739",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e95856ea-6a81-4a53-8f86-953e450dd17b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:53:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:53:32Z",
+      "lastUpdated": "2022-09-15T18:53:32Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-5407",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 142c3a49-66a7-40d0-beba-9e104d3db7e1: tp. upto (excluding) 1.0.2q",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:54:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:54:05Z",
+      "lastUpdated": "2022-09-15T18:54:05Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1547",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f6f3cf41-ee80-4859-8864-9eccd837bf88: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:54:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:54:48Z",
+      "lastUpdated": "2022-09-15T18:54:48Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1551",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae727d32-c97c-4451-915d-6edd864a89cd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:54:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:54:56Z",
+      "lastUpdated": "2022-09-15T18:54:56Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1552",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dfac2e76-0f81-469e-8934-b660e04b48f4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:55:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:55:19Z",
+      "lastUpdated": "2022-09-15T18:55:19Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1559",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7a12575-cd86-4eb0-8a49-cc9b13c84b17: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:55:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:55:28Z",
+      "lastUpdated": "2022-09-15T18:55:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1563",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9388f927-0b01-4bb9-90b1-6e68f0c06f15: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:55:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:55:33Z",
+      "lastUpdated": "2022-09-15T18:55:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2020-1968",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9840983a-0308-4bf9-9519-903272bbda5f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:55:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:55:38Z",
+      "lastUpdated": "2022-09-15T18:55:38Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2020-1971",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 11a95cb0-7d35-4c0c-9d6b-b6b6a8059dc7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:01Z",
+      "lastUpdated": "2022-09-15T18:56:01Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-23840",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1330998-2d22-470d-a116-9431a758a05c: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:45Z",
+      "lastUpdated": "2022-11-01T18:28:45Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-23841",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fa81eae-d3b7-4929-9685-1ed9bf57c5c4: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:46Z",
+      "lastUpdated": "2022-11-01T18:28:46Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-3712",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5cac1476-e148-4e36-9f70-447fe9561d50: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:46Z",
+      "lastUpdated": "2022-11-01T18:28:46Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-4160",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 01896a16-3720-451d-b041-b8ece60413a0: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:47Z",
+      "lastUpdated": "2022-11-01T18:28:47Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3735",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52616137-a980-4a3d-8201-18d3d0c1b357: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:13Z",
+      "lastUpdated": "2023-03-08T12:02:13Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3736",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 65a51ee2-2deb-435d-9a74-1d5cd0ad57f3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:02Z",
+      "lastUpdated": "2022-09-15T18:56:02Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3737",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3444b9c-9ab6-47fe-a9d2-9036a7c09e8f: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:14Z",
+      "lastUpdated": "2023-03-08T12:02:14Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2017-3738",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e057d36c-87c0-4f56-9f1c-faa61874a10f: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:14Z",
+      "lastUpdated": "2023-03-08T12:02:14Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d245c80-fc5f-4c52-b6b1-dd8f40648515: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:03Z",
+      "lastUpdated": "2022-09-15T18:56:03Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a191f83-c4a6-40eb-95c6-0f8ec3625817: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:03Z",
+      "lastUpdated": "2022-09-15T18:56:03Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0737",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bff6918-536d-499a-82a5-ef1a6a6b91e3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:04Z",
+      "lastUpdated": "2022-09-15T18:56:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-0739",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7f80cc80-6a60-4909-96c5-3abdf923eca2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:04Z",
+      "lastUpdated": "2022-09-15T18:56:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2018-5407",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7275e8d9-c1ce-480b-a313-311fb4bc5a96: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:04Z",
+      "lastUpdated": "2022-09-15T18:56:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1547",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 02328bb1-0496-4416-8f14-b4b541d9c5f1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:04Z",
+      "lastUpdated": "2022-09-15T18:56:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1551",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a65069f1-3cac-409b-9378-e98c91b8ded6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:05Z",
+      "lastUpdated": "2022-09-15T18:56:05Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1552",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 98af4ae7-e4b7-49f0-8d98-89a02c393ee2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:05Z",
+      "lastUpdated": "2022-09-15T18:56:05Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1559",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f637896e-982f-4066-b574-0113f346162c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:05Z",
+      "lastUpdated": "2022-09-15T18:56:05Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2019-1563",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 14fe37a3-8729-4b82-b00f-2f032f5bc424: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:06Z",
+      "lastUpdated": "2022-09-15T18:56:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2020-1968",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0be97c1e-a998-478c-8dbc-749c08412e2e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:06Z",
+      "lastUpdated": "2022-09-15T18:56:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2020-1971",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5689b7cd-5afd-4447-97aa-db2804860547: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:06Z",
+      "lastUpdated": "2022-09-15T18:56:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-23840",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed0cb672-7063-4ff2-8f65-d779c268446b: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:52Z",
+      "lastUpdated": "2022-11-01T18:28:52Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-23841",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2654e1e9-7d77-4604-aff1-4a6cd9db9cf7: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:53Z",
+      "lastUpdated": "2022-11-01T18:28:53Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-3712",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f200805-8fb2-43f6-8648-b7d6198fdbcd: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:53Z",
+      "lastUpdated": "2022-11-01T18:28:53Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.0@1.0.2k-r0",
+      "vulnerability": "CVE-2021-4160",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eca4caa7-ecc8-45b0-8255-3965459967db: tp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:28:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:28:54Z",
+      "lastUpdated": "2022-11-01T18:28:54Z"
+    },
+    {
+      "package": "pkg:apk/alpine/musl@1.1.11-r5",
+      "vulnerability": "CVE-2019-14697",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc7960ec-9828-412c-80f6-3c8c45957eee: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:23Z",
+      "lastUpdated": "2023-03-08T12:02:23Z"
+    },
+    {
+      "package": "pkg:apk/alpine/musl@1.1.11-r5",
+      "vulnerability": "CVE-2020-28928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 552e5171-93d4-41bb-9b2b-c8cc50fb78af: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T12:02:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T12:02:25Z",
+      "lastUpdated": "2023-03-08T12:02:25Z"
+    },
+    {
+      "package": "pkg:apk/alpine/zlib@1.2.8-r1",
+      "vulnerability": "CVE-2016-9840",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 388e07a2-483d-4d55-bf1c-42b1018520ae: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:23Z",
+      "lastUpdated": "2022-09-15T18:56:23Z"
+    },
+    {
+      "package": "pkg:apk/alpine/zlib@1.2.8-r1",
+      "vulnerability": "CVE-2016-9841",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cf52bf0-c516-4eb3-89e4-6ffe70b625f9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:25Z",
+      "lastUpdated": "2022-09-15T18:56:25Z"
+    },
+    {
+      "package": "pkg:apk/alpine/zlib@1.2.8-r1",
+      "vulnerability": "CVE-2016-9843",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ebe3b3d5-6c05-4c73-91ac-b53b60a1f50f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:29Z",
+      "lastUpdated": "2022-09-15T18:56:29Z"
+    },
+    {
+      "package": "pkg:apk/alpine/zlib@1.2.8-r1",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 898a9009-d889-48f0-9835-6e5ce556789c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T18:56:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T18:56:37Z",
+      "lastUpdated": "2022-09-15T18:56:37Z"
+    }
+  ]
+}

@@ -1,0 +1,1507 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/bitnami/spark@sha256:267d5a6345636710b4b57b7fe981c9760203e7e092c705416310ea30a9806d74",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/debian/apt@2.2.4",
+      "vulnerability": "CVE-2011-3374",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d6c2736c-6382-41ee-aced-24d65f4b9869: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:16:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:16:33Z",
+      "lastUpdated": "2023-05-10T14:16:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.32-4%2Bb1",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e6b20ff-4f75-4d62-9ab4-44b0e354300f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:18:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:18:18Z",
+      "lastUpdated": "2023-05-10T14:18:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.32-4%2Bb1",
+      "vulnerability": "CVE-2017-18018",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a75789a8-1fa4-4725-af4c-f883c951e65f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:18:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:18:19Z",
+      "lastUpdated": "2023-05-10T14:18:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libapt-pkg6.0@2.2.4",
+      "vulnerability": "CVE-2011-3374",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2afdc707-e5cd-40e5-be8c-5e2876c7d678: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:32Z",
+      "lastUpdated": "2023-05-10T14:28:32Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1dcaada3-82fb-4c7d-878d-e7c2cf82230a: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:33Z",
+      "lastUpdated": "2023-05-10T14:28:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2018-20796",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a88371b-0cd9-40b5-a63a-3ba221754d1f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:34Z",
+      "lastUpdated": "2023-05-10T14:28:34Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2211c54d-e670-47fc-bf53-01797c874e29: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:04Z",
+      "lastUpdated": "2023-08-18T16:39:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72e5ec5d-db17-49a8-9ffe-09bae71fe108: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:06Z",
+      "lastUpdated": "2023-08-18T16:39:06Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f87c94d-d16a-409f-9140-1b87ab955aec: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:06Z",
+      "lastUpdated": "2023-08-18T16:39:06Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be5921a4-d4d8-46bc-8850-a26010e327db: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:07Z",
+      "lastUpdated": "2023-08-18T16:39:07Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-9192",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce170a7e-708c-4803-9078-72afb49f26c2: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:08Z",
+      "lastUpdated": "2023-08-18T16:39:08Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af81081e-e318-4317-a5be-bb99992def02: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:43Z",
+      "lastUpdated": "2023-05-10T14:28:43Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2018-20796",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e14880d0-b1ee-49e9-9518-aa524897b58e: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:45Z",
+      "lastUpdated": "2023-05-10T14:28:45Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f129a55-5f95-4cb0-aeb2-9e6dd2921a65: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:10Z",
+      "lastUpdated": "2023-08-18T16:39:10Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e6b920f0-a289-47b9-8297-79a0bb1f11ee: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:10Z",
+      "lastUpdated": "2023-08-18T16:39:10Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 55781da9-4142-411f-b60a-4b06382b9d31: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:12Z",
+      "lastUpdated": "2023-08-18T16:39:12Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb615cd3-8d70-43ab-b261-ad1a8585e33f: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:14Z",
+      "lastUpdated": "2023-08-18T16:39:14Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u6",
+      "vulnerability": "CVE-2019-9192",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37c85abf-c614-42d4-a942-e00b4c8f2fe8: fp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T16:39:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T16:39:13Z",
+      "lastUpdated": "2023-08-18T16:39:13Z"
+    },
+    {
+      "package": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg1-0.8",
+      "vulnerability": "CVE-2019-8457",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e517f2a6-fce4-47ae-9a4c-f3729482fb35: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:28:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:28:54Z",
+      "lastUpdated": "2023-05-10T14:28:54Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgcrypt20@1.8.7-6",
+      "vulnerability": "CVE-2018-6829",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4d895e6c-d5b3-492f-9529-43ccbbf05f80: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:06Z",
+      "lastUpdated": "2023-05-10T14:29:06Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgcrypt20@1.8.7-6",
+      "vulnerability": "CVE-2021-33560",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a2b8b030-2232-42a7-ae02-c7783396cf8f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:08Z",
+      "lastUpdated": "2023-05-10T14:29:08Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgnutls30@3.7.1-5%2Bdeb11u3",
+      "vulnerability": "CVE-2011-3389",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 09527fca-a5fe-41c2-a4d3-b22b579cd29d: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:08Z",
+      "lastUpdated": "2023-05-10T14:29:08Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgssapi-krb5-2@1.18.3-6%2Bdeb11u3",
+      "vulnerability": "CVE-2018-5709",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25ecc794-0042-4bdc-a2fa-19a11838a9cd: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:09Z",
+      "lastUpdated": "2023-05-10T14:29:09Z"
+    },
+    {
+      "package": "pkg:deb/debian/libk5crypto3@1.18.3-6%2Bdeb11u3",
+      "vulnerability": "CVE-2018-5709",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 36ae4132-c13b-4916-b864-f28177d1ea2a: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:11Z",
+      "lastUpdated": "2023-05-10T14:29:11Z"
+    },
+    {
+      "package": "pkg:deb/debian/libkrb5-3@1.18.3-6%2Bdeb11u3",
+      "vulnerability": "CVE-2018-5709",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7a8ed4a1-7f3a-49fb-9e6c-f9c797e6edfb: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:12Z",
+      "lastUpdated": "2023-05-10T14:29:12Z"
+    },
+    {
+      "package": "pkg:deb/debian/libkrb5support0@1.18.3-6%2Bdeb11u3",
+      "vulnerability": "CVE-2018-5709",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d722b79d-6f46-4f66-b485-9db02e2a24cc: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:13Z",
+      "lastUpdated": "2023-05-10T14:29:13Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpcre3@2:8.39-13",
+      "vulnerability": "CVE-2017-11164",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0313d67a-e823-48e6-bb89-5cec2ce3d011: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:15Z",
+      "lastUpdated": "2023-05-10T14:29:15Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpcre3@2:8.39-13",
+      "vulnerability": "CVE-2017-16231",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ceb6ce57-88c5-4065-94da-41d7d8a0bb9b: unclear with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:16Z",
+      "lastUpdated": "2023-05-10T14:29:16Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpcre3@2:8.39-13",
+      "vulnerability": "CVE-2017-7245",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a37b20fe-1862-4ec5-a5e3-7faedb5e3eac: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:17Z",
+      "lastUpdated": "2023-05-10T14:29:17Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpcre3@2:8.39-13",
+      "vulnerability": "CVE-2017-7246",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa5c89b8-7b67-43ca-90f3-7684fc09ead6: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:18Z",
+      "lastUpdated": "2023-05-10T14:29:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpcre3@2:8.39-13",
+      "vulnerability": "CVE-2019-20838",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 44130367-1d73-49e5-93f7-e1e03fa1b1bc: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:19Z",
+      "lastUpdated": "2023-05-10T14:29:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsepol1@3.1-1",
+      "vulnerability": "CVE-2021-36084",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels becc3c44-d7d8-4467-a29a-d3059d341b83: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:20Z",
+      "lastUpdated": "2023-05-10T14:29:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsepol1@3.1-1",
+      "vulnerability": "CVE-2021-36085",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6daab2c-5eb3-405c-95b0-5bafe08514c8: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:20Z",
+      "lastUpdated": "2023-05-10T14:29:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsepol1@3.1-1",
+      "vulnerability": "CVE-2021-36086",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 498d09e6-3f7b-42ee-ac7b-d80de50b397f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:21Z",
+      "lastUpdated": "2023-05-10T14:29:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsepol1@3.1-1",
+      "vulnerability": "CVE-2021-36087",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cae078bf-b6cd-4fc0-b656-0f04b0ac35b7: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:22Z",
+      "lastUpdated": "2023-05-10T14:29:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsqlite3-0@3.34.1-3",
+      "vulnerability": "CVE-2021-31239",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 560e284d-f927-4cce-8493-617c4070d404: tp with grype@v0.65.1",
+          "author": "westonsteimel",
+          "at": "2023-08-14T16:36:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.86.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-14T16:36:50Z",
+      "lastUpdated": "2023-08-14T16:36:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsqlite3-0@3.34.1-3",
+      "vulnerability": "CVE-2021-36690",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b63ad247-f894-40c8-a8e0-794690f10fc3: unclear with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:23Z",
+      "lastUpdated": "2023-05-10T14:29:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsqlite3-0@3.34.1-3",
+      "vulnerability": "CVE-2021-45346",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3993a08b-c2be-438f-bef5-35e45200762e: unclear with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:25Z",
+      "lastUpdated": "2023-05-10T14:29:25Z"
+    },
+    {
+      "package": "pkg:deb/debian/libssl1.1@1.1.1n-0%2Bdeb11u4",
+      "vulnerability": "CVE-2007-6755",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8dafef80-bd5d-402c-8f03-ea8d39e06d4f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:26Z",
+      "lastUpdated": "2023-05-10T14:29:26Z"
+    },
+    {
+      "package": "pkg:deb/debian/libssl1.1@1.1.1n-0%2Bdeb11u4",
+      "vulnerability": "CVE-2010-0928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa6ff3a0-4f8a-45d2-97d4-612f8b2ebdc6: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:27Z",
+      "lastUpdated": "2023-05-10T14:29:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsystemd0@247.3-7%2Bdeb11u2",
+      "vulnerability": "CVE-2013-4392",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3a9e0930-129a-4f70-be49-be740c3d241d: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:27Z",
+      "lastUpdated": "2023-05-10T14:29:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/libsystemd0@247.3-7%2Bdeb11u2",
+      "vulnerability": "CVE-2020-13529",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8a0e1f5-df2f-49c6-9c54-72dbac4dcdfa: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:29:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:29:29Z",
+      "lastUpdated": "2023-05-10T14:29:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/libudev1@247.3-7%2Bdeb11u2",
+      "vulnerability": "CVE-2013-4392",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa5b4677-35dc-45ec-8a70-452a75706b83: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:30:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:30:02Z",
+      "lastUpdated": "2023-05-10T14:30:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/libudev1@247.3-7%2Bdeb11u2",
+      "vulnerability": "CVE-2020-13529",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ec2d2917-d8d4-430b-831a-c26667e14ceb: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:30:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:30:03Z",
+      "lastUpdated": "2023-05-10T14:30:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.8.1-1",
+      "vulnerability": "CVE-2007-5686",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7ee2880-9cdb-4015-b8f9-45b045903b51: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:30:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:30:24Z",
+      "lastUpdated": "2023-05-10T14:30:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.8.1-1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b36f578b-d753-4f51-9d6a-d0f3db135ac8: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:30:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:30:24Z",
+      "lastUpdated": "2023-05-10T14:30:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.8.1-1",
+      "vulnerability": "CVE-2019-19882",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93c4eb5e-28f9-4ff8-8abc-c44dc1ccbae6: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:30:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:30:25Z",
+      "lastUpdated": "2023-05-10T14:30:25Z"
+    },
+    {
+      "package": "pkg:deb/debian/openssl@1.1.1n-0%2Bdeb11u4",
+      "vulnerability": "CVE-2007-6755",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 88932bbb-ed9a-4d77-9390-2681edfc7ce3: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:32:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:32:28Z",
+      "lastUpdated": "2023-05-10T14:32:28Z"
+    },
+    {
+      "package": "pkg:deb/debian/openssl@1.1.1n-0%2Bdeb11u4",
+      "vulnerability": "CVE-2010-0928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b6b7d3d-2fc3-4f94-b6c3-c1f4fee8fc9f: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:32:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:32:29Z",
+      "lastUpdated": "2023-05-10T14:32:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.8.1-1",
+      "vulnerability": "CVE-2007-5686",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 677d0a50-1de1-476a-a018-6c936c433c5a: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:32:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:32:56Z",
+      "lastUpdated": "2023-05-10T14:32:56Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.8.1-1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d83ae6ab-531b-4315-8963-da2ddbfc2334: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:32:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:32:57Z",
+      "lastUpdated": "2023-05-10T14:32:57Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.8.1-1",
+      "vulnerability": "CVE-2019-19882",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2e7ab76a-e93f-4511-ba87-c1dddf6d8d6b: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:32:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:32:58Z",
+      "lastUpdated": "2023-05-10T14:32:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.32.1-4%2Bdeb11u2",
+      "vulnerability": "CVE-2011-4116",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 320ebf51-88fc-4fd1-b0c4-cba8ccbcf5d3: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:33:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:33:00Z",
+      "lastUpdated": "2023-05-10T14:33:00Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.32.1-4%2Bdeb11u2",
+      "vulnerability": "CVE-2020-16156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c7810823-fa7f-4a4e-a896-c33f9c757dc4: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:33:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:33:00Z",
+      "lastUpdated": "2023-05-10T14:33:00Z"
+    },
+    {
+      "package": "pkg:deb/debian/tar@1.34%2Bdfsg-1",
+      "vulnerability": "CVE-2005-2541",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e91030c7-b977-4aa9-afab-d9475e6a0fa5: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:38:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:38:46Z",
+      "lastUpdated": "2023-05-10T14:38:46Z"
+    }
+  ]
+}

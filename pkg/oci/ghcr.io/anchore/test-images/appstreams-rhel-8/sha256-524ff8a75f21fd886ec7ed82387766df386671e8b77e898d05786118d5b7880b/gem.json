@@ -1,0 +1,343 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/appstreams-rhel-8@sha256:524ff8a75f21fd886ec7ed82387766df386671e8b77e898d05786118d5b7880b",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:gem/date@1.0.0",
+      "vulnerability": "CVE-2014-5169",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1bb77232-4819-4910-ba14-b40de52848fd: fp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T13:41:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T13:41:25Z",
+      "lastUpdated": "2022-10-06T13:41:25Z"
+    },
+    {
+      "package": "pkg:gem/date@1.0.0",
+      "vulnerability": "GHSA-qg54-694p-wgpp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4eccca7-c11e-4301-94f2-0ae30f48c594: fp with grype@v0.109.1. This is a descendent of the rubygems rpm package and the fixed version is installed per https://access.redhat.com/errata/RHSA-2022:5779",
+          "author": "westonsteimel",
+          "at": "2026-03-17T14:48:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-17T14:48:55Z",
+      "lastUpdated": "2026-03-17T14:48:55Z"
+    },
+    {
+      "package": "pkg:gem/json@2.1.0",
+      "vulnerability": "CVE-2020-10663",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a58c0d69-68ec-498f-be04-b80237c15105: tp with grype@v0.50.2",
+          "author": "westonsteimel",
+          "at": "2022-10-06T15:34:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T15:34:02Z",
+      "lastUpdated": "2022-10-06T15:34:02Z"
+    },
+    {
+      "package": "pkg:gem/json@2.1.0",
+      "vulnerability": "GHSA-jphg-qwrw-7w9g",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e21976a4-349b-4b6e-a6ef-677c3f99334c: fp with grype@v0.65.0. Actual package is the rpm rubygem-json @ 2.1.0-110.module+el8.6.0+15956+aa803fc1, which according to https://access.redhat.com/errata/RHSA-2021:2587 was patched for CVE-2020-10663 in a previous version.",
+          "author": "willmurphy",
+          "at": "2023-08-02T20:49:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T20:49:20Z",
+      "lastUpdated": "2023-08-02T20:49:20Z"
+    },
+    {
+      "package": "pkg:gem/rdoc@6.0.1.1",
+      "vulnerability": "CVE-2021-31799",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 738314a5-fcf6-45aa-b50e-39cd147524fa: fp with grype@v0.51.0-7-gfcce63b. RHEL patched\n",
+          "author": "westonsteimel",
+          "at": "2022-11-01T17:57:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T17:57:15Z",
+      "lastUpdated": "2022-11-01T17:57:15Z"
+    },
+    {
+      "package": "pkg:gem/rdoc@6.0.1.1",
+      "vulnerability": "GHSA-ggxm-pgc9-g7fp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb00cb59-9d4c-4ac0-8870-ff1c1b31fa35: fp with grype@v0.51.0-7-gfcce63b. RHEL patched",
+          "author": "westonsteimel",
+          "at": "2022-11-01T17:57:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T17:57:15Z",
+      "lastUpdated": "2022-11-01T17:57:15Z"
+    },
+    {
+      "package": "pkg:gem/stringio@0.0.1",
+      "vulnerability": "GHSA-v5h6-c2hv-hv3r",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc56c561-0c24-44d5-b50d-2bc96af695fa: tp with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-17T15:09:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-17T15:09:22Z",
+      "lastUpdated": "2026-03-17T15:09:22Z"
+    },
+    {
+      "package": "pkg:gem/webrick@1.4.2.1",
+      "vulnerability": "CVE-2008-1145",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d96d4062-72d6-4234-854b-5e7704f36524: fp with grype@v0.50.2. RedHat has patched\n",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:26:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:26:49Z",
+      "lastUpdated": "2022-10-06T18:26:49Z"
+    },
+    {
+      "package": "pkg:gem/webrick@1.4.2.1",
+      "vulnerability": "GHSA-6f62-3596-g6w7",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d88e2605-648c-4c3e-8361-2d28e2d09e85: unclear with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-17T15:12:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-17T15:12:25Z",
+      "lastUpdated": "2026-03-17T15:12:25Z"
+    },
+    {
+      "package": "pkg:gem/webrick@1.4.2.1",
+      "vulnerability": "GHSA-gwfg-cqmg-cf8f",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc1e9aca-c609-4841-b830-4b2df5b0c895: fp with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-17T15:30:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-17T15:30:54Z",
+      "lastUpdated": "2026-03-17T15:30:54Z"
+    },
+    {
+      "package": "pkg:gem/zlib@1.0.0",
+      "vulnerability": "CVE-2002-0059",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ffd475af-60c4-42de-a8ba-c29638e3f713: fp with grype@v0.50.2. not the rubygem",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:27:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:27:37Z",
+      "lastUpdated": "2022-10-06T18:27:37Z"
+    },
+    {
+      "package": "pkg:gem/zlib@1.0.0",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 01adcf96-5be7-4a53-b72c-1fb5cf8410c8: fp with grype@v0.50.2. not the rubygem",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:27:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:27:45Z",
+      "lastUpdated": "2022-10-06T18:27:45Z"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/vulnerabilities-amazonlinux-2@sha256:cf742eca189b02902a0a7926ac3fbb423e799937bf4358b0d2acc6cc36ab82aa",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "CVE-2021-21330",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c5252e2-70d8-43b6-a0cc-6e2f5c1ebf70: tp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:54:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:54:14Z",
+      "lastUpdated": "2023-08-18T14:54:14Z"
+    },
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "CVE-2023-37276",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da3aa8b1-d4cb-45aa-a7b3-a7ef32c5bbbf: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-23T10:38:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-23T10:38:51Z",
+      "lastUpdated": "2023-08-23T10:38:51Z"
+    },
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "GHSA-45c4-8wx5-qw6w",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77e7722e-8d6a-4a43-8460-db80434e67b6: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-23T10:22:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-23T10:22:31Z",
+      "lastUpdated": "2023-08-23T10:22:31Z"
+    },
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "GHSA-pjjw-qhg8-p2p9",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 319e3d2f-d6e9-4048-bb1d-b724ed1e887b: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:49:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:49:23Z",
+      "lastUpdated": "2026-04-15T01:49:23Z"
+    },
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "GHSA-v6wp-4m6f-gcjg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ef9f3fc9-8c97-4af5-8867-75eec21b2d16: tp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-01-27T17:08:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T17:08:16Z",
+      "lastUpdated": "2023-01-27T17:08:16Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2014-3146",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d74694f7-912f-41f3-babe-6736f3279e24: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:59:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:59:19Z",
+      "lastUpdated": "2023-08-18T14:59:19Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2018-19787",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a52be989-4cb2-4099-80a9-83e33dd69296: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:59:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:59:20Z",
+      "lastUpdated": "2023-08-18T14:59:20Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2020-27783",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 652600ee-a077-40a8-93ae-15d319e6f03d: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:59:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:59:21Z",
+      "lastUpdated": "2023-08-18T14:59:21Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2021-28957",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 64b2673e-90cc-4287-a40d-de6b57dac280: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:59:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:59:22Z",
+      "lastUpdated": "2023-08-18T14:59:22Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2021-43818",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45882372-6d5b-4e1c-9813-9b551cc8dd50: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T14:59:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T14:59:23Z",
+      "lastUpdated": "2023-08-18T14:59:23Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "CVE-2022-2309",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dadc032b-dd56-4fab-9b71-5890845e94e5: unclear with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-23T13:15:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-23T13:15:33Z",
+      "lastUpdated": "2023-08-23T13:15:33Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "GHSA-55x5-fj6c-h6m8",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 174bdf43-142e-421f-a57a-9e7c019f72ee: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:03:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T15:03:03Z",
+      "lastUpdated": "2023-08-18T15:03:03Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "GHSA-57qw-cc2g-pv5p",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30110f76-3a30-44c9-b8b4-f33eb339c3ae: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:03:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T15:03:02Z",
+      "lastUpdated": "2023-08-18T15:03:02Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "GHSA-jq4v-f5q6-mjqq",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3f660d7-6d1c-407f-82d2-e095de2faeba: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:03:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T15:03:01Z",
+      "lastUpdated": "2023-08-18T15:03:01Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "GHSA-pgww-xf46-h92r",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e33718f-8d9f-4a7d-9b2d-fbdb735c420a: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:03:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T15:03:01Z",
+      "lastUpdated": "2023-08-18T15:03:01Z"
+    },
+    {
+      "package": "pkg:pypi/lxml@3.2.1",
+      "vulnerability": "GHSA-xp26-p53h-6h2p",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86cd704f-d5db-4931-b903-24e7ad07dbd5: unclear with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:02:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-18T15:02:59Z",
+      "lastUpdated": "2023-08-18T15:02:59Z"
+    }
+  ]
+}

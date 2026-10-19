@@ -1,0 +1,1019 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/dimastopelmini/forgrype@sha256:ebe0c6ca122deef072c29be2f915130e5c8b4c277ad5ef551385f6496dae4dfa",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/minimos/busybox@1.37.0-r5",
+      "vulnerability": "CVE-2024-58251",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9d308fd-f00a-4b1f-9858-718341e076c4: tp",
+          "author": "willmurphy",
+          "at": "2025-05-30T00:27:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-30T00:27:00Z",
+      "lastUpdated": "2025-05-30T00:27:00Z"
+    },
+    {
+      "package": "pkg:apk/minimos/busybox@1.37.0-r5",
+      "vulnerability": "GHSA-rrv5-483w-xmr9",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 78b59033-c6eb-41e2-8246-58cc9800e5d2: tp with grype[custom-db]@v0.100.0-8-gf22c026e",
+          "author": "willmurphy",
+          "at": "2025-09-24T14:52:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.100.0-8-gf22c026e"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-09-24T14:52:58Z",
+      "lastUpdated": "2025-09-24T14:52:58Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-2464-8j7c-4cjm",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8e79396c-a653-4411-8a27-071711fa4cae: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:49:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:49:38Z",
+      "lastUpdated": "2026-01-26T16:49:38Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-447v-2qg4-h8hc",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a978e9a-7d01-4fa9-8250-ee4d3dd24f67: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:49:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:49:52Z",
+      "lastUpdated": "2026-01-26T16:49:52Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-5mh9-3jwc-rp59",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels abc2adbd-e205-471d-ac07-5670a6668358: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:50:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:50:28Z",
+      "lastUpdated": "2026-01-26T16:50:28Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-62jj-gr2r-5c34",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31cfb5d2-dfca-4a18-a973-8ad8d446b640: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:08:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:08:21Z",
+      "lastUpdated": "2026-01-26T17:08:21Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-6f52-wpx2-hvf2",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c7f4e2ec-bee6-4c43-bb21-182dec416bd2: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:08:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:08:26Z",
+      "lastUpdated": "2026-01-26T17:08:26Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-7c64-f9jr-v9h2",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b8c1a66c-1fe3-488d-8b80-fe8fede695d2: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:51:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:51:56Z",
+      "lastUpdated": "2026-01-26T16:51:56Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-7wwx-xj66-r44x",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 98cd1a25-2d1a-4a56-bd43-a3419cdb9066: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:52:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:52:14Z",
+      "lastUpdated": "2026-01-26T16:52:14Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-9gcr-gp5f-jw27",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6006ef6e-e0e1-4e99-818a-f878a2d96385: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:52:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:52:33Z",
+      "lastUpdated": "2026-01-26T16:52:33Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-cxq7-xw9v-rcv3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6ab3759f-2c72-4171-b27c-6deaf005f79f: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:52:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:52:38Z",
+      "lastUpdated": "2026-01-26T16:52:38Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-frhw-mqj2-wxw2",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c2d371d-9938-49b2-a1dd-ae32596c7e01: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:53:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:53:10Z",
+      "lastUpdated": "2026-01-26T16:53:10Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-gwrf-jf3h-w649",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 38351f75-343c-4da7-a7bc-01c479506b99: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:53:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:53:17Z",
+      "lastUpdated": "2026-01-26T16:53:17Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-hjx7-fpxx-mj48",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7bacb2c7-9267-4006-a9a9-8f72d293704d: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:53:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:53:28Z",
+      "lastUpdated": "2026-01-26T16:53:28Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-j5pm-7495-qmr3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2459d674-d4f8-4ccd-ac6d-bb1124b7876e: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:53:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:53:38Z",
+      "lastUpdated": "2026-01-26T16:53:38Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-jw54-c8rr-pjpq",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fcb61ed9-4fd5-4529-b622-ee8a4c0ac411: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:08:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:08:31Z",
+      "lastUpdated": "2026-01-26T17:08:31Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-jwmf-chvc-rf92",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 038fd0f7-8ef5-4800-bbc3-43b0992f7972: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:53:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:53:43Z",
+      "lastUpdated": "2026-01-26T16:53:43Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-qh38-484v-w52x",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 209aa614-73e0-4a47-b88a-01a66f665ed5: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:52Z",
+      "lastUpdated": "2026-01-26T16:54:52Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-rjcg-56ph-3qvg",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb156404-2e73-417e-8412-8757198efe15: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:56Z",
+      "lastUpdated": "2026-01-26T16:54:56Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-wcw9-47fp-rrfr",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e46057c2-6f78-4bbd-8254-f053405601e0: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:02:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:02:41Z",
+      "lastUpdated": "2026-01-26T17:02:41Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-wprm-fgrx-xj42",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d03e728e-04b3-4751-a58f-01fcb97f0a7a: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:02:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:02:56Z",
+      "lastUpdated": "2026-01-26T17:02:56Z"
+    },
+    {
+      "package": "pkg:apk/minimos/dataplaneapi@3.1.5-r1",
+      "vulnerability": "GHSA-wq9g-9vfc-cfq9",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d44ebcb9-9497-4c50-828c-c6d5888d6afe: tp with grype[custom-db]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-28T15:49:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-28T15:49:57Z",
+      "lastUpdated": "2025-05-28T15:49:57Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc-locale-posix@2.41-r0",
+      "vulnerability": "GHSA-5pf6-63v3-88hw",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a55e856-4736-42a2-a771-01e4585f3d86: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:51:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:51:07Z",
+      "lastUpdated": "2026-01-26T16:51:07Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc-locale-posix@2.41-r0",
+      "vulnerability": "GHSA-qg56-4cfq-w9w3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72014746-8421-4409-be61-199dc08d4ab5: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:10Z",
+      "lastUpdated": "2026-01-26T16:54:10Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc-locale-posix@2.41-r0",
+      "vulnerability": "GHSA-xp56-6525-9chf",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6580dcbb-f579-4ba8-820c-b75415ad3100: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:03:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:03:48Z",
+      "lastUpdated": "2026-01-26T17:03:48Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94752c8d-46b5-4d3b-b03e-5faf45df27b0: fp with grype[reference]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-29T21:30:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-29T21:30:31Z",
+      "lastUpdated": "2025-05-29T21:30:31Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8e47edf-6771-4531-ab16-c9ad7a7ddb98: fp with grype[reference]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-29T21:31:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-29T21:31:57Z",
+      "lastUpdated": "2025-05-29T21:31:57Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30c5639c-ca8f-4969-af15-49c42d1ed4bb: fp with grype[reference]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-29T21:32:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-29T21:32:03Z",
+      "lastUpdated": "2025-05-29T21:32:03Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9b2e623-def6-4be9-87c1-5235abd6b3f1: fp with grype[reference]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-29T21:32:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-29T21:32:05Z",
+      "lastUpdated": "2025-05-29T21:32:05Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "GHSA-5pf6-63v3-88hw",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9e0b5ee-f740-4771-a02c-d1937c092a8e: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:50:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:50:57Z",
+      "lastUpdated": "2026-01-26T16:50:57Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "GHSA-qg56-4cfq-w9w3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54325f8e-2023-4c5a-95ea-139e1cfbe446: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:02Z",
+      "lastUpdated": "2026-01-26T16:54:02Z"
+    },
+    {
+      "package": "pkg:apk/minimos/glibc@2.41-r0",
+      "vulnerability": "GHSA-xp56-6525-9chf",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cf2c9c9-e887-4e97-b74d-7831edf0477c: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:03:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:03:44Z",
+      "lastUpdated": "2026-01-26T17:03:44Z"
+    },
+    {
+      "package": "pkg:apk/minimos/haproxy-3.1-oci-entrypoint@3.1.6-r0",
+      "vulnerability": "GHSA-frg5-h47x-75j9",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 00983597-1ea2-48d6-9646-bc5fc927d17d: tp with grype[custom-db]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-28T15:49:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-28T15:49:59Z",
+      "lastUpdated": "2025-05-28T15:49:59Z"
+    },
+    {
+      "package": "pkg:apk/minimos/haproxy-3.1@3.1.6-r0",
+      "vulnerability": "GHSA-frg5-h47x-75j9",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b57aef3-1eb9-4acd-a17a-9235d43af79c: tp with grype[custom-db]@59c66b7",
+          "author": "willmurphy",
+          "at": "2025-05-28T15:49:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "59c66b7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-28T15:49:59Z",
+      "lastUpdated": "2025-05-28T15:49:59Z"
+    },
+    {
+      "package": "pkg:apk/minimos/ld-linux@2.41-r0",
+      "vulnerability": "GHSA-5pf6-63v3-88hw",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5558812c-cd5c-481d-97a5-cb7da5ab4cbf: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:51:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:51:12Z",
+      "lastUpdated": "2026-01-26T16:51:12Z"
+    },
+    {
+      "package": "pkg:apk/minimos/ld-linux@2.41-r0",
+      "vulnerability": "GHSA-qg56-4cfq-w9w3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9b05814-0e53-4ffe-a00e-77d89875d343: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:16Z",
+      "lastUpdated": "2026-01-26T16:54:16Z"
+    },
+    {
+      "package": "pkg:apk/minimos/ld-linux@2.41-r0",
+      "vulnerability": "GHSA-xp56-6525-9chf",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 16e4f9e7-8c78-4ab6-8413-f1c9ad990563: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:03:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:03:52Z",
+      "lastUpdated": "2026-01-26T17:03:52Z"
+    },
+    {
+      "package": "pkg:apk/minimos/libcrypto3@3.5.0-r0",
+      "vulnerability": "GHSA-v8qh-5c5w-48pp",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 33a0beb8-40e5-4f47-92a0-d5f0e9cd608b: tp with grype[custom-db]@v0.97.0-0-g3c264fae",
+          "author": "wagoodman",
+          "at": "2025-08-01T15:21:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.97.0-0-g3c264fae"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-08-01T15:21:31Z",
+      "lastUpdated": "2025-08-01T15:21:31Z"
+    },
+    {
+      "package": "pkg:apk/minimos/libssl3@3.5.0-r0",
+      "vulnerability": "GHSA-v8qh-5c5w-48pp",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ba04be1-3659-4e4d-966b-bdb2f50c8976: tp with grype[custom-db]@v0.97.0-0-g3c264fae",
+          "author": "wagoodman",
+          "at": "2025-08-01T15:21:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.97.0-0-g3c264fae"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-08-01T15:21:32Z",
+      "lastUpdated": "2025-08-01T15:21:32Z"
+    },
+    {
+      "package": "pkg:apk/minimos/posix-libc-utils@2.41-r0",
+      "vulnerability": "GHSA-5pf6-63v3-88hw",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 250e9762-78a0-4095-8d4f-2cf6709a9029: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:51:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:51:31Z",
+      "lastUpdated": "2026-01-26T16:51:31Z"
+    },
+    {
+      "package": "pkg:apk/minimos/posix-libc-utils@2.41-r0",
+      "vulnerability": "GHSA-qg56-4cfq-w9w3",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e2f7470-a4e2-4b19-82d1-89b95097a9c7: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T16:54:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T16:54:32Z",
+      "lastUpdated": "2026-01-26T16:54:32Z"
+    },
+    {
+      "package": "pkg:apk/minimos/posix-libc-utils@2.41-r0",
+      "vulnerability": "GHSA-xp56-6525-9chf",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ac3f82c7-4153-43ee-9a55-9985ad5cf264: tp",
+          "author": "williammurphy",
+          "at": "2026-01-26T17:03:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-26T17:03:58Z",
+      "lastUpdated": "2026-01-26T17:03:58Z"
+    }
+  ]
+}

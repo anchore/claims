@@ -1,0 +1,36 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/vulnerabilities-no-distro@sha256:347fba6fbfa15d4e11217f9d49bf70a5a6eef35c6c642dc8c5db89115912d0c1",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/aiohttp@3.7.3",
+      "vulnerability": "GHSA-v6wp-4m6f-gcjg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a4f4120-733a-473e-8f5f-7ff15c1c9b3b: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-01-27T13:32:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-27T13:32:33Z",
+      "lastUpdated": "2023-01-27T13:32:33Z"
+    }
+  ]
+}

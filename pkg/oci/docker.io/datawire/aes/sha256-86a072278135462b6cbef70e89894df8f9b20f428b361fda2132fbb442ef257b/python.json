@@ -1,0 +1,177 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/datawire/aes@sha256:86a072278135462b6cbef70e89894df8f9b20f428b361fda2132fbb442ef257b",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2015-7561",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9658440-c5d7-445c-92b4-9b2537894c01: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:08:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:08:57Z",
+      "lastUpdated": "2023-05-10T13:08:57Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2016-1905",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7257b86f-9255-4407-b0c0-e001feeb6cb1: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:08:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:08:58Z",
+      "lastUpdated": "2023-05-10T13:08:58Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2016-1906",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce5889fe-5aa8-4116-af2c-45fd255c8ecd: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:08:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:08:59Z",
+      "lastUpdated": "2023-05-10T13:08:59Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2016-7075",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd115b28-d8b6-4c24-bbef-37ec1213c87a: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:09:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:09:00Z",
+      "lastUpdated": "2023-05-10T13:09:00Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2020-8554",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6144573a-f3a5-40b3-ae2e-c6a8e853ed51: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:09:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:09:01Z",
+      "lastUpdated": "2023-05-10T13:09:01Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@21.7.0",
+      "vulnerability": "CVE-2021-25740",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8578848-88be-4d02-84dc-955bc2ffc996: fp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T13:09:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T13:09:04Z",
+      "lastUpdated": "2023-05-10T13:09:04Z"
+    }
+  ]
+}

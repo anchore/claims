@@ -1,0 +1,765 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/elastic/kibana@sha256:b9e3e52f61e0a347e38eabe80ba0859f859023bc0cc8836410320aa7eb5d3e02",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/ubuntu/coreutils@8.30-3ubuntu2",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9feb082d-511e-46dd-b95c-0560bcb70b45: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:05:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:05:49Z",
+      "lastUpdated": "2022-11-14T17:05:49Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libasn1-8-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0cb6793e-e099-4d89-aed7-69de62748bbd: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:18Z",
+      "lastUpdated": "2023-03-14T15:59:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.9",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f64dd5fa-75b4-4dcb-93ca-b44e321fe722: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:35Z",
+      "lastUpdated": "2022-11-14T17:06:35Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.9",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72ac31d3-6545-4597-98ee-8f14b4b089e5: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:36Z",
+      "lastUpdated": "2022-11-14T17:06:36Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgssapi-krb5-2@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-36222",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 441d2089-4e11-4448-9336-8dad6b4e2357: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:44Z",
+      "lastUpdated": "2022-11-14T17:06:44Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgssapi-krb5-2@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-37750",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da2619e1-8517-4d99-971c-4364c5560339: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:45Z",
+      "lastUpdated": "2022-11-14T17:06:45Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgssapi3-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 915ada54-c5f1-40ba-bb69-a27c00f3d1c5: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:20Z",
+      "lastUpdated": "2023-03-14T15:59:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libhcrypto4-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 61d4cd4f-6fcc-4e7d-a486-fdd6135cef8f: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:20Z",
+      "lastUpdated": "2023-03-14T15:59:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libheimbase1-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels db067fec-6cdb-4528-ba43-ada1b1943f94: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:21Z",
+      "lastUpdated": "2023-03-14T15:59:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libheimntlm0-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fc3b2217-9e2c-449b-b34d-1abe463609aa: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:21Z",
+      "lastUpdated": "2023-03-14T15:59:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libhx509-5-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7b6c7dfa-67e7-4d77-a97d-4435c78fdfe5: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:22Z",
+      "lastUpdated": "2023-03-14T15:59:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libk5crypto3@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-36222",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c821cd1a-a4fa-4a24-80aa-84bfd065159d: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:46Z",
+      "lastUpdated": "2022-11-14T17:06:46Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libk5crypto3@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-37750",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 732be382-1862-4a9c-b581-9168843372fc: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:47Z",
+      "lastUpdated": "2022-11-14T17:06:47Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libkrb5-26-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 47f83ab1-9a47-46b9-9d6a-f52692fa4dbd: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:29Z",
+      "lastUpdated": "2023-03-14T15:59:29Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libkrb5-3@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-36222",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3d7ee2a-f89e-48ef-bcc7-91a2811f3a0a: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:47Z",
+      "lastUpdated": "2022-11-14T17:06:47Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libkrb5-3@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-37750",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c066c364-2326-4f9d-8ba9-2141601fa6eb: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:48Z",
+      "lastUpdated": "2022-11-14T17:06:48Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libkrb5support0@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-36222",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2293cb44-5f27-4395-aa2a-afef529a9603: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:49Z",
+      "lastUpdated": "2022-11-14T17:06:49Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libkrb5support0@1.17-6ubuntu4.1",
+      "vulnerability": "CVE-2021-37750",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6c71efa-92af-42e9-8fca-036e0fa26b07: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:50Z",
+      "lastUpdated": "2022-11-14T17:06:50Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 163e32a0-ea83-4f60-9415-40b70d0baeb4: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:51Z",
+      "lastUpdated": "2022-11-14T17:06:51Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 657a0127-a4f6-4119-bfda-d0cfa38b4f94: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:51Z",
+      "lastUpdated": "2022-11-14T17:06:51Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-12ubuntu0.1",
+      "vulnerability": "CVE-2017-11164",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6896df75-cb32-43c5-8380-b0385959680e: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:52Z",
+      "lastUpdated": "2022-11-14T17:06:52Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libroken18-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4286d4f8-8503-40b0-bcb8-a72536561a6a: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:34Z",
+      "lastUpdated": "2023-03-14T15:59:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af88a95a-6dbd-4aa8-bbc4-69c35e7622ed: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:53Z",
+      "lastUpdated": "2022-11-14T17:06:53Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libwind0-heimdal@7.7.0%2Bdfsg-1ubuntu1.1",
+      "vulnerability": "CVE-2021-44758",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ba0eb73-7bdf-415c-84b0-77bfd8101f99: tp with grype@v0.56.0-7-ge3cda98",
+          "author": "westonsteimel",
+          "at": "2023-03-14T15:59:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-7-ge3cda98"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-14T15:59:34Z",
+      "lastUpdated": "2023-03-14T15:59:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.2",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 55bfbc90-dbc0-4faa-a4f2-b274a7145c3a: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:54Z",
+      "lastUpdated": "2022-11-14T17:06:54Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bdda969f-6567-40b9-8168-d2cca4c09adb: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:06:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:06:59Z",
+      "lastUpdated": "2022-11-14T17:06:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fbda964b-41cc-4aff-bccd-4d39709b2242: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:07:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:07:00Z",
+      "lastUpdated": "2022-11-14T17:07:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/passwd@1:4.8.1-1ubuntu5.20.04.2",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3fdc4ca-8374-44e6-a43e-41abf10ba043: tp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T17:07:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T17:07:53Z",
+      "lastUpdated": "2022-11-14T17:07:53Z"
+    }
+  ]
+}

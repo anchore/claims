@@ -1,0 +1,3238 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/debian@sha256:81e88820a7759038ffa61cff59dfcc12d3772c3a2e75b7cfe963c952da2ad264",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/debian/apt@0.9.7.9%2Bdeb7u7",
+      "vulnerability": "CVE-2011-3374",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8cccfcef-5377-4cdc-8d2c-ce25d76f1788: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:11Z",
+      "lastUpdated": "2022-09-15T23:00:11Z"
+    },
+    {
+      "package": "pkg:deb/debian/bash@4.2%2Bdfsg-0.1%2Bdeb7u4",
+      "vulnerability": "CVE-2016-0634",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 68540d74-717f-4cf6-adab-8d28197bc83c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:12Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:12Z",
+      "lastUpdated": "2022-09-15T23:00:12Z"
+    },
+    {
+      "package": "pkg:deb/debian/bash@4.2%2Bdfsg-0.1%2Bdeb7u4",
+      "vulnerability": "CVE-2016-9401",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75e70ea0-d082-4c69-a8fc-dfaa9cb5911a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:14Z",
+      "lastUpdated": "2022-09-15T23:00:14Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0d893ef-62e5-4bf6-a48b-2ef3236037e6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:16Z",
+      "lastUpdated": "2022-09-15T23:00:16Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ffb2c1f1-3456-4fd0-acad-864ba155378b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:23Z",
+      "lastUpdated": "2022-09-15T23:00:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9f691ed-97e5-443a-afdf-e5fa94afe13a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:31Z",
+      "lastUpdated": "2022-09-15T23:00:31Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d2c64391-74ef-492e-806e-605da4299f42: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:32Z",
+      "lastUpdated": "2022-09-15T23:00:32Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4045443d-de15-4bfd-a7bd-3925426e1f71: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:34Z",
+      "lastUpdated": "2022-09-15T23:00:34Z"
+    },
+    {
+      "package": "pkg:deb/debian/bsdutils@1:2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e111369-a642-4db2-bae5-9f7b4b079381: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:40Z",
+      "lastUpdated": "2022-09-15T23:00:40Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.13-3.5",
+      "vulnerability": "CVE-2014-9471",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d50baef6-9608-404a-84ad-0cbe24f740f2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:43Z",
+      "lastUpdated": "2022-09-15T23:00:43Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.13-3.5",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4d35a3ea-5014-4fc1-b619-482dc964cd5c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:52Z",
+      "lastUpdated": "2022-09-15T23:00:52Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.13-3.5",
+      "vulnerability": "CVE-2017-18018",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26fd0d85-4c26-4559-bb6f-c61718d9d475: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:00:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:00:59Z",
+      "lastUpdated": "2022-09-15T23:00:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/coreutils@8.13-3.5",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90dee6f1-cb31-4b9d-91a5-3e012e876081: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:01Z",
+      "lastUpdated": "2022-09-15T23:01:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/dpkg@1.16.18",
+      "vulnerability": "CVE-2017-8283",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21ab3a3d-8999-4165-90f5-8e2ff4b58ea3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:05Z",
+      "lastUpdated": "2022-09-15T23:01:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/gcc-4.7-base@4.7.2-5",
+      "vulnerability": "CVE-2002-2439",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3be12537-bf54-4edf-ad55-f4e7561f5b43: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:07Z",
+      "lastUpdated": "2022-09-15T23:01:07Z"
+    },
+    {
+      "package": "pkg:deb/debian/gcc-4.7-base@4.7.2-5",
+      "vulnerability": "CVE-2014-5044",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 049676bd-6c79-4e00-99cb-56a736dea906: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:08Z",
+      "lastUpdated": "2022-09-15T23:01:08Z"
+    },
+    {
+      "package": "pkg:deb/debian/gcc-4.7-base@4.7.2-5",
+      "vulnerability": "CVE-2017-11671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8518058b-a663-47fd-9edb-a8132efad98e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:09Z",
+      "lastUpdated": "2022-09-15T23:01:09Z"
+    },
+    {
+      "package": "pkg:deb/debian/gnupg@1.4.12-7%2Bdeb7u9",
+      "vulnerability": "CVE-2015-1607",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1829ca4-58ff-4885-9e89-061480172c42: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:10Z",
+      "lastUpdated": "2022-09-15T23:01:10Z"
+    },
+    {
+      "package": "pkg:deb/debian/gnupg@1.4.12-7%2Bdeb7u9",
+      "vulnerability": "CVE-2018-6829",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed81fdec-a5c5-4f2d-9ecf-631ca17d2d96: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:01:12Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:01:12Z",
+      "lastUpdated": "2022-09-15T23:01:12Z"
+    },
+    {
+      "package": "pkg:deb/debian/gpgv@1.4.12-7%2Bdeb7u9",
+      "vulnerability": "CVE-2015-1607",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b166846b-df74-4d92-8ea3-06d19f26b028: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:18Z",
+      "lastUpdated": "2022-09-15T23:25:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/gpgv@1.4.12-7%2Bdeb7u9",
+      "vulnerability": "CVE-2018-6829",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be09945c-bd60-4fa1-bbba-365d968e9f57: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:20Z",
+      "lastUpdated": "2022-09-15T23:25:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libapt-pkg4.12@0.9.7.9%2Bdeb7u7",
+      "vulnerability": "CVE-2011-3374",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce44ac7e-c854-47a6-aea4-5b8c7cf2c88f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:23Z",
+      "lastUpdated": "2022-09-15T23:25:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a77225e2-5986-4399-aa64-77f6c0b48fec: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:31Z",
+      "lastUpdated": "2022-09-15T23:25:31Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8340828-da41-4ee5-a956-91ee2a3443cd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:32Z",
+      "lastUpdated": "2022-09-15T23:25:32Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5fdc60ae-990b-47f6-8e81-f2c46b1f2b90: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:32Z",
+      "lastUpdated": "2022-09-15T23:25:32Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37629fac-e0cb-460e-8e22-1a15d202dda2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:33Z",
+      "lastUpdated": "2022-09-15T23:25:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 251dc82e-9408-4a9d-b349-6d5b54b9ba56: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:33Z",
+      "lastUpdated": "2022-09-15T23:25:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/libblkid1@2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ec68a6d-9ae9-4a5f-9bb5-3508f259cd90: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:33Z",
+      "lastUpdated": "2022-09-15T23:25:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/libbz2-1.0@1.0.6-4",
+      "vulnerability": "CVE-2016-3189",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels edb44ab3-a71d-4fe5-a835-9db11d56288e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:36Z",
+      "lastUpdated": "2022-09-15T23:25:36Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-3192",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 905170ba-8154-4617-a71e-ca2a2cce4493: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:47Z",
+      "lastUpdated": "2022-09-15T23:25:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4051",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cffe6ac5-48f5-4bbf-bb32-d6370de5fd66: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:48Z",
+      "lastUpdated": "2022-09-15T23:25:48Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4052",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fb722562-3a81-4a2f-b147-d2754abff340: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:49Z",
+      "lastUpdated": "2022-09-15T23:25:49Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2a20cbd0-00a3-4dbe-ab62-78859a158ebb: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:50Z",
+      "lastUpdated": "2022-09-15T23:25:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2013-2207",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e683b738-6ded-490f-8410-be331eedeef2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:50Z",
+      "lastUpdated": "2022-09-15T23:25:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2014-9761",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 00b1462f-b6de-48b2-a0ef-066731a4452a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:50Z",
+      "lastUpdated": "2022-09-15T23:25:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7647ed2-b410-40ca-ba4e-8750cbe4227f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:50Z",
+      "lastUpdated": "2022-09-15T23:25:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 416bdab8-eb8b-4074-b212-d87e650044cc: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:50Z",
+      "lastUpdated": "2022-09-15T23:25:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-2856",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 582f23c0-f434-4b23-a48d-2ca74d488071: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:51Z",
+      "lastUpdated": "2022-09-15T23:25:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-4429",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 02bda926-673f-4551-9b0c-3c7d48320e9b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:51Z",
+      "lastUpdated": "2022-09-15T23:25:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000408",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 142e5608-58e1-43e8-8eec-59b7d35f8a02: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:51Z",
+      "lastUpdated": "2022-09-15T23:25:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000409",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bfc82e9c-11fd-49bd-b191-e65b03d3dc83: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:51Z",
+      "lastUpdated": "2022-09-15T23:25:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12132",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30ff69eb-76e2-4b67-bffb-8ecbd1f47b0c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:51Z",
+      "lastUpdated": "2022-09-15T23:25:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12133",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8ebe1af8-8ad5-48ff-8e7e-4cd0d63e8c69: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:25:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:25:52Z",
+      "lastUpdated": "2022-09-15T23:25:52Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15670",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0cd00077-2088-482d-b9ee-f8c41a7bb194: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:16Z",
+      "lastUpdated": "2022-09-15T23:26:16Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 99569f13-ac93-4f62-a947-264487d536d6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:17Z",
+      "lastUpdated": "2022-09-15T23:26:17Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 58b9c5f2-1ed8-4e2c-890f-e8d261aa42cd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:18Z",
+      "lastUpdated": "2022-09-15T23:26:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-16997",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85b3ef08-b7ba-4223-a5a3-03afc31104b9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:18Z",
+      "lastUpdated": "2022-09-15T23:26:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8487424-0072-4802-9915-5541d764be9e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:18Z",
+      "lastUpdated": "2022-09-15T23:26:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-1000001",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd8edd4a-e5b8-440a-8660-2f0d94445172: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:18Z",
+      "lastUpdated": "2022-09-15T23:26:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11236",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f4e14e7-b24f-4a6d-af8d-b3ef38c0f218: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:18Z",
+      "lastUpdated": "2022-09-15T23:26:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11237",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd35a54e-192f-4378-839e-4611a1ce5c50: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:19Z",
+      "lastUpdated": "2022-09-15T23:26:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc-bin@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-6485",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b044ad85-df02-434c-a29e-4cc4087b6338: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:19Z",
+      "lastUpdated": "2022-09-15T23:26:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-3192",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 870827f2-5837-479d-823a-22a1dbd544f4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:19Z",
+      "lastUpdated": "2022-09-15T23:26:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4051",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c59b0fc-8328-40df-9246-f9d94985d4c7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:20Z",
+      "lastUpdated": "2022-09-15T23:26:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4052",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6658337e-67a4-4d84-baab-bde2b0f74131: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:20Z",
+      "lastUpdated": "2022-09-15T23:26:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 91dc00e1-b2b4-4d57-b70c-174fb127867b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:20Z",
+      "lastUpdated": "2022-09-15T23:26:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2013-2207",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 665f996c-9809-4b61-848b-005aa1eed702: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:20Z",
+      "lastUpdated": "2022-09-15T23:26:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2014-9761",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb7d506a-b665-49c2-ac2f-d2b6aba5c0f1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:20Z",
+      "lastUpdated": "2022-09-15T23:26:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ebdfa104-1640-405a-a717-fef4603dc452: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:21Z",
+      "lastUpdated": "2022-09-15T23:26:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83b6ce70-2ebe-4d1e-bc91-d08e47214c0c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:21Z",
+      "lastUpdated": "2022-09-15T23:26:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-2856",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea46bf05-5d57-4004-b1d2-5f7d61d94c67: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:21Z",
+      "lastUpdated": "2022-09-15T23:26:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-4429",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f64dc39c-ccdf-4d33-9cba-0a6a045c75e1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:21Z",
+      "lastUpdated": "2022-09-15T23:26:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000408",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75588d94-07f1-4210-b326-dd35b25e7e09: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:21Z",
+      "lastUpdated": "2022-09-15T23:26:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000409",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d4adbea-6ed3-43ac-a9e5-bf84ebc52da8: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:22Z",
+      "lastUpdated": "2022-09-15T23:26:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12132",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab5edc2d-f61e-49d0-8320-ba72e392e607: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:22Z",
+      "lastUpdated": "2022-09-15T23:26:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12133",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d80464e1-76a4-4bac-bd14-373623a58af9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:22Z",
+      "lastUpdated": "2022-09-15T23:26:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15670",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8cead61f-44a2-4f18-bdb2-5098b3247871: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:22Z",
+      "lastUpdated": "2022-09-15T23:26:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2562303d-80d7-4fe8-835f-56544dbcc151: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:22Z",
+      "lastUpdated": "2022-09-15T23:26:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a245cce1-09f7-4c60-aa39-2e94c29c62c5: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:23Z",
+      "lastUpdated": "2022-09-15T23:26:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-16997",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1efd42eb-aa18-4f5d-90ac-719bcf48938a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:29Z",
+      "lastUpdated": "2022-09-15T23:26:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d26c073-9fb7-4baa-98ff-e4a61a8c174b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:29Z",
+      "lastUpdated": "2022-09-15T23:26:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-1000001",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9edf6220-2d4c-4356-80a3-2336cc0f3ae0: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:29Z",
+      "lastUpdated": "2022-09-15T23:26:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11236",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e24ca66-1fec-4c38-ba73-0c1318b312b8: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:30Z",
+      "lastUpdated": "2022-09-15T23:26:30Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11237",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eebb484a-e52c-4356-9427-aead96b7bff6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:30Z",
+      "lastUpdated": "2022-09-15T23:26:30Z"
+    },
+    {
+      "package": "pkg:deb/debian/libc6@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-6485",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f81c67e-ab48-46a0-a786-f03b3bb48546: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:30Z",
+      "lastUpdated": "2022-09-15T23:26:30Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgcc1@1:4.7.2-5",
+      "vulnerability": "CVE-2002-2439",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9517a01-8891-4ca3-9dcf-f0c903f55d63: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:33Z",
+      "lastUpdated": "2022-09-15T23:26:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgcc1@1:4.7.2-5",
+      "vulnerability": "CVE-2014-5044",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dad4427e-745b-4878-ac26-d0e35ff77b3a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:34Z",
+      "lastUpdated": "2022-09-15T23:26:34Z"
+    },
+    {
+      "package": "pkg:deb/debian/libgcc1@1:4.7.2-5",
+      "vulnerability": "CVE-2017-11671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1fe316eb-2ef6-466b-9af9-73bdc9d48e92: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:34Z",
+      "lastUpdated": "2022-09-15T23:26:34Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 51cec605-1903-47e7-8efc-f4e95a5c94e1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:39Z",
+      "lastUpdated": "2022-09-15T23:26:39Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b405235f-87cb-4abe-a3e7-8dc7c5eab70c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:40Z",
+      "lastUpdated": "2022-09-15T23:26:40Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3537ef79-6efc-483b-b687-c4d13b31a708: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:41Z",
+      "lastUpdated": "2022-09-15T23:26:41Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels abcb7984-1062-4c39-9843-175edb945c9f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:41Z",
+      "lastUpdated": "2022-09-15T23:26:41Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6927ecb5-3464-4337-b5fb-4532d2840163: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:41Z",
+      "lastUpdated": "2022-09-15T23:26:41Z"
+    },
+    {
+      "package": "pkg:deb/debian/libmount1@2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6e201a5b-2267-4443-a471-cccf37e34782: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:42Z",
+      "lastUpdated": "2022-09-15T23:26:42Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3bd45c97-6962-464c-9184-71da3c9fdd93: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:46Z",
+      "lastUpdated": "2022-09-15T23:26:46Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 595b6909-cb0d-448d-be9c-2a5489bdfe2a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:46Z",
+      "lastUpdated": "2022-09-15T23:26:46Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5872955c-75da-4bcc-b9fa-a91d058d94c6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:46Z",
+      "lastUpdated": "2022-09-15T23:26:46Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c32361a6-b7ef-4c16-8837-a6fbabd077ad: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:47Z",
+      "lastUpdated": "2022-09-15T23:26:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13728",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 980e8b7a-6b07-4c0c-aebe-d7d9a5891ed7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:47Z",
+      "lastUpdated": "2022-09-15T23:26:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13729",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 22613567-16c2-4dce-8635-08d3188467d1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:47Z",
+      "lastUpdated": "2022-09-15T23:26:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13730",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6171169c-a924-4339-992a-b1ff44a62307: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:47Z",
+      "lastUpdated": "2022-09-15T23:26:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13731",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 09f0c426-65ce-408a-8126-7ca4a1d17bc5: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:47Z",
+      "lastUpdated": "2022-09-15T23:26:47Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9cc02d84-6270-4f5d-89da-74b94060fb9f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:48Z",
+      "lastUpdated": "2022-09-15T23:26:48Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13733",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e156f52-bd95-4402-ae29-91c2442cff08: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:48Z",
+      "lastUpdated": "2022-09-15T23:26:48Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-13734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0326314b-1d15-48e0-95b4-3f250f3d0299: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:48Z",
+      "lastUpdated": "2022-09-15T23:26:48Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2017-16879",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b21975a-753c-46f7-aa55-a2152ad3629c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:48Z",
+      "lastUpdated": "2022-09-15T23:26:48Z"
+    },
+    {
+      "package": "pkg:deb/debian/libncurses5@5.9-10",
+      "vulnerability": "CVE-2018-10754",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 56b015b1-d86a-4a99-9d32-c57077595b21: fp. should not match against rejected CVEs",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:30:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:30:30Z",
+      "lastUpdated": "2022-09-15T23:30:30Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules-bin@1.1.3-7.1",
+      "vulnerability": "CVE-2013-7041",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37fbc155-645c-49d1-b9c3-bd84e7617aba: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:54Z",
+      "lastUpdated": "2022-09-15T23:26:54Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules-bin@1.1.3-7.1",
+      "vulnerability": "CVE-2014-2583",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 456ae5ba-239c-476d-8cde-fbe1481d48cd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:55Z",
+      "lastUpdated": "2022-09-15T23:26:55Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules-bin@1.1.3-7.1",
+      "vulnerability": "CVE-2015-3238",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 63ab6c2c-64a2-46ed-94cf-256a24895a7a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:55Z",
+      "lastUpdated": "2022-09-15T23:26:55Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules@1.1.3-7.1",
+      "vulnerability": "CVE-2013-7041",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 79db2606-92eb-4f55-845e-cfa402757d8f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:53Z",
+      "lastUpdated": "2022-09-15T23:26:53Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules@1.1.3-7.1",
+      "vulnerability": "CVE-2014-2583",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a37f45ca-8bc2-42a3-af9e-c6c9b059ea38: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:54Z",
+      "lastUpdated": "2022-09-15T23:26:54Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-modules@1.1.3-7.1",
+      "vulnerability": "CVE-2015-3238",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bfa1a3a2-1cba-4b76-a7e5-4609cdac817c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:54Z",
+      "lastUpdated": "2022-09-15T23:26:54Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-runtime@1.1.3-7.1",
+      "vulnerability": "CVE-2013-7041",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1d7704ac-c004-49e3-b59f-7d26194105c4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:56Z",
+      "lastUpdated": "2022-09-15T23:26:56Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-runtime@1.1.3-7.1",
+      "vulnerability": "CVE-2014-2583",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ee003cd-94a8-4a42-a713-0859324d2bd9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:56Z",
+      "lastUpdated": "2022-09-15T23:26:56Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam-runtime@1.1.3-7.1",
+      "vulnerability": "CVE-2015-3238",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1af4b42f-750c-4568-b9ce-d80857c8f037: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:57Z",
+      "lastUpdated": "2022-09-15T23:26:57Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam0g@1.1.3-7.1",
+      "vulnerability": "CVE-2013-7041",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ee2eb96-553b-49ae-8a4e-4b71dbaecfc2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:57Z",
+      "lastUpdated": "2022-09-15T23:26:57Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam0g@1.1.3-7.1",
+      "vulnerability": "CVE-2014-2583",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0875a96-dabc-4d69-85bf-8905b205fb5d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:58Z",
+      "lastUpdated": "2022-09-15T23:26:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/libpam0g@1.1.3-7.1",
+      "vulnerability": "CVE-2015-3238",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 96143548-b093-427e-9095-2230572f148b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:58Z",
+      "lastUpdated": "2022-09-15T23:26:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/libreadline6@6.2%2Bdfsg-0.1",
+      "vulnerability": "CVE-2014-2524",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be8ad41e-0008-43cb-b33f-a4ee550a76f2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:26:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:26:58Z",
+      "lastUpdated": "2022-09-15T23:26:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/libssl1.0.0@1.0.1t-1%2Bdeb7u4",
+      "vulnerability": "CVE-2007-6755",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 43f42894-c416-4e58-a742-0d85b2414851: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:01Z",
+      "lastUpdated": "2022-09-15T23:27:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/libssl1.0.0@1.0.1t-1%2Bdeb7u4",
+      "vulnerability": "CVE-2010-0928",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4149c6ae-a557-432a-8c61-b2d94d4e87b4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:01Z",
+      "lastUpdated": "2022-09-15T23:27:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/libssl1.0.0@1.0.1t-1%2Bdeb7u4",
+      "vulnerability": "CVE-2018-0737",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8d42dbfb-cd20-4488-86a3-be96f2c75cd2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:01Z",
+      "lastUpdated": "2022-09-15T23:27:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/libstdc%2B%2B6@4.7.2-5",
+      "vulnerability": "CVE-2002-2439",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45672621-cf29-4fe3-9d50-811e044fe098: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:02Z",
+      "lastUpdated": "2022-09-15T23:27:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/libstdc%2B%2B6@4.7.2-5",
+      "vulnerability": "CVE-2014-5044",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f1fcaed6-136f-477f-add2-c06748ca081f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:02Z",
+      "lastUpdated": "2022-09-15T23:27:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/libstdc%2B%2B6@4.7.2-5",
+      "vulnerability": "CVE-2017-11671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 96893482-9798-4cfe-8bf4-2656bd827404: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:02Z",
+      "lastUpdated": "2022-09-15T23:27:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7bc1c726-9284-4674-b0a0-1ae9b6784582: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:03Z",
+      "lastUpdated": "2022-09-15T23:27:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8fa630a2-b3f5-4ffa-b0f8-75e4d9c8068b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:03Z",
+      "lastUpdated": "2022-09-15T23:27:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 069842c3-f465-4d18-ad20-7d2635743e19: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:13Z",
+      "lastUpdated": "2022-09-15T23:27:13Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04db278b-f127-4999-a541-3102c092af03: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:14Z",
+      "lastUpdated": "2022-09-15T23:27:14Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13728",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 604c4000-a095-47cf-aaac-f0cde2cc0d43: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:14Z",
+      "lastUpdated": "2022-09-15T23:27:14Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13729",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af08cbb5-5488-4942-9824-be8b4c38457d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:19Z",
+      "lastUpdated": "2022-09-15T23:27:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13730",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd346f17-0cc9-4cf9-85fb-818b302c7f76: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:20Z",
+      "lastUpdated": "2022-09-15T23:27:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13731",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbf78cc8-1d8b-4e3b-9a47-6949b3101d6a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:20Z",
+      "lastUpdated": "2022-09-15T23:27:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c19cd3c3-554c-4553-b4ce-6524f6ca2eb4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:20Z",
+      "lastUpdated": "2022-09-15T23:27:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13733",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c74e07b-a5b8-4f44-9af5-8b1094126e53: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:21Z",
+      "lastUpdated": "2022-09-15T23:27:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-13734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06dce904-4d4f-49d0-b94e-9c9582c36cfd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:21Z",
+      "lastUpdated": "2022-09-15T23:27:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2017-16879",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 96e4de05-1ad1-4176-8b14-38a49d109a58: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:21Z",
+      "lastUpdated": "2022-09-15T23:27:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/libtinfo5@5.9-10",
+      "vulnerability": "CVE-2018-10754",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0733239b-c04f-4818-8902-2f4a0017e975: fp. we should not be matching against rejected CVEs",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:35Z",
+      "lastUpdated": "2022-09-15T23:27:35Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e457f2c3-ce2a-474a-aaf5-e70eb481796a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:22Z",
+      "lastUpdated": "2022-09-15T23:27:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e04cc1d-7994-4f2b-9c74-a0a0f6fbe561: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:22Z",
+      "lastUpdated": "2022-09-15T23:27:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b73467ff-830f-4fff-914e-9df2b9fb4700: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:22Z",
+      "lastUpdated": "2022-09-15T23:27:22Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb4e46f6-3ed5-4c21-b495-703c7072617f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:57Z",
+      "lastUpdated": "2022-09-15T23:27:57Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7838c39b-9ee1-4b48-9103-3f40b96b3fc1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:58Z",
+      "lastUpdated": "2022-09-15T23:27:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/libuuid1@2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b37f6321-a37c-4fcf-b4d4-7559fc7d41bd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:59Z",
+      "lastUpdated": "2022-09-15T23:27:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2007-5686",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 813fd64a-d56a-473a-96b5-efe83d9ee952: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:27:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:27:59Z",
+      "lastUpdated": "2022-09-15T23:27:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6f256dfb-e4d6-4d54-8ede-e7a7699079a6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:07Z",
+      "lastUpdated": "2022-09-15T23:28:07Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2017-12424",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 858ae2e2-41b5-4371-a8ca-a55ab5a04fff: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:21Z",
+      "lastUpdated": "2022-09-15T23:28:21Z"
+    },
+    {
+      "package": "pkg:deb/debian/login@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2018-7169",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f18d7e84-96e4-49e0-b988-a12eaca54871: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:20Z",
+      "lastUpdated": "2022-09-15T23:28:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7ad7134c-cb1b-467b-805a-796bc05b0bbd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:23Z",
+      "lastUpdated": "2022-09-15T23:28:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f230ec0-3f91-40be-a74b-8198ab5c8279: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:23Z",
+      "lastUpdated": "2022-09-15T23:28:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb53316d-9f7c-4609-ad72-266c596ae510: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:23Z",
+      "lastUpdated": "2022-09-15T23:28:23Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c869600-e54a-47df-b425-5339d4c58812: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:24Z",
+      "lastUpdated": "2022-09-15T23:28:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41672577-e4c6-498c-b8f5-277c3c6eee18: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:24Z",
+      "lastUpdated": "2022-09-15T23:28:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/mount@2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52d97730-db07-4143-be9c-205a81d504f3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:24Z",
+      "lastUpdated": "2022-09-15T23:28:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-3192",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0b376efc-5097-4605-969b-e71c924c089f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:26Z",
+      "lastUpdated": "2022-09-15T23:28:26Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4051",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bbf66623-6414-4143-b34d-87cc868181b1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:26Z",
+      "lastUpdated": "2022-09-15T23:28:26Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4052",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4c7a6aa8-baaa-4f69-accb-217b8d2ff81c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:26Z",
+      "lastUpdated": "2022-09-15T23:28:26Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 686523e0-9c1b-4211-9b2b-b08fd2075b27: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:26Z",
+      "lastUpdated": "2022-09-15T23:28:26Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2013-2207",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8e8a74a-5969-4449-aa82-1dcfeef1b693: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:27Z",
+      "lastUpdated": "2022-09-15T23:28:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2014-9761",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 79f7f8be-5d3c-4760-8ff1-aa50fe3e9b00: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:27Z",
+      "lastUpdated": "2022-09-15T23:28:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1768a152-38a5-4a29-8b55-20e6e72f91b9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:27Z",
+      "lastUpdated": "2022-09-15T23:28:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5abaa72-13e5-4fd2-8c23-74b7aa0ddefb: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:27Z",
+      "lastUpdated": "2022-09-15T23:28:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-2856",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a72f9882-073c-49ce-9ecb-f980f603bf2a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:27Z",
+      "lastUpdated": "2022-09-15T23:28:27Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2016-4429",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f2bf7e11-e6e0-48e3-88d4-3aa71dba13db: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:28Z",
+      "lastUpdated": "2022-09-15T23:28:28Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000408",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 197babab-80c7-49c1-95c3-cff5ee3d5198: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:28Z",
+      "lastUpdated": "2022-09-15T23:28:28Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-1000409",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a8e8e79-0d4c-47ac-8306-abb0cfc7d91e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:28Z",
+      "lastUpdated": "2022-09-15T23:28:28Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12132",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 271e6601-7895-4ed5-a131-33522170f788: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:33Z",
+      "lastUpdated": "2022-09-15T23:28:33Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-12133",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95d359e4-07db-42a3-9897-a9933945aa6d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:49Z",
+      "lastUpdated": "2022-09-15T23:28:49Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15670",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 417a8196-afa4-41ec-87d9-0b867d955110: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:49Z",
+      "lastUpdated": "2022-09-15T23:28:49Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15671",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05176c38-f16d-4241-a55f-8a29e71cb31f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:50Z",
+      "lastUpdated": "2022-09-15T23:28:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-15804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad1c0a5c-bd5a-4ee1-8e43-456ba2f407ca: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:50Z",
+      "lastUpdated": "2022-09-15T23:28:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-16997",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels be624f89-fc44-4b1e-be2a-ac0627c390cf: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:50Z",
+      "lastUpdated": "2022-09-15T23:28:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c4d58848-179c-4c79-8969-4358ec1539dd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:50Z",
+      "lastUpdated": "2022-09-15T23:28:50Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-1000001",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83c850d0-2cad-4188-afff-9ac83d32e640: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:51Z",
+      "lastUpdated": "2022-09-15T23:28:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11236",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7a9acd6-fe2e-4575-8524-790f56a8618f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:51Z",
+      "lastUpdated": "2022-09-15T23:28:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-11237",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5885352-f422-431c-83c4-001761c9f46e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:51Z",
+      "lastUpdated": "2022-09-15T23:28:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/multiarch-support@2.13-38%2Bdeb7u12",
+      "vulnerability": "CVE-2018-6485",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 963d21b6-dded-4873-b408-a64306e8c9ba: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:51Z",
+      "lastUpdated": "2022-09-15T23:28:51Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd084215-a5e0-4892-a208-85237e1cca6a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:52Z",
+      "lastUpdated": "2022-09-15T23:28:52Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18b902a5-80ad-4f30-914f-f884c7e0aa44: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:56Z",
+      "lastUpdated": "2022-09-15T23:28:56Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9f75326e-1772-49d6-a5cf-37fe90559abe: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:58Z",
+      "lastUpdated": "2022-09-15T23:28:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7fac7df-4cab-4cf2-b9d0-386353406a5e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:58Z",
+      "lastUpdated": "2022-09-15T23:28:58Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13728",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbae8b94-b8f4-472c-81c9-98412942ec48: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:59Z",
+      "lastUpdated": "2022-09-15T23:28:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13729",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fdd95a3b-bbf9-4ce5-8753-73206a0d362d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:59Z",
+      "lastUpdated": "2022-09-15T23:28:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13730",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2cca296b-5a49-4798-a23b-1cfa270cf553: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:59Z",
+      "lastUpdated": "2022-09-15T23:28:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13731",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2242a03e-6dce-4000-b648-18906aae25a7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:59Z",
+      "lastUpdated": "2022-09-15T23:28:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 78d83ceb-94f5-42e5-96fe-ee357e5254c9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:28:59Z",
+      "lastUpdated": "2022-09-15T23:28:59Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13733",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e11802c9-c7a8-4f22-a2f4-c36df6120dd1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:00Z",
+      "lastUpdated": "2022-09-15T23:29:00Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-13734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 29786112-7240-461e-a0bd-1b187170f57d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:00Z",
+      "lastUpdated": "2022-09-15T23:29:00Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2017-16879",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1a389dde-ef4b-4724-aad9-aafeb69ae1de: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:00Z",
+      "lastUpdated": "2022-09-15T23:29:00Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-base@5.9-10",
+      "vulnerability": "CVE-2018-10754",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7011e2db-e2d9-4950-9cb2-4b072193d908: fp. we should not be matching against rejected CVEs",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:29Z",
+      "lastUpdated": "2022-09-15T23:29:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 72bf1df9-fe40-44db-bacf-285370f24caa: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:01Z",
+      "lastUpdated": "2022-09-15T23:29:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 162ed8ea-6756-469b-82fd-5c7afafb377b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:01Z",
+      "lastUpdated": "2022-09-15T23:29:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbb07677-3fcc-441f-8f29-c60e09bbc604: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:01Z",
+      "lastUpdated": "2022-09-15T23:29:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 81e2e493-b62c-46c8-a843-24d905864029: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:01Z",
+      "lastUpdated": "2022-09-15T23:29:01Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13728",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9ec2300f-538c-46d7-88ea-61bb5352455f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:02Z",
+      "lastUpdated": "2022-09-15T23:29:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13729",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d5440fe5-3d74-428f-b7a7-c93e03ce80c4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:02Z",
+      "lastUpdated": "2022-09-15T23:29:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13730",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c28c733c-6766-47b2-aa74-ea292a4524cd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:02Z",
+      "lastUpdated": "2022-09-15T23:29:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13731",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e05b87d7-d19f-4962-a609-2fb39c1a13c7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:02Z",
+      "lastUpdated": "2022-09-15T23:29:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13732",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1aad291-4076-4291-8a71-35d86a3ae81a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:02Z",
+      "lastUpdated": "2022-09-15T23:29:02Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13733",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e4140fd-c723-4671-a6f5-a61d0976d8d1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:03Z",
+      "lastUpdated": "2022-09-15T23:29:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-13734",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c6b1903-2b3b-4c6f-9877-c11a254d1231: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:03Z",
+      "lastUpdated": "2022-09-15T23:29:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2017-16879",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbfa7d0e-91e7-401e-8e1e-efddaa70c300: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:03Z",
+      "lastUpdated": "2022-09-15T23:29:03Z"
+    },
+    {
+      "package": "pkg:deb/debian/ncurses-bin@5.9-10",
+      "vulnerability": "CVE-2018-10754",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 79f2fce0-78be-4297-ac97-8d227660c186: fp. we should not be matching against rejected CVEs",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:11Z",
+      "lastUpdated": "2022-09-15T23:29:11Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2007-5686",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6ef9ec5c-b07b-4512-b82e-6b2f4fe1d84b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:04Z",
+      "lastUpdated": "2022-09-15T23:29:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f779bedf-e859-4ea8-b5dc-29be2a02ca08: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:04Z",
+      "lastUpdated": "2022-09-15T23:29:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2017-12424",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 855606c3-aaa9-40d0-899d-2d9e7be06716: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:04Z",
+      "lastUpdated": "2022-09-15T23:29:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/passwd@1:4.1.5.1-1%2Bdeb7u1",
+      "vulnerability": "CVE-2018-7169",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e846903b-871e-4fd0-93fe-a8f5972c4779: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:04Z",
+      "lastUpdated": "2022-09-15T23:29:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.14.2-21%2Bdeb7u6",
+      "vulnerability": "CVE-2010-4777",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b356eb86-c7d5-4cdf-bb10-a4a85bf2879c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:04Z",
+      "lastUpdated": "2022-09-15T23:29:04Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.14.2-21%2Bdeb7u6",
+      "vulnerability": "CVE-2011-4116",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 66a59b92-0fe1-41f6-842b-173d5458ae40: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:05Z",
+      "lastUpdated": "2022-09-15T23:29:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.14.2-21%2Bdeb7u6",
+      "vulnerability": "CVE-2013-7422",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6edd6bc-0eab-4ee7-aed4-a0047bcaf517: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:05Z",
+      "lastUpdated": "2022-09-15T23:29:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.14.2-21%2Bdeb7u6",
+      "vulnerability": "CVE-2015-8853",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e55a1c4-d249-4270-a9a8-11feb966202d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:05Z",
+      "lastUpdated": "2022-09-15T23:29:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/perl-base@5.14.2-21%2Bdeb7u6",
+      "vulnerability": "CVE-2018-6797",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 03e91bc2-1397-40ec-8c1b-108681e8537c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:05Z",
+      "lastUpdated": "2022-09-15T23:29:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/readline-common@6.2%2Bdfsg-0.1",
+      "vulnerability": "CVE-2014-2524",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels baded29e-32ee-428e-8cce-90920114d959: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:29:05Z",
+      "lastUpdated": "2022-09-15T23:29:05Z"
+    },
+    {
+      "package": "pkg:deb/debian/tar@1.26%2Bdfsg-0.1%2Bdeb7u1",
+      "vulnerability": "CVE-2005-2541",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8d5365a-3b2b-4424-8348-ff60d73cee30: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:17Z",
+      "lastUpdated": "2022-09-15T23:31:17Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2013-0157",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2194fdf4-9b51-492b-a79d-e4e0b723b892: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:18Z",
+      "lastUpdated": "2022-09-15T23:31:18Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2014-9114",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52d299ac-07a2-48f9-8631-71f147cf14e1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:19Z",
+      "lastUpdated": "2022-09-15T23:31:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5218",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bc254ff-064f-4a45-a4e1-321a55205efa: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:19Z",
+      "lastUpdated": "2022-09-15T23:31:19Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2015-5224",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 10d40108-258a-449b-a1e0-1c9abebcaeb4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:20Z",
+      "lastUpdated": "2022-09-15T23:31:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85bb85c2-ab59-415a-9e39-d822fdcce511: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:20Z",
+      "lastUpdated": "2022-09-15T23:31:20Z"
+    },
+    {
+      "package": "pkg:deb/debian/util-linux@2.20.1-5.3",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8ee0f2d-3139-4b41-a702-bfed1a66eb77: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:31:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:31:24Z",
+      "lastUpdated": "2022-09-15T23:31:24Z"
+    },
+    {
+      "package": "pkg:deb/debian/zlib1g@1:1.2.7.dfsg-13",
+      "vulnerability": "CVE-2016-9840",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd4d7185-8892-48f2-b48a-e46d03433b2b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:32:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:32:28Z",
+      "lastUpdated": "2022-09-15T23:32:28Z"
+    },
+    {
+      "package": "pkg:deb/debian/zlib1g@1:1.2.7.dfsg-13",
+      "vulnerability": "CVE-2016-9841",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4dd6e481-bd52-4a27-8dbf-262f20185e74: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:32:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:32:29Z",
+      "lastUpdated": "2022-09-15T23:32:29Z"
+    },
+    {
+      "package": "pkg:deb/debian/zlib1g@1:1.2.7.dfsg-13",
+      "vulnerability": "CVE-2016-9842",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54577969-cd4f-4495-b425-1377d616f1d1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:32:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:32:30Z",
+      "lastUpdated": "2022-09-15T23:32:30Z"
+    },
+    {
+      "package": "pkg:deb/debian/zlib1g@1:1.2.7.dfsg-13",
+      "vulnerability": "CVE-2016-9843",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d3dc8e0-f1de-4202-94d4-44142852c39c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:32:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:32:32Z",
+      "lastUpdated": "2022-09-15T23:32:32Z"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/appstreams-nodejs-base-rhel-9@sha256:fc6f7a37d7e320f6ff3643d4ec9a208adb1462cd16027f045b56563e12bb0461",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:npm/ip@2.0.0",
+      "vulnerability": "GHSA-2p57-rm9w-gvfp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93f9787f-da8c-45f7-a629-c7f9d23fea51: fp with grype@v0.109.1. ip is a descendent of the npm rpm package from RedHat, and they have marked it explicitly as not affected: https://access.redhat.com/security/cve/cve-2024-29415",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:11:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:11:19Z",
+      "lastUpdated": "2026-03-16T16:11:19Z"
+    },
+    {
+      "package": "pkg:npm/ip@2.0.0",
+      "vulnerability": "GHSA-78xj-cgh5-2h22",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46e7f03f-9c7d-4eac-a3a7-10942e85e487: fp with grype@v0.109.1. ip is a descendent of the npm rpm package from RedHat, and they have marked it explicitly as not affected: https://access.redhat.com/security/cve/cve-2023-42282",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:12:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:12:01Z",
+      "lastUpdated": "2026-03-16T16:12:01Z"
+    },
+    {
+      "package": "pkg:npm/semver@7.3.7",
+      "vulnerability": "GHSA-c2qf-rxjj-qqgw",
+      "verdict": "unclear",
+      "justification": "labelers-disagree",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b8a7c389-f308-4f22-bab9-33702c021a0e: tp with grype@path:../grype+import-db=../grype-db/build/vulnerability-db_v5_2024-01-24T01:27:57Z_c5143a3b1d6468bc7682.tar.gz",
+          "author": "westonsteimel",
+          "at": "2024-01-25T13:27:25Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 19c8619e-6644-47f8-bd66-abe6020c0b33: unclear with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:26:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-01-25T13:27:25Z",
+      "lastUpdated": "2026-03-16T16:26:17Z"
+    },
+    {
+      "package": "pkg:npm/tar@6.1.11",
+      "vulnerability": "GHSA-f5x3-32g6-xq36",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0ca52bce-a059-4259-aff8-665c8eec1cf7: unclear with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:26:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:26:34Z",
+      "lastUpdated": "2026-03-16T16:26:34Z"
+    }
+  ]
+}

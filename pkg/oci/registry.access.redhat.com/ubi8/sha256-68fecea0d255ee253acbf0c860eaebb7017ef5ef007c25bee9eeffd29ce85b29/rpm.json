@@ -1,0 +1,4531 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "registry.access.redhat.com/ubi8@sha256:68fecea0d255ee253acbf0c860eaebb7017ef5ef007c25bee9eeffd29ce85b29",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/redhat/bash@4.4.20-3.el8",
+      "vulnerability": "CVE-2022-3715",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 254936e3-3447-47a6-ace8-a15e9c5cff62: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:32:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:32:35Z",
+      "lastUpdated": "2022-11-01T22:32:35Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/bzip2-libs@1.0.6-26.el8",
+      "vulnerability": "CVE-2019-12900",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f50103f3-ca9f-47d3-9b6e-09f498984ba5: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:54Z",
+      "lastUpdated": "2022-09-15T23:41:54Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/curl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-32206",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6ff14dfa-6653-40df-b820-31d38562be35: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:32:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:32:40Z",
+      "lastUpdated": "2022-11-01T22:32:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/curl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-32208",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 843ba27a-728e-4070-a718-8bca73218ce3: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:32:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:32:43Z",
+      "lastUpdated": "2022-11-01T22:32:43Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/curl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-35252",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ef08f0c0-f980-4add-a9db-30b9a5254acd: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:32:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:32:59Z",
+      "lastUpdated": "2022-11-01T22:32:59Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-common@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5855d784-d783-4ed3-97ec-d8261d6c4a6e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:55Z",
+      "lastUpdated": "2022-09-15T23:41:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-common@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42010",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 57e791d1-cdef-4546-bb0b-882a1d815eba: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:04Z",
+      "lastUpdated": "2022-11-01T22:33:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-common@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42011",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25669687-3c38-47da-a21e-407ba8fd5219: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:04Z",
+      "lastUpdated": "2022-11-01T22:33:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-common@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42012",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5e036f6-3c67-4f9f-97c0-2617347f2f40: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:05Z",
+      "lastUpdated": "2022-11-01T22:33:05Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-daemon@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e53d5a9-d66d-4ae1-9ea8-8757aece4acd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:56Z",
+      "lastUpdated": "2022-09-15T23:41:56Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-daemon@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42010",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8b0ffac2-6d6d-4b6d-ba18-5665acd195f7: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:07Z",
+      "lastUpdated": "2022-11-01T22:33:07Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-daemon@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42011",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 96c18d48-c99e-4b3b-b4e2-3013a599c75d: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:07Z",
+      "lastUpdated": "2022-11-01T22:33:07Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-daemon@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42012",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2bc65dc4-1b23-46b4-bddb-f8d92093e9c3: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:08Z",
+      "lastUpdated": "2022-11-01T22:33:08Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-libs@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 498d564d-6fa6-48a8-b28c-41f4994f07ba: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:56Z",
+      "lastUpdated": "2022-09-15T23:41:56Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-libs@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42010",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 57966907-5ddc-415d-8fe8-a8ebe896cf4e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:10Z",
+      "lastUpdated": "2022-11-01T22:33:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-libs@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42011",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a99e84ae-04e6-4345-9d22-42eb14ca6994: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:10Z",
+      "lastUpdated": "2022-11-01T22:33:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-libs@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42012",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2160a07e-9119-4ae9-9baa-031a175067e6: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:11Z",
+      "lastUpdated": "2022-11-01T22:33:11Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-tools@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1f74768-9c7a-4aed-945b-c0629d3271c5: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:56Z",
+      "lastUpdated": "2022-09-15T23:41:56Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-tools@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42010",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 974230f7-7727-4c3d-9f4e-460b028b281d: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:14Z",
+      "lastUpdated": "2022-11-01T22:33:14Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-tools@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42011",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b12730c-9f92-4169-a6b4-e2b998f6aeb2: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:14Z",
+      "lastUpdated": "2022-11-01T22:33:14Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus-tools@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42012",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 100f2e0a-33c2-4d7a-b075-b70629b129c5: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:15Z",
+      "lastUpdated": "2022-11-01T22:33:15Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2020-35512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a350905-71ed-447e-bfad-a281869e8662: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:55Z",
+      "lastUpdated": "2022-09-15T23:41:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42010",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d85e7601-3d29-46cc-8a49-c9999c9cf3bf: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:01Z",
+      "lastUpdated": "2022-11-01T22:33:01Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42011",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee6f0c8c-7645-40de-95d5-6945c4881035: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:02Z",
+      "lastUpdated": "2022-11-01T22:33:02Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/dbus@1.12.8-18.el8?epoch=1",
+      "vulnerability": "CVE-2022-42012",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4fcde128-02ad-46fa-aff9-9107c52286e1: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:02Z",
+      "lastUpdated": "2022-11-01T22:33:02Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/elfutils-default-yama-scope@0.186-1.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels de3f5021-8a60-4ed4-b768-87097f1650c4: fp. RHEL 8 not affected per Red Hat",
+          "author": "yolo",
+          "at": "2026-01-23T16:44:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:44:08Z",
+      "lastUpdated": "2026-01-23T16:44:08Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/elfutils-libelf@0.186-1.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b20ce0ed-37ac-458d-b53e-6a26b9eed2c4: fp. RHEL 8 not affected per Red Hat",
+          "author": "yolo",
+          "at": "2026-01-23T16:44:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:44:11Z",
+      "lastUpdated": "2026-01-23T16:44:11Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/elfutils-libs@0.186-1.el8",
+      "vulnerability": "CVE-2021-33294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 50f8aa57-3e9e-495a-9970-4d056500de0e: fp. RHEL 8 not affected per Red Hat",
+          "author": "yolo",
+          "at": "2026-01-23T16:44:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:44:09Z",
+      "lastUpdated": "2026-01-23T16:44:09Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/expat@2.2.5-8.el8_6.2",
+      "vulnerability": "CVE-2022-23990",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a991fd2-c7ab-41bb-bf42-a7a6da6da98a: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:16Z",
+      "lastUpdated": "2022-11-01T22:33:16Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/expat@2.2.5-8.el8_6.2",
+      "vulnerability": "CVE-2022-40674",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7b66785e-4446-44f9-8b27-b329aed8a745: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:18Z",
+      "lastUpdated": "2022-11-01T22:33:18Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/file-libs@5.33-20.el8",
+      "vulnerability": "CVE-2019-8905",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f20b4b7-56c0-41ba-8fdf-35bfe3dcba85: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:02Z",
+      "lastUpdated": "2022-09-15T23:42:02Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/file-libs@5.33-20.el8",
+      "vulnerability": "CVE-2019-8906",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cae8ba44-5ad9-42bc-8cd8-4365b037dc4d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:04Z",
+      "lastUpdated": "2022-09-15T23:42:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2020-19724",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d74a301b-1457-44d5-b1af-234444af7d64: fp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:32Z",
+      "lastUpdated": "2023-08-29T16:19:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2020-19726",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc234fe3-f63a-4a59-b2b3-cc5f611a618d: fp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:32Z",
+      "lastUpdated": "2023-08-29T16:19:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2020-21490",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4861d0d-09e2-40fc-880f-d3a0537bddb6: fp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:33Z",
+      "lastUpdated": "2023-08-29T16:19:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2020-35342",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52834a53-fd08-4462-a0a2-fb997985a820: fp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:33Z",
+      "lastUpdated": "2023-08-29T16:19:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2021-32256",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 78e65280-b85b-4f9f-8a9a-5e24c7c09749: tp with grype@v0.65.2",
+          "author": "wagoodman",
+          "at": "2023-08-24T14:57:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-24T14:57:51Z",
+      "lastUpdated": "2023-08-24T14:57:51Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2021-3826",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 399325b7-44df-4b68-9020-eccb664826c4: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:24Z",
+      "lastUpdated": "2022-11-01T22:33:24Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gdb-gdbserver@8.2-18.el8",
+      "vulnerability": "CVE-2021-46174",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9070b1e-7588-465c-9c93-4663405397e1: fp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:34Z",
+      "lastUpdated": "2023-08-29T16:19:34Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/glib2@2.56.4-158.el8",
+      "vulnerability": "CVE-2018-16428",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ebdeebb-8c81-4aa7-af22-df7ce3b66ccf: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:07Z",
+      "lastUpdated": "2022-09-15T23:42:07Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/glibc-common@2.28-189.5.el8_6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b127801a-619f-491a-8215-e78aa8751e75: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:08Z",
+      "lastUpdated": "2022-09-15T23:42:08Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/glibc-minimal-langpack@2.28-189.5.el8_6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels befc87c8-be04-4daf-943d-df962efa4ec0: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:09Z",
+      "lastUpdated": "2022-09-15T23:42:09Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/glibc@2.28-189.5.el8_6",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5302c2cf-84b4-4718-883a-4712b0eb79e2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:08Z",
+      "lastUpdated": "2022-09-15T23:42:08Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gmp@6.1.2-10.el8?epoch=1",
+      "vulnerability": "CVE-2021-43618",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0bd8a00-9749-4e09-9a43-aab253921147: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:30Z",
+      "lastUpdated": "2022-11-01T22:33:30Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gnupg2@2.2.20-2.el8",
+      "vulnerability": "CVE-2022-3219",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4c307ad9-7cc9-4532-bf33-0e9ea8b8d8da: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:30Z",
+      "lastUpdated": "2022-11-01T22:33:30Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gnupg2@2.2.20-2.el8",
+      "vulnerability": "CVE-2022-34903",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 07c8d6c3-39d8-4251-83d7-b02fa0c7a376: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:31Z",
+      "lastUpdated": "2022-11-01T22:33:31Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gnutls@3.6.16-4.el8",
+      "vulnerability": "CVE-2021-4209",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels acb0d97e-5d6e-47f2-a9f3-4a1019e6dbae: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:31Z",
+      "lastUpdated": "2022-11-01T22:33:31Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/gnutls@3.6.16-4.el8",
+      "vulnerability": "CVE-2022-2509",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8685586-90ed-4c6f-9421-4ee0fb641d8b: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:32Z",
+      "lastUpdated": "2022-11-01T22:33:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/krb5-libs@1.18.2-14.el8",
+      "vulnerability": "CVE-2020-17049",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5d341473-59b7-44c1-ab67-4a48a4f0261c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:09Z",
+      "lastUpdated": "2022-09-15T23:42:09Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libarchive@3.3.3-3.el8_5",
+      "vulnerability": "CVE-2017-14166",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 554987d6-d904-4925-aa07-f21554d52fed: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:10Z",
+      "lastUpdated": "2022-09-15T23:42:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libarchive@3.3.3-3.el8_5",
+      "vulnerability": "CVE-2017-14501",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35d4e9ee-3469-4b92-b745-9158fb3a46d6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:12Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:12Z",
+      "lastUpdated": "2022-09-15T23:42:12Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libarchive@3.3.3-3.el8_5",
+      "vulnerability": "CVE-2018-1000879",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b54d285a-57ff-4e4a-94df-aac34336d567: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:13Z",
+      "lastUpdated": "2022-09-15T23:42:13Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libarchive@3.3.3-3.el8_5",
+      "vulnerability": "CVE-2018-1000880",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1bcad618-b7b2-459a-9982-a5b4a85498d1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:13Z",
+      "lastUpdated": "2022-09-15T23:42:13Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libarchive@3.3.3-3.el8_5",
+      "vulnerability": "CVE-2020-21674",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 91072d31-1a8c-4d62-b0a8-c677b87bfc06: fp with grype[reference]@v0.104.0-0-gb1706ca1. RHEL re labeled as not affected on 2025-11-21",
+          "author": "willmurphy",
+          "at": "2025-11-21T15:57:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.104.0-0-gb1706ca1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-11-21T15:57:57Z",
+      "lastUpdated": "2025-11-21T15:57:57Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libcom_err@1.45.6-4.el8",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 196233f7-3dab-4e49-8f78-b2851afc3c26: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:39Z",
+      "lastUpdated": "2022-11-01T22:33:39Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libcurl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-32206",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 165b108f-5e98-439e-aeeb-b0ad613a0e4e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:41Z",
+      "lastUpdated": "2022-11-01T22:33:41Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libcurl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-32208",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eb73ce35-395f-432d-be16-47eed2522d6c: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:41Z",
+      "lastUpdated": "2022-11-01T22:33:41Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libcurl@7.61.1-22.el8_6.3",
+      "vulnerability": "CVE-2022-35252",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1aa5c361-1775-4d1c-9b17-6232731e9486: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:42Z",
+      "lastUpdated": "2022-11-01T22:33:42Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libgcc@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2018-20657",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae875d93-6925-412f-a54d-a0c6b6b5ee1c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:14Z",
+      "lastUpdated": "2022-09-15T23:42:14Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libgcc@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2019-14250",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ff8f1cce-35ee-4fd0-841d-b606941957c3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:15Z",
+      "lastUpdated": "2022-09-15T23:42:15Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libgcc@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2021-42694",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73faa6fc-99ee-4a8f-961c-75514bd54eed: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:33:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:33:49Z",
+      "lastUpdated": "2022-11-01T22:33:49Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libgcc@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2022-27943",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7cf985d8-a784-4a5c-8315-3c5a08cdcbdb: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:18Z",
+      "lastUpdated": "2022-11-01T22:34:18Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libgcrypt@1.8.5-7.el8_6",
+      "vulnerability": "CVE-2019-12904",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31b9cbe0-2fb4-4752-992c-2840bb87ee38: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:15Z",
+      "lastUpdated": "2022-09-15T23:42:15Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libksba@1.3.5-7.el8",
+      "vulnerability": "CVE-2022-3515",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 045df4e7-5d40-4f23-96af-69c9bc007510: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:24Z",
+      "lastUpdated": "2022-11-01T22:34:24Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libsolv@0.7.20-1.el8",
+      "vulnerability": "CVE-2021-44568",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8827663-d788-4b34-8c37-30930e2ae727: fp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:26Z",
+      "lastUpdated": "2022-11-01T22:34:26Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libstdc%2B%2B@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2018-20657",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c7754f0-48c1-43e8-a7e5-9a1d31b8f7b1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:15Z",
+      "lastUpdated": "2022-09-15T23:42:15Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libstdc%2B%2B@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2019-14250",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 251709ca-fd4a-41da-804a-d70a28b2c18e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:16Z",
+      "lastUpdated": "2022-09-15T23:42:16Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libstdc%2B%2B@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2021-42694",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c4bc56d1-c1cd-41ab-b98f-4f59997b59f7: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:38Z",
+      "lastUpdated": "2022-11-01T22:34:38Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libstdc%2B%2B@8.5.0-10.1.el8_6",
+      "vulnerability": "CVE-2022-27943",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b690350b-ec86-46a5-b140-1a1fd00ae86c: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:34Z",
+      "lastUpdated": "2022-11-01T22:34:34Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libtasn1@4.13-3.el8",
+      "vulnerability": "CVE-2018-1000654",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9c4a6f28-ac5a-49bf-ae35-f69131784058: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:16Z",
+      "lastUpdated": "2022-09-15T23:42:16Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libtasn1@4.13-3.el8",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0243ff2-3d2c-43e8-a323-0d0303e16719: tp with grype@v0.64.2",
+          "author": "westonsteimel",
+          "at": "2023-07-27T12:56:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-27T12:56:56Z",
+      "lastUpdated": "2023-07-27T12:56:56Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libxml2@2.9.7-13.el8_6.1",
+      "vulnerability": "CVE-2016-3709",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ab0b0d6-99a5-4a6a-99f9-a18577c51fbe: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:17Z",
+      "lastUpdated": "2022-09-15T23:42:17Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libxml2@2.9.7-13.el8_6.1",
+      "vulnerability": "CVE-2022-40303",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45885c57-22a7-4101-93a1-88fbe80c9ed0: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:47Z",
+      "lastUpdated": "2022-11-01T22:34:47Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libxml2@2.9.7-13.el8_6.1",
+      "vulnerability": "CVE-2022-40304",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85988a38-2b58-4ffa-8461-83c485de80fc: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:49Z",
+      "lastUpdated": "2022-11-01T22:34:49Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/libzstd@1.4.4-1.el8",
+      "vulnerability": "CVE-2021-24032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e89a17a-70c3-45cd-a25c-4825b9314781: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:52Z",
+      "lastUpdated": "2022-11-01T22:34:52Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/lz4-libs@1.8.3-3.el8_4",
+      "vulnerability": "CVE-2019-17543",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 863e983d-e85f-4397-9d8f-b30e999a9bac: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:17Z",
+      "lastUpdated": "2022-09-15T23:42:17Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2018-19211",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1888d3e8-2650-4496-aeb6-f1974289009a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:18Z",
+      "lastUpdated": "2022-09-15T23:42:18Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2018-19217",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e194502a-3ed4-4e08-a6f4-ef9c92985cc2: fp. RHEL 8 not affected per Red Hat",
+          "author": "yolo",
+          "at": "2026-01-23T16:44:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:44:12Z",
+      "lastUpdated": "2026-01-23T16:44:12Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19185",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05776ea0-3ff3-48d4-b7d1-2b108ba5d006: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:41Z",
+      "lastUpdated": "2023-08-29T16:19:41Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19186",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 267aebff-30d3-4f10-a8be-b3ffbea39f13: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:41Z",
+      "lastUpdated": "2023-08-29T16:19:41Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19187",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eddef0d2-661c-4b6f-9fec-c71a338dadc9: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:40Z",
+      "lastUpdated": "2023-08-29T16:19:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19188",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8febcb1d-0103-4cce-af4a-f33015e663b2: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:40Z",
+      "lastUpdated": "2023-08-29T16:19:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 597ba4af-d5c2-495d-ba90-303e6141f55b: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:39Z",
+      "lastUpdated": "2023-08-29T16:19:39Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19190",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels edba4281-c4d4-4934-b6bf-2ff1b4d069aa: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:42Z",
+      "lastUpdated": "2023-08-29T16:19:42Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-base@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8b6c3c5-a462-4023-931d-ea07e2ac1f32: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:57Z",
+      "lastUpdated": "2022-11-01T22:34:57Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2018-19211",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 48584d5e-c5b7-41a2-b26e-d11862aabdbf: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:19Z",
+      "lastUpdated": "2022-09-15T23:42:19Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2018-19217",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1bc4114e-a259-41b4-850e-a708f635d10f: fp. RHEL 8 not affected per Red Hat",
+          "author": "yolo",
+          "at": "2026-01-23T16:44:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-23T16:44:13Z",
+      "lastUpdated": "2026-01-23T16:44:13Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19185",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8f18c46-7f75-40fe-ad1d-8639d1779471: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:43Z",
+      "lastUpdated": "2023-08-29T16:19:43Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19186",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 20a14d54-dcd4-4ecd-be44-7e7fad493950: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:47Z",
+      "lastUpdated": "2023-08-29T16:19:47Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19187",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6e7b5b70-3020-407f-ab76-72ca0643d8aa: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:43Z",
+      "lastUpdated": "2023-08-29T16:19:43Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19188",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b23d1f68-fdf0-4d8c-924b-f6e7f9de25b8: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:46Z",
+      "lastUpdated": "2023-08-29T16:19:46Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 569e491b-8163-4222-9950-01711e95b802: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:46Z",
+      "lastUpdated": "2023-08-29T16:19:46Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2020-19190",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 496e6727-a81c-44c5-8c07-0c955d275f5b: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:45Z",
+      "lastUpdated": "2023-08-29T16:19:45Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/ncurses-libs@6.1-9.20180224.el8",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1144781-6294-48aa-96ea-16fe81fe4eeb: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:34:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:34:59Z",
+      "lastUpdated": "2022-11-01T22:34:59Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/openssl-libs@1.1.1k-6.el8_5?epoch=1",
+      "vulnerability": "CVE-2022-1292",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd6f6c8b-5461-4139-84b1-b786cecdcd5a: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:00Z",
+      "lastUpdated": "2022-11-01T22:35:00Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/openssl-libs@1.1.1k-6.el8_5?epoch=1",
+      "vulnerability": "CVE-2022-2068",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f76b8806-3780-42fb-9948-6db25eaf7f89: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:01Z",
+      "lastUpdated": "2022-11-01T22:35:01Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/openssl-libs@1.1.1k-6.el8_5?epoch=1",
+      "vulnerability": "CVE-2022-2097",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12a81560-4849-478e-8bb4-3745c0c02716: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:01Z",
+      "lastUpdated": "2022-11-01T22:35:01Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/pcre2@10.32-2.el8",
+      "vulnerability": "CVE-2022-1586",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da3ab9a5-cbe5-45bd-8169-ffc775e48ae8: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:03Z",
+      "lastUpdated": "2022-11-01T22:35:03Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 596d6d53-a3a3-4d1c-9e2c-6ea3ff825fb9: tp with grype@v0.64.2",
+          "author": "westonsteimel",
+          "at": "2023-07-27T12:57:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-27T12:57:26Z",
+      "lastUpdated": "2023-07-27T12:57:26Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2015-20107",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 56d2d808-70a1-4302-8a1e-689c0b20b366: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:20Z",
+      "lastUpdated": "2022-09-15T23:42:20Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2019-9674",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8af8bfa9-b84e-41c3-a209-fe066578f87b: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:20Z",
+      "lastUpdated": "2022-09-15T23:42:20Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2020-10735",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c7a77d5-18ea-4f76-a498-a08427974e06: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:20Z",
+      "lastUpdated": "2022-09-15T23:42:20Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2021-28861",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25adb56f-ca7b-4494-9a43-7caa0c6a396e: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:09Z",
+      "lastUpdated": "2022-11-01T22:35:09Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/platform-python@3.6.8-45.el8",
+      "vulnerability": "CVE-2022-0391",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 986ec318-dfaa-419e-a526-406b7588232f: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:11Z",
+      "lastUpdated": "2022-11-01T22:35:11Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fbcafd39-7e15-4dbe-b510-5998c285bec4: tp with grype@v0.64.2",
+          "author": "westonsteimel",
+          "at": "2023-07-27T12:57:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-27T12:57:30Z",
+      "lastUpdated": "2023-07-27T12:57:30Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2015-20107",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 44af6903-210a-4c42-b898-bfeea4a370dd: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:25Z",
+      "lastUpdated": "2022-09-15T23:42:25Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2019-9674",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9102a4ed-8621-44e9-b338-a4b3c3354b22: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:26Z",
+      "lastUpdated": "2022-09-15T23:42:26Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2020-10735",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3870937a-fcfb-4a28-a18f-7ba41361f9c3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:26Z",
+      "lastUpdated": "2022-09-15T23:42:26Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2021-28861",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels daaa9a3e-44b6-4306-ad91-35e3be6fdcde: unclear with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:15Z",
+      "lastUpdated": "2022-11-01T22:35:15Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libs@3.6.8-45.el8",
+      "vulnerability": "CVE-2022-0391",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed44f39e-2796-480f-9298-522a49faa0f9: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:17Z",
+      "lastUpdated": "2022-11-01T22:35:17Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-libxml2@2.9.7-13.el8_6.1",
+      "vulnerability": "CVE-2016-3709",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9dc8af2-fa43-4982-9f8a-47698c4f594a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:27Z",
+      "lastUpdated": "2022-09-15T23:42:27Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-pip-wheel@9.0.3-22.el8",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 33407374-6470-4589-a1a6-b49350200d21: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:28Z",
+      "lastUpdated": "2022-09-15T23:42:28Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad34a31e-1834-4e3c-9570-0d60ece4e215: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:21Z",
+      "lastUpdated": "2022-11-01T22:35:21Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6e8304b4-d33b-47cc-b72e-6810313a6fba: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:22Z",
+      "lastUpdated": "2022-11-01T22:35:22Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/python3-rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 398329b2-fbc0-4f7f-a23b-ea51f1ed9b70: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:23Z",
+      "lastUpdated": "2022-11-01T22:35:23Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-build-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2a5ec6df-6f5b-4e7c-9fc7-0d2e96db7ca0: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:54Z",
+      "lastUpdated": "2022-11-01T22:35:54Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-build-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c53b0a8-13c1-401c-8d81-abe21d08f251: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:55Z",
+      "lastUpdated": "2022-11-01T22:35:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-build-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 849e0a45-3015-4446-93c4-e02a8e70c836: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:55Z",
+      "lastUpdated": "2022-11-01T22:35:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f10c1a82-08bd-4141-96de-80cfd587823f: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:03Z",
+      "lastUpdated": "2022-11-01T22:36:03Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b61637d5-c9db-43b6-b209-09e42d102ed4: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:04Z",
+      "lastUpdated": "2022-11-01T22:36:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm-libs@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b1650ef9-f4f8-4721-9ab9-489af31aeb3c: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:04Z",
+      "lastUpdated": "2022-11-01T22:36:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b23e2b6-438e-4748-b9b8-942b603f6b52: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:40Z",
+      "lastUpdated": "2022-11-01T22:35:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d7892953-6aa3-43ea-96bf-c1c5ce2a7368: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:48Z",
+      "lastUpdated": "2022-11-01T22:35:48Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/rpm@4.14.3-23.el8",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eea7ce2a-f33f-4d4f-a9f9-bc1addaeb26c: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:35:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:35:49Z",
+      "lastUpdated": "2022-11-01T22:35:49Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2019-19244",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0337bfeb-7759-4a38-b8d6-dd105df3f155: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:28Z",
+      "lastUpdated": "2022-09-15T23:42:28Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2019-9936",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5b1f610-f57d-41d9-af75-441c491b6413: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:29Z",
+      "lastUpdated": "2022-09-15T23:42:29Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2019-9937",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46ec741d-af48-4fa0-b5d1-47ca8d34bb63: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:30Z",
+      "lastUpdated": "2022-09-15T23:42:30Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2020-24736",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77eebb72-b4af-46db-8598-69f3fe9c0ac8: tp with grype@v0.64.2",
+          "author": "westonsteimel",
+          "at": "2023-07-27T12:58:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-27T12:58:10Z",
+      "lastUpdated": "2023-07-27T12:58:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2020-35525",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 036ce6e6-1a1d-4d7f-a969-70fcad033883: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:32Z",
+      "lastUpdated": "2022-09-15T23:42:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/sqlite-libs@3.26.0-15.el8",
+      "vulnerability": "CVE-2020-35527",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 756fede6-d6a1-49c8-91cb-bcbfbdd086f6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:32Z",
+      "lastUpdated": "2022-09-15T23:42:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-libs@239-58.el8",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12bd738d-ff52-46fb-b3bc-115059d4028f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:33Z",
+      "lastUpdated": "2022-09-15T23:42:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-libs@239-58.el8",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7cbcf487-d3d2-4919-a21e-1db95b5f9172: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:10Z",
+      "lastUpdated": "2022-11-01T22:36:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-libs@239-58.el8",
+      "vulnerability": "CVE-2022-2526",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f1a2ae78-2217-4e1b-829f-577fc7ef6461: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:10Z",
+      "lastUpdated": "2022-11-01T22:36:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-pam@239-58.el8",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 57d56b71-dcff-4002-ac93-c9bd1b6a64d9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:34Z",
+      "lastUpdated": "2022-09-15T23:42:34Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-pam@239-58.el8",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 79e73814-05bc-45a6-8e53-5a50dc72e332: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:22Z",
+      "lastUpdated": "2022-11-01T22:36:22Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd-pam@239-58.el8",
+      "vulnerability": "CVE-2022-2526",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18f03caa-a0a1-46ee-b223-08e338eedcb9: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:23Z",
+      "lastUpdated": "2022-11-01T22:36:23Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd@239-58.el8",
+      "vulnerability": "CVE-2018-20839",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0478a627-f306-48aa-b801-76f3eb1261c6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:33Z",
+      "lastUpdated": "2022-09-15T23:42:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd@239-58.el8",
+      "vulnerability": "CVE-2021-3997",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1aef8ce3-e45b-40d5-ae6f-9b8149be90e3: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:08Z",
+      "lastUpdated": "2022-11-01T22:36:08Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/systemd@239-58.el8",
+      "vulnerability": "CVE-2022-2526",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0e72037-5279-45a7-8666-0e50feb3e5a0: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:09Z",
+      "lastUpdated": "2022-11-01T22:36:09Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/tar@1.30-5.el8?epoch=2",
+      "vulnerability": "CVE-2005-2541",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 40c2be38-58a0-42e8-a01e-e25db6d82549: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:35Z",
+      "lastUpdated": "2022-09-15T23:42:35Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/tar@1.30-5.el8?epoch=2",
+      "vulnerability": "CVE-2019-9923",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d1a44de-9ddb-4e29-8e7e-ccc9fffad4fe: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:42:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:42:36Z",
+      "lastUpdated": "2022-09-15T23:42:36Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/tar@1.30-5.el8?epoch=2",
+      "vulnerability": "CVE-2021-20193",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a962c8aa-4a18-4df6-aa7e-da9e36a616f0: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:24Z",
+      "lastUpdated": "2022-11-01T22:36:24Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2018-20786",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30cb7ba4-03d6-46f9-9028-c45474602aa0: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:43:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:43:13Z",
+      "lastUpdated": "2022-09-15T23:43:13Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2020-20703",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2e1fd0b2-a487-4a74-a2a7-e64b5de8dbdc: tp with grype@v0.65.2",
+          "author": "wagoodman",
+          "at": "2023-08-24T14:58:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-24T14:58:04Z",
+      "lastUpdated": "2023-08-24T14:58:04Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2021-3236",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 384cad6a-e2f9-40cf-bc31-83686372965c: tp with grype@v0.65.2",
+          "author": "wagoodman",
+          "at": "2023-08-24T14:58:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-24T14:58:10Z",
+      "lastUpdated": "2023-08-24T14:58:10Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2021-3927",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 78d40122-7eb2-4664-b14d-2d45e8d6008e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:31Z",
+      "lastUpdated": "2022-11-01T22:36:31Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2021-3974",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bf2394d5-ea76-4d75-a57e-0904ef31ddc2: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:32Z",
+      "lastUpdated": "2022-11-01T22:36:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2021-4166",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d268ec20-ddea-4258-a931-8ae984fe2453: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:32Z",
+      "lastUpdated": "2022-11-01T22:36:32Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2021-46059",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c616c7ef-1e9f-4829-93e4-85cea3337a9c: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:33Z",
+      "lastUpdated": "2022-11-01T22:36:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-0351",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5c2518ce-b811-4537-bc45-28c4b4eefcde: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:33Z",
+      "lastUpdated": "2022-11-01T22:36:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-1619",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 39232026-19d1-4a17-93d2-21b528cf8dbc: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:33Z",
+      "lastUpdated": "2022-11-01T22:36:33Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-1720",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a5f3f15-1b9c-4322-9cc5-ccb03c59b431: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:34Z",
+      "lastUpdated": "2022-11-01T22:36:34Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-1785",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cf16d5c-d079-4577-b75d-8b9a4db8df9e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:35Z",
+      "lastUpdated": "2022-11-01T22:36:35Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-1897",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b8f49811-58ce-4adc-aac4-bd0fb6212667: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:35Z",
+      "lastUpdated": "2022-11-01T22:36:35Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-1927",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 92939d8c-a0fc-467b-80ad-5e9e7a62acb9: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:35Z",
+      "lastUpdated": "2022-11-01T22:36:35Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2124",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 055d2a36-ed9a-4e3c-aef9-02d448e472fe: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:36Z",
+      "lastUpdated": "2022-11-01T22:36:36Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2125",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b12946b-4692-438e-a98e-5c868d0c1b02: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:36Z",
+      "lastUpdated": "2022-11-01T22:36:36Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2126",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 42c4d4c3-d3f5-43c9-899e-5759c5b2297b: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:37Z",
+      "lastUpdated": "2022-11-01T22:36:37Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2129",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e75cc150-aed8-479e-897e-b6ff35da9e0f: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:37Z",
+      "lastUpdated": "2022-11-01T22:36:37Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2175",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bf5d1d88-6940-4e49-a0ab-c015f4056349: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:38Z",
+      "lastUpdated": "2022-11-01T22:36:38Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2182",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 47f55e0b-440b-4869-9f2c-97a1f4dbc92f: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:39Z",
+      "lastUpdated": "2022-11-01T22:36:39Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2183",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f213ff20-de61-4b3f-9246-46d722d1641f: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:39Z",
+      "lastUpdated": "2022-11-01T22:36:39Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2206",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 80e670e9-2071-4f92-af8c-a2c5b55eb4a0: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:40Z",
+      "lastUpdated": "2022-11-01T22:36:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2207",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c835306-b562-46a1-a382-82622f38dbf1: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:40Z",
+      "lastUpdated": "2022-11-01T22:36:40Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2208",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3b448c6-4010-4167-b269-bbefdf0ccfa2: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:41Z",
+      "lastUpdated": "2022-11-01T22:36:41Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2210",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9e03239-c791-415a-a8e6-1351b442155b: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:42Z",
+      "lastUpdated": "2022-11-01T22:36:42Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2284",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30c2b71e-9bb0-4504-ab31-c9375e437daa: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:57Z",
+      "lastUpdated": "2022-11-01T22:36:57Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2285",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eddedcfd-cb3c-4ebc-8542-c46dfaeee316: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:56Z",
+      "lastUpdated": "2022-11-01T22:36:56Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2286",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 64d674f6-454e-4df0-bca4-56a7247a4d2e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:55Z",
+      "lastUpdated": "2022-11-01T22:36:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2287",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9de88fd-50a0-4f5c-9a2a-b9ef2cf4df27: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:55Z",
+      "lastUpdated": "2022-11-01T22:36:55Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2343",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a03e57df-13ad-41e7-82ea-2038378b68fa: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:54Z",
+      "lastUpdated": "2022-11-01T22:36:54Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2344",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5cc42a77-1790-4eb8-94f1-44ce82ecd818: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:54Z",
+      "lastUpdated": "2022-11-01T22:36:54Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2345",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b6c05e0-0087-4533-94c7-ce31efb49575: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:53Z",
+      "lastUpdated": "2022-11-01T22:36:53Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2522",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd44bb11-565a-4663-9237-6abb9691ca3b: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:53Z",
+      "lastUpdated": "2022-11-01T22:36:53Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2819",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 386b2c89-1524-48a7-b70a-568e65911dee: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:52Z",
+      "lastUpdated": "2022-11-01T22:36:52Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2845",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eb7f688d-0baf-4c59-b9eb-79fcdf8457e2: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:52Z",
+      "lastUpdated": "2022-11-01T22:36:52Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2849",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97146599-1084-4586-abc1-1102ab4bf121: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:51Z",
+      "lastUpdated": "2022-11-01T22:36:51Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2923",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7cf11d97-5e0b-44b4-b2bd-cc99756e8b67: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:51Z",
+      "lastUpdated": "2022-11-01T22:36:51Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2946",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1644188f-f4d8-4e9a-b395-d2621dd9d33e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:50Z",
+      "lastUpdated": "2022-11-01T22:36:50Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-2980",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e00f2be0-25de-4d35-bbc0-069c6ad9b7ce: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:50Z",
+      "lastUpdated": "2022-11-01T22:36:50Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3037",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed91558b-a492-4481-9dc6-f34ce7f0430a: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:49Z",
+      "lastUpdated": "2022-11-01T22:36:49Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3153",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e4ac7c42-0950-49ca-a1ad-1325dacc6642: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:49Z",
+      "lastUpdated": "2022-11-01T22:36:49Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3234",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd2c37cb-db16-49ff-b302-dacbaf6e0842: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:48Z",
+      "lastUpdated": "2022-11-01T22:36:48Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e9cd2fb-865d-460d-bea3-bed5b7367c31: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:48Z",
+      "lastUpdated": "2022-11-01T22:36:48Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3256",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9adb8f26-6e05-4df7-b48f-0afe8f6b7345: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:47Z",
+      "lastUpdated": "2022-11-01T22:36:47Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/vim-minimal@8.0.1763-19.el8_6.2?epoch=2",
+      "vulnerability": "CVE-2022-3296",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b28c223-85d7-4832-aa74-30fec97289ec: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:47Z",
+      "lastUpdated": "2022-11-01T22:36:47Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/xz-libs@5.2.4-4.el8_6",
+      "vulnerability": "CVE-2020-22916",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dfea57c4-6778-4eb9-ac5f-c19d7f82a77e: tp with grype@v0.64.0-1-gebd4643",
+          "author": "westonsteimel",
+          "at": "2023-08-29T16:19:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.0-1-gebd4643"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-29T16:19:54Z",
+      "lastUpdated": "2023-08-29T16:19:54Z"
+    },
+    {
+      "package": "pkg:rpm/redhat/zlib@1.2.11-18.el8_5",
+      "vulnerability": "CVE-2022-37434",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 24dc8689-604f-4c0b-8ec3-b40e90bfe21e: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:36:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:36:46Z",
+      "lastUpdated": "2022-11-01T22:36:46Z"
+    }
+  ]
+}

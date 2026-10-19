@@ -1,0 +1,1467 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/cloudbees/cloudbees-core-oc@sha256:9cd85ee84e401dc27e3a8268aae67b594a651b2f4c7fc056ca14c7b0a0a6b82d",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2020-8169",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0301c0ed-27bf-4431-b7fe-55e2c75f0d75: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:25:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:25:51Z",
+      "lastUpdated": "2026-04-15T00:25:51Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2020-8177",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2a2caf0a-8381-45a8-9f28-90c8494f8172: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:27Z",
+      "lastUpdated": "2026-04-15T00:33:27Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2020-8284",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 28caa42e-941e-48b4-9465-758355568418: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:29Z",
+      "lastUpdated": "2026-04-15T00:33:29Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22897",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2381cdb9-d576-4a65-9448-9062d5e0edc2: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:33Z",
+      "lastUpdated": "2026-04-15T00:33:33Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22898",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 234a4ee4-9e1f-44ee-bcd8-3041046086bc: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:38Z",
+      "lastUpdated": "2026-04-15T00:33:38Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22922",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b958a33c-1657-4189-9362-61df1a5fb805: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:43Z",
+      "lastUpdated": "2026-04-15T00:33:43Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22923",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d82944ae-3b27-478e-a16a-0abcce7b9997: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:33:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:33:46Z",
+      "lastUpdated": "2026-04-15T00:33:46Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22925",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9ca290bf-aa9d-4b6d-a9ff-3b0b54b185d8: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:34:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:34:18Z",
+      "lastUpdated": "2026-04-15T01:34:18Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22926",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ecdcc647-d48a-4702-944d-431aefbe8f87: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:34:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:34:35Z",
+      "lastUpdated": "2026-04-15T01:34:35Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22946",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7e8d8fc-030c-4b4c-9b74-2a505bc8bf09: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:35:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:35:34Z",
+      "lastUpdated": "2026-04-15T00:35:34Z"
+    },
+    {
+      "package": "pkg:generic/curl@7.68.0",
+      "vulnerability": "CVE-2021-22947",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e286c1ca-9663-4cfb-bb67-10420a8bc982: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:35:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:35:39Z",
+      "lastUpdated": "2026-04-15T00:35:39Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14556",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54a2c21a-68f9-49ef-990a-b300ae88c382: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:45:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:45:06Z",
+      "lastUpdated": "2026-04-15T00:45:06Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14577",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9754ecab-e9a2-42b7-b874-d26bb30628c9: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:45:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:45:11Z",
+      "lastUpdated": "2026-04-15T00:45:11Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14578",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 202be85d-8d89-4808-a12e-ac6998e24757: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:47:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:47:34Z",
+      "lastUpdated": "2026-04-15T00:47:34Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14579",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35d997a2-bc10-406f-b4d3-46693c1b1daf: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:47:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:47:44Z",
+      "lastUpdated": "2026-04-15T00:47:44Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14581",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0e75fad-08eb-41b2-85ab-b45f9e884435: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:47:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:47:54Z",
+      "lastUpdated": "2026-04-15T00:47:54Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14583",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 118a1f90-0a80-4ab3-ae82-7ed37e3fc67a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:48:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:48:10Z",
+      "lastUpdated": "2026-04-15T00:48:10Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14593",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d6a838cf-cd7d-4011-9eec-4662b716dcfc: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:48:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:48:21Z",
+      "lastUpdated": "2026-04-15T00:48:21Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14621",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e236d212-722e-4f7c-a291-ae426dea7807: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:48:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:48:36Z",
+      "lastUpdated": "2026-04-15T00:48:36Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14664",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6664b6d5-10f3-4804-b532-c5dac8486f49: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:54:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:54:59Z",
+      "lastUpdated": "2026-04-15T00:54:59Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14779",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe1183de-2f95-4c86-bdaf-c0de014ebd2a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:55:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:55:15Z",
+      "lastUpdated": "2026-04-15T00:55:15Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14781",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 741027e5-41b1-4549-99d8-8d13e61199f7: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:55:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:55:23Z",
+      "lastUpdated": "2026-04-15T00:55:23Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14782",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f386003e-366a-4fe4-a9bf-07fd6dec1011: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T00:55:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T00:55:32Z",
+      "lastUpdated": "2026-04-15T00:55:32Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14792",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5cc42b62-ac23-494f-a8bd-08264e0de5fb: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:08:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:08:28Z",
+      "lastUpdated": "2026-04-15T01:08:28Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14796",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e6f6216-298e-4f71-bc11-bfa2da17ad88: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:08:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:08:39Z",
+      "lastUpdated": "2026-04-15T01:08:39Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14797",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9baf6b0e-188d-44b0-afbb-2f2b262acc6f: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:08:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:08:51Z",
+      "lastUpdated": "2026-04-15T01:08:51Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-14798",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b78d5482-4af7-42be-9fdf-28ecb7b797fe: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:09:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:09:36Z",
+      "lastUpdated": "2026-04-15T01:09:36Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2754",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37967fc1-a787-4e86-bac7-79530be70363: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:10:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:10:32Z",
+      "lastUpdated": "2026-04-15T01:10:32Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2755",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f69ef43-d65a-45c6-95ad-03d77dfbc7ae: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:12:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:12:02Z",
+      "lastUpdated": "2026-04-15T01:12:02Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2756",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f3f9052a-b59d-4af0-8da8-bf0ac0d68e85: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:12:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:12:47Z",
+      "lastUpdated": "2026-04-15T01:12:47Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2757",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d6905e85-b8fb-4e9a-92cc-60bbeb101c54: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:12:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:12:59Z",
+      "lastUpdated": "2026-04-15T01:12:59Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2773",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45c6bf29-0f98-4a88-877d-28cbddb579db: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:13:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:13:12Z",
+      "lastUpdated": "2026-04-15T01:13:12Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2781",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e2ea446-0a1d-4203-b28a-2014ff7137a0: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:14:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:14:26Z",
+      "lastUpdated": "2026-04-15T01:14:26Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2800",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5f6bb4d-7d37-44d6-b536-550a82f6a93a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:14:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:14:40Z",
+      "lastUpdated": "2026-04-15T01:14:40Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2803",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels db4eebaa-d1fd-4811-8173-5ac3f4a91774: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:14:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:14:48Z",
+      "lastUpdated": "2026-04-15T01:14:48Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2805",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0f27286-5dae-4364-a451-f08deb9761ca: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:15:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:15:06Z",
+      "lastUpdated": "2026-04-15T01:15:06Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2020-2830",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0ecab961-83a1-42f5-a0d6-2e80d59ca866: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:15:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:15:11Z",
+      "lastUpdated": "2026-04-15T01:15:11Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-2161",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35dbbd68-458e-4e3d-a9ab-c987eaa18ac8: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:16:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:16:06Z",
+      "lastUpdated": "2026-04-15T01:16:06Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-2163",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 13c42e42-8c9d-446c-a2da-53f766d718dd: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:19:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:19:38Z",
+      "lastUpdated": "2026-04-15T01:19:38Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-2341",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4043de8e-4aec-4a6c-b1c7-ada93eda991f: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:19:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:19:52Z",
+      "lastUpdated": "2026-04-15T01:19:52Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-2369",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75e08d3a-b954-478a-9bef-2adf7c5cab99: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:20:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:20:01Z",
+      "lastUpdated": "2026-04-15T01:20:01Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-2388",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a46b70e3-81a7-4f0a-9e38-8224c81eb78f: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:20:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:20:42Z",
+      "lastUpdated": "2026-04-15T01:20:42Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35550",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54982683-7e7d-4efc-a047-8ee3afa0541a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:21:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:21:09Z",
+      "lastUpdated": "2026-04-15T01:21:09Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35556",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3757fa25-a388-4368-9b5f-9bc1d009ab61: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:21:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:21:20Z",
+      "lastUpdated": "2026-04-15T01:21:20Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35559",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 024e75e6-8267-489e-891a-d55165d5c27a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:22:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:22:42Z",
+      "lastUpdated": "2026-04-15T01:22:42Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35560",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b23d27a1-789b-443f-90c2-b8a368f96926: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:22:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:22:45Z",
+      "lastUpdated": "2026-04-15T01:22:45Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35561",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2a0f9236-8543-4482-9f1f-943ea44984f7: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:25:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:25:18Z",
+      "lastUpdated": "2026-04-15T01:25:18Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35564",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f33c8b36-b398-40b8-9b40-c3651e7ce5f1: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:25:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:25:26Z",
+      "lastUpdated": "2026-04-15T01:25:26Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35565",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7fad64ac-3e71-4cf3-8af3-2ba2d220ec37: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:25:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:25:33Z",
+      "lastUpdated": "2026-04-15T01:25:33Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35567",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a69e4716-00a5-4a87-b333-d1f691b36e96: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:25:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:25:50Z",
+      "lastUpdated": "2026-04-15T01:25:50Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35578",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 89429843-744f-4892-bd49-ec00876071fd: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:26:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:26:20Z",
+      "lastUpdated": "2026-04-15T01:26:20Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35586",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e49d8d08-6fff-419b-9de0-627ad886f32b: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:26:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:26:30Z",
+      "lastUpdated": "2026-04-15T01:26:30Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35588",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60af1e89-cfb7-470f-b7bd-2f5df582f6df: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:26:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:26:38Z",
+      "lastUpdated": "2026-04-15T01:26:38Z"
+    },
+    {
+      "package": "pkg:generic/oracle/openjdk@1.8.0_242",
+      "vulnerability": "CVE-2021-35603",
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f20df56-b121-4b2e-9c93-e758a2f22f5a: tp with grype[reference]@v0.111.0",
+          "author": "kzantow",
+          "at": "2026-04-15T01:26:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.111.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-15T01:26:48Z",
+      "lastUpdated": "2026-04-15T01:26:48Z"
+    }
+  ]
+}

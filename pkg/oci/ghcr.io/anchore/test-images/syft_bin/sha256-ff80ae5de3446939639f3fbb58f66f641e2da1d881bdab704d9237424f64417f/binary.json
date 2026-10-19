@@ -1,0 +1,1368 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/syft_bin@sha256:ff80ae5de3446939639f3fbb58f66f641e2da1d881bdab704d9237424f64417f",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-14039",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7abaf5de-d42e-4ae0-ba81-cf1ae83aaab2: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:43Z",
+      "lastUpdated": "2023-01-19T13:38:43Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-15586",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a09ca654-f01e-428b-9fb7-08b3902978c4: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:45Z",
+      "lastUpdated": "2023-01-19T13:38:45Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-16845",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0bcec12e-e10c-472c-a75f-cfe1646ccab5: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:46Z",
+      "lastUpdated": "2023-01-19T13:38:46Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-24553",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73558975-b0bc-4c4f-9963-f3237a00dcf2: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:47Z",
+      "lastUpdated": "2023-01-19T13:38:47Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-28362",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7813dacf-a0fc-47a6-90f1-8238f2a248fd: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:49Z",
+      "lastUpdated": "2023-01-19T13:38:49Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-28366",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7d04404-3843-456e-9ae1-fd8caeb02e3d: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:50Z",
+      "lastUpdated": "2023-01-19T13:38:50Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-28367",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca4a0d65-eb91-451e-8cf7-02369036c84d: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:51Z",
+      "lastUpdated": "2023-01-19T13:38:51Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-29509",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a1c1408-41e6-4bf1-9fcb-f23466c26a1d: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:31:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:31:39Z",
+      "lastUpdated": "2023-03-01T13:31:39Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-29510",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9baaa67f-033c-42d0-afa7-87febaed9a3f: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:31:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:31:36Z",
+      "lastUpdated": "2023-03-01T13:31:36Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2020-29511",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 10f462b0-6cf3-431d-b7cc-e874e3622ff7: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:32:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:32:04Z",
+      "lastUpdated": "2023-03-01T13:32:04Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-27918",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0dbc6624-d633-41d2-8686-da0950bf2d67: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:55Z",
+      "lastUpdated": "2023-01-19T13:38:55Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-29923",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85c4be3f-c4c8-41eb-9aa8-5452386116f2: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:56Z",
+      "lastUpdated": "2023-01-19T13:38:56Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-3114",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41e1d44a-d4ad-4c94-a0a4-cf717b6602c2: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:57Z",
+      "lastUpdated": "2023-01-19T13:38:57Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-3115",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 88739a63-29d8-4046-94d2-6ebca941b8e3: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:58Z",
+      "lastUpdated": "2023-01-19T13:38:58Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-31525",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31633170-941e-4042-bf8f-ccf09a2d078c: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:59Z",
+      "lastUpdated": "2023-01-19T13:38:59Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-33194",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3878cc7-29d6-4fe6-bec8-7751e1899558: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:59Z",
+      "lastUpdated": "2023-01-19T13:38:59Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-33195",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4bacf2f3-2b79-42dc-bf5e-456bc5e7e411: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:00Z",
+      "lastUpdated": "2023-01-19T13:39:00Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-33196",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3cda8d49-6031-4a92-bca2-0b56d71a1b33: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:00Z",
+      "lastUpdated": "2023-01-19T13:39:00Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-33197",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e2b70a98-8d5d-439c-8760-b9e0f5c32a63: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:00Z",
+      "lastUpdated": "2023-01-19T13:39:00Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-33198",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9e5211ff-a6a2-46ce-b7b6-4b038bc4c50b: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:01Z",
+      "lastUpdated": "2023-01-19T13:39:01Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-34558",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54d4fd94-91e0-45c3-8969-8908380ed318: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:02Z",
+      "lastUpdated": "2023-01-19T13:39:02Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-36221",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a40ef277-b976-4f67-824d-aaae095619b1: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:02Z",
+      "lastUpdated": "2023-01-19T13:39:02Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-38297",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83f80972-24c5-4de2-92a1-75e61c7e55fa: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:08Z",
+      "lastUpdated": "2023-01-19T13:39:08Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-39293",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a07700e7-1fcd-4ce3-8c71-dad17aa92059: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:07Z",
+      "lastUpdated": "2023-01-19T13:39:07Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-41771",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8d60623-7045-48c7-97c9-90aa5ad0519a: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:07Z",
+      "lastUpdated": "2023-01-19T13:39:07Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-41772",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1658112f-cbca-4404-bb73-b8c2b59e1aa6: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:07Z",
+      "lastUpdated": "2023-01-19T13:39:07Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-44716",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0cebe653-a512-4cc7-a690-3790c91b9de4: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:06Z",
+      "lastUpdated": "2023-01-19T13:39:06Z"
+    },
+    {
+      "package": "pkg:generic/go@1.14",
+      "vulnerability": "CVE-2021-44717",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37d1fbd9-9390-4aec-956e-f47e72b9427d: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:39:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:39:06Z",
+      "lastUpdated": "2023-01-19T13:39:06Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-24553",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9c1d476-8366-489b-86fe-cf17ef48a9ca: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:47Z",
+      "lastUpdated": "2023-01-25T21:13:47Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-28362",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9660145-e2ef-4d67-9f16-77755264dca2: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:49Z",
+      "lastUpdated": "2023-01-25T21:13:49Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-28366",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dee16497-a1a0-4cf5-a43d-293a9404daa2: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:58Z",
+      "lastUpdated": "2023-01-25T21:13:58Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-28367",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f70dff17-2942-4533-8f80-a2fa1192da88: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:57Z",
+      "lastUpdated": "2023-01-25T21:13:57Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-29509",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e02a4a20-d2a8-431e-822a-b4d3cd21e344: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:56Z",
+      "lastUpdated": "2023-01-25T21:13:56Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-29510",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3156f5fb-d496-4b4b-8071-998455a995f6: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:55Z",
+      "lastUpdated": "2023-01-25T21:13:55Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2020-29511",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 734a3733-251f-40a8-846a-833e4375cc2d: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:54Z",
+      "lastUpdated": "2023-01-25T21:13:54Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-27918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 501e45bb-7362-4dec-8878-2af9e33eda8e: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:13:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:13:53Z",
+      "lastUpdated": "2023-01-25T21:13:53Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-29923",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 88698e20-3d2a-4e4a-9f93-5ec0bfbc1b0e: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:11Z",
+      "lastUpdated": "2023-01-25T21:14:11Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-3114",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df804c19-89a2-4a28-a5df-253ddd5c0ae4: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:12Z",
+      "lastUpdated": "2023-01-25T21:14:12Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-3115",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 354d38b2-6146-41c1-bd22-2f31a83746cf: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:14Z",
+      "lastUpdated": "2023-01-25T21:14:14Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-31525",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95d55b51-663f-44b0-9ff3-3c871fc6afd5: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:15Z",
+      "lastUpdated": "2023-01-25T21:14:15Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-33194",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 838c0736-8a36-4818-8329-279918905ae9: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:16Z",
+      "lastUpdated": "2023-01-25T21:14:16Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-33195",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3183b03b-da92-4113-a8a2-048de3fc6a35: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:17Z",
+      "lastUpdated": "2023-01-25T21:14:17Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-33196",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1ee7649c-bb14-4c9d-ac71-f570aa2e0d8e: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:18Z",
+      "lastUpdated": "2023-01-25T21:14:18Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-33197",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52cffa91-a28f-4dd3-956d-0d3da1ca1625: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:19Z",
+      "lastUpdated": "2023-01-25T21:14:19Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-33198",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc4a428b-4fe7-4e93-99df-ff2c2fd2cf0d: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:33Z",
+      "lastUpdated": "2023-01-25T21:14:33Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-34558",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7c3a851-10e7-40c7-9bc5-0759ebf7e01c: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:32Z",
+      "lastUpdated": "2023-01-25T21:14:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-36221",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5d7d0e71-59f6-4342-a8cb-a00882344f35: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:31Z",
+      "lastUpdated": "2023-01-25T21:14:31Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-38297",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d80f24bc-e26d-4767-be36-0f86b362c340: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:30Z",
+      "lastUpdated": "2023-01-25T21:14:30Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-39293",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a8b481d9-93b6-4515-a9b0-2aad1b484116: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:29Z",
+      "lastUpdated": "2023-01-25T21:14:29Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-41771",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b652529-9ca2-46ef-b004-5e0a2d57772c: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:28Z",
+      "lastUpdated": "2023-01-25T21:14:28Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-41772",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 08e19ff1-f48f-4a01-ae3e-ce53badd1230: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:27Z",
+      "lastUpdated": "2023-01-25T21:14:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-44716",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e58c0265-a47f-401c-912a-7d6deb0ae613: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:26Z",
+      "lastUpdated": "2023-01-25T21:14:26Z"
+    },
+    {
+      "package": "pkg:generic/go@1.15",
+      "vulnerability": "CVE-2021-44717",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 34edc20c-1109-4d5b-a5a2-a55ec55e2a51: fp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-25T21:14:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-25T21:14:25Z",
+      "lastUpdated": "2023-01-25T21:14:25Z"
+    }
+  ]
+}

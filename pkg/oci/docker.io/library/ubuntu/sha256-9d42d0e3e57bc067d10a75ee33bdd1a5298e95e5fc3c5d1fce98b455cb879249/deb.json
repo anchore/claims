@@ -1,0 +1,2902 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/ubuntu@sha256:9d42d0e3e57bc067d10a75ee33bdd1a5298e95e5fc3c5d1fce98b455cb879249",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/ubuntu/bsdutils@1:2.34-0.1ubuntu9.3",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0b9f1e5e-f81f-48fc-8505-bc1053ae49b1: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:40:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:40:45Z",
+      "lastUpdated": "2026-09-14T15:40:45Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/coreutils@8.30-3ubuntu2",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9ee026f-803f-4ae5-88c3-7982a3b9ac7c: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:21Z",
+      "lastUpdated": "2023-06-30T10:47:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/dpkg@1.19.7ubuntu3",
+      "vulnerability": "CVE-2022-1664",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ffd6cc43-ca32-4b95-9015-199f98a71821: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:25:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:25:03Z",
+      "lastUpdated": "2026-09-14T14:25:03Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/e2fsprogs@1.45.5-2ubuntu1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f6689fa0-a278-4229-9568-0a69ed8f18d8: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:17:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:17:23Z",
+      "lastUpdated": "2026-09-14T14:17:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/fdisk@2.34-0.1ubuntu9.3",
+      "vulnerability": "CVE-2024-28085",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 01f5ae52-6cfc-4715-9bd8-771361ce98e7: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:41:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:41:04Z",
+      "lastUpdated": "2026-09-14T15:41:04Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/gcc-10-base@10.3.0-1ubuntu1~20.04",
+      "vulnerability": "CVE-2023-4039",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f83aa139-377f-49ea-bab9-d41ae4850ea7: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:12:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:12:21Z",
+      "lastUpdated": "2026-09-14T15:12:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/gpgv@2.2.19-3ubuntu2.1",
+      "vulnerability": "CVE-2022-34903",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f6de92b-aa7c-43fa-bfd1-bd8519f802ee: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:39:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:39:20Z",
+      "lastUpdated": "2026-09-14T14:39:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b744accf-bd77-4b56-94f1-734cacc0cf59: unclear with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:21Z",
+      "lastUpdated": "2023-06-30T10:47:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2018-20796",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 366adb82-5f08-41c5-a35c-374ce8f31f1a: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:11:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:11:59Z",
+      "lastUpdated": "2026-04-03T13:11:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46d45160-c2c5-423e-9c94-9f49f053d44b: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:13:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:13:18Z",
+      "lastUpdated": "2026-04-03T13:13:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1dd5e111-3eca-4697-8cef-4627133fbc94: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:13:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:13:46Z",
+      "lastUpdated": "2026-04-03T13:13:46Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5dec4ea3-9827-42a2-b1be-3c70665364b9: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:14:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:14:29Z",
+      "lastUpdated": "2026-04-03T13:14:29Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2021-33574",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ba268251-520d-461c-9dad-2814fd7529cd: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:20:33Z",
+      "lastUpdated": "2026-04-03T13:20:33Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2023-4806",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fe08ce3-851f-48ed-897f-b87fe565aa87: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:19:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:19:23Z",
+      "lastUpdated": "2026-09-14T15:19:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2023-4813",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94f70b40-1525-489c-a256-e1dba508872a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:22:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:22:22Z",
+      "lastUpdated": "2026-09-14T15:22:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-2961",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b67a8f26-9722-40b4-a5e7-3b1f1a40c1b5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:44:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:44:57Z",
+      "lastUpdated": "2026-09-14T15:44:57Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33599",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 80b4e5b1-39e1-452e-a8f1-bf8908ca40c3: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:45:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:45:20Z",
+      "lastUpdated": "2026-09-14T15:45:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33600",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7d73cde-e607-40a4-bc82-824553e77cae: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:46:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:46:23Z",
+      "lastUpdated": "2026-09-14T15:46:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33601",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f18d2964-045b-451a-8ea3-6533a35cfd17: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:46:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:46:44Z",
+      "lastUpdated": "2026-09-14T15:46:44Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33602",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 62e7119d-9de6-4384-ad48-8d0364e7a820: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:47:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:47:00Z",
+      "lastUpdated": "2026-09-14T15:47:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9aca96a9-43c5-4f68-81e9-72d38b4e0322: unclear with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:21Z",
+      "lastUpdated": "2023-06-30T10:47:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2018-20796",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8d2dcd9-3d91-45a7-a8ef-a9e54cfdf2a2: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:12:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:12:26Z",
+      "lastUpdated": "2026-04-03T13:12:26Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1cbb6606-5f40-41ce-9aa9-a9be5be01737: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:13:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:13:30Z",
+      "lastUpdated": "2026-04-03T13:13:30Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fbe668e8-8c0c-4cc7-bf7f-046e6fdc7c3a: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:13:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:13:52Z",
+      "lastUpdated": "2026-04-03T13:13:52Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b92e844-d440-4314-ad46-441dcf2dbd2b: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:14:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:14:59Z",
+      "lastUpdated": "2026-04-03T13:14:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2021-33574",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab09956a-0b6d-4b9c-acaa-b2d8006b059d: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:21:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:21:20Z",
+      "lastUpdated": "2026-04-03T13:21:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2023-4806",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76170415-1d25-4710-9e75-531be48d5b2b: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:19:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:19:39Z",
+      "lastUpdated": "2026-09-14T15:19:39Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2023-4813",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a245cc40-4b50-42a7-b36e-8d6bf2f263ef: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:22:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:22:28Z",
+      "lastUpdated": "2026-09-14T15:22:28Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-2961",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 62ba9ced-af43-43fc-bb4f-3a36c4beb34a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:45:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:45:02Z",
+      "lastUpdated": "2026-09-14T15:45:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33599",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f233a68b-7dc9-4ea9-8297-2ed08f51c5d8: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:46:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:46:12Z",
+      "lastUpdated": "2026-09-14T15:46:12Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33600",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c3d15ce-f978-449c-8312-eda20f16df96: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:46:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:46:27Z",
+      "lastUpdated": "2026-09-14T15:46:27Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33601",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3fe82e6f-5d20-4f10-aff9-51b07ac4020f: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:46:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:46:46Z",
+      "lastUpdated": "2026-09-14T15:46:46Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.7",
+      "vulnerability": "CVE-2024-33602",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 364ff57a-a2e3-4567-b201-197c74a7de03: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:47:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:47:04Z",
+      "lastUpdated": "2026-09-14T15:47:04Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libcom-err2@1.45.5-2ubuntu1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b15e7da2-9ae0-47de-9e5d-8a60e6279114: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:17:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:17:32Z",
+      "lastUpdated": "2026-09-14T14:17:32Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libext2fs2@1.45.5-2ubuntu1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12a9de78-5261-4cd1-9fa8-b01f130d9671: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:17:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:17:36Z",
+      "lastUpdated": "2026-09-14T14:17:36Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgcc-s1@10.3.0-1ubuntu1~20.04",
+      "vulnerability": "CVE-2023-4039",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad8020e8-5f88-4221-8b74-75039fff00be: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:12:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:12:30Z",
+      "lastUpdated": "2026-09-14T15:12:30Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgcrypt20@1.8.5-5ubuntu1.1",
+      "vulnerability": "CVE-2024-2236",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3a05fa17-a71d-4127-9076-121a01f91a40: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:38:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:38:01Z",
+      "lastUpdated": "2026-09-14T15:38:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgmp10@2:6.2.0%2Bdfsg-4",
+      "vulnerability": "CVE-2021-43618",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a4a99ec-8eb5-42a5-bac3-d0f70ca50b6c: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:21Z",
+      "lastUpdated": "2023-06-30T10:47:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2021-4209",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f54ff91-8188-47e6-ab84-17595244b8e3: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:21Z",
+      "lastUpdated": "2023-06-30T10:47:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2022-2509",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dfae7adc-2125-40a1-8670-d2a438a12c21: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:25:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:25:24Z",
+      "lastUpdated": "2026-09-14T14:25:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2023-0361",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ffb47912-3721-4269-a596-1fde3a9798ed: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:52:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:52:42Z",
+      "lastUpdated": "2026-09-14T14:52:42Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2023-5981",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f3c037a-5a4b-4995-bf16-629e07e8cea5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:29:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:29:21Z",
+      "lastUpdated": "2026-09-14T15:29:21Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2024-0553",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1d7f21e1-9d63-4fe1-98f2-395b8af41748: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:31:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:31:24Z",
+      "lastUpdated": "2026-09-14T15:31:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2024-12243",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e13fe5d-2cd9-478f-bb10-c74804037947: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:37:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:37:45Z",
+      "lastUpdated": "2026-09-14T15:37:45Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6",
+      "vulnerability": "CVE-2024-28834",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 20c2c824-b3b2-4a45-b2ed-ea222f2b3298: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:44:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:44:32Z",
+      "lastUpdated": "2026-09-14T15:44:32Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 922ae4df-c1ef-4d65-8c2a-d08ec79d6f56: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:22Z",
+      "lastUpdated": "2023-06-30T10:47:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c896398-085f-488a-b2a3-2fb22991f6b3: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:30:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:30:45Z",
+      "lastUpdated": "2026-09-14T14:30:45Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9f5ac301-ed8a-421e-ae4d-799d25ef4ecf: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:56:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:56:13Z",
+      "lastUpdated": "2026-09-14T14:56:13Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-45918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f4687440-99df-45aa-afc9-eabc70dcd8e0: fp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:53:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:53:23Z",
+      "lastUpdated": "2026-09-14T15:53:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d35abe5d-eab0-4707-a24d-8b55a236fd65: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:28:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:28:38Z",
+      "lastUpdated": "2026-09-14T15:28:38Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 594f6e1a-04f0-413f-bcb2-b5fe39dc50c3: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:22Z",
+      "lastUpdated": "2023-06-30T10:47:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8e96e257-e1ac-4090-8258-87ed75687303: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:32:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:32:48Z",
+      "lastUpdated": "2026-09-14T14:32:48Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da63a8ff-f0e9-4810-9b4e-0d92c29c5a58: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:57:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:57:55Z",
+      "lastUpdated": "2026-09-14T14:57:55Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-45918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a18d3d0-eeba-463e-b18a-03ded692fcdc: fp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:55:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:55:09Z",
+      "lastUpdated": "2026-09-14T15:55:09Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c48e9b90-bb3d-4570-b159-9837f4dae47c: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:28:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:28:42Z",
+      "lastUpdated": "2026-09-14T15:28:42Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules-bin@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2022-28321",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6c087a7e-df10-4ec3-964d-4dd8d7a4ec2f: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:26:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:26:38Z",
+      "lastUpdated": "2026-09-14T14:26:38Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules-bin@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d5272c88-4ae3-4cd6-87f5-4bddcb0e3e0a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T16:22:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T16:22:51Z",
+      "lastUpdated": "2026-09-14T16:22:51Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules-bin@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-22365",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8a8b7aa-f432-4418-bfc0-26084f9ccc2a: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:39:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:39:34Z",
+      "lastUpdated": "2026-09-14T15:39:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2022-28321",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 27b3f98e-a6aa-4f68-a906-cbee1e45965c: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:26:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:26:34Z",
+      "lastUpdated": "2026-09-14T14:26:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 636750d1-9951-4264-a6ad-28461d760a57: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T16:22:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T16:22:44Z",
+      "lastUpdated": "2026-09-14T16:22:44Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-modules@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-22365",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74824db1-9084-4778-8742-f3eaf9ab9ae2: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:39:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:39:27Z",
+      "lastUpdated": "2026-09-14T15:39:27Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-runtime@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2022-28321",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 17641430-ed65-4e60-bda8-950b3d94a8e0: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:26:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:26:41Z",
+      "lastUpdated": "2026-09-14T14:26:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-runtime@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 48b40c20-2f89-49ab-8099-3a4059f9ac97: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T16:22:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T16:22:54Z",
+      "lastUpdated": "2026-09-14T16:22:54Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam-runtime@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-22365",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7f961b0e-97a1-4a3f-93ac-a30d5a6945cb: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:39:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:39:43Z",
+      "lastUpdated": "2026-09-14T15:39:43Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam0g@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2022-28321",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 17945d5e-9706-474f-ab76-d8705e76f173: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:26:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:26:56Z",
+      "lastUpdated": "2026-09-14T14:26:56Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam0g@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-10041",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 82174d53-1a03-43e5-9c3b-31265f7bb3e0: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T16:22:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T16:22:56Z",
+      "lastUpdated": "2026-09-14T16:22:56Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpam0g@1.3.1-5ubuntu4.3",
+      "vulnerability": "CVE-2024-22365",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a66115e4-e665-40ea-81d6-00231c5c53bc: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:40:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:40:31Z",
+      "lastUpdated": "2026-09-14T15:40:31Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre2-8-0@10.34-7",
+      "vulnerability": "CVE-2022-1586",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 55e0500c-e629-4cbc-ae43-895bb28c93ab: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:18:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:18:10Z",
+      "lastUpdated": "2026-09-14T14:18:10Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre2-8-0@10.34-7",
+      "vulnerability": "CVE-2022-1587",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b47b6b1-bddc-45ff-bef1-815b09721b64: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:24:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:24:30Z",
+      "lastUpdated": "2026-09-14T14:24:30Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre2-8-0@10.34-7",
+      "vulnerability": "CVE-2022-41409",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce8190e0-1fbb-4e01-bf4e-e038464c051e: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:46:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:46:18Z",
+      "lastUpdated": "2026-09-14T14:46:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-12build1",
+      "vulnerability": "CVE-2017-11164",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels acfea42f-b26e-40b5-9e05-df7c0ad840ea: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:22Z",
+      "lastUpdated": "2023-06-30T10:47:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-12build1",
+      "vulnerability": "CVE-2019-20838",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6981f08c-b853-4ee6-8bfa-2ccd1de4cee0: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:22Z",
+      "lastUpdated": "2023-06-30T10:47:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-12build1",
+      "vulnerability": "CVE-2020-14155",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76a65936-f158-4332-8af6-b58673f65779: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:23Z",
+      "lastUpdated": "2023-06-30T10:47:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libprocps8@2:3.3.16-1ubuntu2.3",
+      "vulnerability": "CVE-2023-4016",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83ee666b-de9d-44cb-8f53-15280aa66608: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:07:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:07:08Z",
+      "lastUpdated": "2026-09-14T15:07:08Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsepol1@3.0-1",
+      "vulnerability": "CVE-2021-36084",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 16bfd415-53d4-41ab-89f3-4336bba7b833: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:23Z",
+      "lastUpdated": "2023-06-30T10:47:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsepol1@3.0-1",
+      "vulnerability": "CVE-2021-36085",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da89876c-25e9-4376-9495-3c7cd5fc02d3: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:23Z",
+      "lastUpdated": "2023-06-30T10:47:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsepol1@3.0-1",
+      "vulnerability": "CVE-2021-36086",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da9e3d0d-5b17-4a63-b8b0-75a144d3dae3: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:23Z",
+      "lastUpdated": "2023-06-30T10:47:23Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsepol1@3.0-1",
+      "vulnerability": "CVE-2021-36087",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4c417940-644b-49af-8a43-f232a8eaa539: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:24Z",
+      "lastUpdated": "2023-06-30T10:47:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libss2@1.45.5-2ubuntu1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6dba55a-ddf3-4253-a7f4-40513ad32fde: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:17:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:17:42Z",
+      "lastUpdated": "2026-09-14T14:17:42Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libstdc%2B%2B6@10.3.0-1ubuntu1~20.04",
+      "vulnerability": "CVE-2023-4039",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1436d957-d2d1-4bf1-945a-a81001a4d504: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:13:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:13:32Z",
+      "lastUpdated": "2026-09-14T15:13:32Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2020-13776",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8084ac33-572d-438a-a428-bc62e6354703: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:15:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:15:12Z",
+      "lastUpdated": "2026-04-03T13:15:12Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2022-3821",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c6d54e58-616f-49c4-8c63-e27e5f978839: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:42:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:42:11Z",
+      "lastUpdated": "2026-09-14T14:42:11Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2022-4415",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels afbe7396-0e79-4fd8-b8e6-21f5a159d331: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:46:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:46:43Z",
+      "lastUpdated": "2026-09-14T14:46:43Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2023-26604",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f6ff317-851e-4417-af4a-a86328ce41e5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:53:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:53:07Z",
+      "lastUpdated": "2026-09-14T14:53:07Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2023-7008",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 031fcef1-08cd-49a0-b2ef-f9b4b70a5fa5: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:30:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:30:14Z",
+      "lastUpdated": "2026-09-14T15:30:14Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtasn1-6@4.16.0-2",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6e2cdc19-b9e8-4750-96c9-cbebc98f14b2: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:08:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:08:06Z",
+      "lastUpdated": "2026-09-14T14:08:06Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtasn1-6@4.16.0-2",
+      "vulnerability": "CVE-2024-12133",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cc0324e1-1caa-4696-9b6b-736e4f36a28d: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:36:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:36:37Z",
+      "lastUpdated": "2026-09-14T15:36:37Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9329e721-4d3a-4be5-8d37-6b202eb7b7e6: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:24Z",
+      "lastUpdated": "2023-06-30T10:47:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86bbb17f-e136-4dfa-b18c-074472d11a01: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:36:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:36:42Z",
+      "lastUpdated": "2026-09-14T14:36:42Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df5a16fa-c573-4963-922d-5b2e27b3f2af: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:01:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:01:22Z",
+      "lastUpdated": "2026-09-14T15:01:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-45918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 69266068-681f-4c53-97a5-c76cb6c5e485: fp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:56:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:56:10Z",
+      "lastUpdated": "2026-09-14T15:56:10Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7df618de-c0cd-43e4-9738-02cb04db05bb: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:28:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:28:46Z",
+      "lastUpdated": "2026-09-14T15:28:46Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2020-13776",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6ac278b3-8db5-4f6d-8bfa-56914e402367: tp",
+          "author": "williammurphy",
+          "at": "2026-04-03T13:19:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-03T13:19:41Z",
+      "lastUpdated": "2026-04-03T13:19:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2022-3821",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87b85807-8a1b-4697-bd94-78d263398353: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:42:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:42:22Z",
+      "lastUpdated": "2026-09-14T14:42:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2022-4415",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97b4826d-a62e-482a-bd09-bf4803a44d0f: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:46:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:46:52Z",
+      "lastUpdated": "2026-09-14T14:46:52Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2023-26604",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fae23b34-286c-4fba-bd91-385c2f7289dc: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:53:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:53:40Z",
+      "lastUpdated": "2026-09-14T14:53:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.16",
+      "vulnerability": "CVE-2023-7008",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60f3dd1c-3142-4ec3-bfc2-4aa6f1e54431: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:30:18Z",
+      "lastUpdated": "2026-09-14T15:30:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 110d9763-ce4f-4a45-a4aa-cc022c5635c9: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:24Z",
+      "lastUpdated": "2023-06-30T10:47:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2023-29383",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 29e17249-6bc4-4b5b-83f5-943b3a24baba: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:53:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:53:54Z",
+      "lastUpdated": "2026-09-14T14:53:54Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2023-4641",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 706b191f-1174-4857-91c9-48be0d764565: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:16:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:16:32Z",
+      "lastUpdated": "2026-09-14T15:16:32Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2024-56433",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 80f484bd-6e17-4bc4-a2ab-ad03e857f9b3: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:47:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:47:14Z",
+      "lastUpdated": "2026-09-14T15:47:14Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/logsave@1.45.5-2ubuntu1",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2402746b-b8ae-42e7-ac45-0a4297536a3f: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:17:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:17:45Z",
+      "lastUpdated": "2026-09-14T14:17:45Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8fe043e-8a9c-405b-8583-bae316ba4736: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:25Z",
+      "lastUpdated": "2023-06-30T10:47:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc4f90a5-66c4-421b-9287-d93296aac9d4: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:36:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:36:55Z",
+      "lastUpdated": "2026-09-14T14:36:55Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 11319691-95b3-443f-b21c-17cd6b70dc5b: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:01:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:01:28Z",
+      "lastUpdated": "2026-09-14T15:01:28Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-45918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 547dfb35-5b9d-48b6-acdd-e29824845e69: fp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:56:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:56:18Z",
+      "lastUpdated": "2026-09-14T15:56:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bab7a096-58d2-4242-a400-0dc054a5734d: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:28:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:28:55Z",
+      "lastUpdated": "2026-09-14T15:28:55Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2021-39537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a692def2-a45e-4faa-ad2b-5f8998705072: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:25Z",
+      "lastUpdated": "2023-06-30T10:47:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b19fcc24-eb20-461a-b203-c78c8dd47df6: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:37:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:37:26Z",
+      "lastUpdated": "2026-09-14T14:37:26Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-29491",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 140ad2c8-f89f-46c2-81a1-c8f3c3deddea: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:01:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:01:31Z",
+      "lastUpdated": "2026-09-14T15:01:31Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-45918",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e1cd214-1c8f-43b5-abbf-d7475b6153a4: fp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:56:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:56:25Z",
+      "lastUpdated": "2026-09-14T15:56:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2",
+      "vulnerability": "CVE-2023-50495",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93071130-b729-433e-b353-6f94add52daa: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:29:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:29:02Z",
+      "lastUpdated": "2026-09-14T15:29:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/passwd@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 189beff9-5b94-4cea-a72b-a952ded9514e: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:26Z",
+      "lastUpdated": "2023-06-30T10:47:26Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/passwd@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2023-29383",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6abb3d8b-0e9f-4f40-b24d-a3ed764eccc8: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:54:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:54:07Z",
+      "lastUpdated": "2026-09-14T14:54:07Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/passwd@1:4.8.1-1ubuntu5.20.04.1",
+      "vulnerability": "CVE-2023-4641",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f569b0d0-5d6d-47f6-bad7-340421ab89ea: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:16:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:16:40Z",
+      "lastUpdated": "2026-09-14T15:16:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/perl-base@5.30.0-9ubuntu0.2",
+      "vulnerability": "CVE-2020-16156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f532ce99-4b7f-4217-a18e-890d57d59e8b: tp with grype@v0.63.0",
+          "author": "westonsteimel",
+          "at": "2023-06-30T10:47:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-06-30T10:47:27Z",
+      "lastUpdated": "2023-06-30T10:47:27Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/perl-base@5.30.0-9ubuntu0.2",
+      "vulnerability": "CVE-2023-31484",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 986a83c6-cde7-44f4-b129-09d4b197b19c: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:02:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:02:18Z",
+      "lastUpdated": "2026-09-14T15:02:18Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/perl-base@5.30.0-9ubuntu0.2",
+      "vulnerability": "CVE-2023-47038",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 511e1262-02d9-4bf5-8755-a39d6be6f1ee: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:17:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:17:06Z",
+      "lastUpdated": "2026-09-14T15:17:06Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/procps@2:3.3.16-1ubuntu2.3",
+      "vulnerability": "CVE-2023-4016",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 55142de1-12b8-4068-9acc-9bd1210b9d9b: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:11:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:11:28Z",
+      "lastUpdated": "2026-09-14T15:11:28Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/tar@1.30%2Bdfsg-7ubuntu0.20.04.2",
+      "vulnerability": "CVE-2022-48303",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37ebe141-d07c-40a8-8e63-69d445ec23bd: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:51:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:51:10Z",
+      "lastUpdated": "2026-09-14T14:51:10Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/tar@1.30%2Bdfsg-7ubuntu0.20.04.2",
+      "vulnerability": "CVE-2023-39804",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1021b1ce-0610-4b46-b7e2-c6a630975330: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T15:04:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T15:04:56Z",
+      "lastUpdated": "2026-09-14T15:04:56Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/zlib1g@1:1.2.11.dfsg-2ubuntu1.3",
+      "vulnerability": "CVE-2022-37434",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 24d70973-8828-40bc-b054-b42a4b7160c6: tp",
+          "author": "williammurphy",
+          "at": "2026-09-14T14:40:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-09-14T14:40:23Z",
+      "lastUpdated": "2026-09-14T14:40:23Z"
+    }
+  ]
+}

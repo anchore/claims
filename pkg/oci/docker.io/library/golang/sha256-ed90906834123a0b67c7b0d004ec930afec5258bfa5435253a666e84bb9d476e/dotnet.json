@@ -1,0 +1,31 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/golang@sha256:ed90906834123a0b67c7b0d004ec930afec5258bfa5435253a666e84bb9d476e"
+  },
+  "labels": [
+    {
+      "package": "pkg:nuget/System.Net.Http@1.0.24212.01.",
+      "vulnerability": "GHSA-7jgj-8wvc-jh57",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5035b480-c60f-4eb9-b8bd-baf294571f5e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:38Z",
+      "lastUpdated": "2025-06-25T12:34:38Z"
+    }
+  ]
+}

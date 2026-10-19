@@ -1,0 +1,317 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/cloudbees/cloudbees-core-agent@sha256:d48f0546b4cf5ef4626136242ce302f94a42751156b7be42f4b1b75a66608880",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-20266",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 58bdc8b1-7818-444d-b20e-d7df4897a1d2: fp with grype@v0.65.0. The PyPI package \"RPM\" is not really present in the image; the python cataloger sees pieces of the python3-rpm rpm and records a second package without a fix. See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:41:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:41:57Z",
+      "lastUpdated": "2023-08-01T14:41:57Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3421",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e010b8f-2b2b-4b9d-adbc-cd8fb6d9b4c6: fp with grype@v0.65.0. The PyPI package \"rpm\" is not really present in the image; this vulnerability should only be reported against the rpm python3-rpm. See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:43:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:43:38Z",
+      "lastUpdated": "2023-08-01T14:43:38Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3521",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d84599c4-ae78-4996-b7a3-c2e11906eb9a: fp with grype@v0.65.0. The PyPI package \"rpm\" is not really present; the cataloger is confused by artifacts from the \"python3-rpm\" rpm. This CVE should only be reported against the rpm \"python3-rpm\". See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:44:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:44:53Z",
+      "lastUpdated": "2023-08-01T14:44:53Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 530d7664-b478-4a34-8c81-9712c78123ee: fp with grype@v0.65.0. The PyPI package \"rpm\" is not really present; this vulnerability should only be reported against the RPM \"python3-rpm\". See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:46:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:46:28Z",
+      "lastUpdated": "2023-08-01T14:46:28Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ded1bab7-c8a3-48b1-bd7c-3e25c5d9c9d2: fp with grype@v0.65.0. The PyPI package \"rpm\" is not really present; this vulnerability should only be reported against the RPM \"python3-rpm\". See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:47:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:47:08Z",
+      "lastUpdated": "2023-08-01T14:47:08Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0d77ad3c-e2e1-4356-a219-e82581cded7a: fp with grype@v0.65.0. The PyPI package \"rpm\" is not really present in the image. The RPM \"python3-rpm\" is the package that should have this vulnerability. See Grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-01T14:47:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T14:47:51Z",
+      "lastUpdated": "2023-08-01T14:47:51Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2019-11236",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 725b043d-e3be-432c-bf9f-df10ab787fcb: fp with grype@v0.55.0-24-gc01ee9b",
+          "author": "westonsteimel",
+          "at": "2023-01-26T14:24:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0-24-gc01ee9b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T14:24:13Z",
+      "lastUpdated": "2023-01-26T14:24:13Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2020-26137",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4a627e0-b833-46cc-94ca-af20e8a87ae3: fp with grype@v0.55.0-24-gc01ee9b",
+          "author": "westonsteimel",
+          "at": "2023-01-26T14:24:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0-24-gc01ee9b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T14:24:15Z",
+      "lastUpdated": "2023-01-26T14:24:15Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2021-33503",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 89f6ddd4-535e-4ab2-b0bd-22792693c88b: fp with grype@v0.55.0-24-gc01ee9b",
+          "author": "westonsteimel",
+          "at": "2023-01-26T14:24:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0-24-gc01ee9b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T14:24:15Z",
+      "lastUpdated": "2023-01-26T14:24:15Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "GHSA-r64q-w8jr-g9qp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 608ad05c-b7c4-4d79-a74d-6cab16faffed: fp with grype@v0.55.0-24-gc01ee9b",
+          "author": "westonsteimel",
+          "at": "2023-01-26T14:24:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0-24-gc01ee9b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T14:24:16Z",
+      "lastUpdated": "2023-01-26T14:24:16Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "GHSA-wqvq-5m8c-6g24",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0b4f8aa-9c3e-4569-b155-0f1d9a1001e7: fp with grype@v0.55.0-24-gc01ee9b",
+          "author": "westonsteimel",
+          "at": "2023-01-26T14:24:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0-24-gc01ee9b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T14:24:16Z",
+      "lastUpdated": "2023-01-26T14:24:16Z"
+    }
+  ]
+}

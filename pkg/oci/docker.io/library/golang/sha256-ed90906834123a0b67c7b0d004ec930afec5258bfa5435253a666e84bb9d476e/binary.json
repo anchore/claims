@@ -1,0 +1,2607 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/golang@sha256:ed90906834123a0b67c7b0d004ec930afec5258bfa5435253a666e84bb9d476e"
+  },
+  "labels": [
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2018-16873",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c56f3a7-34b8-43e5-8f4c-a688a62018c1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:58:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:58:32Z",
+      "lastUpdated": "2025-06-25T12:58:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2018-16874",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e7e6d38-5959-4592-83d0-744b7110e766: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:58:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:58:32Z",
+      "lastUpdated": "2025-06-25T12:58:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2018-16875",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9dc2181-d210-49cc-9302-872596fda616: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:58:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:58:32Z",
+      "lastUpdated": "2025-06-25T12:58:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2018-6574",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8431c31-9f9d-4667-96f9-a2f11a7b0be7: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:58:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:58:32Z",
+      "lastUpdated": "2025-06-25T12:58:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2018-7187",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0538868b-4367-486b-8905-d9f433f4ad5f: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:16Z",
+      "lastUpdated": "2025-06-25T12:34:16Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2019-11888",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 28fc96a7-eed0-41ea-a67f-954d0446811a: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:17Z",
+      "lastUpdated": "2025-06-25T12:34:17Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2019-14809",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5fb1d989-0b8c-47f3-b3de-71863917eb06: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:18Z",
+      "lastUpdated": "2025-06-25T12:34:18Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2019-16276",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5c86af38-f6ff-4a09-bf5a-dbeb5d90365c: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:18Z",
+      "lastUpdated": "2025-06-25T12:34:18Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2019-6486",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 17d0363e-5c4f-4b20-b508-1af8e1d1f78c: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:19Z",
+      "lastUpdated": "2025-06-25T12:34:19Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2019-9634",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5bb42a95-5017-45a4-a851-d621a24d26bd: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:20Z",
+      "lastUpdated": "2025-06-25T12:34:20Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-14039",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a6387a3f-9a7f-4d30-b164-851399cd2317: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:20Z",
+      "lastUpdated": "2025-06-25T12:34:20Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-15586",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4e1518e2-c013-44ff-b83d-c31ccd68adce: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:21Z",
+      "lastUpdated": "2025-06-25T12:34:21Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-16845",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8b417d8-119f-4aba-827b-048bb137a92c: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:22Z",
+      "lastUpdated": "2025-06-25T12:34:22Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-24553",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25e2b353-9f08-4081-9847-6204f5ee0300: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:23Z",
+      "lastUpdated": "2025-06-25T12:34:23Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-28362",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95f284d4-4327-4d4c-a91f-605a2a1bae0b: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:23Z",
+      "lastUpdated": "2025-06-25T12:34:23Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-28366",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77099c6a-64bb-4d1e-8e08-45c03b4baa9e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:24Z",
+      "lastUpdated": "2025-06-25T12:34:24Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-28367",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 58e7d885-c6a0-4e00-bf63-728f04d63ae1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:24Z",
+      "lastUpdated": "2025-06-25T12:34:24Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-29509",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b48a5ece-da95-4335-8466-0f4b66644a0b: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:25Z",
+      "lastUpdated": "2025-06-25T12:34:25Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-29510",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f34f0b46-accb-4adb-93b5-bee2ec118c79: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:25Z",
+      "lastUpdated": "2025-06-25T12:34:25Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2020-29511",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 69921920-cd75-4fbe-bc8d-1f158626cb36: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:26Z",
+      "lastUpdated": "2025-06-25T12:34:26Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-27918",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc1dad49-ef94-479d-81e4-4d0a8335ff85: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:27Z",
+      "lastUpdated": "2025-06-25T12:34:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-29923",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 849220d1-e326-4d3c-9507-24f92843f6ac: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:27Z",
+      "lastUpdated": "2025-06-25T12:34:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-3114",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 23a0bbf4-69f0-4525-ab81-a71a1599daf1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:28Z",
+      "lastUpdated": "2025-06-25T12:34:28Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-3115",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76320840-38eb-4c74-ba42-340ee6da2612: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:28Z",
+      "lastUpdated": "2025-06-25T12:34:28Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-31525",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 754c51c5-40d5-4e0a-b0f8-9b85d8f24ccd: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:29Z",
+      "lastUpdated": "2025-06-25T12:34:29Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-33195",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b1256dc-98d7-486a-a922-a2dcff3a043d: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:30Z",
+      "lastUpdated": "2025-06-25T12:34:30Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-33196",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2d150d45-f5bc-41bd-b970-2aa9815e0993: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:31Z",
+      "lastUpdated": "2025-06-25T12:34:31Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-33197",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d5464dd-0cc7-43aa-97fc-63ab770ed660: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:31Z",
+      "lastUpdated": "2025-06-25T12:34:31Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-33198",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 738ff6af-562f-4a18-9e08-f36bef3d52d1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:32Z",
+      "lastUpdated": "2025-06-25T12:34:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-34558",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 973b8baa-d50b-4b8c-ac73-933cfb87877e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:32Z",
+      "lastUpdated": "2025-06-25T12:34:32Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-36221",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b82b950-bb07-473d-9fe1-606985d32f16: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:33Z",
+      "lastUpdated": "2025-06-25T12:34:33Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-38297",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 423a5f2c-d646-4b45-a85a-e887a6abe584: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:33Z",
+      "lastUpdated": "2025-06-25T12:34:33Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-39293",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9ed3aee-83ba-43ff-90c3-3f7685d8e9be: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:34Z",
+      "lastUpdated": "2025-06-25T12:34:34Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-41771",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 69eb8f4c-5e3f-4dc5-b52c-f94707ad3cf1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:35Z",
+      "lastUpdated": "2025-06-25T12:34:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-41772",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 49f1a9bb-54f5-4a0a-8d8c-fe02a0b34bbe: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:35Z",
+      "lastUpdated": "2025-06-25T12:34:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-44716",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd78c853-671d-4806-8e30-a9dfc66e622a: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:36Z",
+      "lastUpdated": "2025-06-25T12:34:36Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2021-44717",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 43de0153-0ae7-4e51-af61-8e4de65d5242: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:34:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:34:37Z",
+      "lastUpdated": "2025-06-25T12:34:37Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-1705",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 809da5a5-2603-41b0-b606-684e41d791be: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:37:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:37:57Z",
+      "lastUpdated": "2025-06-25T12:37:57Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-1962",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 70ff721e-e14f-4968-9598-4e84ae01b039: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:37:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:37:58Z",
+      "lastUpdated": "2025-06-25T12:37:58Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-23772",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f8df1a6-be56-4440-9135-bd8312b6c4b2: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:37:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:37:58Z",
+      "lastUpdated": "2025-06-25T12:37:58Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-23773",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fdb8dac-6b8e-4401-bd32-b01628c73f17: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:13Z",
+      "lastUpdated": "2025-06-25T12:38:13Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-23806",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad3392e6-ba4a-442b-b8a4-849c5850a54b: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:12Z",
+      "lastUpdated": "2025-06-25T12:38:12Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-24675",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45c79d8c-de23-411b-a601-ff7d0427b523: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:11Z",
+      "lastUpdated": "2025-06-25T12:38:11Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-24921",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d6a503bd-0a68-4dd5-a53a-e986868ee4e8: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:10Z",
+      "lastUpdated": "2025-06-25T12:38:10Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-27664",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bad6ba67-a01c-4156-a8c4-b9f1f06c33ff: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:09Z",
+      "lastUpdated": "2025-06-25T12:38:09Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-28131",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4e9b8a3b-0716-494f-a73f-bae1a3561038: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:08Z",
+      "lastUpdated": "2025-06-25T12:38:08Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-28327",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ad04259-2beb-4b6f-92a2-e7dfe4c9a83a: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:08Z",
+      "lastUpdated": "2025-06-25T12:38:08Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-2879",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f2ab012-1287-4a71-bc17-9279e8933040: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:07Z",
+      "lastUpdated": "2025-06-25T12:38:07Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-2880",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b6f5cb9-87a0-4682-919a-a8556f55f843: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:06Z",
+      "lastUpdated": "2025-06-25T12:38:06Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-29526",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 18511a88-e532-4fc7-bf2d-4c8a353bfbc1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:06Z",
+      "lastUpdated": "2025-06-25T12:38:06Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-29804",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4cfb29c6-0465-4963-9117-4f865a87c240: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:06Z",
+      "lastUpdated": "2025-06-25T12:38:06Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30580",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 38d89b8c-ca05-41aa-bfc8-3a724a4f7017: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:05Z",
+      "lastUpdated": "2025-06-25T12:38:05Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30629",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3c030c5-abce-4265-bab5-4f598b0c92e4: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:05Z",
+      "lastUpdated": "2025-06-25T12:38:05Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30630",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7783525-0ec4-4fdf-855b-4098212822d0: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:05Z",
+      "lastUpdated": "2025-06-25T12:38:05Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30631",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5afea30a-2c8f-480a-b72b-79be313f82fd: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:04Z",
+      "lastUpdated": "2025-06-25T12:38:04Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30632",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 421ce671-0323-4af8-97e9-c33a3b545c5c: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:04Z",
+      "lastUpdated": "2025-06-25T12:38:04Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30633",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85edc7b1-2cae-40f8-9330-d9bad4c7f33e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:04Z",
+      "lastUpdated": "2025-06-25T12:38:04Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30634",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e6cdd129-7f7d-4573-935b-55cf2d8509bd: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:03Z",
+      "lastUpdated": "2025-06-25T12:38:03Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-30635",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94fff33f-d5bf-4494-aa1a-6b00169d7a07: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:03Z",
+      "lastUpdated": "2025-06-25T12:38:03Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-32148",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a56c6214-3b46-4249-8dde-75d9c9f1a152: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:03Z",
+      "lastUpdated": "2025-06-25T12:38:03Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-32189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe213e99-767d-4950-9de3-6cb4088549de: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:02Z",
+      "lastUpdated": "2025-06-25T12:38:02Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41715",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b8bb691b-20e3-4ccc-bbd7-592fe64f82ab: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:02Z",
+      "lastUpdated": "2025-06-25T12:38:02Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41716",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d7d0d6b8-bd91-41f4-8d24-74292626dbc5: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:02Z",
+      "lastUpdated": "2025-06-25T12:38:02Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41717",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4bc3742c-8a1e-468f-a180-fb04d958b57b: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:01Z",
+      "lastUpdated": "2025-06-25T12:38:01Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41720",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea044854-f6b2-40c9-8067-9c428fd364c8: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:28Z",
+      "lastUpdated": "2025-06-25T12:38:28Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41722",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d833500-5135-42bd-8bb0-325b49bc318e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:28Z",
+      "lastUpdated": "2025-06-25T12:38:28Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41723",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d64c2a3-8963-4529-b137-9c877a2c694e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:27Z",
+      "lastUpdated": "2025-06-25T12:38:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41724",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 853a3506-5ce8-4adc-95a4-2e5102d7edd9: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:27Z",
+      "lastUpdated": "2025-06-25T12:38:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2022-41725",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd94d483-5f44-472d-83f8-e62b9e97f052: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:27Z",
+      "lastUpdated": "2025-06-25T12:38:27Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24531",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3938d8f-5a93-44e6-a3be-e2c1c7cbc647: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:26Z",
+      "lastUpdated": "2025-06-25T12:38:26Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24532",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8cb2bdf1-b2df-482d-9b7d-2882adef2ff0: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:26Z",
+      "lastUpdated": "2025-06-25T12:38:26Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24534",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df0ee975-960a-468a-be93-b4696197a0fb: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:26Z",
+      "lastUpdated": "2025-06-25T12:38:26Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24536",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa2d39bd-7bf6-4042-a0a6-2bb9ff9a21e0: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:25Z",
+      "lastUpdated": "2025-06-25T12:38:25Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24537",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86ffebd5-93a0-4e9f-ad2a-9d5a1dc171a9: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:25Z",
+      "lastUpdated": "2025-06-25T12:38:25Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24538",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels daf598fb-b629-4477-8b5e-f90f921f5583: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:25Z",
+      "lastUpdated": "2025-06-25T12:38:25Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24539",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bf10890b-0f1b-4e49-8b52-e9e1358e658d: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:24Z",
+      "lastUpdated": "2025-06-25T12:38:24Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-24540",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7329935e-8b91-4432-a188-2077920e5646: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:24Z",
+      "lastUpdated": "2025-06-25T12:38:24Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29400",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0239b419-ab0c-42f3-9e08-b3f07ab450d0: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:24Z",
+      "lastUpdated": "2025-06-25T12:38:24Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29402",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a178ed0-05da-4b22-b198-0acfaf4e0c53: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:23Z",
+      "lastUpdated": "2025-06-25T12:38:23Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29403",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b78ca25f-7d25-46ef-a93e-01ed353f7f60: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:23Z",
+      "lastUpdated": "2025-06-25T12:38:23Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29404",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2041ae4d-807c-4065-99a8-09afd58385d3: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:23Z",
+      "lastUpdated": "2025-06-25T12:38:23Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29405",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a81e5e8-ed17-4821-aaf4-6eca5163b436: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:22Z",
+      "lastUpdated": "2025-06-25T12:38:22Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29406",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b6cbff06-e8bf-4608-9c59-39243473c783: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:22Z",
+      "lastUpdated": "2025-06-25T12:38:22Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-29409",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cd0352c0-b520-4bfb-86e5-81a6699f46b0: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:21Z",
+      "lastUpdated": "2025-06-25T12:38:21Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-39318",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71deb644-bdfd-4bbc-b157-6eac73caba15: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:21Z",
+      "lastUpdated": "2025-06-25T12:38:21Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-39319",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2155340e-dab0-4e62-a01b-e88d5d65b0b3: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:21Z",
+      "lastUpdated": "2025-06-25T12:38:21Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-39323",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1825dfb4-ac0f-40f8-8c0a-421d555c84f1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:20Z",
+      "lastUpdated": "2025-06-25T12:38:20Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-39326",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 652defcf-f6de-4abd-9aae-a699e6d813f1: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:20Z",
+      "lastUpdated": "2025-06-25T12:38:20Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-44487",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bebb122b-c63f-4a6f-9106-f7181af95cdb: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:19Z",
+      "lastUpdated": "2025-06-25T12:38:19Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45283",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab636f45-9166-4adf-b963-0c827cad6c7a: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:19Z",
+      "lastUpdated": "2025-06-25T12:38:19Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45284",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d0c0e1d1-d1fd-40d1-9f84-c0632b1804d2: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:19Z",
+      "lastUpdated": "2025-06-25T12:38:19Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45285",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ca5d804-1f80-4da6-8304-3482ac3b9307: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:41Z",
+      "lastUpdated": "2025-06-25T12:38:41Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45287",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3e687ca-8d4a-4c0e-ad22-9d5bea7749ba: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:41Z",
+      "lastUpdated": "2025-06-25T12:38:41Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45288",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels db9fc2f7-8084-4281-b429-4f9b9132a6e7: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:41Z",
+      "lastUpdated": "2025-06-25T12:38:41Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45289",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4bf70ddd-44e3-48bb-b21b-224639a9a70f: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:40Z",
+      "lastUpdated": "2025-06-25T12:38:40Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2023-45290",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ccce1e42-e6d6-43d8-89e6-f723efe26386: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:40Z",
+      "lastUpdated": "2025-06-25T12:38:40Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24783",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7cba1e5-45f9-4a0e-89be-2c1ea48087ca: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:40Z",
+      "lastUpdated": "2025-06-25T12:38:40Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24784",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b57e4ef3-da95-413a-8c04-18303e59ac4e: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:39Z",
+      "lastUpdated": "2025-06-25T12:38:39Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24785",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a6b848d-8f35-4a13-94d8-c0bd444bdd03: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:39Z",
+      "lastUpdated": "2025-06-25T12:38:39Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24787",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f3488de-c412-41f3-a430-5bb9a9b410cc: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:38Z",
+      "lastUpdated": "2025-06-25T12:38:38Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24789",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4af3aa9b-0967-468b-a5ba-b814177314e3: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:38Z",
+      "lastUpdated": "2025-06-25T12:38:38Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24790",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 16959fe7-0675-44d8-b91c-e2d34990f1e9: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:38Z",
+      "lastUpdated": "2025-06-25T12:38:38Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-24791",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e45dcbbd-8ccc-452f-855e-9cde25718802: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:37Z",
+      "lastUpdated": "2025-06-25T12:38:37Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-34155",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 01d770ee-ee04-4f2d-aff6-8ec2808f1051: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:37Z",
+      "lastUpdated": "2025-06-25T12:38:37Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-34156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cc9a841-d02a-4939-8ed1-bfd3dec90065: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:36Z",
+      "lastUpdated": "2025-06-25T12:38:36Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-34158",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9f061236-f332-4a7a-aa86-b999a0cd83f7: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:36Z",
+      "lastUpdated": "2025-06-25T12:38:36Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-45336",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e811bac-0376-4e58-a60c-a57c87ac0908: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:36Z",
+      "lastUpdated": "2025-06-25T12:38:36Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2024-45341",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe4733bb-2dd4-43dc-81ac-aa354f81b858: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:35Z",
+      "lastUpdated": "2025-06-25T12:38:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2025-0913",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d3660a42-bee0-4f0f-b547-c8f9fee73872: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:35Z",
+      "lastUpdated": "2025-06-25T12:38:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2025-22866",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa0ba725-30a9-496a-91b3-3ae8387a8060: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:35Z",
+      "lastUpdated": "2025-06-25T12:38:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2025-22871",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd353811-baae-4d3e-b237-1df811c1f333: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:35Z",
+      "lastUpdated": "2025-06-25T12:38:35Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2025-22874",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7212a450-e661-4ca4-817d-f3b625105b6a: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:34Z",
+      "lastUpdated": "2025-06-25T12:38:34Z"
+    },
+    {
+      "package": "pkg:generic/go@1.9.1",
+      "vulnerability": "CVE-2025-4673",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5319671-2931-4e9b-b776-f2e1ef1b4f85: tp with anchorectl@v5.20.0-rc1+enterprise=5.20.0",
+          "author": "westonsteimel",
+          "at": "2025-06-25T12:38:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v5.20.0-rc1"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-25T12:38:34Z",
+      "lastUpdated": "2025-06-25T12:38:34Z"
+    }
+  ]
+}

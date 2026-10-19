@@ -1,0 +1,54 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/oraclelinux@sha256:a06327c0f1d18d753f2a60bb17864c84a850bb6dcbcf5946dd1a8123f6e75495",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/pyopenssl@0.13.1",
+      "vulnerability": "CVE-2018-1000807",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6256c35c-55c3-4918-945d-fb6b63db8ab4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:35:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:35:21Z",
+      "lastUpdated": "2022-09-15T23:35:21Z"
+    },
+    {
+      "package": "pkg:pypi/pyopenssl@0.13.1",
+      "vulnerability": "GHSA-2rcm-phc9-3945",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9df0194c-4164-4cb6-a70c-877358afc62e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:35:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:35:35Z",
+      "lastUpdated": "2022-09-15T23:35:35Z"
+    },
+    {
+      "package": "pkg:pypi/pyopenssl@0.13.1",
+      "vulnerability": "GHSA-p28m-34f6-967q",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e3f1cf3-31ad-46f1-a895-a6c63864a845: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:35:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:35:38Z",
+      "lastUpdated": "2022-09-15T23:35:38Z"
+    }
+  ]
+}

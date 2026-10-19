@@ -1,0 +1,1879 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/keycloak/keycloak@sha256:347a0d748d05a050dc64b92de2246d2240db6eb38afbc17c3c08d0acb0db1b50",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/com.google.guava/guava@30.1-jre",
+      "vulnerability": "CVE-2020-8908",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b050ac92-66ce-45f7-8622-68fb034906ea: tp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-21T16:43:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-21T16:43:16Z",
+      "lastUpdated": "2023-08-21T16:43:16Z"
+    },
+    {
+      "package": "pkg:maven/com.google.guava/guava@30.1-jre",
+      "vulnerability": "GHSA-5mg8-w23w-74h3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e4f25cf0-0005-49a3-9be7-c2bdf03a956f: tp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-21T16:44:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-21T16:44:23Z",
+      "lastUpdated": "2023-08-21T16:44:23Z"
+    },
+    {
+      "package": "pkg:maven/io.netty/netty-codec-http2@4.1.86.Final",
+      "vulnerability": "GHSA-xpw8-rcwv-8f8p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7ed197d5-2da0-4d60-9bdf-38375e819c88: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:21:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:21:20Z",
+      "lastUpdated": "2023-10-16T16:21:20Z"
+    },
+    {
+      "package": "pkg:maven/io.quarkus.arc/arc-processor@2.13.7.Final",
+      "vulnerability": "CVE-2005-2945",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 454f24d5-813f-45bf-9e28-b6de8519b576: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:45:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:45:51Z",
+      "lastUpdated": "2023-04-21T16:45:51Z"
+    },
+    {
+      "package": "pkg:maven/io.quarkus.arc/arc-processor@2.13.7.Final",
+      "vulnerability": "CVE-2005-2992",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0c88a9b9-d755-4d26-a721-f10812dd0273: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:45:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:45:52Z",
+      "lastUpdated": "2023-04-21T16:45:52Z"
+    },
+    {
+      "package": "pkg:maven/io.quarkus.arc/arc@2.13.7.Final",
+      "vulnerability": "CVE-2005-2945",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a740cca-70e9-4d6b-8eaa-bc98b619a6f8: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:45:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:45:48Z",
+      "lastUpdated": "2023-04-21T16:45:48Z"
+    },
+    {
+      "package": "pkg:maven/io.quarkus.arc/arc@2.13.7.Final",
+      "vulnerability": "CVE-2005-2992",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9ec722af-078d-4259-848a-0a201ca38e7c: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:45:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:45:49Z",
+      "lastUpdated": "2023-04-21T16:45:49Z"
+    },
+    {
+      "package": "pkg:maven/io.smallrye.reactive/mutiny@1.7.0",
+      "vulnerability": "CVE-2013-0136",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d7034ae2-98fb-4818-9a0b-442b99c1de43: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:46:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:46:12Z",
+      "lastUpdated": "2023-04-21T16:46:12Z"
+    },
+    {
+      "package": "pkg:maven/io.smallrye.reactive/mutiny@1.7.0",
+      "vulnerability": "CVE-2018-15529",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9bd7be05-8dda-4901-a6f7-1fb992ddb66d: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:46:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:46:13Z",
+      "lastUpdated": "2023-04-21T16:46:13Z"
+    },
+    {
+      "package": "pkg:maven/io.smallrye.reactive/mutiny@1.7.0",
+      "vulnerability": "CVE-2022-37832",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f5747cc-90e3-4775-8f37-4fa922abdc60: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:52:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:52:18Z",
+      "lastUpdated": "2023-04-21T16:52:18Z"
+    },
+    {
+      "package": "pkg:maven/io.vertx/vertx-web@4.3.4",
+      "vulnerability": "CVE-2023-24815",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04ebb508-e16a-477f-80f7-c28997674b10: tp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:52:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:52:57Z",
+      "lastUpdated": "2023-04-21T16:52:57Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2014-0001",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e005a29a-5c73-4fd0-99f2-1dce7b967458: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:29:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:29:59Z",
+      "lastUpdated": "2023-11-16T12:29:59Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2015-2325",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f75ead9-4a1c-4245-a650-e3da41ac879e: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:03Z",
+      "lastUpdated": "2023-11-16T12:30:03Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2016-0610",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c1a15c1-94fb-4dc6-a349-cc3f0d244c23: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:04Z",
+      "lastUpdated": "2023-11-16T12:30:04Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2016-0616",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 58a1098f-d054-4f8d-8d79-749ff8de439c: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:05Z",
+      "lastUpdated": "2023-11-16T12:30:05Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2017-15365",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90589b4d-c994-4aca-b8fd-fb49123801db: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:05Z",
+      "lastUpdated": "2023-11-16T12:30:05Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2017-15945",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2d7cc1a4-d9dd-41be-a667-d64e77de45f2: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:05Z",
+      "lastUpdated": "2023-11-16T12:30:05Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2017-3302",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e386f306-e86f-4d4b-bd53-d802a870cea1: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:06Z",
+      "lastUpdated": "2023-11-16T12:30:06Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2021-46666",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9761ad1a-934a-45c6-8f49-d67eb58a9b3c: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:06Z",
+      "lastUpdated": "2023-11-16T12:30:06Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2021-46667",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4103bcb2-fca1-4e03-aef3-7cd0c010616f: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:07Z",
+      "lastUpdated": "2023-11-16T12:30:07Z"
+    },
+    {
+      "package": "pkg:maven/mariadb/mariadb@1.17.3",
+      "vulnerability": "CVE-2021-46669",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels afcfd945-6bc6-46e4-9eac-ba0440cf9c00: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:07Z",
+      "lastUpdated": "2023-11-16T12:30:07Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2007-1420",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 91ef43aa-4d53-4903-b98c-84faa59a6772: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:16Z",
+      "lastUpdated": "2023-11-16T12:30:16Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2007-2691",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f6b1e74-3000-4909-8cfb-86f48eafdbb5: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:17Z",
+      "lastUpdated": "2023-11-16T12:30:17Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2007-5925",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1ca322e5-a05c-4520-8301-0895f32dd2db: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:17Z",
+      "lastUpdated": "2023-11-16T12:30:17Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2009-0819",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5758b602-4c87-4010-b53a-8a26c6abe462: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:17Z",
+      "lastUpdated": "2023-11-16T12:30:17Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2009-4028",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8515fa17-439f-4fd7-8756-05252330076b: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:18Z",
+      "lastUpdated": "2023-11-16T12:30:18Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2010-1621",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ecba55f8-b475-444e-aa03-37aaed52c10c: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:18Z",
+      "lastUpdated": "2023-11-16T12:30:18Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2010-1626",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4892c42b-1bc1-479d-abf3-ac7e9de6c80d: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:18Z",
+      "lastUpdated": "2023-11-16T12:30:18Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2010-3677",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46494dde-8df0-4280-b338-1fa9f6797ad4: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:18Z",
+      "lastUpdated": "2023-11-16T12:30:18Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2010-3682",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bef453ed-a313-427c-ac63-101cbfeb42fb: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:19Z",
+      "lastUpdated": "2023-11-16T12:30:19Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2015-2575",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 964f5d16-fd51-41a6-9221-b576234166fc: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:19Z",
+      "lastUpdated": "2023-11-16T12:30:19Z"
+    },
+    {
+      "package": "pkg:maven/mysql/mysql@1.17.3",
+      "vulnerability": "CVE-2017-15945",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 29e399dc-5e17-4d02-bb57-3feb463d885d: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:20Z",
+      "lastUpdated": "2023-11-16T12:30:20Z"
+    },
+    {
+      "package": "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0",
+      "vulnerability": "CVE-2023-25613",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 052c28ff-f866-4257-b226-97561f9e2806: fp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:52:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:52:13Z",
+      "lastUpdated": "2023-04-21T16:52:13Z"
+    },
+    {
+      "package": "pkg:maven/org.bitbucket.b_c/jose4j@0.7.11",
+      "vulnerability": "GHSA-jgvc-jfgh-rjvv",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1831f30-05e2-4171-94b8-d21c40c9d37f: tp with grype@v0.63.1",
+          "author": "westonsteimel",
+          "at": "2023-07-03T08:14:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-03T08:14:48Z",
+      "lastUpdated": "2023-07-03T08:14:48Z"
+    },
+    {
+      "package": "pkg:maven/org.postgresql/postgresql@42.5.1",
+      "vulnerability": "CVE-2017-8806",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5d88dca9-13fd-4c54-8243-a2a3b06d4a82: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:02Z",
+      "lastUpdated": "2023-11-16T12:31:02Z"
+    },
+    {
+      "package": "pkg:maven/org.yaml/snakeyaml@1.33",
+      "vulnerability": "CVE-2022-1471",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a01f176-43f1-41fb-a24d-8bd074056c5c: tp with grype@v0.61.0",
+          "author": "westonsteimel",
+          "at": "2023-04-21T16:52:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-04-21T16:52:55Z",
+      "lastUpdated": "2023-04-21T16:52:55Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2007-2138",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 99d3f876-c848-4134-afd4-963a0b74aae0: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:49Z",
+      "lastUpdated": "2023-11-16T12:30:49Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2010-0733",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b752793-d04a-479d-9b52-c7304985e448: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:57Z",
+      "lastUpdated": "2023-11-16T12:30:57Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0060",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1ec0935-7880-44d1-9840-a2d9f316128d: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:57Z",
+      "lastUpdated": "2023-11-16T12:30:57Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0061",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5abbd7f-729d-479c-9daa-852da4e7beeb: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:57Z",
+      "lastUpdated": "2023-11-16T12:30:57Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0062",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a3cd38e9-6b27-4012-b150-27c562f976ce: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:57Z",
+      "lastUpdated": "2023-11-16T12:30:57Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0063",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04d3f741-d2fa-48d9-9d02-60abb06d6966: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:58Z",
+      "lastUpdated": "2023-11-16T12:30:58Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0064",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5092a2ed-6dbf-48e5-bf16-e194c696c9c4: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:58Z",
+      "lastUpdated": "2023-11-16T12:30:58Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0065",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2be56037-e450-4f2a-904d-5bd9fb940dec: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:58Z",
+      "lastUpdated": "2023-11-16T12:30:58Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0066",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 689467cf-c150-4cac-a9db-9bd429626f6e: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:58Z",
+      "lastUpdated": "2023-11-16T12:30:58Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-0067",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a27b331d-749e-46b7-9e00-2c36f2021377: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:58Z",
+      "lastUpdated": "2023-11-16T12:30:58Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2014-8161",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee3956e3-69be-4333-aba5-8cb09b7f63a6: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:59Z",
+      "lastUpdated": "2023-11-16T12:30:59Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-0241",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 36f961fd-9495-4d0c-9dd9-c6821c8323da: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:59Z",
+      "lastUpdated": "2023-11-16T12:30:59Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-0243",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9ebaef58-d38d-4c06-a26c-04cdf9def574: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:59Z",
+      "lastUpdated": "2023-11-16T12:30:59Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-0244",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3018a61e-decf-4d69-8965-1b9db5b234f3: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:30:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:30:59Z",
+      "lastUpdated": "2023-11-16T12:30:59Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-3165",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3d2d75b2-3b2f-4296-a0ae-df2cf967ffbc: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:00Z",
+      "lastUpdated": "2023-11-16T12:31:00Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-3166",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76d559ad-8eea-424b-8076-ef673e786a55: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:00Z",
+      "lastUpdated": "2023-11-16T12:31:00Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-3167",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7db6c562-c0c4-4fc3-9281-5e20dd3162d2: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:00Z",
+      "lastUpdated": "2023-11-16T12:31:00Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2015-5288",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 99e2d533-a33c-45d7-9745-d8b0f5afcbd7: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:00Z",
+      "lastUpdated": "2023-11-16T12:31:00Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2016-0768",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71d90117-6c15-40d7-88a1-a990ab831aab: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:00Z",
+      "lastUpdated": "2023-11-16T12:31:00Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2016-0773",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0a11ff8-6076-4ba8-b850-26a3795a2c30: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:01Z",
+      "lastUpdated": "2023-11-16T12:31:01Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2016-5423",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels caa6307a-f553-45ab-ad31-ddb097241a69: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:01Z",
+      "lastUpdated": "2023-11-16T12:31:01Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2016-5424",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ba347e5b-bcf2-4fcb-9f2e-09ebef950e0d: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:01Z",
+      "lastUpdated": "2023-11-16T12:31:01Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2016-7048",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 28c26720-1774-48bf-8b11-7d8d64501303: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:01Z",
+      "lastUpdated": "2023-11-16T12:31:01Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2017-14798",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e32551df-006e-4eb0-a4da-b28da7afb0dc: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:01Z",
+      "lastUpdated": "2023-11-16T12:31:01Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2017-7484",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe04cea9-2873-4f02-a2af-586f1df54f66: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:03Z",
+      "lastUpdated": "2023-11-16T12:31:03Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2017-8806",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb033c68-6292-4716-9566-90801e98b211: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:02Z",
+      "lastUpdated": "2023-11-16T12:31:02Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2018-1115",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d49a53d3-4509-4aa1-8b40-7f0fddc805ae: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:02Z",
+      "lastUpdated": "2023-11-16T12:31:02Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2020-25694",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26fffca7-b0fc-435d-8952-7378853144ab: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:08Z",
+      "lastUpdated": "2023-11-16T12:31:08Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2020-25695",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 733c6abb-608f-48ca-86af-548e9c714519: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:07Z",
+      "lastUpdated": "2023-11-16T12:31:07Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2021-23214",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4258a96e-4839-4e54-b355-0388d144cf28: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:07Z",
+      "lastUpdated": "2023-11-16T12:31:07Z"
+    },
+    {
+      "package": "pkg:maven/postgresql/postgresql@1.17.3",
+      "vulnerability": "CVE-2021-3393",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9876530f-482a-43d6-820f-e80f79abb2c9: fp with grype@v0.73.1",
+          "author": "westonsteimel",
+          "at": "2023-11-16T12:31:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-16T12:31:06Z",
+      "lastUpdated": "2023-11-16T12:31:06Z"
+    }
+  ]
+}

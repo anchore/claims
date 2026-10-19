@@ -1,0 +1,603 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/cloudbees/cloudbees-core-agent@sha256:d48f0546b4cf5ef4626136242ce302f94a42751156b7be42f4b1b75a66608880",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9",
+      "vulnerability": "GHSA-3vm4-22fp-5rfm",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b938daaa-68ee-4ae8-9ee8-fbe917dfddb0: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T12:14:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T12:14:54Z",
+      "lastUpdated": "2023-05-10T12:14:54Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9",
+      "vulnerability": "GHSA-gwc9-m7rh-j2ww",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 13e6f5a2-1571-4783-89f6-1a78cd8562f3: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T12:14:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T12:14:55Z",
+      "lastUpdated": "2023-05-10T12:14:55Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20210119194325-5f4716e94777",
+      "vulnerability": "GHSA-83g2-8m93-v3w7",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94235dfe-5be0-42e4-9cdd-af71b960cffa: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T12:14:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T12:14:56Z",
+      "lastUpdated": "2023-05-10T12:14:56Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20210119194325-5f4716e94777",
+      "vulnerability": "GHSA-h86h-8ppg-mxmh",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 132dbe6e-c1fb-4739-8b6f-678d06b85524: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T12:14:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T12:14:57Z",
+      "lastUpdated": "2023-05-10T12:14:57Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/text@v0.3.3",
+      "vulnerability": "GHSA-ppp9-7jff-5vj2",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 92b58af9-21ba-457b-aeca-4477849ae559: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T12:14:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T12:14:58Z",
+      "lastUpdated": "2023-05-10T12:14:58Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2020-29509",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 035ed740-6e7c-4248-98d4-6f7f8847f4bd: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:42Z",
+      "lastUpdated": "2023-10-16T16:09:42Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2020-29511",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3a8a4ec0-71dc-465b-bb3e-d9d9f86e4bf6: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:43Z",
+      "lastUpdated": "2023-10-16T16:09:43Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-29923",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 33e34cc8-cc6d-48d1-9594-778a01e04543: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:44Z",
+      "lastUpdated": "2023-10-16T16:09:44Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-31525",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0060747f-0808-4863-a985-d9d0cc12a500: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:47Z",
+      "lastUpdated": "2023-10-16T16:09:47Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-33194",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8d196e08-80df-45c0-9c1b-632cc6266eea: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:48Z",
+      "lastUpdated": "2023-10-16T16:09:48Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-33195",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0d9e295f-8789-4121-9cad-3aeebd08a7f0: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:49Z",
+      "lastUpdated": "2023-10-16T16:09:49Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-33196",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d76c7a9-3f41-4d75-9234-ebc726f67e84: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:50Z",
+      "lastUpdated": "2023-10-16T16:09:50Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-33197",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d73fe185-48f6-4fdd-9202-8a5295dc2177: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:51Z",
+      "lastUpdated": "2023-10-16T16:09:51Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-33198",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 151ecf88-0586-41f2-aaf7-1fcd2802f21c: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:51Z",
+      "lastUpdated": "2023-10-16T16:09:51Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-34558",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9dd56212-a39a-4816-8743-49df98e32a21: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:51Z",
+      "lastUpdated": "2023-10-16T16:09:51Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-36221",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fffee64f-cf35-40b8-9fdc-c2e50358df86: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:09:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:09:57Z",
+      "lastUpdated": "2023-10-16T16:09:57Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-38297",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5965db4e-8c0a-4b8e-9ef0-73ab4d67509a: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:01Z",
+      "lastUpdated": "2023-10-16T16:10:01Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-39293",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37735f5a-b1f4-4931-8eb5-6abd884907b9: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:03Z",
+      "lastUpdated": "2023-10-16T16:10:03Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-41771",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 276e9bf5-8c1c-43bb-be6f-694fe77f6227: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:05Z",
+      "lastUpdated": "2023-10-16T16:10:05Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-41772",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 062631a2-e7ae-4c43-8b3f-43af99081e8d: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:08Z",
+      "lastUpdated": "2023-10-16T16:10:08Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-44716",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fea42223-4701-4fc3-8992-5fe8b092b992: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:09Z",
+      "lastUpdated": "2023-10-16T16:10:09Z"
+    },
+    {
+      "package": "pkg:golang/stdlib@1.16.2",
+      "vulnerability": "CVE-2021-44717",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1456b137-becc-4db4-8280-10ab304c9f25: tp with grype@v0.71.0",
+          "author": "westonsteimel",
+          "at": "2023-10-16T16:10:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.71.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-10-16T16:10:10Z",
+      "lastUpdated": "2023-10-16T16:10:10Z"
+    }
+  ]
+}

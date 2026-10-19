@@ -1,0 +1,124 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/fedora@sha256:2b0571b74dee5d891610276601c6680d622686113488076e7b35c18b455ce879",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/fedora/expat@2.6.3-1.fc40",
+      "vulnerability": "CVE-2024-8176",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1cce1ed-861a-4cf7-8060-de4e6bda92f6: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:49:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:49:43Z",
+      "lastUpdated": "2026-02-12T12:49:43Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/gnutls@3.8.6-1.fc40",
+      "vulnerability": "CVE-2024-12243",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31634cfd-9068-4c18-a535-a6653bf27dc8: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:47:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:47:26Z",
+      "lastUpdated": "2026-02-12T12:47:26Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/libtasn1@4.19.0-6.fc40",
+      "vulnerability": "CVE-2024-12133",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 021099a6-869d-423c-bb1d-eb1c376ed94d: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:46:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:46:53Z",
+      "lastUpdated": "2026-02-12T12:46:53Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/libxml2@2.12.9-1.fc40",
+      "vulnerability": "CVE-2024-56171",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 19da59a1-9409-4ce3-99a8-c980d261bd47: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:48:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:48:30Z",
+      "lastUpdated": "2026-02-12T12:48:30Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/openssl-libs@3.2.2-3.fc40?epoch=1",
+      "vulnerability": "CVE-2024-12797",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45dfe070-108b-4399-9eba-5f8f258fa774: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:48:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:48:07Z",
+      "lastUpdated": "2026-02-12T12:48:07Z"
+    }
+  ]
+}

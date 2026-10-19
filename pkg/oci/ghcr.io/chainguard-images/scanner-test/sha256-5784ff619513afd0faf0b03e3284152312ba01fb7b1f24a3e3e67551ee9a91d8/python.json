@@ -1,0 +1,118 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/chainguard-images/scanner-test@sha256:5784ff619513afd0faf0b03e3284152312ba01fb7b1f24a3e3e67551ee9a91d8",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/urllib3@1.26.16%2Bcgr.1",
+      "vulnerability": "GHSA-34jh-p97f-mpxf",
+      "verdict": "tp",
+      "author": "zackary-crosley",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 806338b3-2007-449b-8e46-1d0b58c9cad1: tp with grype[custom-db]@v0.98.0-3-g90230ec7",
+          "author": "zackary-crosley",
+          "at": "2025-09-05T14:29:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.98.0-3-g90230ec7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-09-05T14:29:22Z",
+      "lastUpdated": "2025-09-05T14:29:22Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.26.16%2Bcgr.1",
+      "vulnerability": "GHSA-g4mx-q9vg-27p4",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "zackary-crosley",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2fb4da84-1fb4-4068-b222-362284f68faf: fp with grype[custom-db]@v0.98.0-3-g90230ec7. will be nack'd by chainguard openvex feed: CGA-ch56-xcgp-w5rj",
+          "author": "zackary-crosley",
+          "at": "2025-09-05T14:29:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.98.0-3-g90230ec7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-09-05T14:29:15Z",
+      "lastUpdated": "2025-09-05T14:29:15Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.26.16%2Bcgr.1",
+      "vulnerability": "GHSA-pq67-6m6q-mj2v",
+      "verdict": "tp",
+      "author": "zackary-crosley",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ac802514-80d6-4a6d-84a0-87d2b7bd72a0: tp with grype[custom-db]@v0.98.0-3-g90230ec7",
+          "author": "zackary-crosley",
+          "at": "2025-09-05T14:29:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.98.0-3-g90230ec7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-09-05T14:29:23Z",
+      "lastUpdated": "2025-09-05T14:29:23Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.26.16%2Bcgr.1",
+      "vulnerability": "GHSA-v845-jxx5-vc9f",
+      "verdict": "tp",
+      "author": "zackary-crosley",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 548f3add-36b2-4d90-979f-532fad5f02ea: tp with grype[custom-db]@v0.98.0-3-g90230ec7",
+          "author": "zackary-crosley",
+          "at": "2025-09-05T14:29:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.98.0-3-g90230ec7"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-09-05T14:29:23Z",
+      "lastUpdated": "2025-09-05T14:29:23Z"
+    }
+  ]
+}

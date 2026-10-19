@@ -1,0 +1,1344 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/ubuntu@sha256:8dc9652808dc091400d7d5983949043a9f9c7132b15c14814275d25f94bca18a",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/ubuntu/bsdutils@1:2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc71a77d-5c4f-462a-9604-1a7ef0bb77e3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:07Z",
+      "lastUpdated": "2022-09-15T23:40:07Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/bsdutils@1:2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 07efd067-7c57-4d05-9c08-a18c774a899a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:20Z",
+      "lastUpdated": "2022-09-15T23:40:20Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/bsdutils@1:2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2017-2616",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7723dd06-ed93-4dee-a11f-d956d7d70692: fp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-2616 indicates util-linux is not affected and util-linux is the source package in this case",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:14:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:14:38Z",
+      "lastUpdated": "2024-06-07T08:14:38Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/coreutils@8.25-2ubuntu3~16.10",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels de251bb0-8ed8-482e-ac7f-45fef3e76f62: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:22Z",
+      "lastUpdated": "2022-09-15T23:40:22Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/dpkg@1.18.10ubuntu1.1",
+      "vulnerability": "CVE-2017-8283",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06770d58-fd37-4ec9-a4f8-fa53e0d58be7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:25Z",
+      "lastUpdated": "2022-09-15T23:40:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libblkid1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc7552bd-318a-47fb-8bee-5ebe97862d2e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:26Z",
+      "lastUpdated": "2022-09-15T23:40:26Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libblkid1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b91d309-a894-41f0-8c79-c779ec30fee1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:29Z",
+      "lastUpdated": "2022-09-15T23:40:29Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libbz2-1.0@1.0.6-8build1",
+      "vulnerability": "CVE-2016-3189",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0bb37c8-2b61-46b4-bf3c-7a0fb26cea64: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:30Z",
+      "lastUpdated": "2022-09-15T23:40:30Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5290f2e9-a931-4c72-bcca-432a5d743150: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:33Z",
+      "lastUpdated": "2022-09-15T23:40:33Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-8985",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a2ebe175-88bd-4e25-9bed-9291cfb167a9: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:33Z",
+      "lastUpdated": "2022-09-15T23:40:33Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 14c0d1ac-7e82-4df1-a590-3f1a10abcbd5: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:34Z",
+      "lastUpdated": "2022-09-15T23:40:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 22a97168-e47c-4136-a778-1d48272d01ee: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:35Z",
+      "lastUpdated": "2022-09-15T23:40:35Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b45f15a6-a4ad-4346-949e-b522ffcbf02d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:36Z",
+      "lastUpdated": "2022-09-15T23:40:36Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-8985",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f92d9031-5e7d-435f-a032-e5c1234e6542: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:36Z",
+      "lastUpdated": "2022-09-15T23:40:36Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 17bd8c55-2173-49b9-8f88-a7ff0d199091: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:37Z",
+      "lastUpdated": "2022-09-15T23:40:37Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a7cbd34-722a-4f9e-846b-e0c99dc2fd2e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:37Z",
+      "lastUpdated": "2022-09-15T23:40:37Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libfdisk1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f924b1c3-1bd8-43f8-8d99-2c1b9693ff48: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:38Z",
+      "lastUpdated": "2022-09-15T23:40:38Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libfdisk1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e77d8fe7-5637-45e4-8b57-1c5513f77c78: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:38Z",
+      "lastUpdated": "2022-09-15T23:40:38Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libmount1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca1e7ee1-ab18-4a48-bd8f-b03ec6ff3b1f: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:39Z",
+      "lastUpdated": "2022-09-15T23:40:39Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libmount1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f775b95-e850-473d-8cfb-57f29bbea655: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:39Z",
+      "lastUpdated": "2022-09-15T23:40:39Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 975fe621-3a75-48d0-8f65-72698e22ff4e: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10684 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:44:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:44:59Z",
+      "lastUpdated": "2024-06-07T09:44:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f42f0b4-5746-4c99-bd83-4715ae61dfc3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:40Z",
+      "lastUpdated": "2022-09-15T23:40:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f6ac22c-1e85-47df-88f7-d1ee4cee5a20: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11112 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:51:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:51:39Z",
+      "lastUpdated": "2024-06-07T09:51:39Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncurses5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ec5c28ac-2642-44bf-8dcd-31831c4adfcc: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11113 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:52:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:52:33Z",
+      "lastUpdated": "2024-06-07T09:52:33Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 620a64f4-7783-4fdc-8cd3-1cc085cf63c9: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10684 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:44:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:44:59Z",
+      "lastUpdated": "2024-06-07T09:44:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d3ad958d-628b-40bf-a4cc-99f0ef78b671: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:40Z",
+      "lastUpdated": "2022-09-15T23:40:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8685f31-9d8e-4d0f-9d09-a4fb4b52cabc: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11112 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:51:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:51:40Z",
+      "lastUpdated": "2024-06-07T09:51:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libncursesw5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8b638e4b-da08-4332-a6cc-39c2de99ef11: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11113 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:52:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:52:33Z",
+      "lastUpdated": "2024-06-07T09:52:33Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-11164",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1a062212-6132-4bce-ab9b-7ddd547fd14f: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2017-11164 strongly indicates yakkety would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:54:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:54:43Z",
+      "lastUpdated": "2024-06-07T09:54:43Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-6004",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f915d659-0a02-4ba5-9335-e2f3895ee813: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:41Z",
+      "lastUpdated": "2022-09-15T23:40:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-7186",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 25fc6259-4cf6-40fe-b486-d54df15f89cf: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:43Z",
+      "lastUpdated": "2022-09-15T23:40:43Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-7244",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41313f99-a693-4539-b2ef-802ce7d37a6d: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:44Z",
+      "lastUpdated": "2022-09-15T23:40:44Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-7245",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ef727a1-52d1-4161-b27a-842da3228868: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:02Z",
+      "lastUpdated": "2022-09-15T23:41:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libpcre3@2:8.39-2",
+      "vulnerability": "CVE-2017-7246",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9f424d1-972a-4a2e-9da5-f8da91eb5562: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:02Z",
+      "lastUpdated": "2022-09-15T23:41:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsmartcols1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3bc54acc-8884-4f28-9b80-00cb6605c3da: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:02Z",
+      "lastUpdated": "2022-09-15T23:41:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsmartcols1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 034acddc-cc0e-4e90-8360-cf518eeadef6: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:02Z",
+      "lastUpdated": "2022-09-15T23:41:02Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsqlite3-0@3.14.1-1build1",
+      "vulnerability": "CVE-2017-10989",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1ca2ad76-1ad1-49ab-b101-27848c9a9d6e: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10989 indicates xenial was affected and checking the yakkety sqlite version indicates it should be considered so as well",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:49:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:49:41Z",
+      "lastUpdated": "2024-06-07T09:49:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsqlite3-0@3.14.1-1build1",
+      "vulnerability": "CVE-2017-6983",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a609dfea-9187-4215-8420-389a04ab6163: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:01Z",
+      "lastUpdated": "2022-09-15T23:41:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsqlite3-0@3.14.1-1build1",
+      "vulnerability": "CVE-2017-6991",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 02b23fda-b9e3-4a87-831b-b7e5fc3c40d3: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:01Z",
+      "lastUpdated": "2022-09-15T23:41:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@231-9ubuntu5",
+      "vulnerability": "CVE-2017-1000082",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c7b5b42-c374-43d3-9b19-5a13c04e506d: fp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-1000082 indicates not-affected for newer and older entries, so likely that yakkety should have been unaffected as well",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:56:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:56:34Z",
+      "lastUpdated": "2024-06-07T08:56:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libsystemd0@231-9ubuntu5",
+      "vulnerability": "CVE-2017-9217",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a5045c9-3383-4968-b098-9aad23490ab2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:01Z",
+      "lastUpdated": "2022-09-15T23:41:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 61234c95-c37b-4dd2-b735-4d30cd7b2c4f: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10684 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:45:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:45:00Z",
+      "lastUpdated": "2024-06-07T09:45:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels af154520-8673-4f1f-95bf-97a7beb9fb3c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:01Z",
+      "lastUpdated": "2022-09-15T23:41:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e032f4a-457a-4ae4-9750-e8be6ba570f7: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11112 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:51:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:51:40Z",
+      "lastUpdated": "2024-06-07T09:51:40Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtinfo5@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 229b82d9-c944-4fb9-ab57-bef4adb0c18b: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11113 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:52:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:52:34Z",
+      "lastUpdated": "2024-06-07T09:52:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@231-9ubuntu5",
+      "vulnerability": "CVE-2017-1000082",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0c0a3c8e-97a0-486a-b828-4821b437ceeb: fp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-1000082 indicates not-affected for newer and older entries, so likely that yakkety should have been unaffected as well",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:57:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:57:08Z",
+      "lastUpdated": "2024-06-07T08:57:08Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libudev1@231-9ubuntu5",
+      "vulnerability": "CVE-2017-9217",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26385e23-03d6-449f-8945-367aa52ced86: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:01Z",
+      "lastUpdated": "2022-09-15T23:41:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libuuid1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0989b8a5-8e60-48b1-b631-9ba0116e3de1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:00Z",
+      "lastUpdated": "2022-09-15T23:41:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libuuid1@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9cbd0e57-0035-47e4-af18-777945387aa1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:00Z",
+      "lastUpdated": "2022-09-15T23:41:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/locales@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b05e8b7c-a570-42a0-93e0-5e602857cbdf: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:00Z",
+      "lastUpdated": "2022-09-15T23:41:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/locales@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-8985",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da6a61e7-cc17-4398-ba41-50685d1c727e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:00Z",
+      "lastUpdated": "2022-09-15T23:41:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/locales@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a62775a6-2af1-4c66-b098-a3d6b21b4eed: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:41:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:41:00Z",
+      "lastUpdated": "2022-09-15T23:41:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/locales@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1a0eb59f-2b50-4bf2-8a0f-5c0c4bfb2ff7: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:59Z",
+      "lastUpdated": "2022-09-15T23:40:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/login@1:4.2-3.2ubuntu1.16.10.2",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35f9b515-b70e-4696-8ae1-402e2bc0c710: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:59Z",
+      "lastUpdated": "2022-09-15T23:40:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/mount@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6f4321f0-cd45-4ce3-aed4-cc2fffb21430: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:59Z",
+      "lastUpdated": "2022-09-15T23:40:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/mount@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f49d032-ba74-424f-9e69-a0d3ee9d10fb: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:59Z",
+      "lastUpdated": "2022-09-15T23:40:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/multiarch-support@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-5180",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8438b630-2f38-447d-babb-34ebcbaf7e9a: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:59Z",
+      "lastUpdated": "2022-09-15T23:40:59Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/multiarch-support@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2015-8985",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 58ed6b46-b72e-4633-8942-0a9d9b40e7d4: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:58Z",
+      "lastUpdated": "2022-09-15T23:40:58Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/multiarch-support@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2016-10228",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76b4886c-20bf-484a-bab6-6c8ee79f0f5e: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:58Z",
+      "lastUpdated": "2022-09-15T23:40:58Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/multiarch-support@2.24-3ubuntu2.2",
+      "vulnerability": "CVE-2017-8804",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea13ee2d-af6b-40d2-8b7d-a50720bb4022: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:58Z",
+      "lastUpdated": "2022-09-15T23:40:58Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 57bb01dd-aeab-46db-be53-772be3c5729c: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10684 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:45:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:45:00Z",
+      "lastUpdated": "2024-06-07T09:45:00Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a84a6f05-7024-4054-b5b3-9e4830edbac2: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:58Z",
+      "lastUpdated": "2022-09-15T23:40:58Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6d1db107-1362-437d-881a-2bba008cf57a: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11112 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:51:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:51:41Z",
+      "lastUpdated": "2024-06-07T09:51:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-base@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 461cb094-12e7-4d05-a4ff-f0b2ab187035: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11113 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:52:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:52:34Z",
+      "lastUpdated": "2024-06-07T09:52:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10684",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 26d32875-c82d-4f29-be07-cbebbff674a9: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-10684 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:45:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:45:01Z",
+      "lastUpdated": "2024-06-07T09:45:01Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-10685",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d56a40aa-ae8d-41f1-9b78-5938cc130a7c: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:57Z",
+      "lastUpdated": "2022-09-15T23:40:57Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11112",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5ef7d0b-8a8f-48db-b2b6-fd3bc491e45e: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11112 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:51:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:51:41Z",
+      "lastUpdated": "2024-06-07T09:51:41Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/ncurses-bin@6.0%2B20160625-1ubuntu1",
+      "vulnerability": "CVE-2017-11113",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f8d4ead6-d1fe-47ae-b017-a742be588ee1: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/retired/CVE-2017-11113 indicates v6.0 lines of curses required patches and looking back yakkety was 6.0 so likely would have also been affected",
+          "author": "westonsteimel",
+          "at": "2024-06-07T09:52:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T09:52:34Z",
+      "lastUpdated": "2024-06-07T09:52:34Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/passwd@1:4.2-3.2ubuntu1.16.10.2",
+      "vulnerability": "CVE-2013-4235",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 948144ad-d78d-46db-af8e-50e66044c176: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:57Z",
+      "lastUpdated": "2022-09-15T23:40:57Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/perl-base@5.22.2-3",
+      "vulnerability": "CVE-2017-6512",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9372844d-ec79-45c6-bdd1-df31790c62a1: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:57Z",
+      "lastUpdated": "2022-09-15T23:40:57Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/util-linux@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-2779",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 398f6e1a-5e19-475a-b7b1-3d98e3b542aa: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:57Z",
+      "lastUpdated": "2022-09-15T23:40:57Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/util-linux@2.28.2-1ubuntu1.2",
+      "vulnerability": "CVE-2016-5011",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbed98e5-a09b-4d03-a939-1c697abed345: tp",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:40:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:40:56Z",
+      "lastUpdated": "2022-09-15T23:40:56Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/zlib1g@1:1.2.8.dfsg-2ubuntu5.1",
+      "vulnerability": "CVE-2016-9840",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d150a6ef-9d61-4d70-a491-fa9ed7292915: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2016-9840 indicates a fix released for xenial so highly likely yakkety would have also required a fix if still supported",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:47:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:47:30Z",
+      "lastUpdated": "2024-06-07T08:47:30Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/zlib1g@1:1.2.8.dfsg-2ubuntu5.1",
+      "vulnerability": "CVE-2016-9841",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c21b6fec-c503-49a6-aa93-75cac6b566c4: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2016-9841 indicates a fix released for xenial so highly likely yakkety would have also required a fix if still supported",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:50:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:50:56Z",
+      "lastUpdated": "2024-06-07T08:50:56Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/zlib1g@1:1.2.8.dfsg-2ubuntu5.1",
+      "vulnerability": "CVE-2016-9842",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3159d2ec-f4d4-499a-9a42-35a00d85c5d9: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2016-9842 indicates a fix released for xenial so highly likely yakkety would have also required a fix if still supported",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:51:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:51:44Z",
+      "lastUpdated": "2024-06-07T08:51:44Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/zlib1g@1:1.2.8.dfsg-2ubuntu5.1",
+      "vulnerability": "CVE-2016-9843",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed755a18-cf99-439c-b8b8-3a445d072bde: tp. https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2016-9843 indicates a fix released for xenial so highly likely yakkety would have also required a fix if still supported",
+          "author": "westonsteimel",
+          "at": "2024-06-07T08:52:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-07T08:52:01Z",
+      "lastUpdated": "2024-06-07T08:52:01Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/jenkins/jenkins@sha256:6fd5699ab182b5d23d0e3936de6047edc30955a3a92e01c392d5a2fd583efac0",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/commons-jelly/commons-jelly-tags-fmt@1.0",
+      "vulnerability": "CVE-2018-1000052",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 293d8388-e96b-413f-a75c-b9b6d2fc55af: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T16:41:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T16:41:27Z",
+      "lastUpdated": "2022-11-14T16:41:27Z"
+    },
+    {
+      "package": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.36",
+      "vulnerability": "CVE-2020-9493",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a3e1031e-c0c0-41d6-948d-1628386a70a9: fp with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T16:46:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T16:46:24Z",
+      "lastUpdated": "2022-11-14T16:46:24Z"
+    },
+    {
+      "package": "pkg:maven/org.springframework/spring-core@5.3.22",
+      "vulnerability": "CVE-2016-1000027",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45c9708e-429e-4529-80dc-617b65ee443c: unclear with grype@v0.52.0",
+          "author": "westonsteimel",
+          "at": "2022-11-14T16:51:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.52.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-14T16:51:51Z",
+      "lastUpdated": "2022-11-14T16:51:51Z"
+    }
+  ]
+}

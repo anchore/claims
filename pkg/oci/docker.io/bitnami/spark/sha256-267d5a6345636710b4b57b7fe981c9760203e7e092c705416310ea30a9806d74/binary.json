@@ -1,0 +1,41 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/bitnami/spark@sha256:267d5a6345636710b4b57b7fe981c9760203e7e092c705416310ea30a9806d74",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:generic/python@3.9.16",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 481c2087-cae5-4cf6-a337-3f8b176d8bb9: tp with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:35:40Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 83def810-abd9-4243-8247-fc3703557023: tp with grype@v0.65.2-3-g8513e90",
+          "author": "westonsteimel",
+          "at": "2023-08-18T15:57:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.2-3-g8513e90"
+          },
+          {
+            "name": "syft",
+            "version": "v0.87.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:35:40Z",
+      "lastUpdated": "2023-08-18T15:57:17Z"
+    }
+  ]
+}

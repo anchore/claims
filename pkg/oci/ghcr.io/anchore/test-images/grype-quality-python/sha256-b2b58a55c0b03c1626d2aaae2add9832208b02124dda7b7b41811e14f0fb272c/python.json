@@ -1,0 +1,5742 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/grype-quality-python@sha256:b2b58a55c0b03c1626d2aaae2add9832208b02124dda7b7b41811e14f0fb272c",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/aiohttp@3.8.1",
+      "vulnerability": "GHSA-pjjw-qhg8-p2p9",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels adff6f6f-787b-48d7-85c3-8ac37f57ecd1: tp with grype[custom-db]@v0.73.3. Versions less than 3.8.6 affected, and 3.8.1 is present.",
+          "author": "willmurphy",
+          "at": "2023-11-28T14:22:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.3"
+          },
+          {
+            "name": "syft",
+            "version": "v0.89.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-11-28T14:22:31Z",
+      "lastUpdated": "2023-11-28T14:22:31Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2018-10892",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels caa39fe0-e7a6-4647-9ddd-51b614265c82: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:11Z",
+      "lastUpdated": "2022-09-14T14:27:11Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2019-13139",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5215ce7-8058-4013-9328-e645ea2312fd: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:16Z",
+      "lastUpdated": "2022-09-14T14:27:16Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2019-13509",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb2cb7ad-b828-4ccb-a8c8-e5fea57d76d5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:17Z",
+      "lastUpdated": "2022-09-14T14:27:17Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2019-16884",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b79d2f33-187b-4d84-8c30-367e80912a32: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:20Z",
+      "lastUpdated": "2022-09-14T14:27:20Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2019-5736",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 64f2be41-17b5-41c2-b97b-fffab75ee520: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:22Z",
+      "lastUpdated": "2022-09-14T14:27:22Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2020-27534",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 101c4af4-5a72-47ca-8307-66f4b6bce583: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:24Z",
+      "lastUpdated": "2022-09-14T14:27:24Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2021-21284",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1cdefa24-515d-4d64-a292-c55e1fac6053: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:13Z",
+      "lastUpdated": "2022-11-01T18:12:13Z"
+    },
+    {
+      "package": "pkg:pypi/docker@6.0.0",
+      "vulnerability": "CVE-2021-21285",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ac815400-14f3-475a-880c-4aaa28cfba74: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:15Z",
+      "lastUpdated": "2022-11-01T18:12:15Z"
+    },
+    {
+      "package": "pkg:pypi/github@1.2.7",
+      "vulnerability": "CVE-2020-10517",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c361ddf-e1ef-45a7-ad43-f8a604f47bb4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:53Z",
+      "lastUpdated": "2022-09-14T14:27:53Z"
+    },
+    {
+      "package": "pkg:pypi/github@1.2.7",
+      "vulnerability": "CVE-2020-10518",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels baa803f4-0a53-4a81-9254-917b8c95e465: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:54Z",
+      "lastUpdated": "2022-09-14T14:27:54Z"
+    },
+    {
+      "package": "pkg:pypi/github@1.2.7",
+      "vulnerability": "CVE-2020-10519",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 41207a43-4caa-45dc-b3da-48d4de95391d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:55Z",
+      "lastUpdated": "2022-09-14T14:27:55Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2015-7561",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0114b11d-b89a-4455-a540-6820446e525a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:57Z",
+      "lastUpdated": "2022-09-14T14:27:57Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2016-1905",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b97737ed-cdfd-422f-9475-350ddbbd82e9: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:27:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:27:57Z",
+      "lastUpdated": "2022-09-14T14:27:57Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2016-1906",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e7d09f1-da62-4162-a93f-b17405922812: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:00Z",
+      "lastUpdated": "2022-09-14T14:28:00Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2016-7075",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5342595c-7abc-4696-a205-0839378b8829: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:04Z",
+      "lastUpdated": "2022-09-14T14:28:04Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2020-8554",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5deedee5-b023-4d01-8b88-d3fe9e2f8e69: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:07Z",
+      "lastUpdated": "2022-09-14T14:28:07Z"
+    },
+    {
+      "package": "pkg:pypi/kubernetes@19.15.0",
+      "vulnerability": "CVE-2021-25740",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b601ffcb-6292-45e9-b2a3-cc8a6d1727f0: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:20Z",
+      "lastUpdated": "2022-11-01T18:12:20Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2018-1000538",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aaca3c24-38eb-47f0-b588-0648103713ed: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:10Z",
+      "lastUpdated": "2022-09-14T14:28:10Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2020-11012",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 795f5689-a8ca-4c87-a722-060de548c370: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:13Z",
+      "lastUpdated": "2022-09-14T14:28:13Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2021-21287",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels feb5edbe-2bc8-4c0b-98b6-21dd6305f26e: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:23Z",
+      "lastUpdated": "2022-11-01T18:12:23Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2021-21362",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35e904af-e1ec-4e89-b55f-d21bdbafc97c: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:23Z",
+      "lastUpdated": "2022-11-01T18:12:23Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2021-21390",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fc12aad-4c15-4b2e-91ab-20cedfd03a09: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:24Z",
+      "lastUpdated": "2022-11-01T18:12:24Z"
+    },
+    {
+      "package": "pkg:pypi/minio@7.1.11",
+      "vulnerability": "CVE-2021-43858",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5a4ec66-c8ec-4ff6-a1ee-63fe048c1d3c: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:24Z",
+      "lastUpdated": "2022-11-01T18:12:24Z"
+    },
+    {
+      "package": "pkg:pypi/oauthlib@3.2.0",
+      "vulnerability": "GHSA-hj66-6f7g-4r5v",
+      "verdict": "tp",
+      "author": "asomya",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c97f3a1-bb8a-45f7-a3de-a0721c6b86b3: tp with grype@v0.87.0",
+          "author": "asomya",
+          "at": "2026-10-01T20:21:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.87.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-10-01T20:21:05Z",
+      "lastUpdated": "2026-10-01T20:21:05Z"
+    },
+    {
+      "package": "pkg:pypi/oauthlib@3.2.0",
+      "vulnerability": "GHSA-xpv3-w29h-x7cv",
+      "verdict": "tp",
+      "author": "asomya",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbdbb36b-2ed8-428a-9936-6aa7dd785d29: tp with grype@v0.87.0",
+          "author": "asomya",
+          "at": "2026-10-01T20:21:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.87.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-10-01T20:21:05Z",
+      "lastUpdated": "2026-10-01T20:21:05Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2002-2215",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5042f794-f0a8-437e-8ab5-56a486a43d8f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:19Z",
+      "lastUpdated": "2022-09-14T14:28:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2003-0442",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7cb24893-1463-4f1e-b14f-a1a3c8d6c5ca: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:20Z",
+      "lastUpdated": "2022-09-14T14:28:20Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2004-0542",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1fdc46a-a7fb-4747-82b0-daf345b4745a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:21Z",
+      "lastUpdated": "2022-09-14T14:28:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2004-0958",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 272d9df6-2c70-4125-893a-3127cf0e5417: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:21Z",
+      "lastUpdated": "2022-09-14T14:28:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2004-0959",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 89eab4b6-9189-4205-b759-ffc0c03fd880: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:22Z",
+      "lastUpdated": "2022-09-14T14:28:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2004-1018",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b880bfa9-66b0-4c80-9fac-d69507d703df: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:22Z",
+      "lastUpdated": "2022-09-14T14:28:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-3011",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1b650b8-3e99-43b3-805c-1e30c0762de7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:23Z",
+      "lastUpdated": "2022-09-14T14:28:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-3017",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9da92c0d-d9c7-44dc-b39c-0fc0096d3d29: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:23Z",
+      "lastUpdated": "2022-09-14T14:28:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-4482",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 84dab9a7-99ba-4c18-9bea-fe9e3e41c5c6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:23Z",
+      "lastUpdated": "2022-09-14T14:28:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-4483",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7869e4b-0689-49a8-9faa-b2eec297b8b0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:24Z",
+      "lastUpdated": "2022-09-14T14:28:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-5178",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d74277b4-10d5-48c8-ae5c-a975fee58204: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:24Z",
+      "lastUpdated": "2022-09-14T14:28:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-5465",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fdf7d905-bd34-4862-a3be-58020dfec3bc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:25Z",
+      "lastUpdated": "2022-09-14T14:28:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-5706",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f07ea84d-33e5-4842-ba67-90dbad169c81: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:25Z",
+      "lastUpdated": "2022-09-14T14:28:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2006-7243",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d5cb5106-510d-4933-8484-8a405bf8e782: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:26Z",
+      "lastUpdated": "2022-09-14T14:28:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-0910",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7bebbf2e-1065-4e20-8c1e-719c24138e38: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:26Z",
+      "lastUpdated": "2022-09-14T14:28:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1286",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5fb4e887-2b0b-4491-afc1-63d24839ded0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:27Z",
+      "lastUpdated": "2022-09-14T14:28:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1375",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 168789b5-d74f-426f-bac4-0d949450de12: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:27Z",
+      "lastUpdated": "2022-09-14T14:28:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1411",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12fbcc69-8132-4c7a-bcca-794b724e376b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:28Z",
+      "lastUpdated": "2022-09-14T14:28:28Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1413",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60b535b1-bbcf-4d09-99a2-90593eafa63a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:28Z",
+      "lastUpdated": "2022-09-14T14:28:28Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1460",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d9f339f-7127-42ab-a6c4-d07557736bfc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:29Z",
+      "lastUpdated": "2022-09-14T14:28:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1461",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e3e0204-e99e-4bbd-b146-c9d07eada9d2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:29Z",
+      "lastUpdated": "2022-09-14T14:28:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1475",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa5ae6be-0c81-4f6a-abad-6953e987fe6d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:30Z",
+      "lastUpdated": "2022-09-14T14:28:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1484",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 802f2ec8-1a58-4ec0-a9fb-818f83ffc4cb: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:30Z",
+      "lastUpdated": "2022-09-14T14:28:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1521",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee8258b0-1baf-470e-b81a-b782dea905c2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:31Z",
+      "lastUpdated": "2022-09-14T14:28:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-1864",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8131f6cb-6db6-4d81-a633-498624e5573b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:31Z",
+      "lastUpdated": "2022-09-14T14:28:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-2369",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a10aba87-6aaf-4b72-9137-8fc5441f3754: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:31Z",
+      "lastUpdated": "2022-09-14T14:28:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-2728",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 23d2c0d6-2d3f-4a08-bbc8-7f82af9ac376: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:32Z",
+      "lastUpdated": "2022-09-14T14:28:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-2748",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 162de1a0-2fa2-4f36-a62c-8fe0ba9fde2f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:32Z",
+      "lastUpdated": "2022-09-14T14:28:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-2872",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4021e986-6689-411e-8e33-3a53c4cc498a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:33Z",
+      "lastUpdated": "2022-09-14T14:28:33Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-3205",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e88530c5-23e7-47d0-a737-47675b2f8d3b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:34Z",
+      "lastUpdated": "2022-09-14T14:28:34Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-3996",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e52fa9d2-a40d-40a2-86bd-e60f1d17d8aa: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:35Z",
+      "lastUpdated": "2022-09-14T14:28:35Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4441",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e5d806c-b128-4721-a478-c3f56e62362e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:35Z",
+      "lastUpdated": "2022-09-14T14:28:35Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4586",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77281075-1819-4c30-92b4-d4c6b5afb460: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:36Z",
+      "lastUpdated": "2022-09-14T14:28:36Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4596",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e518ff8-f73e-4535-bc79-7199d3c31d4a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:36Z",
+      "lastUpdated": "2022-09-14T14:28:36Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4652",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f01f9b4b-81f7-4319-8697-20515c1c297b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:37Z",
+      "lastUpdated": "2022-09-14T14:28:37Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4659",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4275978-d27f-4c4d-95a4-278377a0b96d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:37Z",
+      "lastUpdated": "2022-09-14T14:28:37Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4660",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dec52e58-7c41-4320-b6b3-215a94debdc4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:39Z",
+      "lastUpdated": "2022-09-14T14:28:39Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4662",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0e60eae5-b107-4a6b-be4d-a3381434db0e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:40Z",
+      "lastUpdated": "2022-09-14T14:28:40Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4663",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 486bb9f6-137d-4987-b1f3-081f56a347e7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:41Z",
+      "lastUpdated": "2022-09-14T14:28:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4670",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 509f54cd-1b5e-4344-9403-1009f0e8d16e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:41Z",
+      "lastUpdated": "2022-09-14T14:28:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4782",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60fc6f7c-da37-440c-b0d9-4aa32b3788f3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:42Z",
+      "lastUpdated": "2022-09-14T14:28:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4783",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd4f40bc-53aa-4487-bbe6-f48643ebd43d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:42Z",
+      "lastUpdated": "2022-09-14T14:28:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4784",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06aff0d9-0c9f-4b7b-bb87-ba2d7acb3f70: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:43Z",
+      "lastUpdated": "2022-09-14T14:28:43Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4825",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c588986b-efb7-449c-91ff-87037b7dc7bc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:44Z",
+      "lastUpdated": "2022-09-14T14:28:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4840",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 39e1c8a4-dd5d-45af-92d4-32e3f140858c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:44Z",
+      "lastUpdated": "2022-09-14T14:28:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4887",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 504284de-6410-48c7-807f-8347e90213d0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:45Z",
+      "lastUpdated": "2022-09-14T14:28:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-4889",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 69e0354d-15e6-4ded-b61c-9145476fc0e8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:45Z",
+      "lastUpdated": "2022-09-14T14:28:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-5128",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 712b995e-90fc-466f-8116-8ab9f35a85ac: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:46Z",
+      "lastUpdated": "2022-09-14T14:28:46Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-5653",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dce210f7-9d41-4b4a-bf16-99cdb7783a2d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:47Z",
+      "lastUpdated": "2022-09-14T14:28:47Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-5898",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7aeb199e-79ba-4734-bcf6-5fe86e475ea1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:50Z",
+      "lastUpdated": "2022-09-14T14:28:50Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-5899",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ff992ed9-4d46-4c9c-bf2c-e6264b2ed5bc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:50Z",
+      "lastUpdated": "2022-09-14T14:28:50Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-5900",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94f04d13-3b2c-4552-813a-87ab0221e1a8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:51Z",
+      "lastUpdated": "2022-09-14T14:28:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2007-6039",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4733309a-734e-4669-9669-780b56f588f9: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:51Z",
+      "lastUpdated": "2022-09-14T14:28:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-0145",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21b9684b-a7fd-44dc-b122-ccdcfa461f94: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:52Z",
+      "lastUpdated": "2022-09-14T14:28:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-0599",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1344f4f-4fc6-482f-b679-886fbe665687: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:52Z",
+      "lastUpdated": "2022-09-14T14:28:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-1384",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd1d7458-bda1-4ca8-ba9f-cbe050560974: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:53Z",
+      "lastUpdated": "2022-09-14T14:28:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2050",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f7da084-2c9c-47bf-9ebb-70a1f8d7a6d8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:53Z",
+      "lastUpdated": "2022-09-14T14:28:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2051",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd8fb9db-58ab-447e-b4c4-0cac38f297fe: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:54Z",
+      "lastUpdated": "2022-09-14T14:28:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2107",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86560448-6542-4534-ba2c-4ac12a346e58: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:54Z",
+      "lastUpdated": "2022-09-14T14:28:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2108",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 88ad5094-0e60-48e1-bf66-7c4f6c7b0a73: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:55Z",
+      "lastUpdated": "2022-09-14T14:28:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2666",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6020c950-3261-4062-a955-0f4772a1bac5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:55Z",
+      "lastUpdated": "2022-09-14T14:28:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-2829",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cf1f343-b0b0-4096-a0ab-8eee50eb05cf: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:56Z",
+      "lastUpdated": "2022-09-14T14:28:56Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-4107",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8e058dfe-e64f-43e0-880c-07749709e2ba: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:56Z",
+      "lastUpdated": "2022-09-14T14:28:56Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-5498",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d7a83bc8-ef0f-45c1-a0c3-960040bf3dd8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:57Z",
+      "lastUpdated": "2022-09-14T14:28:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-5625",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6c42fb52-732c-4574-89b5-e65b787e9898: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:57Z",
+      "lastUpdated": "2022-09-14T14:28:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-5658",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 44828f4a-7fb3-44f2-a249-df904e460db4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:57Z",
+      "lastUpdated": "2022-09-14T14:28:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2008-5814",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df4937f4-a155-43cf-904c-abc9e3261702: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:58Z",
+      "lastUpdated": "2022-09-14T14:28:58Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-2626",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 246ba914-e89f-4f84-85d5-4b39e0b664c1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:58Z",
+      "lastUpdated": "2022-09-14T14:28:58Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-2687",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4545bf6e-62ab-40e1-ad37-b39e8e18abe7: fp with grype@v0.56.0",
+          "author": "westonsteimel",
+          "at": "2023-02-14T17:49:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-14T17:49:47Z",
+      "lastUpdated": "2023-02-14T17:49:47Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-3291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0024bbf8-4b6f-4437-ae4c-ffeac7aa0208: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:59Z",
+      "lastUpdated": "2022-09-14T14:28:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-3292",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eb83f8d5-8f12-4421-bbe0-d754ffa92103: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:59Z",
+      "lastUpdated": "2022-09-14T14:28:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-3293",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b38b0a8-e0cf-4546-9144-23b4eab1b279: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:28:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:28:59Z",
+      "lastUpdated": "2022-09-14T14:28:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-3557",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8fa0b8a-1c2b-430e-b5d8-e56aed4ad105: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:00Z",
+      "lastUpdated": "2022-09-14T14:29:00Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-3558",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f9a4f5eb-e41f-4de1-8d87-1406be89bf00: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:00Z",
+      "lastUpdated": "2022-09-14T14:29:00Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-4018",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21edd41f-b5b9-4273-8729-becd10f6ebba: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:00Z",
+      "lastUpdated": "2022-09-14T14:29:00Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-4142",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3cd1cc39-39a7-4c0f-9e13-3a20f194f520: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:01Z",
+      "lastUpdated": "2022-09-14T14:29:01Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-4143",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ded03c33-c5d4-440a-a308-ce4476f7b73f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:02Z",
+      "lastUpdated": "2022-09-14T14:29:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-4418",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7df3d91a-e80a-482e-ad1f-8364f56e7972: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:02Z",
+      "lastUpdated": "2022-09-14T14:29:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2009-5016",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6f09adcf-a605-4163-bfc6-ada1e8717f54: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:03Z",
+      "lastUpdated": "2022-09-14T14:29:03Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-1128",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 938f6538-425d-4020-949c-10a1f6d34815: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:03Z",
+      "lastUpdated": "2022-09-14T14:29:03Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-1130",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0750ca06-a403-4231-a9ec-b45f02aa210b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:03Z",
+      "lastUpdated": "2022-09-14T14:29:03Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-3870",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b20206a-5f9c-4814-b721-8f186d568d1a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:04Z",
+      "lastUpdated": "2022-09-14T14:29:04Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-4409",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa07dfe9-6860-4996-a4cf-b951416597a7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:04Z",
+      "lastUpdated": "2022-09-14T14:29:04Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-4697",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 291d9410-e2f8-4995-809c-5271077fc002: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:05Z",
+      "lastUpdated": "2022-09-14T14:29:05Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2010-4699",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d32fd5a2-2261-47a0-9f05-09a1af3cfe21: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:05Z",
+      "lastUpdated": "2022-09-14T14:29:05Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0421",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bccd5e9-6572-4361-9d4d-5c12933734a2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:06Z",
+      "lastUpdated": "2022-09-14T14:29:06Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0708",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8feb7089-2252-43b2-baad-0487cea648ad: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:06Z",
+      "lastUpdated": "2022-09-14T14:29:06Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0752",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7a1b37d-8c68-4a9a-9159-9393b61903fc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:07Z",
+      "lastUpdated": "2022-09-14T14:29:07Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0753",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71828ec1-a56d-4a0b-8a85-3283fa1b0303: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:08Z",
+      "lastUpdated": "2022-09-14T14:29:08Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0754",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0b51f009-20bc-4b3a-b8e3-b81df28a49c1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:08Z",
+      "lastUpdated": "2022-09-14T14:29:08Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-0755",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a834b95-dc76-4784-9a20-f61e6d6f85da: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:09Z",
+      "lastUpdated": "2022-09-14T14:29:09Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1092",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 546e1349-fb82-49ae-a7e1-e1aa24d32ed7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:09Z",
+      "lastUpdated": "2022-09-14T14:29:09Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1148",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd07b6ab-464c-4ae1-ab1d-562144908fcf: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:10Z",
+      "lastUpdated": "2022-09-14T14:29:10Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1153",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e900a91-2045-434e-a238-f27867e4548d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:10Z",
+      "lastUpdated": "2022-09-14T14:29:10Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1398",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8b854cd1-31a8-422e-bc47-8c056d7dd872: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:10Z",
+      "lastUpdated": "2022-09-14T14:29:10Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1464",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12a8dd8b-aa59-494e-bd2e-a1896f086fea: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:10Z",
+      "lastUpdated": "2022-09-14T14:29:10Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1466",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b4ded1a-2499-4651-865a-4cb3d846eaa0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:11Z",
+      "lastUpdated": "2022-09-14T14:29:11Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1467",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea93b926-87b6-4e6b-9e4b-d4dbd04d41d6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:11Z",
+      "lastUpdated": "2022-09-14T14:29:11Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1468",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e296340c-7996-4ce4-9d12-8f92b100b336: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:11Z",
+      "lastUpdated": "2022-09-14T14:29:11Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1469",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 076b2211-b5ad-4ac5-9590-1c6ea9015ef5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:13Z",
+      "lastUpdated": "2022-09-14T14:29:13Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1470",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d75a9cd9-9dec-4d4a-9e6e-fabdeb37fb80: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:13Z",
+      "lastUpdated": "2022-09-14T14:29:13Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1471",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c43d3494-1223-45a5-836b-59a2c6121ab3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:14Z",
+      "lastUpdated": "2022-09-14T14:29:14Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-1939",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c186cd40-5938-4a65-bb49-6b06be945d49: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:14Z",
+      "lastUpdated": "2022-09-14T14:29:14Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-2202",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 779982f1-02c5-4aa4-9949-0c05cc920952: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:15Z",
+      "lastUpdated": "2022-09-14T14:29:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-2483",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 643ffef5-9b98-47c8-b94b-28721f865213: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:15Z",
+      "lastUpdated": "2022-09-14T14:29:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-3182",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a5ead2c-bb1a-46b9-bd6e-3eac2cdcd64f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:15Z",
+      "lastUpdated": "2022-09-14T14:29:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-3267",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 221118e6-e752-46a4-9b1a-97e2bcf75182: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:16Z",
+      "lastUpdated": "2022-09-14T14:29:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-3268",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b2f4fcc-ec54-4e2c-890f-1594edd0df6c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:16Z",
+      "lastUpdated": "2022-09-14T14:29:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-4718",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 28a10fa3-dbc2-4936-aeaf-bd9fb33d4242: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:17Z",
+      "lastUpdated": "2022-09-14T14:29:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2011-4885",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6459da12-0d67-48bd-add3-d4a7b3790d49: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:17Z",
+      "lastUpdated": "2022-09-14T14:29:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-0057",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 563cc93f-9f71-41cf-89b2-df38864d49e6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:18Z",
+      "lastUpdated": "2022-09-14T14:29:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-0788",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 375ea2c5-7041-426e-bf91-ea2bdfba7290: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:18Z",
+      "lastUpdated": "2022-09-14T14:29:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-0789",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f62f19e9-fdd2-4cd7-b68c-8d10deaaa990: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:19Z",
+      "lastUpdated": "2022-09-14T14:29:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-0831",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 736be44f-03a8-4822-aaff-798f1b6c01f4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:20Z",
+      "lastUpdated": "2022-09-14T14:29:20Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-1172",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bf98724-7a54-490a-bbc2-eb802cdcc90c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:23Z",
+      "lastUpdated": "2022-09-14T14:29:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-1823",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35c586ee-412b-4457-a52a-7e2b4445dd70: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:23Z",
+      "lastUpdated": "2022-09-14T14:29:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2143",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 27b767df-e8f4-4310-aabd-19391e6115d7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:24Z",
+      "lastUpdated": "2022-09-14T14:29:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2311",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 555fd42c-8f7c-4962-a353-dcc82217abcc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:25Z",
+      "lastUpdated": "2022-09-14T14:29:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2336",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ec6048c-cf33-4b40-9e21-4d577090e180: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:25Z",
+      "lastUpdated": "2022-09-14T14:29:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2376",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e4c9ece-5b2e-4fee-9888-890f6675f5a1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:26Z",
+      "lastUpdated": "2022-09-14T14:29:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2386",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5d8eabd7-12d8-417a-b374-dd5e72e508b5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:27Z",
+      "lastUpdated": "2022-09-14T14:29:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-2688",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 846c61f8-7090-4921-949c-c5b49e188162: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:28Z",
+      "lastUpdated": "2022-09-14T14:29:28Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-3365",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da5021fa-92a6-4cda-bced-830c7a67acfa: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:28Z",
+      "lastUpdated": "2022-09-14T14:29:28Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2012-3450",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73114f7b-aa0a-4a3f-bf8e-693f68164580: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:29Z",
+      "lastUpdated": "2022-09-14T14:29:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-1635",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb7452e0-519a-4c38-bb5a-ff50507b8356: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:30Z",
+      "lastUpdated": "2022-09-14T14:29:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-1643",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d37f9c0e-0145-4c25-8288-a211abb66bb4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:31Z",
+      "lastUpdated": "2022-09-14T14:29:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-1824",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 68ab34c8-0d63-47b1-bd14-85f7e134efcd: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:31Z",
+      "lastUpdated": "2022-09-14T14:29:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-2110",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c44f370e-f580-4ffa-94c5-11c8179a6cfe: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:32Z",
+      "lastUpdated": "2022-09-14T14:29:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-3735",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f2401a36-bbaf-4cd4-8cf4-fddd61a7f159: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:33Z",
+      "lastUpdated": "2022-09-14T14:29:33Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-4248",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f01ba6f-18d8-43d7-9c08-52c27dcf3a96: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:33Z",
+      "lastUpdated": "2022-09-14T14:29:33Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-4635",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 11ab02d0-8e37-4ad8-830f-046408c0664e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:34Z",
+      "lastUpdated": "2022-09-14T14:29:34Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-6420",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a32dbec-c076-45dd-bb15-083b5c790e8a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:34Z",
+      "lastUpdated": "2022-09-14T14:29:34Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-6501",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b8c3484-fe16-432e-91dc-95dfb4add496: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:35Z",
+      "lastUpdated": "2022-09-14T14:29:35Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-6712",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d46c516a-0629-4559-88fe-040b72ecf277: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:35Z",
+      "lastUpdated": "2022-09-14T14:29:35Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2013-7327",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05f9082f-b21d-421b-950a-bd88ec503b81: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:36Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:36Z",
+      "lastUpdated": "2022-09-14T14:29:36Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-0207",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb6188ff-c3d6-4523-bdb8-82f6e53e511d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:37Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:37Z",
+      "lastUpdated": "2022-09-14T14:29:37Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-0236",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 344f8cbe-b5f3-4471-ae46-f750483e5051: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:38Z",
+      "lastUpdated": "2022-09-14T14:29:38Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-0237",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 258faca5-1baa-4a89-a017-cbd19335e15f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:39Z",
+      "lastUpdated": "2022-09-14T14:29:39Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-0238",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6407958a-11ea-4f69-acf8-ca365678fdab: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:39Z",
+      "lastUpdated": "2022-09-14T14:29:39Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-2020",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eff42cb4-31d7-4083-80c6-2404681950ee: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:40Z",
+      "lastUpdated": "2022-09-14T14:29:40Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-2270",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eeb91054-7ce4-497e-9e3a-f6f65a487479: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:12:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:12:41Z",
+      "lastUpdated": "2022-11-01T18:12:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-2497",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4d16e7ad-d62f-4158-9bf2-73a46659780a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:41Z",
+      "lastUpdated": "2022-09-14T14:29:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3478",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9d391a8b-40fb-4629-a5f9-e24064bad2b4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:41Z",
+      "lastUpdated": "2022-09-14T14:29:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3479",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0cc4b80-3bc5-4cb7-9fc7-f4be08ea6a70: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:42Z",
+      "lastUpdated": "2022-09-14T14:29:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3480",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd700762-a31d-40d3-a0e0-ba94638b0e11: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:42Z",
+      "lastUpdated": "2022-09-14T14:29:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3487",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2069b435-26d4-4372-9d9a-7a066b8854d9: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:43Z",
+      "lastUpdated": "2022-09-14T14:29:43Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3515",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 942a0c87-4d51-4a7e-9fa1-cc0578221c95: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:43Z",
+      "lastUpdated": "2022-09-14T14:29:43Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3587",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 47abf9dc-e4ac-4433-8d5e-158ab7539808: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:44Z",
+      "lastUpdated": "2022-09-14T14:29:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3597",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f28dcbab-4ac4-4ffd-8ce0-74eb9724ea85: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:44Z",
+      "lastUpdated": "2022-09-14T14:29:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3668",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1923f055-7947-4ff1-b8fc-3989fa38abe8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:44Z",
+      "lastUpdated": "2022-09-14T14:29:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3669",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1ecc77cf-f6d7-46d5-af43-97e30f020863: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:45Z",
+      "lastUpdated": "2022-09-14T14:29:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3670",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6fd2d7f7-5bc5-4a5d-a38e-07f3cf900970: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:45Z",
+      "lastUpdated": "2022-09-14T14:29:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-3981",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2bbefc2d-38ea-496b-8e33-f7bd448214a2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:45Z",
+      "lastUpdated": "2022-09-14T14:29:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-4670",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2b820c9b-074a-4f47-85cc-2e7ea2925f8b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:45Z",
+      "lastUpdated": "2022-09-14T14:29:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-4698",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a1b0f45d-ea00-409a-bf39-e870b5849336: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:46Z",
+      "lastUpdated": "2022-09-14T14:29:46Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-4721",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21188c53-0957-42d2-8fbe-04213a31b154: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:48Z",
+      "lastUpdated": "2022-09-14T14:29:48Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-5459",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9c32182-9b46-4f39-8b1a-fe7864192bf2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:49Z",
+      "lastUpdated": "2022-09-14T14:29:49Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-8142",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93e6369d-3c2f-4992-a99e-5fdd0b5f0f83: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:51Z",
+      "lastUpdated": "2022-09-14T14:29:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-8626",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75c24d4c-a487-4e83-8f2c-da142f9c2a09: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:51Z",
+      "lastUpdated": "2022-09-14T14:29:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9425",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6f5861f8-bd47-4e14-a2df-69e2299d2959: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:52Z",
+      "lastUpdated": "2022-09-14T14:29:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9426",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6081157c-c178-4ad9-bb3c-844f64d7453b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:29:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:29:54Z",
+      "lastUpdated": "2022-09-14T14:29:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9652",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 08d4a79e-4f97-4452-b5b3-cd11b4fc9dc1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:13Z",
+      "lastUpdated": "2022-09-14T14:30:13Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9653",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f44aba6c-2e65-4a06-9c1a-0bae186a2aa2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:14Z",
+      "lastUpdated": "2022-09-14T14:30:14Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9705",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dddfb67b-3da3-4569-b622-3912018a6c38: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:14Z",
+      "lastUpdated": "2022-09-14T14:30:14Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9767",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b83495c2-9461-4938-80fc-763c80f5c5f1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:15Z",
+      "lastUpdated": "2022-09-14T14:30:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2014-9912",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8ae7c739-369a-4fc2-8e9d-60dc8383f0d5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:15Z",
+      "lastUpdated": "2022-09-14T14:30:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-0231",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5e3a093-bf18-4963-9810-63dfe8ae56b5: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:15Z",
+      "lastUpdated": "2022-09-14T14:30:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-0232",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a5b338b-02a3-41f7-bfce-2e931fc89990: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:16Z",
+      "lastUpdated": "2022-09-14T14:30:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-0273",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 11d56e2b-0e18-4291-be58-efbd9046e263: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:16Z",
+      "lastUpdated": "2022-09-14T14:30:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-1351",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f8cdaa9-0538-4c05-be91-911a51b17a81: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:17Z",
+      "lastUpdated": "2022-09-14T14:30:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-1352",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d855479e-8940-44cc-91ab-4316bff6778a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:17Z",
+      "lastUpdated": "2022-09-14T14:30:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-2331",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e0122d2-7952-4c2e-a4ba-86c4551ffc3b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:17Z",
+      "lastUpdated": "2022-09-14T14:30:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-2348",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 944c3ddf-b0ce-44b9-9d62-ebfb7917eb47: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:18Z",
+      "lastUpdated": "2022-09-14T14:30:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-2783",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 674db5e1-7208-4e48-bd11-133adc76fa50: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:18Z",
+      "lastUpdated": "2022-09-14T14:30:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-2787",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54d27e69-e432-40fb-94a9-9a42fa6bf00c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:19Z",
+      "lastUpdated": "2022-09-14T14:30:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-3307",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f91009ca-9687-4e7f-91e1-fd44872ff1ce: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:19Z",
+      "lastUpdated": "2022-09-14T14:30:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-3329",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0bed6fc-823f-4fdb-95f3-62ba0305e61d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:19Z",
+      "lastUpdated": "2022-09-14T14:30:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-3330",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d83d7cd3-2710-45c3-af7c-794b78dc015a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:20Z",
+      "lastUpdated": "2022-09-14T14:30:20Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-3411",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe279b20-e359-431b-9d0a-50931f3e2b0c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:21Z",
+      "lastUpdated": "2022-09-14T14:30:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-3412",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5417bddf-1b9c-4119-9b40-de16cc7d0bf9: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:21Z",
+      "lastUpdated": "2022-09-14T14:30:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4021",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b81e244c-a27c-4fda-b4cf-616b35400b1d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:22Z",
+      "lastUpdated": "2022-09-14T14:30:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75ce0e62-3c29-4f71-8c26-87aa7c61789e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:22Z",
+      "lastUpdated": "2022-09-14T14:30:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 59af779a-14f4-46f4-a06f-cdb968256654: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:23Z",
+      "lastUpdated": "2022-09-14T14:30:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aea14da8-1fca-400e-8efd-3c5f40e1a6fb: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:23Z",
+      "lastUpdated": "2022-09-14T14:30:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4026",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee0627e3-91c1-4f1d-94d7-355d8e1d715a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:24Z",
+      "lastUpdated": "2022-09-14T14:30:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4116",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f53981c7-da28-439c-a697-1ea3fec2a1b4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:24Z",
+      "lastUpdated": "2022-09-14T14:30:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4147",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 15f446f2-62fb-4e21-b80a-0bb903562cc7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:25Z",
+      "lastUpdated": "2022-09-14T14:30:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4148",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87b81460-4241-4c0c-a63f-7be05743e614: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:25Z",
+      "lastUpdated": "2022-09-14T14:30:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4598",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 012f85be-0b1e-4962-89ed-042bd433f519: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:26Z",
+      "lastUpdated": "2022-09-14T14:30:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4599",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04202ca0-03e0-485e-aa22-416f53b489cc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:26Z",
+      "lastUpdated": "2022-09-14T14:30:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4600",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5bff8fd3-6b3c-4e83-910c-6fa675f78ad3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:27Z",
+      "lastUpdated": "2022-09-14T14:30:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4601",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e6a0addd-4ac6-4005-b28c-8640d1ec2a2e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:28Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:28Z",
+      "lastUpdated": "2022-09-14T14:30:28Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4602",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa202cc2-bbff-4676-b740-3ff0762e3076: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:29Z",
+      "lastUpdated": "2022-09-14T14:30:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4603",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e0a42037-a0d9-4199-9831-14f2f2c50276: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:29Z",
+      "lastUpdated": "2022-09-14T14:30:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4604",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc0d66c9-3a94-4d11-b805-efd09bc426e9: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:30Z",
+      "lastUpdated": "2022-09-14T14:30:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4605",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bdb356aa-9799-4478-91af-3d209067d000: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:30Z",
+      "lastUpdated": "2022-09-14T14:30:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4642",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5836e6d-0605-4ac0-99ce-1b8b0c42806d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:31Z",
+      "lastUpdated": "2022-09-14T14:30:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4643",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83271242-3592-4cb9-a114-993bf64f9bde: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:32Z",
+      "lastUpdated": "2022-09-14T14:30:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-4644",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6fc1c0d2-25ef-44da-8f63-66412212342d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:32Z",
+      "lastUpdated": "2022-09-14T14:30:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-5589",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b00afab2-53f6-4d4e-9ced-b65ca9158e23: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:33Z",
+      "lastUpdated": "2022-09-14T14:30:33Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-5590",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0fb01d71-096f-4d12-8c13-448d9ec8d819: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:34Z",
+      "lastUpdated": "2022-09-14T14:30:34Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6831",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3df370b1-8440-44c8-97a1-6fdc97576dc0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:38Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:38Z",
+      "lastUpdated": "2022-09-14T14:30:38Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6832",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3cb04226-97ff-40ab-aa89-575722420b8c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:39Z",
+      "lastUpdated": "2022-09-14T14:30:39Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6833",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b27aab9-5134-4fa8-ad95-0b070b9a5c1e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:39Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:39Z",
+      "lastUpdated": "2022-09-14T14:30:39Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6834",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4349de8b-30c0-4dd6-91bc-a80958fd1bec: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:40Z",
+      "lastUpdated": "2022-09-14T14:30:40Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6835",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d708a81a-97e8-4b42-a0b1-3282fffdfa54: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:40Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:40Z",
+      "lastUpdated": "2022-09-14T14:30:40Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6836",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e73519dd-00ab-4a16-871b-c3a7cf3dd96f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:41Z",
+      "lastUpdated": "2022-09-14T14:30:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6837",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f56a30f4-788a-4ce6-9475-e622383b13fd: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:41Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:41Z",
+      "lastUpdated": "2022-09-14T14:30:41Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-6838",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a2a88c07-c7df-4ee3-816d-fb458c83d05a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:42Z",
+      "lastUpdated": "2022-09-14T14:30:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-7803",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels de2d2881-f1b5-4d0d-8d23-216653fb7879: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:42Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:42Z",
+      "lastUpdated": "2022-09-14T14:30:42Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-7804",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6dcf3dd7-807d-4380-9412-f941d62acc39: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:43Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:43Z",
+      "lastUpdated": "2022-09-14T14:30:43Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8835",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0a487f1-eb2a-4b1d-a9d9-349229a2d026: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:44Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:44Z",
+      "lastUpdated": "2022-09-14T14:30:44Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8838",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7f7fdf24-3493-454e-af2f-8380f686aaca: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:45Z",
+      "lastUpdated": "2022-09-14T14:30:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8865",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37ea80aa-a64b-497d-852b-86ca08dd663c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:45Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:45Z",
+      "lastUpdated": "2022-09-14T14:30:45Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8873",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 99009271-b327-463b-9678-1a7dce25471e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:46Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:46Z",
+      "lastUpdated": "2022-09-14T14:30:46Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8874",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3cad059-3ae6-4243-ab5b-47a2b7d6feab: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:47Z",
+      "lastUpdated": "2022-09-14T14:30:47Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8877",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fc2385c3-b9b1-49e4-8d6e-adb5d381cdc0: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:47Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:47Z",
+      "lastUpdated": "2022-09-14T14:30:47Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8879",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad3ffaa5-ede9-4ba6-824b-d5b967961b4f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:48Z",
+      "lastUpdated": "2022-09-14T14:30:48Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-8935",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 054139d9-884d-47df-bf60-4559a1fb6a89: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:49Z",
+      "lastUpdated": "2022-09-14T14:30:49Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2015-9253",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85a6aab8-e6fc-4718-b061-6b7ac44bddc2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:50Z",
+      "lastUpdated": "2022-09-14T14:30:50Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-10158",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels edb3d506-82d5-49cd-a707-659cd9c35781: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:51Z",
+      "lastUpdated": "2022-09-14T14:30:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-10159",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce8fa5fe-1db8-46da-948e-9b4a9f28678b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:51Z",
+      "lastUpdated": "2022-09-14T14:30:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-10161",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 08a3d24d-6c6c-4ae8-8afe-988220d0b51a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:52Z",
+      "lastUpdated": "2022-09-14T14:30:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-10397",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e2afaa2b-ffac-4764-a12c-1d9956036f12: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:53Z",
+      "lastUpdated": "2022-09-14T14:30:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-10712",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7ca43e84-ba4d-484b-8389-475f45564fa6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:54Z",
+      "lastUpdated": "2022-09-14T14:30:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-1903",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 496f7718-317a-4de1-acfe-41bd21e6bb40: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:55Z",
+      "lastUpdated": "2022-09-14T14:30:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-2554",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0c00f1c-31b7-4d6b-b5d3-4d3fa9c874b4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:55Z",
+      "lastUpdated": "2022-09-14T14:30:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-3141",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4cdc633c-01b3-4178-917b-e49398cae868: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:56Z",
+      "lastUpdated": "2022-09-14T14:30:56Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-3142",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73f921fd-dc09-4e6a-94f4-425d50eda55d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:57Z",
+      "lastUpdated": "2022-09-14T14:30:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-3185",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ce314eee-d6a2-43c7-b90a-b47ae74ff6fd: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:57Z",
+      "lastUpdated": "2022-09-14T14:30:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4070",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0c305a0e-8873-4a8a-8ef0-1f1c20beafb6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:58Z",
+      "lastUpdated": "2022-09-14T14:30:58Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4342",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 103c9810-b6d2-48ee-96a1-487502b53584: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:59Z",
+      "lastUpdated": "2022-09-14T14:30:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4343",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 101136b3-87de-45b6-bb9b-6453be82958a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:30:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:30:59Z",
+      "lastUpdated": "2022-09-14T14:30:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4537",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 169a3e13-471a-477a-b3d2-59e5220deb28: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:00Z",
+      "lastUpdated": "2022-09-14T14:31:00Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4538",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e604b476-8deb-4ff2-8d96-2bf1cfe6d8ed: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:01Z",
+      "lastUpdated": "2022-09-14T14:31:01Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4539",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 169eb185-f8e3-429c-ad1d-6a2bcabf26c1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:02Z",
+      "lastUpdated": "2022-09-14T14:31:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4540",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 10dfb9f7-1687-48aa-9cc2-d7578221f3d1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:02Z",
+      "lastUpdated": "2022-09-14T14:31:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4541",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1a02373c-d609-49a2-9322-02e87d1d8b26: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:03Z",
+      "lastUpdated": "2022-09-14T14:31:03Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4542",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 941872bd-c722-4d31-b52b-fb0301860f5c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:04Z",
+      "lastUpdated": "2022-09-14T14:31:04Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-4543",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4683bd0-03cd-4b57-8de9-2a0c011e56c3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:04Z",
+      "lastUpdated": "2022-09-14T14:31:04Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5093",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f09ded6-5def-4739-8aed-8f66b9840d85: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:05Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:05Z",
+      "lastUpdated": "2022-09-14T14:31:05Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5094",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f848855-dc7c-4c56-8c30-3d17ee80f829: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:06Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:06Z",
+      "lastUpdated": "2022-09-14T14:31:06Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5095",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b4b9ab4-15df-4149-914e-22532e125440: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:07Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:07Z",
+      "lastUpdated": "2022-09-14T14:31:07Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5096",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df99b762-6ffd-4494-89e8-be9703a40a06: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:08Z",
+      "lastUpdated": "2022-09-14T14:31:08Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5114",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ead7aeae-c490-481b-a6a8-72bd452cc119: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:08Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:08Z",
+      "lastUpdated": "2022-09-14T14:31:08Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5399",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b033a63-2d84-4ff1-96b1-661e39245e0b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:09Z",
+      "lastUpdated": "2022-09-14T14:31:09Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5768",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df3a4ef1-d0fd-4474-b141-4e1886374c65: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:10Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:10Z",
+      "lastUpdated": "2022-09-14T14:31:10Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5769",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 876a488e-e3ae-4108-8365-5237b63e1470: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:11Z",
+      "lastUpdated": "2022-09-14T14:31:11Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5770",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2911d91f-42f5-4186-bf9a-7061f411549d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:11Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:11Z",
+      "lastUpdated": "2022-09-14T14:31:11Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5771",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35c775c5-9c34-4281-98f3-f70ba70e28fd: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:12Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:12Z",
+      "lastUpdated": "2022-09-14T14:31:12Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5772",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 43f9f144-7923-44b2-91bd-6c8fabf1dcaa: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:12Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:12Z",
+      "lastUpdated": "2022-09-14T14:31:12Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-5773",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f3ff521-d67d-4502-97bd-13602de591f3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:13Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:13Z",
+      "lastUpdated": "2022-09-14T14:31:13Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6174",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b95f4d5-e541-43d2-bc6e-d40a897582f2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:14Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:14Z",
+      "lastUpdated": "2022-09-14T14:31:14Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6288",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 514cbc4e-a6a4-4370-864b-f825466afc23: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:15Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:15Z",
+      "lastUpdated": "2022-09-14T14:31:15Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6289",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8e0dd2da-8471-4b1c-850f-c26d66d31ffc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:16Z",
+      "lastUpdated": "2022-09-14T14:31:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6290",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 274390a8-eacb-40e7-9224-e0388bcf0ad6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:16Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:16Z",
+      "lastUpdated": "2022-09-14T14:31:16Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6291",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95aba931-e047-4d5a-b0d5-f6ecd2eb95b3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:17Z",
+      "lastUpdated": "2022-09-14T14:31:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6292",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9db4373-277f-4714-908c-c95066cc7a1f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:18Z",
+      "lastUpdated": "2022-09-14T14:31:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6294",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c4ed8c9-57fb-442b-9f66-0dff1fcacf0d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:19Z",
+      "lastUpdated": "2022-09-14T14:31:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6295",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b1e6102-ad34-4ab2-b90b-2ccdc540e511: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:19Z",
+      "lastUpdated": "2022-09-14T14:31:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6296",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7448f313-25e1-4fb7-9e67-3e6065eeeffa: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:21Z",
+      "lastUpdated": "2022-09-14T14:31:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-6297",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04c80953-d888-4170-8221-cd8ee4fcac54: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:22Z",
+      "lastUpdated": "2022-09-14T14:31:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7124",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7842badd-c37b-46cb-9411-0035ffdc5fdf: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:22Z",
+      "lastUpdated": "2022-09-14T14:31:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7125",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 81888555-cf33-4dff-bb30-91d6bf85f62e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:23Z",
+      "lastUpdated": "2022-09-14T14:31:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7126",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cecfbc08-ebd0-4d54-bee0-db3fda9860cc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:48Z",
+      "lastUpdated": "2022-09-14T14:31:48Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7127",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1d28240b-0481-40fb-956b-c8278574408f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:48Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:48Z",
+      "lastUpdated": "2022-09-14T14:31:48Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7128",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e03e61e4-7bb1-49b4-9170-ff25d860e1c3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:49Z",
+      "lastUpdated": "2022-09-14T14:31:49Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7129",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a1b27f9-889c-46ff-ae28-b664c13f7d82: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:49Z",
+      "lastUpdated": "2022-09-14T14:31:49Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7130",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a57072f0-e7cc-4db5-a0df-8e2d168aad5a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:50Z",
+      "lastUpdated": "2022-09-14T14:31:50Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7131",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 412dc4c4-5b7f-4b51-a8be-cdc6e7717261: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:50Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:50Z",
+      "lastUpdated": "2022-09-14T14:31:50Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7132",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8320b8a8-87bf-4a6f-93df-f7932f592b05: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:51Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:51Z",
+      "lastUpdated": "2022-09-14T14:31:51Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7411",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5448a2d2-25d1-4135-b9e0-70f25b11de16: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:52Z",
+      "lastUpdated": "2022-09-14T14:31:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7412",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd7df33e-6da7-4564-b7d3-636e601d4db8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:52Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:52Z",
+      "lastUpdated": "2022-09-14T14:31:52Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7413",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a62e2ba8-efaa-492b-8557-58a1ef1aa92b: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:53Z",
+      "lastUpdated": "2022-09-14T14:31:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7414",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a8b1047-c8b1-4375-a3e8-2433606ed7b2: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:53Z",
+      "lastUpdated": "2022-09-14T14:31:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7416",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8c75a4d3-c8af-4908-aae5-7a5f027f07c8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:53Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:53Z",
+      "lastUpdated": "2022-09-14T14:31:53Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7417",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d1f784c7-b767-4842-8caf-dcbc436a4885: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:54Z",
+      "lastUpdated": "2022-09-14T14:31:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-7418",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ffe3831-60eb-4135-8ccb-89e667a87a6c: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:54Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:54Z",
+      "lastUpdated": "2022-09-14T14:31:54Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-9137",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5f0f141-77a9-404f-9c7b-23ec749f95fb: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:55Z",
+      "lastUpdated": "2022-09-14T14:31:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-9138",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1cc880d-f12d-47e7-b06a-a7e2817f688e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:55Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:55Z",
+      "lastUpdated": "2022-09-14T14:31:55Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-9934",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 98077024-2d1b-4ba5-af82-a379accae7bc: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:56Z",
+      "lastUpdated": "2022-09-14T14:31:56Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2016-9935",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee90d839-0c1d-4564-9d8a-102976cc50ec: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:56Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:56Z",
+      "lastUpdated": "2022-09-14T14:31:56Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11142",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b824dd4-69f6-49ca-bed4-4a8caa0c8c99: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:57Z",
+      "lastUpdated": "2022-09-14T14:31:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11143",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d5c580d5-856f-4801-8910-3ca9a9b70936: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:57Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:57Z",
+      "lastUpdated": "2022-09-14T14:31:57Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11144",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f46a61c6-2258-4b79-93c5-d3c4112f3417: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:58Z",
+      "lastUpdated": "2022-09-14T14:31:58Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11145",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c8777865-13b2-4bbe-9aa2-4f10129384c7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:58Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:58Z",
+      "lastUpdated": "2022-09-14T14:31:58Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11147",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b48c9efc-4ccc-4b6d-9825-d73d44b5ef75: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:59Z",
+      "lastUpdated": "2022-09-14T14:31:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-11628",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f78387b-66b0-43a4-888f-b92f7977f746: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:31:59Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:31:59Z",
+      "lastUpdated": "2022-09-14T14:31:59Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-12933",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0faf1b46-71fa-4159-ba3e-a5dd2c6bd27f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:00Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:00Z",
+      "lastUpdated": "2022-09-14T14:32:00Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-16642",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60ed6607-295a-4839-a48a-9488771293ba: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:01Z",
+      "lastUpdated": "2022-09-14T14:32:01Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-7272",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5c523d3-459f-4339-b710-41111ec4d85a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:01Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:01Z",
+      "lastUpdated": "2022-09-14T14:32:01Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-7890",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c56bb007-1fb0-403d-836c-0ffb606a2f9e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:02Z",
+      "lastUpdated": "2022-09-14T14:32:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-7963",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d9c76135-6e00-484c-bf79-6945bc5b22b8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:02Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:02Z",
+      "lastUpdated": "2022-09-14T14:32:02Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-8923",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa6a2f76-d219-466d-82ac-261e91bc309e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:03Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:03Z",
+      "lastUpdated": "2022-09-14T14:32:03Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-9224",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eca98e17-f920-4548-86de-27ec9bfe464f: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:04Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:04Z",
+      "lastUpdated": "2022-09-14T14:32:04Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-9225",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ff6c8dfb-a20e-49a8-85f7-82a29ec3cfc8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:17Z",
+      "lastUpdated": "2022-09-14T14:32:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-9226",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 645d6c5f-dc8e-465f-b2c7-d79a56880f71: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:17Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:17Z",
+      "lastUpdated": "2022-09-14T14:32:17Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2017-9229",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fffd403-43bc-447d-94ca-d0bc03dca48a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:18Z",
+      "lastUpdated": "2022-09-14T14:32:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-10545",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b034e24c-ae1d-41dc-b1ab-be5e435b6a1e: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:18Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:18Z",
+      "lastUpdated": "2022-09-14T14:32:18Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-10546",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels afeb57bb-49cd-44ca-b59e-12d6d0a5b8b6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:19Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:19Z",
+      "lastUpdated": "2022-09-14T14:32:19Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-10547",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9eed65ea-9c68-46a0-a480-5115e5a499f1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:20Z",
+      "lastUpdated": "2022-09-14T14:32:20Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-10548",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dde827aa-0475-4749-818c-3f61be127237: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:20Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:20Z",
+      "lastUpdated": "2022-09-14T14:32:20Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-10549",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9dde00c-988b-4783-894a-05e9984806c7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:21Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:21Z",
+      "lastUpdated": "2022-09-14T14:32:21Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-14851",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab3ef5e7-36fc-4b78-9ecd-b9c1b6ae71a3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:22Z",
+      "lastUpdated": "2022-09-14T14:32:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-14883",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f68ae516-91ec-431b-b05c-eb16fe3aff50: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:22Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:22Z",
+      "lastUpdated": "2022-09-14T14:32:22Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-15132",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f6af1082-d35a-43c2-a04a-287ed88a724d: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:23Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:23Z",
+      "lastUpdated": "2022-09-14T14:32:23Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-17082",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 519aea94-4dd6-49b9-ae87-204799076de6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:24Z",
+      "lastUpdated": "2022-09-14T14:32:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-20783",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd95c93b-35b1-47da-9ebd-6110b839bce4: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:24Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:24Z",
+      "lastUpdated": "2022-09-14T14:32:24Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-5711",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbb290b6-7d6d-41f4-b54a-ec8ba886144a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:25Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:25Z",
+      "lastUpdated": "2022-09-14T14:32:25Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-5712",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d99dd234-ed81-4453-8228-949dbb409ca3: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:26Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:26Z",
+      "lastUpdated": "2022-09-14T14:32:26Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2018-7584",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9123857c-98fe-43b3-9519-023351495544: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:27Z",
+      "lastUpdated": "2022-09-14T14:32:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-6977",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b855ad96-604e-448c-be77-fba9f8969138: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:27Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:27Z",
+      "lastUpdated": "2022-09-14T14:32:27Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9020",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4371f41-bd10-485e-851b-788f305c9183: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:29Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:29Z",
+      "lastUpdated": "2022-09-14T14:32:29Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9021",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 10a35bed-9b57-4c89-881e-48f680d126b7: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:30Z",
+      "lastUpdated": "2022-09-14T14:32:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2e62be6f-6d58-4f61-a95e-d1fcb86394b6: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:30Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:30Z",
+      "lastUpdated": "2022-09-14T14:32:30Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0649d6ab-4fbc-4291-b736-ed397f871964: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:31Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:31Z",
+      "lastUpdated": "2022-09-14T14:32:31Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9637",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8ba176ba-042e-4dd4-bd7c-ce405ae0588a: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:32Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:32Z",
+      "lastUpdated": "2022-09-14T14:32:32Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9638",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5e1e168-615e-44a2-b8a9-31934e41a0e8: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:33Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:33Z",
+      "lastUpdated": "2022-09-14T14:32:33Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9639",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74716b75-e5cb-4e83-a326-86d3409d77b1: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:34Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:34Z",
+      "lastUpdated": "2022-09-14T14:32:34Z"
+    },
+    {
+      "package": "pkg:pypi/php@1.2.1",
+      "vulnerability": "CVE-2019-9641",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7fcc59f6-a59c-477b-8e74-35df9f7e4c41: fp",
+          "author": "westonsteimel",
+          "at": "2022-09-14T14:32:35Z"
+        }
+      ],
+      "firstIssued": "2022-09-14T14:32:35Z",
+      "lastUpdated": "2022-09-14T14:32:35Z"
+    },
+    {
+      "package": "pkg:pypi/redis@4.3.4",
+      "vulnerability": "CVE-2021-32626",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 84ceac85-33e6-4238-bb9c-cdf87d88e28c: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:13:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:13:01Z",
+      "lastUpdated": "2022-11-01T18:13:01Z"
+    },
+    {
+      "package": "pkg:pypi/redis@4.3.4",
+      "vulnerability": "CVE-2021-32672",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 423fd49b-e5d3-4313-acf6-609c1a55629b: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:13:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:13:03Z",
+      "lastUpdated": "2022-11-01T18:13:03Z"
+    }
+  ]
+}

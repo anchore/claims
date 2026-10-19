@@ -1,0 +1,36 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/azurelinux3@sha256:2d761ba36575ddd4e07d446f4f2a05448298c20e5bdcd3dedfbbc00f9865240d",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/azurelinux/golang@1.22.5-1.azl3",
+      "vulnerability": "CVE-2022-41722",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels acc44b60-9c21-4e3b-8618-f434345df77a: tp with grype[custom-db]@v0.79.4-15-g6e8d880",
+          "author": "willmurphy",
+          "at": "2024-09-12T11:41:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.79.4-15-g6e8d880"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-09-12T11:41:18Z",
+      "lastUpdated": "2024-09-12T11:41:18Z"
+    }
+  ]
+}

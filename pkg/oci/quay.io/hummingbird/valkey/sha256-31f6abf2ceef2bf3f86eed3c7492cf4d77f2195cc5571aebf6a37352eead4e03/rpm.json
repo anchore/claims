@@ -1,0 +1,3097 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "quay.io/hummingbird/valkey@sha256:31f6abf2ceef2bf3f86eed3c7492cf4d77f2195cc5571aebf6a37352eead4e03",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2025-15281",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a00c8d47-d1ee-4a91-9973-e8bc10dd1d3f: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:31Z",
+      "lastUpdated": "2026-05-20T09:11:31Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0861",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cf59e2ae-eedc-4726-9a2f-2837d47953bb: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:27Z",
+      "lastUpdated": "2026-05-20T09:11:27Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0915",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e9107a0a-cf9e-4135-ba1c-e4367cefd037: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:27Z",
+      "lastUpdated": "2026-05-20T09:11:27Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-3904",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9ebce2e1-3a49-41cf-a5c1-82b2483811bf: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:26Z",
+      "lastUpdated": "2026-05-20T09:11:26Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4046",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7b3f1983-c403-4f33-beac-1853ed88d3f7: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:26Z",
+      "lastUpdated": "2026-05-20T09:11:26Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4437",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 894414bc-68fb-4731-b41a-34cb4e5bb14d: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:26Z",
+      "lastUpdated": "2026-05-20T09:11:26Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4438",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3581982e-f426-4a1d-a341-381709852a94: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:25Z",
+      "lastUpdated": "2026-05-20T09:11:25Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5435",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c0953447-9f6f-478f-b46b-0fb9e5836666: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:25Z",
+      "lastUpdated": "2026-05-20T09:11:25Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5450",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8272ec7e-3ee3-4127-b667-a9d50fc4fac5: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:25Z",
+      "lastUpdated": "2026-05-20T09:11:25Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37bccba7-df87-4334-9fa5-409614b4d9da: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:25Z",
+      "lastUpdated": "2026-05-20T09:11:25Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-common@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-6238",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7fcf75bf-334f-44bc-9f59-d1cf7869a0f6: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:24Z",
+      "lastUpdated": "2026-05-20T09:11:24Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2025-15281",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa58959c-1c26-444f-b66d-7997f24c65df: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:24Z",
+      "lastUpdated": "2026-05-20T09:11:24Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0861",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9fd9d40a-c18c-4562-b7f5-f724a71d5343: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:24Z",
+      "lastUpdated": "2026-05-20T09:11:24Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0915",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8ef42203-9c78-433d-a6e8-b944ed5fdeb9: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:23Z",
+      "lastUpdated": "2026-05-20T09:11:23Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-3904",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 089ea12a-8623-42de-9cc4-8dc02300462c: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:23Z",
+      "lastUpdated": "2026-05-20T09:11:23Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4046",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e0d52a0b-12d7-4054-ac9a-e2df0af4b1af: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:23Z",
+      "lastUpdated": "2026-05-20T09:11:23Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4437",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8b8417e-9844-4e29-9151-9f7cd87d51a9: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:22Z",
+      "lastUpdated": "2026-05-20T09:11:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4438",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b06c8e04-37bc-49c9-913c-bd16cd71f53d: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:22Z",
+      "lastUpdated": "2026-05-20T09:11:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5435",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f1e15f6c-21e7-4fe9-8e31-0684e1f3a4f5: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:22Z",
+      "lastUpdated": "2026-05-20T09:11:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5450",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 296b7fd7-c000-4414-a3f6-f79fc6ebd9a0: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:22Z",
+      "lastUpdated": "2026-05-20T09:11:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a3c57f99-7fc2-4d32-99cf-f88ed48ee450: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:22Z",
+      "lastUpdated": "2026-05-20T09:11:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc-minimal-langpack@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-6238",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 03921252-3b15-4801-b4ff-1ffead92852e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:21Z",
+      "lastUpdated": "2026-05-20T09:11:21Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2025-15281",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1278985d-3889-43a1-8af3-0d4d94be4204: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:36Z",
+      "lastUpdated": "2026-05-20T09:11:36Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0861",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dbfc2f2a-4d07-4876-8872-c3b0ecd3586d: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:36Z",
+      "lastUpdated": "2026-05-20T09:11:36Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-0915",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6959bbab-fb6c-4cea-a8d6-efcf1b18ede0: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:34Z",
+      "lastUpdated": "2026-05-20T09:11:34Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-3904",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 400ffb90-33c1-4029-bae9-6dbd8ded6431: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:33Z",
+      "lastUpdated": "2026-05-20T09:11:33Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4046",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4487c540-78f1-453c-83bd-812bea135957: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:33Z",
+      "lastUpdated": "2026-05-20T09:11:33Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4437",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94379128-1021-4fbc-900d-e086f5bf3daf: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:32Z",
+      "lastUpdated": "2026-05-20T09:11:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-4438",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 637905e6-09b4-425b-ab37-5b74a47887b6: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:32Z",
+      "lastUpdated": "2026-05-20T09:11:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5435",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f61f8649-1402-4cee-abbe-3bd939333758: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:32Z",
+      "lastUpdated": "2026-05-20T09:11:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5450",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e1bc023c-db48-4346-a280-ba9824cb656b: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:32Z",
+      "lastUpdated": "2026-05-20T09:11:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-5928",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8b4cc2db-2adc-4730-95d6-21bd7bde3df1: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:32Z",
+      "lastUpdated": "2026-05-20T09:11:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/glibc@2.42-10.1.hum1",
+      "vulnerability": "CVE-2026-6238",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73cd92e7-316b-47b9-a976-8ac253f55294: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:31Z",
+      "lastUpdated": "2026-05-20T09:11:31Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libblkid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d0e10979-2897-4854-99b5-a11526d354d2: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:14Z",
+      "lastUpdated": "2026-05-20T09:11:14Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libblkid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1db1f6c1-6670-47fa-8809-2ed2542875ec: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:14Z",
+      "lastUpdated": "2026-05-20T09:11:14Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libblkid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 09f02f8f-b784-4c35-a4bd-3ae038e5a96c: fp. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:04:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:04:52Z",
+      "lastUpdated": "2026-04-06T16:04:52Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libcap@2.77-3.hum1",
+      "vulnerability": "CVE-2026-4878",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6f237e88-350f-45b0-a91a-a27bf5a254f1: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:12Z",
+      "lastUpdated": "2026-05-20T09:11:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libfdisk@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4efd6982-fdbb-4ca8-ad84-08a2a61f4d28: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:10Z",
+      "lastUpdated": "2026-05-20T09:11:10Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libfdisk@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f985274-1f93-4e37-9497-39844efd5517: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:09Z",
+      "lastUpdated": "2026-05-20T09:11:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libfdisk@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bca88f5d-0e4c-4f5e-a3fe-f079069997f4: fp. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:05:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:05:03Z",
+      "lastUpdated": "2026-04-06T16:05:03Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libmount@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d026be0f-3dbc-4629-87b8-43eeba1ad427: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:05Z",
+      "lastUpdated": "2026-05-20T09:11:05Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libmount@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 48dec706-4e34-488b-9792-5b2c5c892641: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:05Z",
+      "lastUpdated": "2026-05-20T09:11:05Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libmount@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cfc26569-6fd8-45ae-bd3c-ce818b2f9938: fp. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:05:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:05:22Z",
+      "lastUpdated": "2026-04-06T16:05:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libsmartcols@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90036930-6715-4421-84a5-eae00a857d42: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:04Z",
+      "lastUpdated": "2026-05-20T09:11:04Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libsmartcols@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95cf9e24-7318-472f-947e-f3abdd2ed346: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:11:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:11:03Z",
+      "lastUpdated": "2026-05-20T09:11:03Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libsmartcols@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5a5eb03a-3a34-47ed-981d-2de31d823640: fp. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:05:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:05:38Z",
+      "lastUpdated": "2026-04-06T16:05:38Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libtasn1@4.21.0-1.hum1",
+      "vulnerability": "CVE-2025-13151",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71fc10c8-d1f6-4ed9-96dc-3c2dcfb0e009: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:29Z",
+      "lastUpdated": "2026-05-20T09:10:29Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libuuid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3b0fcacc-f457-4898-8fa7-993601f4ef90: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:28Z",
+      "lastUpdated": "2026-05-20T09:10:28Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libuuid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1449808c-f7d2-4218-a025-02ea63f68a05: fp with grype@v0.112.0. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:27Z",
+      "lastUpdated": "2026-05-20T09:10:27Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/libuuid@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54a3df3b-130e-4938-97be-787f85d17048: fp. Hummingbird data has improved such that utils-linux-core is marked as the affected package and other packages derived from the util-linux source are not considered affected",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:06:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:06:18Z",
+      "lastUpdated": "2026-04-06T16:06:18Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/ncurses-base@6.6-1.hum1",
+      "vulnerability": "CVE-2025-69720",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0417642c-5980-439a-bd02-cdc9c7791904: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:25Z",
+      "lastUpdated": "2026-05-20T09:10:25Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/ncurses-libs@6.6-1.hum1",
+      "vulnerability": "CVE-2025-69720",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90c886c9-8ffd-4555-8860-7ba1cac75ebc: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:26Z",
+      "lastUpdated": "2026-05-20T09:10:26Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-fips-provider-so@3.0.7-1.hum1",
+      "vulnerability": "CVE-2026-31790",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca413923-64cd-43ea-909b-ecf8193d1e4e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:22Z",
+      "lastUpdated": "2026-05-20T09:10:22Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-fips-provider@3.0.7-1.hum1",
+      "vulnerability": "CVE-2026-31790",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 899c32db-8888-4c3d-b71c-d0ae9935c450: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:23Z",
+      "lastUpdated": "2026-05-20T09:10:23Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-15467",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 47835aeb-3084-4935-b285-e02b72e8c178: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:18Z",
+      "lastUpdated": "2026-05-20T09:10:18Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-15468",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a5f2aaff-555d-4781-87b2-0964267b26bd: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:17Z",
+      "lastUpdated": "2026-05-20T09:10:17Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-15469",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f6dbed75-fa4c-487b-ba6f-9cdf7a264e93: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:17Z",
+      "lastUpdated": "2026-05-20T09:10:17Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-66199",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 62b50b41-1914-4150-915c-c80d3d6d1062: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:16Z",
+      "lastUpdated": "2026-05-20T09:10:16Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-68160",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2a39b513-7584-4024-9bac-9f594c7fa925: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:14Z",
+      "lastUpdated": "2026-05-20T09:10:14Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-69418",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 991a9c33-9fd0-48aa-9247-fe6989e5083d: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:13Z",
+      "lastUpdated": "2026-05-20T09:10:13Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-69419",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 483ec5cf-d2d5-43c2-a0f4-b10a1b38872c: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:13Z",
+      "lastUpdated": "2026-05-20T09:10:13Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-69420",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2186fb43-f101-489b-b1f7-1832e9d9afa8: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:12Z",
+      "lastUpdated": "2026-05-20T09:10:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-69421",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ab591c9e-d3d3-44e2-8db0-5bd45a0fef47: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:12Z",
+      "lastUpdated": "2026-05-20T09:10:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-9230",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 136dd9ed-eb50-4d2d-aa69-5dfab4a67ea4: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:12Z",
+      "lastUpdated": "2026-05-20T09:10:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-9231",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca2555f1-7f65-49bd-9032-ac09fb6693b8: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:11Z",
+      "lastUpdated": "2026-05-20T09:10:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2025-9232",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a509b15a-593d-4c5e-bb64-ceb0666a0b45: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:11Z",
+      "lastUpdated": "2026-05-20T09:10:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-22795",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 88c5a81e-925f-45ef-9271-385957a1e8af: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:11Z",
+      "lastUpdated": "2026-05-20T09:10:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-22796",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c2c7bf38-8ea5-4be2-97b4-1c555cb810df: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:11Z",
+      "lastUpdated": "2026-05-20T09:10:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-2673",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 501ca1cd-ebd5-4b83-a1ef-4b52e199ac6e: tp",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:04:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:04:39Z",
+      "lastUpdated": "2026-04-06T16:04:39Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-28386",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 476092c6-8c78-4229-8bb2-55a09cfad72e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:06Z",
+      "lastUpdated": "2026-05-20T09:10:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-28387",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dc0deb93-2182-47cb-9a67-ed7c824d9fb2: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:06Z",
+      "lastUpdated": "2026-05-20T09:10:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-28388",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 879b9743-b132-4cd6-87b5-601a4f20fd3f: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:06Z",
+      "lastUpdated": "2026-05-20T09:10:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-28389",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c1c0ce01-e2a1-4efb-a1ee-1682d8b151bf: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:06Z",
+      "lastUpdated": "2026-05-20T09:10:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-28390",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0bb0eb1d-bcb0-4675-8ffa-eca15df4a415: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:06Z",
+      "lastUpdated": "2026-05-20T09:10:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-31789",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bb4d400d-3dc7-43e8-8d8e-4aa16f1f9e1e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:07Z",
+      "lastUpdated": "2026-05-20T09:10:07Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/openssl-libs@3.5.5-1.hum1?epoch=1",
+      "vulnerability": "CVE-2026-31790",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54199979-c4aa-42cd-bf52-032a8e1d4612: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:10:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:10:08Z",
+      "lastUpdated": "2026-05-20T09:10:08Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/p11-kit-trust@0.26.2-1.hum1",
+      "vulnerability": "CVE-2026-2100",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86f360b9-8214-4aa7-aed6-7395ba0169d2: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:57Z",
+      "lastUpdated": "2026-05-20T09:09:57Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/p11-kit@0.26.2-1.hum1",
+      "vulnerability": "CVE-2026-2100",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c74c11ee-894f-4a6b-8532-14a4814d4728: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:59Z",
+      "lastUpdated": "2026-05-20T09:09:59Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-29111",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4fec3644-d78f-450a-b60c-bb7479ac57b1: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:04Z",
+      "lastUpdated": "2026-05-20T09:09:04Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40223",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 54cb8d01-09cd-42ac-8c31-6960813f481c: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:05Z",
+      "lastUpdated": "2026-05-20T09:09:05Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40224",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 03d03a4e-1c35-4511-9b8c-18385a4b4d39: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:05Z",
+      "lastUpdated": "2026-05-20T09:09:05Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40225",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 133e0412-ee3a-47e0-997c-ae4ae680351a: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:06Z",
+      "lastUpdated": "2026-05-20T09:09:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40226",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3dc4525-61d7-45c1-8918-ed2efb52546c: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:06Z",
+      "lastUpdated": "2026-05-20T09:09:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40227",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4d3d7a4-7685-497e-9ebb-eea1cfc492ab: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:06Z",
+      "lastUpdated": "2026-05-20T09:09:06Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-40228",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d6f2556b-75bc-4d24-b9fb-16de207d98d5: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:07Z",
+      "lastUpdated": "2026-05-20T09:09:07Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-libs@260-1.hum1",
+      "vulnerability": "CVE-2026-4105",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e015bf39-9112-4eb7-a3fc-fe66ec7291c7: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:07Z",
+      "lastUpdated": "2026-05-20T09:09:07Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-29111",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97bfe264-3239-44cb-8003-424c5d8b15c9: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:08Z",
+      "lastUpdated": "2026-05-20T09:09:08Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40223",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a318fae-fa8e-497a-adc6-0c593bb0e702: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:08Z",
+      "lastUpdated": "2026-05-20T09:09:08Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40224",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d554910c-3b8b-4856-a24d-9b79a5ff4578: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:08Z",
+      "lastUpdated": "2026-05-20T09:09:08Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40225",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a55d9b46-34c1-4a91-a9d8-757c810fce91: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:09Z",
+      "lastUpdated": "2026-05-20T09:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40226",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 857b9d0e-b543-4706-bd91-412dfdf95779: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:09Z",
+      "lastUpdated": "2026-05-20T09:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40227",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0a22df39-be1b-4b0a-aa5c-ac80966d944b: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:09Z",
+      "lastUpdated": "2026-05-20T09:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-40228",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels efd92c16-a77a-40fa-b7dd-e39dfd057256: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:09Z",
+      "lastUpdated": "2026-05-20T09:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-shared@260-1.hum1",
+      "vulnerability": "CVE-2026-4105",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e0be4fb-874d-482a-8396-fd0b88cf132b: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:09Z",
+      "lastUpdated": "2026-05-20T09:09:09Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-29111",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b377d8b-c7ad-48e2-8013-ed9fe7b73d6e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:10Z",
+      "lastUpdated": "2026-05-20T09:09:10Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40223",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9865f34f-0ae6-4d30-bc24-2deb05015d53: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:10Z",
+      "lastUpdated": "2026-05-20T09:09:10Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40224",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ac1a1faa-236b-4553-9db0-7fe8b22a8148: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:10Z",
+      "lastUpdated": "2026-05-20T09:09:10Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40225",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0d198f9-9d9e-45d2-8099-4af212a88b2b: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:11Z",
+      "lastUpdated": "2026-05-20T09:09:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40226",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 70c896e3-836f-416a-a793-3c8cd1e08d0f: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:11Z",
+      "lastUpdated": "2026-05-20T09:09:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40227",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0861bb05-c36b-4873-9ecd-44a3bd80addc: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:11Z",
+      "lastUpdated": "2026-05-20T09:09:11Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-40228",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 92d7bf61-c3a4-4056-8ce4-196fd677b411: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:12Z",
+      "lastUpdated": "2026-05-20T09:09:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd-sysusers@260-1.hum1",
+      "vulnerability": "CVE-2026-4105",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ad4d9beb-731d-4e2a-ae21-4b59bf251e21: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:09:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:09:12Z",
+      "lastUpdated": "2026-05-20T09:09:12Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-29111",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 30eb65d6-2868-4312-a60c-e74643d315e4: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:28Z",
+      "lastUpdated": "2026-05-20T09:08:28Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40223",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7632d9fa-2ed2-4e36-85dc-20f4b473829e: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:29Z",
+      "lastUpdated": "2026-05-20T09:08:29Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40224",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b2d8f95c-f1a9-4a04-8316-560f81b4a6e6: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:30Z",
+      "lastUpdated": "2026-05-20T09:08:30Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40225",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0ed04002-750f-4c5e-b566-47d2322fbb16: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:30Z",
+      "lastUpdated": "2026-05-20T09:08:30Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40226",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2eefe6ab-82d1-4a0d-bdf2-96d9ad02ae61: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:31Z",
+      "lastUpdated": "2026-05-20T09:08:31Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40227",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels debb31b5-6091-4fda-984e-90933c914d8b: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:31Z",
+      "lastUpdated": "2026-05-20T09:08:31Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-40228",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 866fc104-531d-444e-ac2a-872c5eff87af: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:32Z",
+      "lastUpdated": "2026-05-20T09:08:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/systemd@260-1.hum1",
+      "vulnerability": "CVE-2026-4105",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8222662f-c13d-4a29-9b29-3f564fdd0e5a: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:08:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:08:32Z",
+      "lastUpdated": "2026-05-20T09:08:32Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/util-linux-core@2.41.3-12.hum1",
+      "vulnerability": "CVE-2025-14104",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ee27449c-d9da-4b3c-a1d5-b485b252ae2a: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:06:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:06:52Z",
+      "lastUpdated": "2026-05-20T09:06:52Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/util-linux-core@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-27456",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3df0d56-3613-4e68-96c1-0fa759bcc0a1: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:06:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:06:51Z",
+      "lastUpdated": "2026-05-20T09:06:51Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/util-linux-core@2.41.3-12.hum1",
+      "vulnerability": "CVE-2026-3184",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 07f51640-5bf2-4ccf-8a8b-29b3b44ce1e0: tp",
+          "author": "williammurphy",
+          "at": "2026-04-06T16:06:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-06T16:06:39Z",
+      "lastUpdated": "2026-04-06T16:06:39Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/valkey@9.0.3-1.hum1",
+      "vulnerability": "CVE-2026-21863",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d869c959-1fa3-4eb5-ba4c-25abb9bccff6: tp",
+          "author": "williammurphy",
+          "at": "2026-04-09T06:19:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-04-09T06:19:43Z",
+      "lastUpdated": "2026-04-09T06:19:43Z"
+    },
+    {
+      "package": "pkg:rpm/hummingbird/valkey@9.0.3-1.hum1",
+      "vulnerability": "CVE-2026-23479",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3181aa4d-43dc-4974-87dd-69dc72f22aaa: tp with grype@v0.112.0",
+          "author": "westonsteimel",
+          "at": "2026-05-20T09:05:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.112.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-05-20T09:05:40Z",
+      "lastUpdated": "2026-05-20T09:05:40Z"
+    }
+  ]
+}

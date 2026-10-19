@@ -1,0 +1,91 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/python@sha256:5e96e03a493a54904aa8be573fc0414431afb4f47ac58fbffd03b2a725005364",
+    "platform": "linux/arm"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/pip@19.3.1",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3baaa022-ff12-4c19-80e6-0348fd917022: unclear with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T17:58:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T17:58:11Z",
+      "lastUpdated": "2023-02-13T17:58:11Z"
+    },
+    {
+      "package": "pkg:pypi/pip@19.3.1",
+      "vulnerability": "CVE-2021-3572",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c50b8430-1e34-4024-9ba9-fd4b4fc6318d: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T17:58:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T17:58:12Z",
+      "lastUpdated": "2023-02-13T17:58:12Z"
+    },
+    {
+      "package": "pkg:pypi/pip@19.3.1",
+      "vulnerability": "GHSA-5xp3-jfq3-5q8x",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e8022869-10d2-4581-aa89-a78fd4d450ea: tp with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:26:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:26:24Z",
+      "lastUpdated": "2022-11-01T22:26:24Z"
+    }
+  ]
+}

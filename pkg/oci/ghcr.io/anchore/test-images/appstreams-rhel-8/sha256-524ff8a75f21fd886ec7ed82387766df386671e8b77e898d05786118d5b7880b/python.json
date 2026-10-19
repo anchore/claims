@@ -1,0 +1,317 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/appstreams-rhel-8@sha256:524ff8a75f21fd886ec7ed82387766df386671e8b77e898d05786118d5b7880b",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-20266",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b029bc9-fc40-4eaa-bd50-ef29bc4f2bb2: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T17:58:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T17:58:19Z",
+      "lastUpdated": "2022-11-01T17:58:19Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3421",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 51c87c7b-3055-4d48-a12d-1030357ae7b7: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T17:58:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T17:58:20Z",
+      "lastUpdated": "2022-11-01T17:58:20Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-3521",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 901c1049-a516-452d-8822-f617eb73946f: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T17:58:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T17:58:23Z",
+      "lastUpdated": "2022-11-01T17:58:23Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4348ebf6-699e-4d98-bfc2-b35f2e860a5d: fp with grype@v0.65.0. The package actually present is the RPM \"python3-rpm\", which is where this CVE should be reported. See grype#1373.",
+          "author": "willmurphy",
+          "at": "2023-08-03T18:41:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-03T18:41:19Z",
+      "lastUpdated": "2023-08-03T18:41:19Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e5333992-412f-4b7a-bfb4-c2289e62155f: fp with grype@v0.65.0. Actual package present is the rpm \"python3-rpm\", which this CVE should be reported against.",
+          "author": "willmurphy",
+          "at": "2023-08-02T20:50:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T20:50:51Z",
+      "lastUpdated": "2023-08-02T20:50:51Z"
+    },
+    {
+      "package": "pkg:pypi/rpm@4.14.3",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d684f15b-4edc-4866-87f8-f029c8d23e47: fp with grype@v0.65.0. Actual package is the rpm \"python3-rpm\" which this CVE should be reported against.",
+          "author": "willmurphy",
+          "at": "2023-08-02T20:50:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-02T20:50:58Z",
+      "lastUpdated": "2023-08-02T20:50:58Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2019-11236",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3bada6d6-ebd5-44f8-aad0-b220838041ca: fp with grype@v0.50.2. RedHat has patched: https://access.redhat.com/errata/RHSA-2019:3590",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:19:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:19:07Z",
+      "lastUpdated": "2022-10-06T18:19:07Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2020-26137",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 723838a3-4b6b-42f2-a104-ec1f4f90265c: fp with grype@v0.50.2. RedHat has patched: https://access.redhat.com/errata/RHSA-2021:1631",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:20:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:20:16Z",
+      "lastUpdated": "2022-10-06T18:20:16Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "CVE-2021-33503",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76864a4d-eac0-43c0-b57f-f242f30bf6d1: fp with grype@v0.51.0-7-gfcce63b",
+          "author": "westonsteimel",
+          "at": "2022-11-01T18:01:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0-7-gfcce63b"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T18:01:34Z",
+      "lastUpdated": "2022-11-01T18:01:34Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "GHSA-r64q-w8jr-g9qp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 718fd1d2-28bc-4eda-971c-e8c37fb05bb1: fp with grype@v0.50.2. RedHat has patched: https://access.redhat.com/errata/RHSA-2019:3590",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:20:33Z",
+      "lastUpdated": "2022-10-06T18:20:33Z"
+    },
+    {
+      "package": "pkg:pypi/urllib3@1.24.2",
+      "vulnerability": "GHSA-wqvq-5m8c-6g24",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86e1825b-6ddd-4162-961c-bb2d22d26415: fp with grype@v0.50.2. RedHat has patched: https://access.redhat.com/errata/RHSA-2021:1631",
+          "author": "westonsteimel",
+          "at": "2022-10-06T18:20:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.50.2"
+          },
+          {
+            "name": "syft",
+            "version": "v0.54.0"
+          }
+        ]
+      },
+      "firstIssued": "2022-10-06T18:20:37Z",
+      "lastUpdated": "2022-10-06T18:20:37Z"
+    }
+  ]
+}

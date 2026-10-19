@@ -1,0 +1,65 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/bitnami/spark@sha256:267d5a6345636710b4b57b7fe981c9760203e7e092c705416310ea30a9806d74",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/pip@21.3.1",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 81ef828b-ecbd-4955-9d8b-f28c3445043c: unclear with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:33:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:33:02Z",
+      "lastUpdated": "2023-05-10T14:33:02Z"
+    },
+    {
+      "package": "pkg:pypi/pip@23.0.1",
+      "vulnerability": "CVE-2018-20225",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4cde662-bff9-4469-a942-42c82e776d8d: unclear with grype@v0.61.1",
+          "author": "westonsteimel",
+          "at": "2023-05-10T14:33:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.61.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-10T14:33:03Z",
+      "lastUpdated": "2023-05-10T14:33:03Z"
+    }
+  ]
+}

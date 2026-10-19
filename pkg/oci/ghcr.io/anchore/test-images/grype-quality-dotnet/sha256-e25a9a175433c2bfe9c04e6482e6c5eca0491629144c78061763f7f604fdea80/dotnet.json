@@ -1,0 +1,279 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/grype-quality-dotnet@sha256:e25a9a175433c2bfe9c04e6482e6c5eca0491629144c78061763f7f604fdea80",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:nuget/Microsoft.Data.SqlClient@3.0.0.0",
+      "vulnerability": "CVE-2024-0056",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4c9107e0-16bd-460e-a992-7a4a07a1c097: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:09:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:09:46Z",
+      "lastUpdated": "2024-02-06T16:09:46Z"
+    },
+    {
+      "package": "pkg:nuget/Microsoft.Data.SqlClient@3.0.0.0",
+      "vulnerability": "GHSA-98g6-xh36-x2p7",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9e1e6fc-1510-4d2d-964c-354533f56b80: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:06:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:06:48Z",
+      "lastUpdated": "2024-02-06T16:06:48Z"
+    },
+    {
+      "package": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "CVE-2024-21319",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77aa63a6-04e8-40b5-866a-da5f9afabca2: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:09:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:09:48Z",
+      "lastUpdated": "2024-02-06T16:09:48Z"
+    },
+    {
+      "package": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "GHSA-59j7-ghrg-fj52",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 40db541b-5016-4dbe-abb8-2b828152cf2b: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:06:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:06:53Z",
+      "lastUpdated": "2024-02-06T16:06:53Z"
+    },
+    {
+      "package": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "GHSA-8g9c-28fc-mcx2",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b5083808-a5a6-41ce-8a71-4da5d97c8032: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:06:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:06:56Z",
+      "lastUpdated": "2024-02-06T16:06:56Z"
+    },
+    {
+      "package": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "CVE-2024-21319",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f53faf87-fd0d-4461-935e-0eb81f4f0163: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:09:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:09:53Z",
+      "lastUpdated": "2024-02-06T16:09:53Z"
+    },
+    {
+      "package": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "GHSA-59j7-ghrg-fj52",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 94ae64e9-8f32-4dba-b8ef-5297675cf84a: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:07:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:07:08Z",
+      "lastUpdated": "2024-02-06T16:07:08Z"
+    },
+    {
+      "package": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+      "vulnerability": "GHSA-8g9c-28fc-mcx2",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 92435d87-77fe-457b-b657-b9d2190fc043: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:07:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:07:07Z",
+      "lastUpdated": "2024-02-06T16:07:07Z"
+    },
+    {
+      "package": "pkg:nuget/log4net@2.0.6.0-.NET%204.5",
+      "vulnerability": "CVE-2018-1285",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d406feab-4bba-4b38-b364-8008eb633329: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:09:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:09:44Z",
+      "lastUpdated": "2024-02-06T16:09:44Z"
+    },
+    {
+      "package": "pkg:nuget/log4net@2.0.6.0-.NET%204.5",
+      "vulnerability": "GHSA-2cwj-8chv-9pp9",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e10e347c-84b8-4ef2-90fc-d90576cd45fa: tp with grype@v0.74.4",
+          "author": "westonsteimel",
+          "at": "2024-02-06T16:06:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-06T16:06:43Z",
+      "lastUpdated": "2024-02-06T16:06:43Z"
+    }
+  ]
+}

@@ -1,0 +1,2628 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/syft_bin@sha256:ff80ae5de3446939639f3fbb58f66f641e2da1d881bdab704d9237424f64417f",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/alpine/apk-tools@2.10.5-r1",
+      "vulnerability": "CVE-2021-30139",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 655ee5f7-b379-4503-aa81-dd69043cf5a6: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:37:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:37:44Z",
+      "lastUpdated": "2023-01-19T13:37:44Z"
+    },
+    {
+      "package": "pkg:apk/alpine/apk-tools@2.10.5-r1",
+      "vulnerability": "CVE-2021-36159",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7e91bd0-f489-46d5-90f9-c6c00065ecfc: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:37:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:37:59Z",
+      "lastUpdated": "2023-01-19T13:37:59Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-16592",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 90e4a6c6-b669-40db-b053-df06821f7212: tp with grype@v0.59.0-1-gde25eb9",
+          "author": "westonsteimel",
+          "at": "2023-03-08T11:17:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0-1-gde25eb9"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T11:17:53Z",
+      "lastUpdated": "2023-03-08T11:17:53Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-35493",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bfdc612c-a73c-48c1-9eff-429fe658cd79: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:26:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:26:54Z",
+      "lastUpdated": "2023-03-01T13:26:54Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-35494",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f0ce4073-cb33-4a15-8ad3-f0e1d803f3fd: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:26:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:26:59Z",
+      "lastUpdated": "2023-03-01T13:26:59Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-35495",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6cfa0958-2620-411c-905d-11d62b72ef16: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:27:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:27:06Z",
+      "lastUpdated": "2023-03-01T13:27:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-35496",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd7ea54a-1a32-48ea-b7dd-235405ce1d57: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:27:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:27:27Z",
+      "lastUpdated": "2023-03-01T13:27:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2020-35507",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3ab9951-d55a-4e4f-bd5d-1b7f7dcf7f9b: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:27:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:27:41Z",
+      "lastUpdated": "2023-03-01T13:27:41Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2021-20197",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 00d97929-b3d2-45a4-b7f5-ac7131ae76e8: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:28:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:28:01Z",
+      "lastUpdated": "2023-03-01T13:28:01Z"
+    },
+    {
+      "package": "pkg:apk/alpine/binutils@2.34-r2",
+      "vulnerability": "CVE-2021-45078",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bfce70de-21e0-42d0-b4e0-5268d411873c: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:28:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:28:07Z",
+      "lastUpdated": "2023-03-01T13:28:07Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-28831",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c85e7acc-e720-43e2-bb89-127bc69acfb2: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:15Z",
+      "lastUpdated": "2023-01-19T13:38:15Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42374",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 924f45a8-dae2-45f6-98d5-b78dc87640a1: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:20Z",
+      "lastUpdated": "2023-01-19T13:38:20Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42378",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7b6e4da-f0b0-4843-aada-a2c1518aeecc: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:24Z",
+      "lastUpdated": "2023-01-19T13:38:24Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42379",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3772d55b-f45a-4139-bce9-57674fd3bdda: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:25Z",
+      "lastUpdated": "2023-01-19T13:38:25Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42380",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 86e3952f-6959-4df8-848c-7367e9618c09: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:26Z",
+      "lastUpdated": "2023-01-19T13:38:26Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42381",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ece419a5-02b2-4207-bbc9-10f83928fa2e: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:27Z",
+      "lastUpdated": "2023-01-19T13:38:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42382",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 444dfe8e-e2c8-4b9e-8501-410b03a309cb: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:28Z",
+      "lastUpdated": "2023-01-19T13:38:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42383",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 962c2715-b65b-4372-840b-145bee9680e8: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:29Z",
+      "lastUpdated": "2023-01-19T13:38:29Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42384",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f7b2a88b-88cd-4851-9fc4-8798df8b30da: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:29Z",
+      "lastUpdated": "2023-01-19T13:38:29Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42385",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a74772b-8621-41d1-bf02-a384d92abc18: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:31Z",
+      "lastUpdated": "2023-01-19T13:38:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/busybox@1.31.1-r19",
+      "vulnerability": "CVE-2021-42386",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cf2ce92e-eedd-4be8-b7aa-a394656df82c: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:38:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:38:33Z",
+      "lastUpdated": "2023-01-19T13:38:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-24553",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 63b491ff-d16d-4a97-bd51-5e563a5b195e: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:29:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:29:06Z",
+      "lastUpdated": "2023-03-01T13:29:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-28362",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 278e5dfd-a4cf-48c6-b954-f588285aace4: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:29:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:29:12Z",
+      "lastUpdated": "2023-03-01T13:29:12Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-28366",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f2cc106a-2abe-4a1b-9666-d3b66f14463d: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:29:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:29:26Z",
+      "lastUpdated": "2023-03-01T13:29:26Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-28367",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 12de239e-3c7c-4b7f-8a9b-4ddd4cedcebb: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:29:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:29:30Z",
+      "lastUpdated": "2023-03-01T13:29:30Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-29509",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b0d55c3c-be4a-4c38-9ce7-a0df8fb26f3f: unclear with grype@v0.57.1-7-gd1352ce. wontfix by go upstream",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:29:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:29:38Z",
+      "lastUpdated": "2023-03-01T13:29:38Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-29510",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aaed5798-77b9-4ae6-9337-62310a58685b: unclear with grype@v0.57.1-7-gd1352ce. wontfix upstream",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:31:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:31:16Z",
+      "lastUpdated": "2023-03-01T13:31:16Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2020-29511",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a60ba661-0d77-4f06-82f1-82a75d54d2f3: unclear with grype@v0.57.1-7-gd1352ce. wontfix go upstream",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:32:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:32:03Z",
+      "lastUpdated": "2023-03-01T13:32:03Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-27918",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5c7824e-215b-4fc7-bc50-2ff3925473b2: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:32:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:32:33Z",
+      "lastUpdated": "2023-03-01T13:32:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-29923",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f520c2f-e1f4-4431-a8cb-1d7ed491b601: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:32:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:32:39Z",
+      "lastUpdated": "2023-03-01T13:32:39Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-3114",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 27854ef1-be2d-44cc-8585-63334e15264e: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:32:45Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:32:45Z",
+      "lastUpdated": "2023-03-01T13:32:45Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-3115",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b1d597e-7d51-4387-b638-cdf03018ab68: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:33:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:33:06Z",
+      "lastUpdated": "2023-03-01T13:33:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-31525",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 50f81528-b770-482d-a3ad-88243fa2b110: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:33:38Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:33:38Z",
+      "lastUpdated": "2023-03-01T13:33:38Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-33194",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fa9eeb36-7149-49b0-a4bb-acf17b5f9e57: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:33:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:33:50Z",
+      "lastUpdated": "2023-03-01T13:33:50Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-33195",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cb70e06d-0f30-4d3f-8ba4-c618a788e18c: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:04Z",
+      "lastUpdated": "2023-03-01T13:34:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-33196",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 01d7e164-c76a-407a-a815-c8a8991aecc8: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:11Z",
+      "lastUpdated": "2023-03-01T13:34:11Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-33197",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3723ebc5-2557-4e34-8e8d-42018a679fd1: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:15Z",
+      "lastUpdated": "2023-03-01T13:34:15Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-33198",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9a41a618-2243-478e-a30c-37209a8f7a55: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:17Z",
+      "lastUpdated": "2023-03-01T13:34:17Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-34558",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 038609a5-3ecc-4e19-b9e8-899a124c661b: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:22Z",
+      "lastUpdated": "2023-03-01T13:34:22Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-36221",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d257cd8-2855-41ef-a7b8-6c41a9e0c2d8: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:25Z",
+      "lastUpdated": "2023-03-01T13:34:25Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-38297",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3b085bd-f281-4eb8-bf28-c0e2022a7823: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:31Z",
+      "lastUpdated": "2023-03-01T13:34:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-39293",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2c2ff4a1-30cf-425e-ae7e-9de5c3a38154: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:33Z",
+      "lastUpdated": "2023-03-01T13:34:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-41771",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fefe4645-193f-45a5-8381-943affbf7345: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:37Z",
+      "lastUpdated": "2023-03-01T13:34:37Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-41772",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0215a50d-3500-4c55-b370-f9f89aa29c8b: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:39Z",
+      "lastUpdated": "2023-03-01T13:34:39Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-44716",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8bf32bcf-1caa-4f10-bcec-66142c8799e1: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:41Z",
+      "lastUpdated": "2023-03-01T13:34:41Z"
+    },
+    {
+      "package": "pkg:apk/alpine/go@1.13.15-r0",
+      "vulnerability": "CVE-2021-44717",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e9cbe74-0499-40f8-8de3-1c59aa8511a0: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:34:43Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:34:43Z",
+      "lastUpdated": "2023-03-01T13:34:43Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23839",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7b1b1dfd-8046-470b-b8e3-f9976a25f1f5: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:26Z",
+      "lastUpdated": "2023-01-19T13:40:26Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23840",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 03ded233-5c8c-4ade-a1c4-f6218a905453: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:27Z",
+      "lastUpdated": "2023-01-19T13:40:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23841",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a45b252-1d9d-4e69-8f80-74cc76eca25e: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:27Z",
+      "lastUpdated": "2023-01-19T13:40:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3449",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dd3a6c57-f580-484f-b338-85e5fad20e69: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:28Z",
+      "lastUpdated": "2023-01-19T13:40:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3450",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c50c724-f067-4612-916a-23d4594e31af: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:28Z",
+      "lastUpdated": "2023-01-19T13:40:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3711",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3703342-8016-44db-bb8e-83edbfbfbf6b: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:28Z",
+      "lastUpdated": "2023-01-19T13:40:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3712",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6685215d-8ad5-41ab-b392-8f296a5a1884: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:28Z",
+      "lastUpdated": "2023-01-19T13:40:28Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libcrypto1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-4160",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 825ee841-d438-4c58-88f1-f1588d616216: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:29Z",
+      "lastUpdated": "2023-01-19T13:40:29Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23839",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 66aac959-0036-44cb-ac93-2a53e35d1ca0: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:30Z",
+      "lastUpdated": "2023-01-19T13:40:30Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23840",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b892b2ec-7d20-460f-8d2a-299feda292b9: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:30Z",
+      "lastUpdated": "2023-01-19T13:40:30Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-23841",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fba0f77b-bc71-428d-ba6f-2693f02d49db: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:30Z",
+      "lastUpdated": "2023-01-19T13:40:30Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3449",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels aa744bb2-0d78-4155-890d-53eb0ce80711: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:31Z",
+      "lastUpdated": "2023-01-19T13:40:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3450",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2720babd-83ae-475f-9085-718e8a367d36: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:31Z",
+      "lastUpdated": "2023-01-19T13:40:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3711",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87061fef-1675-483d-a889-806344d0e372: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:31Z",
+      "lastUpdated": "2023-01-19T13:40:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-3712",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0c37f1f3-dc5a-4600-a86d-1ce0af710e31: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:32Z",
+      "lastUpdated": "2023-01-19T13:40:32Z"
+    },
+    {
+      "package": "pkg:apk/alpine/libssl1.1@1.1.1i-r0",
+      "vulnerability": "CVE-2021-4160",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fd3229ae-5810-4f1e-b42b-045267cb2183: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:40:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:40:32Z",
+      "lastUpdated": "2023-01-19T13:40:32Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93a54443-af5d-415d-847d-428ceac0e056: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:14Z",
+      "lastUpdated": "2023-03-01T13:35:14Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2015-5652",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52f8e667-6def-4089-8077-ff17aeecdc77: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:27Z",
+      "lastUpdated": "2023-03-01T13:35:27Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2017-17522",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 386d5cfd-d4b8-4295-9b5d-2eb2bcfd2a62: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:31Z",
+      "lastUpdated": "2023-03-01T13:35:31Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2017-18207",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f8a02a4-a09a-48e3-84b1-b953135ebb79: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:33Z",
+      "lastUpdated": "2023-03-01T13:35:33Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2019-9674",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b59aefc8-9cef-4d99-aaf1-453f3788b128: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:37Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:37Z",
+      "lastUpdated": "2023-03-01T13:35:37Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2021-23336",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b2622471-591d-4a8e-a232-637fe8a5a2fe: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:35:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:35:44Z",
+      "lastUpdated": "2023-03-01T13:35:44Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2021-3426",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2038059d-5e3f-4bec-8809-41bd10b6a5ee: fp with grype@v0.59.0",
+          "author": "westonsteimel",
+          "at": "2023-03-08T11:15:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T11:15:08Z",
+      "lastUpdated": "2023-03-08T11:15:08Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python2@2.7.18-r0",
+      "vulnerability": "CVE-2021-3733",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 043822fb-95f1-400c-810e-0a8ac8818524: tp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:36:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:36:01Z",
+      "lastUpdated": "2023-03-01T13:36:01Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2007-4559",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2de6ea94-6c2c-471d-93bd-41f3bcf3785c: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:00Z",
+      "lastUpdated": "2023-02-13T18:00:00Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2013-0340",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e34e8de8-5d37-4039-b379-df8cef8fd587: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:01Z",
+      "lastUpdated": "2023-02-13T18:00:01Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2015-20107",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d8e125e3-bfbb-40c5-adcf-02622c955fd2: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:03Z",
+      "lastUpdated": "2023-02-13T18:00:03Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2016-3189",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6a50ef8a-81b1-4f90-8df3-b29f1142b72a: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:06Z",
+      "lastUpdated": "2023-02-13T18:00:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 49951a17-5f49-4f2a-a2d8-6ddd74f36976: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:06Z",
+      "lastUpdated": "2023-02-13T18:00:06Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2019-12900",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 22fe1d13-34ca-4c3e-a83a-62bddd44187e: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:07Z",
+      "lastUpdated": "2023-02-13T18:00:07Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2020-10735",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a9dd969b-ebe9-4f7a-9dbf-9fbb8979642a: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:08Z",
+      "lastUpdated": "2023-02-13T18:00:08Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2021-28861",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6e1ecc0e-cff6-48fb-b916-725bb8b91b2c: unclear with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:09Z",
+      "lastUpdated": "2023-02-13T18:00:09Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2021-29921",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eed63bcb-eb4e-4a40-b01a-812a088c262c: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:10Z",
+      "lastUpdated": "2023-02-13T18:00:10Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2021-3733",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels dafe5ac8-8851-4891-92f6-30495b1ef4ab: fp with grype@v0.59.0",
+          "author": "westonsteimel",
+          "at": "2023-03-08T11:15:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.59.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-08T11:15:56Z",
+      "lastUpdated": "2023-03-08T11:15:56Z"
+    },
+    {
+      "package": "pkg:apk/alpine/python3@3.8.10-r0",
+      "vulnerability": "CVE-2021-3737",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3dcb039-ca87-4ab0-a0ff-20ab9a98e6c2: tp with grype@v0.56.0-30-g17e11ac",
+          "author": "westonsteimel",
+          "at": "2023-02-13T18:00:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.56.0-30-g17e11ac"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-02-13T18:00:13Z",
+      "lastUpdated": "2023-02-13T18:00:13Z"
+    },
+    {
+      "package": "pkg:apk/alpine/sqlite-libs@3.32.1-r1",
+      "vulnerability": "CVE-2020-15358",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4bd288b0-7746-431f-8a05-bb936b26f3a1: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:37:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:37:36Z",
+      "lastUpdated": "2023-03-01T13:37:36Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2018-1000500",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3dc684af-8c60-4fdb-913e-568b2b3d75c6: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:37:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:37:42Z",
+      "lastUpdated": "2023-03-01T13:37:42Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-28831",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels daf0a051-7073-4c58-bc8f-5dfd26bc4034: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:02Z",
+      "lastUpdated": "2023-01-19T13:45:02Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42374",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 59da580b-59f4-4894-82ad-d87072d33b71: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:04Z",
+      "lastUpdated": "2023-01-19T13:45:04Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42376",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 04018c44-35fb-401e-8c13-4e206c7003f4: fp with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:37:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:37:44Z",
+      "lastUpdated": "2023-03-01T13:37:44Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42378",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels eac90647-1558-4cf2-a7c5-47788809f8cd: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:07Z",
+      "lastUpdated": "2023-01-19T13:45:07Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42379",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b1e4d41-f7c5-4832-95e0-a287576334e4: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:07Z",
+      "lastUpdated": "2023-01-19T13:45:07Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42380",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8f375ac5-1913-462d-b653-f7b2c6095f9a: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:08Z",
+      "lastUpdated": "2023-01-19T13:45:08Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42381",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 89af522d-eb29-42a5-b676-bce53a4f06f0: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:08Z",
+      "lastUpdated": "2023-01-19T13:45:08Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42382",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21d4852d-99bd-43c2-a909-2019cda44561: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:09Z",
+      "lastUpdated": "2023-01-19T13:45:09Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42383",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8270cac6-3a71-447c-af07-3fc86f87ff4a: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:10Z",
+      "lastUpdated": "2023-01-19T13:45:10Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42384",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 73e09dd4-07b2-4950-8ff2-1a42fe768a91: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:12Z",
+      "lastUpdated": "2023-01-19T13:45:12Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42385",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5cd555a2-771a-478d-9d52-8375f959920b: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:13Z",
+      "lastUpdated": "2023-01-19T13:45:13Z"
+    },
+    {
+      "package": "pkg:apk/alpine/ssl_client@1.31.1-r19",
+      "vulnerability": "CVE-2021-42386",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f04c9b8-e7b8-497a-8e86-d21151eb317e: fp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:15Z",
+      "lastUpdated": "2023-01-19T13:45:15Z"
+    },
+    {
+      "package": "pkg:apk/alpine/zlib@1.2.11-r3",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8513fa1a-42e2-49f6-819f-ae6148634d67: tp with grype@v0.55.0",
+          "author": "westonsteimel",
+          "at": "2023-01-19T13:45:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-19T13:45:18Z",
+      "lastUpdated": "2023-01-19T13:45:18Z"
+    }
+  ]
+}

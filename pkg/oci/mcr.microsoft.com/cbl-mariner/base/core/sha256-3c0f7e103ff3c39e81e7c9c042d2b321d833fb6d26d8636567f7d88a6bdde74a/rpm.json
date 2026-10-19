@@ -1,0 +1,948 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "mcr.microsoft.com/cbl-mariner/base/core@sha256:3c0f7e103ff3c39e81e7c9c042d2b321d833fb6d26d8636567f7d88a6bdde74a",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/mariner/curl-libs@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-35252",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b27eac3a-2f4f-49bd-a0ee-56e9b20bfe7d: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:40:39Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:40:39Z",
+      "lastUpdated": "2025-12-19T07:40:39Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl-libs@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-42915",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 17e8c887-b5d7-4b1b-b86a-3058e6403982: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:43:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:43:14Z",
+      "lastUpdated": "2025-12-19T07:43:14Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl-libs@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-42916",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 06f5103e-a8a2-4cf8-bb7c-b389810dd6a4: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:43:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:43:40Z",
+      "lastUpdated": "2025-12-19T07:43:40Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl-libs@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-43551",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 10601142-a2bc-4662-a992-a69e07c10ebf: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:44:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:44:21Z",
+      "lastUpdated": "2025-12-19T07:44:21Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-35252",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 76a7e9e3-0033-4246-84d9-273a62e2890c: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:40:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:40:30Z",
+      "lastUpdated": "2025-12-19T07:40:30Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-42915",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 52bae09a-c244-414a-9d8a-f5e6fbbfa95d: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:43:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:43:12Z",
+      "lastUpdated": "2025-12-19T07:43:12Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-42916",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8925003c-17b6-4137-a4d1-ebbbfc3db26b: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:43:21Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:43:21Z",
+      "lastUpdated": "2025-12-19T07:43:21Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/curl@7.84.0-1.cm2",
+      "vulnerability": "CVE-2022-43551",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3cffb9d9-909d-468d-9e52-5f74936eca67: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:44:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:44:15Z",
+      "lastUpdated": "2025-12-19T07:44:15Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/e2fsprogs-libs@1.46.5-2.cm2",
+      "vulnerability": "CVE-2022-1304",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87f2a0f1-0e05-4196-90b7-a4ba6c73d0ac: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:38:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:38:24Z",
+      "lastUpdated": "2025-12-19T07:38:24Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/expat-libs@2.4.8-1.cm2",
+      "vulnerability": "CVE-2022-40674",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4d93c28d-86ef-43ab-99b2-bec0ac8fd471: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:42:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:42:58Z",
+      "lastUpdated": "2025-12-19T07:42:58Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/expat-libs@2.4.8-1.cm2",
+      "vulnerability": "CVE-2022-43680",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc42dabd-f435-4580-b2d6-dd8c73c08edf: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:44:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:44:44Z",
+      "lastUpdated": "2025-12-19T07:44:44Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/expat@2.4.8-1.cm2",
+      "vulnerability": "CVE-2022-40674",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b983b1e5-36bf-4b15-87ee-e980464d6657: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:42:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:42:42Z",
+      "lastUpdated": "2025-12-19T07:42:42Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/expat@2.4.8-1.cm2",
+      "vulnerability": "CVE-2022-43680",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3f70f7ce-36c5-419a-91e8-339fa123615d: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:44:34Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:44:34Z",
+      "lastUpdated": "2025-12-19T07:44:34Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/glibc@2.35-2.cm2",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a676b0a-8b71-483e-afc3-6a50edfa2c03: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:24:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:24:14Z",
+      "lastUpdated": "2023-05-24T14:24:14Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/glibc@2.35-2.cm2",
+      "vulnerability": "CVE-2021-3998",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c3192ac6-f30f-41dd-9f30-d0b276817952: fp with grype@v0.64.1. Marked as not applicable in Mariner-specific OVAL feed.\n",
+          "author": "willmurphy",
+          "at": "2023-07-18T19:45:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.64.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-18T19:45:05Z",
+      "lastUpdated": "2023-07-18T19:45:05Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/gnupg2@2.3.3-3.cm2",
+      "vulnerability": "CVE-2022-34903",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 35baa129-0841-4c32-b9e1-6e8974a22628: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:39:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:39:51Z",
+      "lastUpdated": "2025-12-19T07:39:51Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/gnupg2@2.3.3-3.cm2",
+      "vulnerability": "CVE-2022-3515",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4913957b-503e-46f2-8b27-5ed973ded1f8: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:40:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:40:18Z",
+      "lastUpdated": "2025-12-19T07:40:18Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/gzip@1.11-1.cm2",
+      "vulnerability": "CVE-2022-1271",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e3f2204e-6b0f-4ae7-b64f-67306b411518: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:37:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:37:36Z",
+      "lastUpdated": "2025-12-19T07:37:36Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/libarchive@3.6.1-1.cm2",
+      "vulnerability": "CVE-2022-36227",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7627f678-3128-42e4-bc59-858aaeeb451d: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:41:41Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:41:41Z",
+      "lastUpdated": "2025-12-19T07:41:41Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/libgcc@11.2.0-2.cm2",
+      "vulnerability": "CVE-2021-32256",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6b2a7ee6-4a34-4014-8a66-93c07e116c75: tp with grype[custom-db]@v0.104.1-2-g2fb4b753",
+          "author": "willmurphy",
+          "at": "2025-12-19T12:26:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.104.1-2-g2fb4b753"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T12:26:52Z",
+      "lastUpdated": "2025-12-19T12:26:52Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/libssh2@1.9.0-2.cm2",
+      "vulnerability": "CVE-2020-22218",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f30ae1a0-223b-46b9-bc9c-2efe9fc01a77: tp with grype[custom-db]@v0.104.1-2-g2fb4b753",
+          "author": "willmurphy",
+          "at": "2025-12-19T12:27:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.104.1-2-g2fb4b753"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T12:27:25Z",
+      "lastUpdated": "2025-12-19T12:27:25Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/libstdc%2B%2B@11.2.0-2.cm2",
+      "vulnerability": "CVE-2021-32256",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels da515cc3-ea02-4f26-850f-931c4f90da93: tp with grype[custom-db]@v0.104.1-2-g2fb4b753",
+          "author": "willmurphy",
+          "at": "2025-12-19T12:27:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.104.1-2-g2fb4b753"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T12:27:51Z",
+      "lastUpdated": "2025-12-19T12:27:51Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/libtasn1@4.18.0-2.cm2",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d3d1ec21-da99-4f35-b9cf-d1076cfc9b2f: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:38:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:38:29Z",
+      "lastUpdated": "2023-05-24T14:38:29Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/lua-libs@5.4.3-4.cm2",
+      "vulnerability": "CVE-2021-44964",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5c7aa26d-34e4-40d0-a6ee-81c1eedaf351: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:40:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:40:55Z",
+      "lastUpdated": "2023-05-24T14:40:55Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/lua-libs@5.4.3-4.cm2",
+      "vulnerability": "CVE-2021-45985",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 83794110-d34c-4f9f-a399-e2911b1e26a0: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:42:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:42:01Z",
+      "lastUpdated": "2023-05-24T14:42:01Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/ncurses-libs@6.3-1.cm2",
+      "vulnerability": "CVE-2022-29458",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cf352691-819a-4d00-935d-0a727a218b2d: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:39:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:39:25Z",
+      "lastUpdated": "2025-12-19T07:39:25Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/openssl-libs@1.1.1k-17.cm2",
+      "vulnerability": "CVE-2022-2097",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f049e201-5503-4460-a081-ded31733ed14: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:38:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:38:59Z",
+      "lastUpdated": "2025-12-19T07:38:59Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/openssl@1.1.1k-17.cm2",
+      "vulnerability": "CVE-2022-2097",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87eda5ee-d9e3-4950-b8d1-2b58dbce8c7e: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:38:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:38:48Z",
+      "lastUpdated": "2025-12-19T07:38:48Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm-libs@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-3521",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 59b5b4e8-0270-47d5-aaf7-477fd318d767: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:54:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:54:09Z",
+      "lastUpdated": "2023-05-24T14:54:09Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm-libs@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 21f80231-a919-4cac-bf96-a2d75863f10c: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:54:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:54:47Z",
+      "lastUpdated": "2023-05-24T14:54:47Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm-libs@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b72cf711-eb55-4205-8015-b055e6a5a693: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:54:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:54:48Z",
+      "lastUpdated": "2023-05-24T14:54:48Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm-libs@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ae1f332-0deb-465f-b212-7d0059e94df9: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:54:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:54:49Z",
+      "lastUpdated": "2023-05-24T14:54:49Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-3521",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2ddd4786-5e2d-45f8-8443-b33f9535afa4: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:43:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:43:44Z",
+      "lastUpdated": "2023-05-24T14:43:44Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35937",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 19c1522e-4b4d-4998-93f1-bb1da12d5539: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:47:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:47:57Z",
+      "lastUpdated": "2023-05-24T14:47:57Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35938",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c43ebd27-a32e-4134-9e0b-dcbfaaae63f5: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:49:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:49:14Z",
+      "lastUpdated": "2023-05-24T14:49:14Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/rpm@4.17.0-9.cm2",
+      "vulnerability": "CVE-2021-35939",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed449bae-d080-4372-a17a-a859c3022e93: tp with grype[custom-db]@v0.62.1",
+          "author": "willmurphy",
+          "at": "2023-05-24T14:52:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-24T14:52:44Z",
+      "lastUpdated": "2023-05-24T14:52:44Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/sqlite-libs@3.36.0-3.cm2",
+      "vulnerability": "CVE-2022-35737",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46167caf-ddbb-4a05-95bb-47274fc2a1c9: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:40:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:40:52Z",
+      "lastUpdated": "2025-12-19T07:40:52Z"
+    },
+    {
+      "package": "pkg:rpm/mariner/zlib@1.2.12-1.cm2",
+      "vulnerability": "CVE-2022-37434",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b765d1d6-8725-443f-830e-4da77953b4fb: tp",
+          "author": "willmurphy",
+          "at": "2025-12-19T07:42:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-12-19T07:42:14Z",
+      "lastUpdated": "2025-12-19T07:42:14Z"
+    }
+  ]
+}

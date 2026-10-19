@@ -1,0 +1,37 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/cloudbees/cloudbees-core-oc@sha256:9cd85ee84e401dc27e3a8268aae67b594a651b2f4c7fc056ca14c7b0a0a6b82d",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:pypi/mercurial@4.8.2",
+      "vulnerability": "CVE-2019-3902",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 42e1cd0a-c79e-4b21-9955-8f90ea44218b: fp with grype@v0.65.0. The actual package is deb mercurial @ 4.8.2-1+deb10u1, which reports fixed for this. See Grype#1373",
+          "author": "willmurphy",
+          "at": "2023-08-01T16:58:56Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.65.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-01T16:58:56Z",
+      "lastUpdated": "2023-08-01T16:58:56Z"
+    }
+  ]
+}

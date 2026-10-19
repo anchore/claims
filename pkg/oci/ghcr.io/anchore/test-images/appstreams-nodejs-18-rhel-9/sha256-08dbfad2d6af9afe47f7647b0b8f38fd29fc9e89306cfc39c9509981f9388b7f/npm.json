@@ -1,0 +1,121 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/appstreams-nodejs-18-rhel-9@sha256:08dbfad2d6af9afe47f7647b0b8f38fd29fc9e89306cfc39c9509981f9388b7f",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:npm/cross-spawn@7.0.3",
+      "vulnerability": "GHSA-3xgq-45jj-v275",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f5f9ad6b-2d4c-47c5-a817-2c0bc5caacaf: unclear with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:00:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:00:20Z",
+      "lastUpdated": "2026-03-16T16:00:20Z"
+    },
+    {
+      "package": "pkg:npm/ip@2.0.0",
+      "vulnerability": "GHSA-2p57-rm9w-gvfp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f3ec8029-054e-4d10-b900-343f0afb8f6f: fp with grype@v0.109.1. ip is a descendent of the npm rpm package from RedHat, and they have marked it explicitly as not affected: https://access.redhat.com/security/cve/cve-2024-29415",
+          "author": "westonsteimel",
+          "at": "2026-03-16T15:55:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T15:55:12Z",
+      "lastUpdated": "2026-03-16T15:55:12Z"
+    },
+    {
+      "package": "pkg:npm/ip@2.0.0",
+      "vulnerability": "GHSA-78xj-cgh5-2h22",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e0b26df8-1a46-47ee-a20e-d95e028e1295: fp with grype@v0.109.1. ip is a descendent of the npm rpm package from RedHat, and they have marked it explicitly as not affected: https://access.redhat.com/security/cve/cve-2023-42282",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:01:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:01:07Z",
+      "lastUpdated": "2026-03-16T16:01:07Z"
+    },
+    {
+      "package": "pkg:npm/tar@6.1.15",
+      "vulnerability": "GHSA-f5x3-32g6-xq36",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05383e8a-c997-433e-8a3d-e501bddf6d97: unclear with grype@v0.109.1",
+          "author": "westonsteimel",
+          "at": "2026-03-16T16:04:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.109.1"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-03-16T16:04:24Z",
+      "lastUpdated": "2026-03-16T16:04:24Z"
+    }
+  ]
+}

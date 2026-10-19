@@ -1,0 +1,148 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/ubuntu@sha256:09f035f46361d193ded647342903b413d57d05cc06acff8285f9dda9f2d269d5",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/ubuntu/coreutils@9.1-1ubuntu2",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea736d50-dbe4-4d60-b36c-3044d944b5a5: tp with grype@v0.63.1",
+          "author": "westonsteimel",
+          "at": "2023-07-03T08:23:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-03T08:23:24Z",
+      "lastUpdated": "2023-07-03T08:23:24Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc-bin@2.37-0ubuntu2",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6fec99f1-b417-4c11-ae57-8f304003d9a1: unclear with grype@v0.63.1",
+          "author": "westonsteimel",
+          "at": "2023-07-03T08:23:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-03T08:23:25Z",
+      "lastUpdated": "2023-07-03T08:23:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libc6@2.37-0ubuntu2",
+      "vulnerability": "CVE-2016-20013",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b3a3775f-66cb-4391-89c6-733d43f9479a: unclear with grype@v0.63.1",
+          "author": "westonsteimel",
+          "at": "2023-07-03T08:23:25Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-07-03T08:23:25Z",
+      "lastUpdated": "2023-07-03T08:23:25Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/liblzma5@5.4.1-0.2",
+      "vulnerability": "CVE-2020-22916",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37ae4ae9-e3ae-4ba7-aea4-23c515190732: unclear with grype@v0.78.0",
+          "author": "westonsteimel",
+          "at": "2024-06-10T15:19:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.78.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-10T15:19:16Z",
+      "lastUpdated": "2024-06-10T15:19:16Z"
+    },
+    {
+      "package": "pkg:deb/ubuntu/libtasn1-6@4.19.0-2",
+      "vulnerability": "CVE-2021-46848",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ca2e2b3c-408a-4790-aed1-6d5af7065130: unclear with grype@v0.78.0",
+          "author": "westonsteimel",
+          "at": "2024-06-10T15:19:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.78.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-06-10T15:19:19Z",
+      "lastUpdated": "2024-06-10T15:19:19Z"
+    }
+  ]
+}

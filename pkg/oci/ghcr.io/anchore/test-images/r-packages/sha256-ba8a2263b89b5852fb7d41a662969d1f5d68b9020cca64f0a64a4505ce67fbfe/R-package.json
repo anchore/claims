@@ -1,0 +1,32 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/r-packages@sha256:ba8a2263b89b5852fb7d41a662969d1f5d68b9020cca64f0a64a4505ce67fbfe",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:cran/commonmark@1.8.1",
+      "vulnerability": "RSEC-2023-8",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bc50f882-4bf4-4493-9dcd-8380a5a18d5b: tp",
+          "author": "williammurphy",
+          "at": "2026-02-11T15:48:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-11T15:48:10Z",
+      "lastUpdated": "2026-02-11T15:48:10Z"
+    }
+  ]
+}

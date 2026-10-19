@@ -1,0 +1,975 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "cgr.dev/chainguard/wolfi-base@sha256:be3834598c3c4b76ace6a866edcbbe1fa18086f9ee238b57769e4d230cd7d507",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/wolfi/busybox@1.35.0-r2",
+      "vulnerability": "CVE-2022-28391",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1b4b0b4a-3354-407f-b71c-4cc075e36bdf: tp with anchorectl@main+enterprise=4.2.0",
+          "author": "westonsteimel",
+          "at": "2022-11-29T22:43:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "main"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-29T22:43:59Z",
+      "lastUpdated": "2022-11-29T22:43:59Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/busybox@1.35.0-r2",
+      "vulnerability": "CVE-2022-30065",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9cbffe91-8377-4158-909c-fe03e355414f: tp with anchorectl@main+enterprise=4.2.0",
+          "author": "westonsteimel",
+          "at": "2022-11-29T22:44:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "main"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-29T22:44:00Z",
+      "lastUpdated": "2022-11-29T22:44:00Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/busybox@1.35.0-r2",
+      "vulnerability": "GHSA-gq73-rh3m-3php",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1be85785-a4ff-462a-a74c-261046bff71d: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:48:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:48:50Z",
+      "lastUpdated": "2023-12-20T12:48:50Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/busybox@1.35.0-r2",
+      "vulnerability": "GHSA-h8c3-8522-vxc6",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4b6ad3f-0922-489a-a822-39e266283d13: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:48:55Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:48:55Z",
+      "lastUpdated": "2023-12-20T12:48:55Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ae39c211-a781-44f4-9810-96c20079ad72: unclear with grype@v0.57.1-7-gd1352ce. wontfix per https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:45:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:45:22Z",
+      "lastUpdated": "2023-03-01T13:45:22Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd77648d-f4e1-4f24-8244-606c6cfd760e: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:45:36Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:45:36Z",
+      "lastUpdated": "2023-03-01T13:45:36Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 95b2a77c-8108-4896-90d6-03236fcf2080: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:46:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:46:11Z",
+      "lastUpdated": "2023-03-01T13:46:11Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd7e430f-e2e4-448f-8ac2-721602921a8a: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:46:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:46:12Z",
+      "lastUpdated": "2023-03-01T13:46:12Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "unclear",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 372936c6-d043-4515-bcd0-73954af2547e: unclear with grype@v0.57.1-7-gd1352ce",
+          "author": "westonsteimel",
+          "at": "2023-03-01T13:46:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.57.1-7-gd1352ce"
+          },
+          {
+            "name": "syft",
+            "version": "v0.68.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-03-01T13:46:14Z",
+      "lastUpdated": "2023-03-01T13:46:14Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2022-39046",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 74f605aa-af60-4402-a430-3f572c494f55: tp with anchorectl@main+enterprise=4.2.0",
+          "author": "westonsteimel",
+          "at": "2022-11-29T22:44:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "main"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-29T22:44:00Z",
+      "lastUpdated": "2022-11-29T22:44:00Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-25139",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a27b4a38-f2e2-4652-b831-e1a1626503fa: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:48:59Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:48:59Z",
+      "lastUpdated": "2023-12-20T12:48:59Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-4527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 05ecf980-9c09-47bd-a5b6-f76b4e908c75: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:00Z",
+      "lastUpdated": "2023-12-20T12:49:00Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-4911",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1e411cce-3789-462e-89ac-e6c499a29c29: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:00Z",
+      "lastUpdated": "2023-12-20T12:49:00Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-5156",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8331e4c9-3675-42f7-9eb6-f8373f975524: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:01Z",
+      "lastUpdated": "2023-12-20T12:49:01Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-6246",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cc5a8119-22c2-4fa5-8fdb-554e64825176: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:01Z",
+      "lastUpdated": "2024-02-09T21:02:01Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-6779",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 40310314-99fe-455b-8dfb-c05e9ed2155b: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:03Z",
+      "lastUpdated": "2024-02-09T21:02:03Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "CVE-2023-6780",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3ade4af2-4307-413a-a851-4cbbd2e5cdb3: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:05Z",
+      "lastUpdated": "2024-02-09T21:02:05Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-22q4-f5r6-3xqw",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 220c514c-a05f-416c-8ad1-7325f110c923: tp with grype[custom-db]@v0.77.0",
+          "author": "wagoodman",
+          "at": "2024-04-26T16:44:07Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-04-26T16:44:07Z",
+      "lastUpdated": "2024-04-26T16:44:07Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-2g67-jw5m-244m",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 11f992d1-a56d-499b-92bf-513ebc238a30: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:02Z",
+      "lastUpdated": "2023-12-20T12:49:02Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-9gvm-vcgf-x5xw",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4bf8485-9a1e-45de-bb1a-5e79d79d986d: tp with grype[custom-db]@v0.77.4",
+          "author": "willmurphy",
+          "at": "2024-05-24T11:51:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-05-24T11:51:29Z",
+      "lastUpdated": "2024-05-24T11:51:29Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-f4cf-2w52-c853",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 659e51f5-5b9e-4714-9df5-feb8aeeabd37: tp with grype[custom-db]@v0.77.4. https://github.com/wolfi-dev/advisories/blob/2bb728778ef527957087ad519271774ea33f20a8/glibc.advisories.yaml#L192",
+          "author": "willmurphy",
+          "at": "2024-05-24T12:32:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-05-24T12:32:29Z",
+      "lastUpdated": "2024-05-24T12:32:29Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-f4pv-q5f7-2h55",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 75e58e73-49e4-4433-860b-ee4aeb2407f4: tp with grype[custom-db]@v0.77.4. see https://github.com/wolfi-dev/advisories/blob/2bb728778ef527957087ad519271774ea33f20a8/glibc.advisories.yaml#L213",
+          "author": "willmurphy",
+          "at": "2024-05-24T12:29:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-05-24T12:29:52Z",
+      "lastUpdated": "2024-05-24T12:29:52Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-f6rj-qrpf-jc34",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4557bcf-3d1a-4fc7-87f7-1667d8c1c047: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:03Z",
+      "lastUpdated": "2023-12-20T12:49:03Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-hmf7-f8gf-8f4p",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fac1968b-e461-4778-b4fe-2bd8c023f4a5: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:03Z",
+      "lastUpdated": "2023-12-20T12:49:03Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-jjr8-97p7-vmmg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 28a08e00-b500-431d-b6d1-fdb29cbf1c65: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:09Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:09Z",
+      "lastUpdated": "2024-02-09T21:02:09Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-jv3g-6pg3-v9j8",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 6871b82f-449e-4dc6-841c-227fded982d0: tp with grype[custom-db]@v0.77.4. see https://github.com/wolfi-dev/advisories/blob/2bb728778ef527957087ad519271774ea33f20a8/glibc.advisories.yaml#L171",
+          "author": "willmurphy",
+          "at": "2024-05-24T12:33:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-05-24T12:33:06Z",
+      "lastUpdated": "2024-05-24T12:33:06Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-m77w-6vjw-wh2f",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c2a3344e-0b2e-4093-b2c8-cdba313f480c: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:49:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:49:04Z",
+      "lastUpdated": "2023-12-20T12:49:04Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-m7p3-g2hx-xfc3",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 71b7ddef-d949-4388-949f-9dec3debbb04: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:52:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:52:20Z",
+      "lastUpdated": "2023-12-20T12:52:20Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-p5vr-h433-qhqr",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ea47752-fbad-4c5b-a274-c741e9e59fba: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:16Z",
+      "lastUpdated": "2024-02-09T21:02:16Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/glibc@2.36-r0",
+      "vulnerability": "GHSA-p6rw-gvvh-q8v4",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 074656a3-50e6-4f1b-a5a8-2ef4614b7656: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.74.5"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:17Z",
+      "lastUpdated": "2024-02-09T21:02:17Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b4d67409-e7f5-4911-91b5-6599778a7657: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:56:27Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:56:27Z",
+      "lastUpdated": "2023-12-20T12:56:27Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "CVE-2022-37434",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5c9097a9-b889-486a-8b03-d7352cf3af94: tp with anchorectl@main+enterprise=4.2.0",
+          "author": "westonsteimel",
+          "at": "2022-11-29T22:44:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "main"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-29T22:44:01Z",
+      "lastUpdated": "2022-11-29T22:44:01Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "CVE-2023-45853",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f4089b28-a0f9-4e99-9046-7e5d7730de7e: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:52:18Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:52:18Z",
+      "lastUpdated": "2023-12-20T12:52:18Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "GHSA-cfmr-vrgj-vqwv",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3e2e74f0-b4d8-4ffa-b407-2f74152b2de5: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:52:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:52:14Z",
+      "lastUpdated": "2023-12-20T12:52:14Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "GHSA-jc36-42cf-vqwj",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cbe9dc27-f683-420d-a164-37e93e636b41: tp with grype@v0.73.4",
+          "author": "westonsteimel",
+          "at": "2023-12-20T12:56:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.73.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-12-20T12:56:30Z",
+      "lastUpdated": "2023-12-20T12:56:30Z"
+    },
+    {
+      "package": "pkg:apk/wolfi/zlib@1.2.12-r2",
+      "vulnerability": "GHSA-mq29-j5xf-cjwr",
+      "verdict": "tp",
+      "author": "westonsteimel, willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4f051615-1f1e-4216-b520-bec63431c579: tp with grype@v0.74.5",
+          "author": "westonsteimel",
+          "at": "2024-02-09T21:02:55Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels 744dfc69-34cc-4e0b-9d54-212a41b86e1e: tp with grype[custom-db]@v0.77.4. see https://github.com/wolfi-dev/advisories/blob/2bb728778ef527957087ad519271774ea33f20a8/zlib.advisories.yaml#L27",
+          "author": "willmurphy",
+          "at": "2024-05-24T12:33:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.77.4"
+          },
+          {
+            "name": "syft",
+            "version": "v0.98.0"
+          }
+        ]
+      },
+      "firstIssued": "2024-02-09T21:02:55Z",
+      "lastUpdated": "2024-05-24T12:33:53Z"
+    }
+  ]
+}

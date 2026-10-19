@@ -1,0 +1,279 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/buildecho/scanner-test@sha256:60557350ad6976dad3b88d891de8f090b20b3271c660272d30d44b5d07b23edc",
+    "platform": "linux/arm64"
+  },
+  "labels": [
+    {
+      "package": "pkg:deb/echo/coreutils@9.1-1",
+      "vulnerability": "CVE-2016-2781",
+      "verdict": "tp",
+      "author": "orizerah",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1f180dc4-bcb9-40ad-acec-7c7902d8fac6: tp with grype[custom-db]@v0.78.0",
+          "author": "orizerah",
+          "at": "2025-05-08T07:03:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.78.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-08T07:03:19Z",
+      "lastUpdated": "2025-05-08T07:03:19Z"
+    },
+    {
+      "package": "pkg:deb/echo/libgnutls30@3.7.9-2%2Bdeb12u4",
+      "vulnerability": "CVE-2011-3389",
+      "verdict": "tp",
+      "author": "orizerah",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2f07ca51-c34e-421f-9982-150ada26e8dd: tp with grype[custom-db]@v0.78.0",
+          "author": "orizerah",
+          "at": "2025-05-08T07:03:26Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.78.0"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-05-08T07:03:26Z",
+      "lastUpdated": "2025-05-08T07:03:26Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim-common@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2008-4677",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f0aafa1f-650c-4d6c-8c21-8aefc8bc5922: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:19:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:19:16Z",
+      "lastUpdated": "2025-06-09T19:19:16Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim-common@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2017-1000382",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 000e11ba-f0ee-4efd-9459-3958d0461597: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:19:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:19:20Z",
+      "lastUpdated": "2025-06-09T19:19:20Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim-runtime@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2008-4677",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c0b9023-9386-4424-a948-cc7232bb1b75: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:19:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:19:23Z",
+      "lastUpdated": "2025-06-09T19:19:23Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim-runtime@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2017-1000382",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 00f7bd25-e7b4-4438-863e-b762e47917bf: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:19:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:19:24Z",
+      "lastUpdated": "2025-06-09T19:19:24Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2008-4677",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ea0260b8-d32b-45b1-bd4e-93e10012b417: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:18:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:18:47Z",
+      "lastUpdated": "2025-06-09T19:18:47Z"
+    },
+    {
+      "package": "pkg:deb/echo/vim@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2017-1000382",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a4360dd8-4a1a-48e9-b085-82e45c710d99: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:19:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:19:11Z",
+      "lastUpdated": "2025-06-09T19:19:11Z"
+    },
+    {
+      "package": "pkg:deb/echo/xxd@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2008-4677",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1836e567-0bbf-4eb5-af07-2311e6d588a6: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:20:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:20:32Z",
+      "lastUpdated": "2025-06-09T19:20:32Z"
+    },
+    {
+      "package": "pkg:deb/echo/xxd@2:9.0.1378-2%2Bdeb12u2",
+      "vulnerability": "CVE-2017-1000382",
+      "verdict": "tp",
+      "author": "willmurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1c6d6475-f648-435a-a436-177032507a69: tp with grype[custom-db]@path:/Users/willmurphy/work/echo-os/grype+import-db=build/grype-db.tar.zst",
+          "author": "willmurphy",
+          "at": "2025-06-09T19:20:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "path:/Users/willmurphy/work/echo-os/grype"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2025-06-09T19:20:33Z",
+      "lastUpdated": "2025-06-09T19:20:33Z"
+    }
+  ]
+}

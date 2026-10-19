@@ -1,0 +1,92 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "ghcr.io/anchore/test-images/java@sha256:10008791acbc5866de04108746a02a0c4029ce3a4400a9b3dad45d7f2245f9da",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:maven/org.jenkins-ci.plugins/nomad@0.7.4",
+      "vulnerability": "CVE-2019-1003092",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "bress",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cf8d4a74-dcae-46a4-b152-36491b09f8bf: fp with grype@v0.63.1+profile=cpe",
+          "author": "bress",
+          "at": "2023-08-04T17:12:23Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.63.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-08-04T17:12:23Z",
+      "lastUpdated": "2023-08-04T17:12:23Z"
+    },
+    {
+      "package": "pkg:maven/org.jenkins-ci.plugins/nomad@0.7.4",
+      "vulnerability": "CVE-2021-21681",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 97a3754a-f821-4f95-b460-d4b468a46e72: tp with grype@v0.53.1",
+          "author": "westonsteimel",
+          "at": "2022-11-25T16:18:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.53.1"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-25T16:18:22Z",
+      "lastUpdated": "2022-11-25T16:18:22Z"
+    },
+    {
+      "package": "pkg:maven/org.jenkins-ci.plugins/nomad@0.7.4",
+      "vulnerability": "GHSA-5c2c-cvg6-ghjm",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46a53953-6400-48bd-a6f6-a4ff88346e78: tp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-26T07:05:35Z"
+        },
+        {
+          "text": "ported from vulnerability-match-labels bd45e641-8aa9-4db2-b21f-7bb6e7b945b0: tp with anchorectl@v1.3.0+enterprise=4.3.0+profile=dogfood",
+          "author": "westonsteimel",
+          "at": "2023-01-26T07:27:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "anchorectl",
+            "version": "v1.3.0"
+          }
+        ]
+      },
+      "firstIssued": "2023-01-26T07:05:35Z",
+      "lastUpdated": "2023-01-26T07:27:13Z"
+    }
+  ]
+}

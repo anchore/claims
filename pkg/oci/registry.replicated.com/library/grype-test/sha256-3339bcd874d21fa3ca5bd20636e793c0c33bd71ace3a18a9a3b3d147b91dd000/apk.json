@@ -1,0 +1,145 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "registry.replicated.com/library/grype-test@sha256:3339bcd874d21fa3ca5bd20636e793c0c33bd71ace3a18a9a3b3d147b91dd000",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:apk/secureos/glibc-2.42@2.42-r4",
+      "vulnerability": "CVE-2010-4756",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "yolo",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 60373eb7-c58d-4795-a3f2-e4efbba89a2b: fp. secureos distro NAKs this CVE for glibc-2.42 (version 0 in secdb)",
+          "author": "yolo",
+          "at": "2026-02-02T16:53:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-02T16:53:46Z",
+      "lastUpdated": "2026-02-02T16:53:46Z"
+    },
+    {
+      "package": "pkg:apk/secureos/glibc-2.42@2.42-r4",
+      "vulnerability": "CVE-2019-1010022",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "squizzi",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c52b50f-30dc-4a0c-8301-1d973bf2b986: fp with grype[custom-db]@0091f347",
+          "author": "squizzi",
+          "at": "2026-01-27T19:55:31Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "0091f347"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-27T19:55:31Z",
+      "lastUpdated": "2026-01-27T19:55:31Z"
+    },
+    {
+      "package": "pkg:apk/secureos/glibc-2.42@2.42-r4",
+      "vulnerability": "CVE-2019-1010023",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "squizzi",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7d737969-3d32-499e-8968-e41b92f39572: fp with grype[custom-db]@0091f347",
+          "author": "squizzi",
+          "at": "2026-01-27T19:55:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "0091f347"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-27T19:55:32Z",
+      "lastUpdated": "2026-01-27T19:55:32Z"
+    },
+    {
+      "package": "pkg:apk/secureos/glibc-2.42@2.42-r4",
+      "vulnerability": "CVE-2019-1010024",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "squizzi",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c1d79dba-4656-4fd0-8114-a4b008aaed92: fp with grype[custom-db]@0091f347",
+          "author": "squizzi",
+          "at": "2026-01-27T19:55:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "0091f347"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-27T19:55:32Z",
+      "lastUpdated": "2026-01-27T19:55:32Z"
+    },
+    {
+      "package": "pkg:apk/secureos/glibc-2.42@2.42-r4",
+      "vulnerability": "CVE-2019-1010025",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "squizzi",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels cceb5913-f806-4a85-8baf-f8c1323c91e2: fp with grype[custom-db]@0091f347",
+          "author": "squizzi",
+          "at": "2026-01-27T19:55:33Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "0091f347"
+          },
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-01-27T19:55:33Z",
+      "lastUpdated": "2026-01-27T19:55:33Z"
+    }
+  ]
+}

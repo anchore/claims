@@ -1,0 +1,1359 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/library/node@sha256:af31633b87d0dc58c306b04ad9f6ca88104626363c5c085e9962832628eb09ce",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:npm/bl@1.0.0",
+      "vulnerability": "GHSA-pp7h-53gx-mx7r",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c93a7dad-a759-4ee1-96fc-5228018b016c: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:39:24Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:39:24Z",
+      "lastUpdated": "2023-05-26T14:39:24Z"
+    },
+    {
+      "package": "pkg:npm/bl@1.0.0",
+      "vulnerability": "GHSA-wrw9-m778-g6mc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 662b6a82-b343-4dee-a445-de3d3c0e6168: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:39:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:39:30Z",
+      "lastUpdated": "2023-05-26T14:39:30Z"
+    },
+    {
+      "package": "pkg:npm/brace-expansion@1.1.0",
+      "vulnerability": "GHSA-832h-xg76-4gv6",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 87a07dd1-08e1-4b64-87c8-1722f7625cc2: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:39:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:39:46Z",
+      "lastUpdated": "2023-05-26T14:39:46Z"
+    },
+    {
+      "package": "pkg:npm/chownr@1.0.1",
+      "vulnerability": "GHSA-c6rq-rjc2-86v2",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 08814aa5-ea8d-41da-8aba-a714c092a22c: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:40:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:40:01Z",
+      "lastUpdated": "2023-05-26T14:40:01Z"
+    },
+    {
+      "package": "pkg:npm/concat-stream@1.5.0",
+      "vulnerability": "GHSA-g74r-ffvr-5q9f",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c9df6c4b-6d6b-4ab7-b66c-9a0dfec2ddf7: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:40:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:40:06Z",
+      "lastUpdated": "2023-05-26T14:40:06Z"
+    },
+    {
+      "package": "pkg:npm/cryptiles@2.0.5",
+      "vulnerability": "GHSA-rq8g-5pc5-wrhr",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f6f373d1-dca0-4418-a1fb-82c88046f8f0: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:40:28Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:40:28Z",
+      "lastUpdated": "2023-05-26T14:40:28Z"
+    },
+    {
+      "package": "pkg:npm/debug@2.2.0",
+      "vulnerability": "GHSA-9vvw-cc9w-f27h",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d4c51642-e94f-4138-8915-4e4709250d8e: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:40:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:40:50Z",
+      "lastUpdated": "2023-05-26T14:40:50Z"
+    },
+    {
+      "package": "pkg:npm/debug@2.2.0",
+      "vulnerability": "GHSA-gxpj-cx7g-858c",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 61ef2af4-1915-43a7-8bf7-677b47215d7a: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:42:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:42:08Z",
+      "lastUpdated": "2023-05-26T14:42:08Z"
+    },
+    {
+      "package": "pkg:npm/extend@3.0.0",
+      "vulnerability": "GHSA-qrmc-fj45-qfc2",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c8b4e1c-d8f9-413f-9d81-e8d2afeec3c2: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:46Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:46Z",
+      "lastUpdated": "2023-05-26T14:48:46Z"
+    },
+    {
+      "package": "pkg:npm/fstream@1.0.8",
+      "vulnerability": "GHSA-xf7w-r453-m56c",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f31f21ba-7e89-4ea2-9a4b-cac666d6568c: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:47Z",
+      "lastUpdated": "2023-05-26T14:48:47Z"
+    },
+    {
+      "package": "pkg:npm/hawk@3.1.0",
+      "vulnerability": "GHSA-jcpv-g9rr-qxrc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bea04995-d30e-4631-ab72-777ce5fed756: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:48Z",
+      "lastUpdated": "2023-05-26T14:48:48Z"
+    },
+    {
+      "package": "pkg:npm/hoek@2.16.3",
+      "vulnerability": "GHSA-jp4x-w63m-7wgm",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e94f3dd9-450f-4a47-8a46-17d9b7bbf2d2: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:06Z",
+      "lastUpdated": "2023-05-26T14:49:06Z"
+    },
+    {
+      "package": "pkg:npm/hosted-git-info@2.1.4",
+      "vulnerability": "GHSA-43f8-2h32-f4cj",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0561fef7-a20e-4f99-9d31-4cdf8e931104: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:49Z",
+      "lastUpdated": "2023-05-26T14:48:49Z"
+    },
+    {
+      "package": "pkg:npm/ini@1.3.4",
+      "vulnerability": "GHSA-qqgx-2p2h-9c37",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7f545151-f4c5-41ca-a318-9b08bc6bb46a: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:49Z",
+      "lastUpdated": "2023-05-26T14:48:49Z"
+    },
+    {
+      "package": "pkg:npm/is-my-json-valid@2.12.2",
+      "vulnerability": "GHSA-4hpf-3wq7-5rpr",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a0c0f8a1-13da-41e2-a4d1-b86cf23cd98f: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:50Z",
+      "lastUpdated": "2023-05-26T14:48:50Z"
+    },
+    {
+      "package": "pkg:npm/is-my-json-valid@2.12.2",
+      "vulnerability": "GHSA-f522-ffg8-j8r6",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 940964bc-abcc-4e10-bc37-ddd1769f0ac0: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:50Z",
+      "lastUpdated": "2023-05-26T14:48:50Z"
+    },
+    {
+      "package": "pkg:npm/jsonpointer@2.0.0",
+      "vulnerability": "GHSA-282f-qqgm-c34q",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8786c45b-5848-4138-8e58-75259210d487: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:50Z",
+      "lastUpdated": "2023-05-26T14:48:50Z"
+    },
+    {
+      "package": "pkg:npm/minimatch@1.0.0",
+      "vulnerability": "GHSA-hxm2-r34f-qmc5",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels df879d4b-1e2c-473e-84ef-4a64c822e1ba: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:51Z",
+      "lastUpdated": "2023-05-26T14:48:51Z"
+    },
+    {
+      "package": "pkg:npm/minimatch@2.0.10",
+      "vulnerability": "GHSA-hxm2-r34f-qmc5",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d96a1704-5202-451d-a194-447430b218f7: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:48:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:48:51Z",
+      "lastUpdated": "2023-05-26T14:48:51Z"
+    },
+    {
+      "package": "pkg:npm/minimist@0.0.8",
+      "vulnerability": "GHSA-vh95-rmgr-6w4m",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 02d90672-23ba-493f-9335-c8fda598c738: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:10Z",
+      "lastUpdated": "2023-05-26T14:49:10Z"
+    },
+    {
+      "package": "pkg:npm/minimist@0.0.8",
+      "vulnerability": "GHSA-xvch-5gv4-984h",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a6a76288-0061-4369-b2b4-182fca687b21: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:10Z",
+      "lastUpdated": "2023-05-26T14:49:10Z"
+    },
+    {
+      "package": "pkg:npm/ms@0.7.1",
+      "vulnerability": "GHSA-w9mr-4mfr-499f",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0f604e2d-b739-4655-bb66-7008bdec8d15: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:10Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:10Z",
+      "lastUpdated": "2023-05-26T14:49:10Z"
+    },
+    {
+      "package": "pkg:npm/node-uuid@1.4.3",
+      "vulnerability": "GHSA-265q-28rp-chq5",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e7056f42-db54-48d2-96ba-8332e89f67db: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:11Z",
+      "lastUpdated": "2023-05-26T14:49:11Z"
+    },
+    {
+      "package": "pkg:npm/npm-user-validate@0.1.2",
+      "vulnerability": "GHSA-pw54-mh39-w3hc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7e21cb87-7721-431b-b8dc-31b9942545d6: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:13Z",
+      "lastUpdated": "2023-05-26T14:49:13Z"
+    },
+    {
+      "package": "pkg:npm/npm-user-validate@0.1.2",
+      "vulnerability": "GHSA-xgh6-85xh-479p",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c50a5830-2e17-490a-bdfc-869c2c2a0421: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:13Z",
+      "lastUpdated": "2023-05-26T14:49:13Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-4328-8hgf-7wjr",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 830b97ec-6867-40b8-810d-c983a6bbc7fa: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:11Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:11Z",
+      "lastUpdated": "2023-05-26T14:49:11Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-93f3-23rq-pjfp",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels f256f6bd-0872-4a8a-aa57-6d502e2829e9: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:12Z",
+      "lastUpdated": "2023-05-26T14:49:12Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-m5h6-hr3q-22h5",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 85b81d4b-c426-4fdd-9afe-919f7af73525: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:12Z",
+      "lastUpdated": "2023-05-26T14:49:12Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-m6cx-g6qm-p2cx",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e68d6438-885d-4199-a46e-a5265c0a61af: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:12Z",
+      "lastUpdated": "2023-05-26T14:49:12Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-ph34-pc88-72gc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels feb4ff76-cca0-4034-8b39-0b255bff61a8: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:13Z",
+      "lastUpdated": "2023-05-26T14:49:13Z"
+    },
+    {
+      "package": "pkg:npm/npm@2.14.7",
+      "vulnerability": "GHSA-x8qc-rrcw-4r46",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a56ab08-c767-48c1-a59e-16c5f55eeb8c: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:13Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:13Z",
+      "lastUpdated": "2023-05-26T14:49:13Z"
+    },
+    {
+      "package": "pkg:npm/qs@5.1.0",
+      "vulnerability": "GHSA-gqgv-6jq5-jjj9",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2aaec8cd-13f0-4083-9264-1cbdba681ad9: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:14Z",
+      "lastUpdated": "2023-05-26T14:49:14Z"
+    },
+    {
+      "package": "pkg:npm/request@2.64.0",
+      "vulnerability": "GHSA-7xfp-9c55-5vqj",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 529563b7-6400-4318-9729-d7ccea3a6775: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:14Z",
+      "lastUpdated": "2023-05-26T14:49:14Z"
+    },
+    {
+      "package": "pkg:npm/stringstream@0.0.4",
+      "vulnerability": "GHSA-mf6x-7mm4-x2g7",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 68b08b81-24e4-49a5-9e1e-dfe86a950d3e: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:14Z",
+      "lastUpdated": "2023-05-26T14:49:14Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-3jfq-g458-7qm9",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45d929de-7379-4ed5-9cdc-f86be7a156e7: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:15Z",
+      "lastUpdated": "2023-05-26T14:49:15Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-5955-9wpr-37jh",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7675d0af-9680-4be1-99ae-1142e588116d: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:15Z",
+      "lastUpdated": "2023-05-26T14:49:15Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-9r2w-394v-53qc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels fe0b73b1-05be-4c82-9b73-b40aaa35d136: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:16Z",
+      "lastUpdated": "2023-05-26T14:49:16Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-gfjr-3jmm-4g9v",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 44fabe73-1144-4e79-a21f-8cc24b92f978: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:17Z",
+      "lastUpdated": "2023-05-26T14:49:17Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-j44m-qm6p-hp7m",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 120248cb-666d-42d0-b31a-f9a549587041: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:17Z",
+      "lastUpdated": "2023-05-26T14:49:17Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-qq89-hq3f-393p",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 93e6c36a-0f93-4444-b8da-495551c4fe71: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:17Z",
+      "lastUpdated": "2023-05-26T14:49:17Z"
+    },
+    {
+      "package": "pkg:npm/tar@1.0.3",
+      "vulnerability": "GHSA-r628-mhmh-qjhw",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 77974de3-fb53-4287-bf53-dd2217fc2105: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:20Z",
+      "lastUpdated": "2023-05-26T14:49:20Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-3jfq-g458-7qm9",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 32bc4556-bc6d-41fc-b047-32211f1e85b5: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:15Z",
+      "lastUpdated": "2023-05-26T14:49:15Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-5955-9wpr-37jh",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 84f08933-ff77-4898-b4ee-2c3b36c562dc: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:16Z",
+      "lastUpdated": "2023-05-26T14:49:16Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-9r2w-394v-53qc",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 1a94a64b-8e5b-4f23-9e9a-193f37e443a5: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:16Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:16Z",
+      "lastUpdated": "2023-05-26T14:49:16Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-j44m-qm6p-hp7m",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 89af446e-d9e6-4cb0-b187-06631fbf97c3: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:17Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:17Z",
+      "lastUpdated": "2023-05-26T14:49:17Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-qq89-hq3f-393p",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 3c99efc1-1415-4c3a-829a-998cd7076a2e: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:20Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:20Z",
+      "lastUpdated": "2023-05-26T14:49:20Z"
+    },
+    {
+      "package": "pkg:npm/tar@2.2.1",
+      "vulnerability": "GHSA-r628-mhmh-qjhw",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b9b67b0-0c40-490a-a1f4-9c230586c82a: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:49:22Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:49:22Z",
+      "lastUpdated": "2023-05-26T14:49:22Z"
+    },
+    {
+      "package": "pkg:npm/tough-cookie@2.0.0",
+      "vulnerability": "GHSA-g7q5-pjjr-gqvp",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels a256d81f-6658-406e-a146-4a1f9cf40c97: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:41:42Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:41:42Z",
+      "lastUpdated": "2023-05-26T14:41:42Z"
+    },
+    {
+      "package": "pkg:npm/tough-cookie@2.0.0",
+      "vulnerability": "GHSA-qhv9-728r-6jqg",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5e18c2dd-5b3e-42b5-9927-af64fe2d97ca: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:41:32Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:41:32Z",
+      "lastUpdated": "2023-05-26T14:41:32Z"
+    },
+    {
+      "package": "pkg:npm/tunnel-agent@0.4.1",
+      "vulnerability": "GHSA-xc7v-wxcw-j472",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c5bafd10-0d99-4256-bbbc-0a2d1edcf0ee: tp with grype@v0.62.1-0-g0f71006",
+          "author": "wagoodman",
+          "at": "2023-05-26T14:41:29Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.1-0-g0f71006"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-26T14:41:29Z",
+      "lastUpdated": "2023-05-26T14:41:29Z"
+    }
+  ]
+}

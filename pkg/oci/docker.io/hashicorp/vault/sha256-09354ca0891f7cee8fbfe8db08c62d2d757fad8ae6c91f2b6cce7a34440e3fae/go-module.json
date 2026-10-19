@@ -1,0 +1,363 @@
+{
+  "schema": "v1",
+  "subject": {
+    "image": "docker.io/hashicorp/vault@sha256:09354ca0891f7cee8fbfe8db08c62d2d757fad8ae6c91f2b6cce7a34440e3fae",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:golang/github.com/docker/docker@v20.10.18%2Bincompatible",
+      "vulnerability": "GHSA-232p-vwff-86mp",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b9c0c7a-7d40-49bb-baa2-1dbaa2cd6809: fp with grype@v0.62.0-1-gc0c6e09. not importable",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:27:12Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:27:12Z",
+      "lastUpdated": "2023-05-23T10:27:12Z"
+    },
+    {
+      "package": "pkg:golang/github.com/docker/docker@v20.10.18%2Bincompatible",
+      "vulnerability": "GHSA-33pg-m6jh-5237",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5d35625b-d3e6-4b58-b776-0579b4404365: fp with grype@v0.62.0-1-gc0c6e09. not importable",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:27:14Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:27:14Z",
+      "lastUpdated": "2023-05-23T10:27:14Z"
+    },
+    {
+      "package": "pkg:golang/github.com/docker/docker@v20.10.18%2Bincompatible",
+      "vulnerability": "GHSA-6wrf-mxfj-pf5p",
+      "verdict": "fp",
+      "justification": "not-recorded",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7caebfaf-0901-4751-ba1e-d4114a7bf4e1: fp with grype@v0.62.0-1-gc0c6e09. not importable",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:27:15Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:27:15Z",
+      "lastUpdated": "2023-05-23T10:27:15Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "CVE-2023-0620",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels c70b626a-b4c4-4d09-8d54-29eb1ad80fcc: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:40Z",
+      "lastUpdated": "2023-05-23T10:29:40Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "CVE-2023-0665",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 019f47f8-4b2a-4c87-a147-41a81596f7ba: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:47Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:47Z",
+      "lastUpdated": "2023-05-23T10:29:47Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "CVE-2023-24999",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2fcd3b8d-fcfd-4949-8a4e-6a31d9a36493: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:49Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:49Z",
+      "lastUpdated": "2023-05-23T10:29:49Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "CVE-2023-25000",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 9b11515a-e8c4-402c-8761-656ca556c06c: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:50Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:50Z",
+      "lastUpdated": "2023-05-23T10:29:50Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "GHSA-hwc3-3qh6-r4gg",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5ed08f80-92fd-4386-95d1-b79c7779910a: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:51Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:51Z",
+      "lastUpdated": "2023-05-23T10:29:51Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "GHSA-v3hp-mcj5-pg39",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels bd209228-37dd-4dc6-8199-cad8fad61b0e: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:53Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:53Z",
+      "lastUpdated": "2023-05-23T10:29:53Z"
+    },
+    {
+      "package": "pkg:golang/github.com/hashicorp/vault@v1.12.0",
+      "vulnerability": "GHSA-vq4h-9ghm-qmrr",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 370a72fc-15d3-44e5-8deb-82acb5d32ba3: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:29:57Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:29:57Z",
+      "lastUpdated": "2023-05-23T10:29:57Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20220909164309-bea034e7d591",
+      "vulnerability": "GHSA-fxg5-wq6x-vr4w",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5154bf89-7d4e-47a3-ad26-6f0e24e9518a: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:30:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:30:02Z",
+      "lastUpdated": "2023-05-23T10:30:02Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/net@v0.0.0-20220909164309-bea034e7d591",
+      "vulnerability": "GHSA-vvpx-j8f3-3w6h",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ed6de8d5-c85b-4e04-b21b-0557e8abf94c: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:30:02Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:30:02Z",
+      "lastUpdated": "2023-05-23T10:30:02Z"
+    },
+    {
+      "package": "pkg:golang/golang.org/x/text@v0.3.7",
+      "vulnerability": "GHSA-69ch-w2m2-3vjp",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 5b3eecb3-400b-41b1-a888-2f19c2c3300b: tp with grype@v0.62.0-1-gc0c6e09",
+          "author": "westonsteimel",
+          "at": "2023-05-23T10:30:05Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.62.0-1-gc0c6e09"
+          },
+          {
+            "name": "syft",
+            "version": "v0.74.1"
+          }
+        ]
+      },
+      "firstIssued": "2023-05-23T10:30:05Z",
+      "lastUpdated": "2023-05-23T10:30:05Z"
+    }
+  ]
+}
