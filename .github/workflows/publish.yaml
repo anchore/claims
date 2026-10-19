@@ -2,7 +2,8 @@ name: "Publish"
 
 # every merge to main that touches the corpus (or publish.yaml) is validated, bundled and uploaded
 # to R2 as a snapshot, and claims/latest-<format>.json is moved to what publish.yaml names: the tip
-# of main by default, or a pinned commit's snapshot.
+# of main by default, or a pinned commit's snapshot. Beside it, schema/ is copied to R2 under
+# claims/schema/, so each schema-<version>.json a label file names is readable at a stable address.
 on:
   push:
     branches:
@@ -16,6 +17,7 @@ on:
       - "publish.yaml"
       - "scripts/bundle.sh"
       - "scripts/sboms.py"
+      - "schema/**"
       - "scripts/publish.sh"
       - ".github/workflows/publish.yaml"
   workflow_dispatch:
@@ -87,3 +89,37 @@ jobs:
           AWS_DEFAULT_REGION: auto
         run: |
           scripts/publish.sh "$DIGEST" ".tmp/bundle/${DIGEST#sha256:}.zip" | tee -a "$GITHUB_STEP_SUMMARY"
+
+  Publish-Schema:
+    name: "Publish Schema"
+    # a manual run from a branch must not publish that branch's schemas
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    # the same environment secret as Publish
+    environment: publish
+    permissions:
+      contents: read
+    defaults:
+      run:
+        shell: bash
+    env:
+      R2_BUCKET: oss-prod-yardstick
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          persist-credentials: false
+
+      # validation already holds schema/ to what the pinned yardstick writes, so this only copies.
+      # A published schema is only ever amended in its descriptions, so a short cache is enough
+      - name: Upload schema/ to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YARDSTICK_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YARDSTICK_R2_SECRET_ACCESS_KEY }}
+          AWS_ENDPOINT_URL: ${{ secrets.YARDSTICK_R2_ENDPOINT }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          for f in schema/*.json; do
+            aws s3api put-object --bucket "$R2_BUCKET" --key "claims/$f" --content-type application/json \
+              --cache-control "public, max-age=3600" --body "$f" >/dev/null
+            echo "published claims/$f" | tee -a "$GITHUB_STEP_SUMMARY"
+          done
