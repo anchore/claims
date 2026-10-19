@@ -1,0 +1,2 @@
+*.syft.json.gz: ghcr.io/anchore/vml-sbom/<repository>:sha256-<hex> data.json (vulnerability-match-labels' published SBOMs, syft v1.14.0), gzipped
+vml/labels/: anchore/vulnerability-match-labels@0210f3be labels/<image>/, with ':' as '-' in the directory name

@@ -1,0 +1,65 @@
+name: "Validations"
+on:
+  push:
+    branches:
+      - main
+
+  # needed when running from forks
+  pull_request:
+
+permissions: {}
+
+jobs:
+
+  Static-Analysis:
+    name: "Static Analysis"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Bootstrap environment
+        uses: ./.github/actions/bootstrap
+
+      - name: Run static analysis
+        run: make static-analysis
+
+  Test:
+    name: "Unit Tests"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Bootstrap environment
+        uses: ./.github/actions/bootstrap
+
+      - name: Run unit tests
+        run: make unit
+
+  Validate-Corpus:
+    name: "Validate Corpus"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          # the diff against the base needs its history
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Bootstrap environment
+        uses: ./.github/actions/bootstrap
+
+      # only the images this change touches; publishing validates the whole corpus on every merge
+      - name: Validate the changed corpus
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || github.event.before }}
+        run: make validate-changed

@@ -1,0 +1,6 @@
+rules:
+  # every action is pinned to a commit, including ones from anchore
+  unpinned-uses:
+    config:
+      policies:
+        "*": hash-pin

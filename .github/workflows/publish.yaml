@@ -1,0 +1,91 @@
+name: "Publish"
+
+# every merge to main that touches the corpus (or publish.yaml) is validated, bundled and uploaded
+# to R2 as a snapshot, and claims/latest-<major>.json is moved to what publish.yaml names: the tip
+# of main by default, or a pinned commit's snapshot.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "catalog.yaml"
+      - "vocabulary.yaml"
+      - "pkg/**"
+      - "sbom/**"
+      - "global/**"
+      - "publish.yaml"
+      - "scripts/bundle.sh"
+      - "scripts/sboms.py"
+      - "scripts/publish.sh"
+      - ".github/workflows/publish.yaml"
+  workflow_dispatch:
+
+permissions: {}
+
+# snapshots publish in merge order
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  Publish:
+    name: "Publish"
+    # a manual run from a branch must not publish that branch as main
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    # the R2 write credential is an environment secret, so only this job can read it
+    environment: publish
+    permissions:
+      contents: read
+    defaults:
+      run:
+        # pipefail, so a failed upload piped through tee still fails the step
+        shell: bash
+    env:
+      R2_BUCKET: oss-prod-yardstick
+      # yardstick's label format major (labels.Major); a new major publishes beside the old one
+      FORMAT_MAJOR: v1
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
+        with:
+          # a pinned latest must be a commit on main
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Bootstrap environment
+        uses: ./.github/actions/bootstrap
+
+      # a corpus that does not validate is never published
+      - name: Validate the corpus
+        run: make validate-corpus
+
+      # built twice: a snapshot is named by its digest, so the same commit must give the same bytes
+      - name: Bundle the corpus
+        id: bundle
+        run: |
+          first=$(cat .tmp/bundle/digest)
+          second=$(scripts/bundle.sh "$RUNNER_TEMP/second")
+          if [ "$first" != "$second" ]; then
+            echo "::error::two builds of the snapshot differ: $first and $second"
+            exit 1
+          fi
+          echo "digest=$first" >> "$GITHUB_OUTPUT"
+
+      # SBOMs are not committed: any the validation built go up before a snapshot names them
+      - name: Upload new SBOMs to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YARDSTICK_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YARDSTICK_R2_SECRET_ACCESS_KEY }}
+          AWS_ENDPOINT_URL: ${{ secrets.YARDSTICK_R2_ENDPOINT }}
+          AWS_DEFAULT_REGION: auto
+        run: make sboms-upload | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload to R2
+        env:
+          DIGEST: ${{ steps.bundle.outputs.digest }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.YARDSTICK_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YARDSTICK_R2_SECRET_ACCESS_KEY }}
+          AWS_ENDPOINT_URL: ${{ secrets.YARDSTICK_R2_ENDPOINT }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          scripts/publish.sh "$DIGEST" ".tmp/bundle/${DIGEST#sha256:}.zip" | tee -a "$GITHUB_STEP_SUMMARY"

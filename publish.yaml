@@ -1,0 +1,7 @@
+# which snapshot claims/latest-<major>.json names, which is what every `@main` claims source reads.
+#
+#   latest: main        follow the tip of main (each merge moves latest to its own snapshot)
+#   latest: <sha>       pin latest to the snapshot published for that commit on main, until changed back
+#
+# merges keep publishing their own snapshots while pinned, so any of them can be pinned to later.
+latest: main

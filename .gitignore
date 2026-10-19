@@ -1,0 +1,6 @@
+__pycache__/
+.tool/
+.tmp/
+.cache/
+# SBOMs live in R2, not git: `make sboms` fetches them (see scripts/sboms.py)
+pkg/**/sbom.syft.json

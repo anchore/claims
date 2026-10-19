@@ -1,0 +1,56 @@
+cooldown: 7d
+tools:
+  # we want to use a pinned version of binny to manage the toolchain (so binny manages itself!)
+  - name: binny
+    version:
+      want: v0.13.4
+    method: github-release
+    with:
+      repo: anchore/binny
+
+  # used for running all local and CI tasks
+  - name: task
+    version:
+      want: v3.54.0
+    method: github-release
+    with:
+      repo: go-task/task
+
+  # used for linting and formatting the scripts
+  - name: ruff
+    version:
+      want: 0.17.0
+    method: github-release
+    with:
+      repo: astral-sh/ruff
+
+  # validates and bundles the corpus, and does the conversion in the port from
+  # vulnerability-match-labels. Pinned to a commit on the go-rewrite branch until v0.17.0 is
+  # released; bump by changing the sha. go-build rather than go-install: the module proxy cannot
+  # zip yardstick's older python-era tags, and go install trips over them.
+  - name: yardstick
+    version:
+      want: 30cba34b38a140d8bdaba467d770cdf57d8a6e18
+    method: go-build
+    with:
+      module: github.com/anchore/yardstick
+      entrypoint: cmd/yardstick
+      ldflags:
+        - -X main.version={{ .Version }}
+        - -X main.gitCommit={{ .Version }}
+
+  # used by the port script: its DB says which CVEs an advisory id names
+  - name: grype
+    version:
+      want: v0.120.1
+    method: github-release
+    with:
+      repo: anchore/grype
+
+  # used by the port script to find the ghcr mirror of each test image
+  - name: crane
+    version:
+      want: v0.22.1
+    method: github-release
+    with:
+      repo: google/go-containerregistry

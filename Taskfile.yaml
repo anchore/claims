@@ -1,0 +1,154 @@
+version: "3"
+
+vars:
+  TOOL_DIR: .tool
+  BINNY: "{{ .TOOL_DIR }}/binny"
+  RUFF: "{{ .TOOL_DIR }}/ruff"
+  YARDSTICK: "{{ .TOOL_DIR }}/yardstick"
+  BUNDLE_DIR: .tmp/bundle
+  ABS_TOOL_DIR:
+    sh: "mkdir -p {{ .TOOL_DIR }} && realpath {{ .TOOL_DIR }}"
+
+env:
+  GNUMAKEFLAGS: '--no-print-directory'
+
+tasks:
+
+  ## High-level tasks #################################
+
+  default:
+    desc: Run all validation tasks
+    aliases:
+      - pr-validations
+      - validations
+    cmds:
+      - task: static-analysis
+      - task: test
+
+  static-analysis:
+    desc: Run all static analysis tasks
+    cmds:
+      - task: lint
+
+  test:
+    desc: Run all levels of tests
+    cmds:
+      - task: unit
+
+  ## Bootstrap tasks #################################
+
+  tools:
+    desc: Install all tools needed for CI and local development
+    aliases:
+      - bootstrap
+    generates:
+      - ".binny.yaml"
+      - "{{ .TOOL_DIR }}/*"
+    status:
+      - "{{ .BINNY }} check -v"
+    cmd: "{{ .BINNY }} install -v"
+    silent: true
+
+  update-tools:
+    desc: Update pinned versions of all tools to their latest available versions
+    deps: [tools]
+    generates:
+      - ".binny.yaml"
+      - "{{ .TOOL_DIR }}/*"
+    cmd: "{{ .BINNY }} update -v"
+    silent: true
+
+  list-tools:
+    desc: List all tools needed for CI and local development
+    deps: [tools]
+    cmd: "{{ .BINNY }} list"
+    silent: true
+
+  ## Static analysis tasks #################################
+
+  lint:
+    desc: Run ruff for linting and format checks
+    deps: [tools]
+    cmds:
+      - "{{ .RUFF }} check scripts"
+      - "{{ .RUFF }} format --check scripts"
+
+  lint-fix:
+    desc: Fix linting issues
+    deps: [tools]
+    cmds:
+      - "{{ .RUFF }} check scripts --fix"
+
+  format:
+    desc: Format all code
+    deps: [tools]
+    cmds:
+      - "{{ .RUFF }} format scripts"
+
+  ## Testing tasks #################################
+
+  unit:
+    desc: Run unit tests
+    dir: scripts
+    cmds:
+      - "python3 -m unittest -v"
+
+  ## Corpus tasks #################################
+
+  bundle:
+    desc: Zip the corpus as a reproducible snapshot under .tmp/bundle and print its digest
+    cmds:
+      - "rm -rf {{ .BUNDLE_DIR }} && mkdir -p {{ .BUNDLE_DIR }}"
+      - "scripts/bundle.sh {{ .BUNDLE_DIR }} | tee {{ .BUNDLE_DIR }}/digest"
+
+  sboms:
+    desc: Download each labeled image's SBOM from R2, building any R2 lacks (SBOMs are not committed)
+    deps: [tools]
+    env:
+      PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
+    cmds:
+      - "python3 scripts/sboms.py fetch"
+
+  sboms-upload:
+    desc: Put every local SBOM R2 lacks (needs R2_BUCKET and the aws cli's credentials; DRY_RUN=1 prints instead)
+    cmds:
+      - "python3 scripts/sboms.py upload"
+
+  validate-corpus:
+    desc: Validate the corpus as published, by running yardstick over the bundle
+    deps: [tools]
+    preconditions:
+      - sh: "test -x {{ .YARDSTICK }}"
+        msg: "yardstick is not pinned in .binny.yaml yet"
+    cmds:
+      - task: sboms
+      - task: bundle
+      - "unzip -q {{ .BUNDLE_DIR }}/*.zip -d {{ .BUNDLE_DIR }}/tree"
+      - "{{ .YARDSTICK }} claims validate {{ .BUNDLE_DIR }}/tree"
+
+  validate-changed:
+    desc: "Validate only the image directories changed since BASE (default origin/main); a catalog or vocabulary change validates the whole corpus"
+    deps: [tools]
+    env:
+      PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
+    cmds:
+      - "scripts/validate_changed.sh"
+
+  ## Port from vulnerability-match-labels #################################
+
+  port-status:
+    desc: "Report how far the port from vulnerability-match-labels has got (VML=<checkout> picks the labels; with task, script flags go after --)"
+    deps: [tools]
+    env:
+      PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
+    cmds:
+      - "python3 scripts/port_vml.py {{ .CLI_ARGS }} status"
+
+  port:
+    desc: "Port labels from vulnerability-match-labels (uses the pinned yardstick; VML=<checkout> picks the labels; with task, script flags go after --)"
+    deps: [tools]
+    env:
+      PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
+    cmds:
+      - "python3 scripts/port_vml.py {{ .CLI_ARGS }} port"
+      - task: validate-corpus
