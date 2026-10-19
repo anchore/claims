@@ -7,10 +7,12 @@ the SBOM itself lives in R2 at the same path under claims/, named by the syft th
   pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft.json                       (local, ignored)
   claims/pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft-v<version>.json     (R2, write-once)
 
-  sboms.py fetch [<image dir>...]
-                     download each labeled image's SBOM for catalog.yaml's syft, building any R2 lacks
-  sboms.py upload    put every local SBOM R2 lacks (needs R2_BUCKET and the aws cli's credentials);
-                     DRY_RUN=1 prints each put instead of making it
+  sboms.py fetch [-v] [<image dir>...]
+                     download each labeled image's SBOM for catalog.yaml's syft, building any R2 lacks;
+                     -v prints what happened to each image rather than only the totals
+  sboms.py upload [-v]
+                     put every local SBOM R2 lacks (needs R2_BUCKET and the aws cli's credentials);
+                     DRY_RUN=1 makes no put; -v prints what happened to each SBOM rather than only the totals
 
 Fetching reads R2 over public HTTPS, so it needs no credential.
 """
@@ -120,6 +122,8 @@ def cmd_fetch(args):
     counts, failed = {}, []
     for d in args.dirs or labeled_dirs():
         how = ensure(d.rstrip("/"), args.yardstick)
+        if args.verbose:
+            print(f"{how:<10} {image_ref(d.rstrip('/'))}", flush=True)
         counts[how] = counts.get(how, 0) + 1
         if how == "failed":
             failed.append(d)
@@ -136,7 +140,7 @@ def s3(*args):
 def cmd_upload(args):
     if not os.environ.get("R2_BUCKET"):
         raise Abort("R2_BUCKET is not set")
-    put, seen = 0, None
+    put, have, seen = 0, 0, None
     for f in sorted((CORPUS / "pkg" / "oci").rglob(SBOM)):
         d = f.parent.relative_to(CORPUS).as_posix()
         # named by the syft the SBOM says built it, not by what catalog.yaml pins
@@ -144,12 +148,17 @@ def cmd_upload(args):
         # check first, so an SBOM R2 already holds is not sent again
         res = s3("head-object", "--key", key)
         if res.returncode == 0:
+            have += 1
             seen = seen or key
+            if args.verbose:
+                print(f"{'have':<10} {key}", flush=True)
             continue
         if "Not Found" not in res.stderr and "404" not in res.stderr:
             raise Abort(f"checking {key} failed: {res.stderr.strip()}")
         if os.environ.get("DRY_RUN") == "1":
-            print(f"would put {key}")
+            put += 1
+            if args.verbose:
+                print(f"{'would put':<10} {key}", flush=True)
             continue
         res = s3(
             "put-object",
@@ -166,10 +175,11 @@ def cmd_upload(args):
         )
         if res.returncode != 0 and "PreconditionFailed" not in res.stderr:
             raise Abort(f"putting {key} failed: {res.stderr.strip()}")
-        print(f"put {key}", flush=True)
+        if args.verbose:
+            print(f"{'put':<10} {key}", flush=True)
         put += 1
         seen = seen or key
-    print(f"uploaded {put} SBOMs")
+    print(f"{'would upload' if os.environ.get('DRY_RUN') == '1' else 'uploaded'} {put} SBOMs, {have} already in R2")
     # fetch reads over public HTTPS: a host that does not serve this bucket would make every fetch
     # miss and rebuild, with nothing failing
     if seen and os.environ.get("DRY_RUN") != "1":
@@ -187,9 +197,12 @@ def main(argv=None):
     fetch.add_argument(
         "--yardstick", default=str(CORPUS / ".tool" / "yardstick"), help="the yardstick binary (default: the one .binny.yaml pins, from `make tools`)"
     )
+    fetch.add_argument("-v", "--verbose", action="store_true", help="print what happened to each image: have, downloaded, seeded, built or failed")
     fetch.add_argument("dirs", nargs="*", help="only these image directories (default: every one holding labels)")
     fetch.set_defaults(fn=cmd_fetch)
-    sub.add_parser("upload", help="put every local SBOM R2 lacks").set_defaults(fn=cmd_upload)
+    upload = sub.add_parser("upload", help="put every local SBOM R2 lacks")
+    upload.add_argument("-v", "--verbose", action="store_true", help="print what happened to each SBOM: have, put or would put")
+    upload.set_defaults(fn=cmd_upload)
     args = parser.parse_args(argv)
     try:
         return args.fn(args)

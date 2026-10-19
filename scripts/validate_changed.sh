@@ -33,7 +33,7 @@ done < <(grep '^pkg/oci/' <<<"$changed" | xargs -r -n1 dirname | sort -u)
 
 echo "validating ${#dirs[@]} image directories changed since $base"
 if [ ${#dirs[@]} -gt 0 ]; then
-  python3 scripts/sboms.py fetch "${dirs[@]}"
+  python3 scripts/sboms.py fetch -v "${dirs[@]}"
 fi
 
 rm -rf "$out" && mkdir -p "$out"

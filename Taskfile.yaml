@@ -107,12 +107,12 @@ tasks:
     env:
       PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
     cmds:
-      - "python3 scripts/sboms.py fetch"
+      - "python3 scripts/sboms.py fetch -v"
 
   sboms-upload:
     desc: Put every local SBOM R2 lacks (needs R2_BUCKET and the aws cli's credentials; DRY_RUN=1 prints instead)
     cmds:
-      - "python3 scripts/sboms.py upload"
+      - "python3 scripts/sboms.py upload -v"
 
   validate-corpus:
     desc: Validate the corpus as published, by running yardstick over the bundle
