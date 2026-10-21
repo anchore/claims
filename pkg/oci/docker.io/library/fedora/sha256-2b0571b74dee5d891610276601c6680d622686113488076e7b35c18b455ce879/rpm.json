@@ -6,6 +6,52 @@
   },
   "labels": [
     {
+      "package": "pkg:rpm/fedora/dnf-data@4.22.0-1.fc40",
+      "vulnerability": "FEDORA-2025-21c36b3aa5",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 7c261b06-682d-43b9-a676-f66f638dae16: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:51:35Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:51:35Z",
+      "lastUpdated": "2026-02-12T12:51:35Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/dnf@4.22.0-1.fc40",
+      "vulnerability": "FEDORA-2025-21c36b3aa5",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0efe8cb1-5c19-420e-a0c3-a5307f9f0b25: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:51:19Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:51:19Z",
+      "lastUpdated": "2026-02-12T12:51:19Z"
+    },
+    {
       "package": "pkg:rpm/fedora/expat@2.6.3-1.fc40",
       "vulnerability": "CVE-2024-8176",
       "verdict": "tp",
@@ -27,6 +73,29 @@
       },
       "firstIssued": "2026-02-12T12:49:43Z",
       "lastUpdated": "2026-02-12T12:49:43Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/expat@2.6.3-1.fc40",
+      "vulnerability": "FEDORA-2024-2462a2fc4c",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d279843d-cd58-4b77-bf2a-cdb0377ee21c: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:50:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:50:52Z",
+      "lastUpdated": "2026-02-12T12:50:52Z"
     },
     {
       "package": "pkg:rpm/fedora/gnutls@3.8.6-1.fc40",
@@ -119,6 +188,52 @@
       },
       "firstIssued": "2026-02-12T12:48:07Z",
       "lastUpdated": "2026-02-12T12:48:07Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/python3-dnf@4.22.0-1.fc40",
+      "vulnerability": "FEDORA-2025-21c36b3aa5",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b9e67179-c500-4a70-9e8a-f98de3d1fec2: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:51:40Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:51:40Z",
+      "lastUpdated": "2026-02-12T12:51:40Z"
+    },
+    {
+      "package": "pkg:rpm/fedora/yum@4.22.0-1.fc40",
+      "vulnerability": "FEDORA-2025-21c36b3aa5",
+      "verdict": "tp",
+      "author": "williammurphy",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 67680be0-249d-4380-92d7-90f70a0c0a98: tp",
+          "author": "williammurphy",
+          "at": "2026-02-12T12:51:44Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-02-12T12:51:44Z",
+      "lastUpdated": "2026-02-12T12:51:44Z"
     }
   ]
 }
