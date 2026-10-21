@@ -1,0 +1,1 @@
+{"ID": "938b7813-2acd-4868-a970-3732d3b46be4", "image": {"exact": "docker.io/anchore/test_images@sha256:c8d664b0e728d52f57eeb98ed1899c16d3b265f02ddfb41303d7a16c31e0b0f1"}, "label": "TP", "package": {"name": "aopalliance", "version": "0:1.0-17.module+el8+5161+5cac467c"}, "timestamp": "2026-04-15T18:26:49.031590", "user": "kzantow", "vulnerability_id": "CVE-2022-29599"}

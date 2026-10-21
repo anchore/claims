@@ -30,7 +30,7 @@ tools:
   # zip yardstick's older python-era tags, and go install trips over them.
   - name: yardstick
     version:
-      want: 5e042bb3639689f31dc7aebe4b570e45521e2f5c
+      want: 3bd5eccf8bce3128a44174369295578444707936
     method: go-build
     with:
       module: github.com/anchore/yardstick

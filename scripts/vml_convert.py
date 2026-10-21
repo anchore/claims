@@ -14,9 +14,11 @@ What a label carries across:
   on that date (whose SBOM its grype result sets scanned)
 - the package, as the purl of the artifact the image's SBOM holds at that name and version, or
   at the location a package-less label's fullentry_fields name
-- an advisory id (by vocabulary.yaml's advisory-ids) moves to the CVEs grype's DB says it names: a
-  call on an advisory naming one CVE moves with its verdict, one naming several becomes unclear
-  (not-assessed) on each
+- an advisory id (by vocabulary.yaml's advisory-ids) stays the label's vulnerability, with the
+  call's verdict: the call judged the match grype reported, and grype reports the advisory itself.
+  It is never moved to the CVEs the advisory names, since not every one of them affects every
+  package it lists. It is named as grype's DB names it today (ALAS-... on Amazon Linux 2 is
+  ALAS2-...), and an advisory the DB does not hold is reported rather than guessed at
 
 What does not: effective_cve, and an image's tag (labels name images by digest).
 """
@@ -35,13 +37,12 @@ SCHEMA_VERSION = "1.0.0"
 # justifications this conversion writes; vocabulary.yaml defines them
 NOT_RECORDED = "not-recorded"
 LABELERS_DISAGREE = "labelers-disagree"
-NOT_ASSESSED = "not-assessed"
 
-# outcomes: the first three wrote labels
-MIGRATED, CARRIED, FANNED_OUT = "migrated", "advisory-carried", "advisory-fanned-out"
+# outcomes: only the first wrote labels
+MIGRATED = "migrated"
 NO_PACKAGE, NO_SBOM, NOT_IN_SBOM, NO_PURL = "no-package", "no-sbom", "package-not-in-sbom", "package-has-no-purl"
-NO_CVE, REFUSED, UNREADABLE = "advisory-names-no-cve", "refused", "unreadable"
-CONVERTED = {MIGRATED, CARRIED, FANNED_OUT}
+NOT_IN_DB, REFUSED, UNREADABLE = "advisory-not-in-db", "refused", "unreadable"
+CONVERTED = {MIGRATED}
 
 # the syft vulnerability-match-labels' .yardstick.yaml pinned from each commit on, from
 # `git log -- .yardstick.yaml` on its main branch. None is the three days it was pinned to latest.
@@ -131,8 +132,8 @@ class Vocabulary:
         return any(fnmatch.fnmatchcase(ns, p) for p in self.advisory_ids)
 
     def accepts(self, vid):
-        """Say whether a label may name vid: a disclosure in an accepted namespace."""
-        return not self.is_advisory(vid) and vid.split("-", 1)[0] in self.namespaces
+        """Say whether a label may name vid: a disclosure in an accepted namespace, or an advisory."""
+        return self.is_advisory(vid) or vid.split("-", 1)[0] in self.namespaces
 
 
 def label_purl(purl):
@@ -158,11 +159,14 @@ class SbomIndex:
     by_folded: dict = field(default_factory=dict)
     by_location: dict = field(default_factory=dict)
     platform: str = ""
+    distro: str = ""  # <id>:<versionID>, as amzn:2
 
     @classmethod
     def read(cls, path, image_digest):
         doc = json.loads(Path(path).read_text())
         idx = cls()
+        if d := doc.get("distro"):
+            idx.distro = f"{d.get('id', '')}:{d.get('versionID', '')}"
         md = doc.get("source", {}).get("metadata", {})
         # an index digest's SBOM cataloged one platform of it, which the label file records
         if md.get("manifestDigest") and md["manifestDigest"] != image_digest and md.get("os"):
@@ -186,6 +190,19 @@ def folded(name, version):
     return f"{name.lower()}@{version}"
 
 
+def db_advisory(vid, distro):
+    """Return the id grype's DB knows an advisory by, for one named on an image of distro.
+
+    vulnerability-match-labels named Amazon Linux 2 advisories as grype then reported them:
+    ALAS-2023-2197, ALASKERNEL-5.10-2022-005. grype's DB now names them ALAS2-2023-2197 and
+    ALAS2KERNEL-5.10-2022-005, and holds none of the unprefixed ids. Amazon Linux 1 numbers its
+    own advisories ALAS-..., so the rename is only for an Amazon Linux 2 image.
+    """
+    if distro == "amzn:2" and vid.startswith("ALAS") and not vid.startswith("ALAS2"):
+        return "ALAS2" + vid[4:]
+    return vid
+
+
 def image_dir(repository, digest):
     return f"pkg/oci/{repository}/{digest.replace(':', '-', 1)}"
 
@@ -203,6 +220,7 @@ class Call:
     platform: str
     packages: list  # [(type, purl)]
     location: str = ""
+    distro: str = ""
 
     @property
     def tools(self):
@@ -235,7 +253,9 @@ def resolve(src, split_ref, sbom_for):
     idx = sbom_for(repository, digest)
     if idx is None:
         return None, (NO_SBOM, "the corpus holds no sbom.syft.json for the image, so its package type is unknown")
-    call = Call(entry={}, source=src, verdict=verdict, at=at, repository=repository, digest=digest, platform=idx.platform, packages=[])
+    call = Call(
+        entry={}, source=src, verdict=verdict, at=at, repository=repository, digest=digest, platform=idx.platform, packages=[], distro=idx.distro
+    )
     if not pkg.get("name"):
         # matched by the package's location; a location several packages share (an OS package
         # database) says nothing about which one, so it places nothing
@@ -256,14 +276,12 @@ def resolve(src, split_ref, sbom_for):
     return call, None
 
 
-def note_for(call, via, direct, cves, vuln):
+def note_for(call, vuln):
     """Return one call as a note by its labeler at its time."""
     src = call.source
     text = f"ported from vulnerability-match-labels {src.get('ID', '')}: {call.verdict}"
-    if via and direct:
-        text += f" on {via}, which names only {vuln}"
-    elif via:
-        text += f" on {via}, which names {cves} CVEs; not assessed for this one"
+    if (named := src.get("vulnerability_id")) != vuln:
+        text += f" on {named}, which grype's DB now names {vuln}"
     if call.location:
         text += f" on the package at {call.location}"
     if src.get("tool"):
@@ -276,24 +294,19 @@ def note_for(call, via, direct, cves, vuln):
 def merge(purl, vuln, contributions):
     """Return the one corpus label for a key from every call on it.
 
-    Direct calls win over calls fanned out from a multi-CVE advisory; direct calls that disagree
-    become one unclear label, each call's verdict kept in its note.
+    Calls that disagree become one unclear label, each call's verdict kept in its note.
     """
-    direct = [c for c in contributions if c[1]]
-    use = direct or contributions
-    calls = [c[0] for c in use]
+    calls = contributions
     verdicts = {c.verdict for c in calls}
     label = {"package": purl, "vulnerability": vuln}
-    if not direct:
-        label["verdict"], label["justification"] = "unclear", NOT_ASSESSED
-    elif len(verdicts) > 1:
+    if len(verdicts) > 1:
         label["verdict"], label["justification"] = "unclear", LABELERS_DISAGREE
     else:
         label["verdict"] = calls[0].verdict
         if label["verdict"] != "tp":
             label["justification"] = NOT_RECORDED
     label["author"] = ", ".join(sorted({c.source.get("user") or "unknown" for c in calls}))
-    label["notes"] = sorted((note_for(c, via, d, n, vuln) for c, d, via, n in use), key=lambda n: (n["at"], n["text"]))
+    label["notes"] = sorted((note_for(c, vuln) for c in calls), key=lambda n: (n["at"], n["text"]))
     # seenIn is what the latest call that says anything was made against
     seen = [c for c in calls if c.tools]
     if seen:
@@ -306,7 +319,8 @@ def merge(purl, vuln, contributions):
 def convert(records, vocab, split_ref, sbom_for, lookup):
     """Return ({file path: label file}, [report entry]) for every input label.
 
-    records are (source path, label) pairs; lookup(advisory ids) returns {advisory: [aliases]}.
+    records are (source path, label) pairs; lookup(advisory ids) returns {advisory: [aliases]} for
+    those grype's DB holds.
     """
     entries, calls, advisories = [], [], set()
     for path, src in records:
@@ -327,41 +341,34 @@ def convert(records, vocab, split_ref, sbom_for, lookup):
         call.entry, e["outcome"] = e, MIGRATED
         calls.append(call)
         if vocab.is_advisory(e["vulnerability"]):
-            advisories.add(e["vulnerability"])
+            advisories.add(db_advisory(e["vulnerability"], call.distro))
 
-    names = {}
-    if advisories:
-        got = lookup(sorted(advisories))
-        for a in advisories:
-            names[a] = sorted({x for x in got.get(a, []) if vocab.accepts(x)})
+    # only whether the DB holds the id matters: the label stays on the advisory
+    known = set(lookup(sorted(advisories))) if advisories else set()
 
     by_key = {}
     for c in calls:
-        e, vuln = c.entry, c.entry["vulnerability"]
-        ids, via = [vuln], ""
-        if vocab.is_advisory(vuln):
-            via, ids = vuln, names[vuln]
-            if not ids:
-                e["outcome"], e["reason"] = NO_CVE, f"grype's DB names no CVE for {via}"
+        e, vid = c.entry, c.entry["vulnerability"]
+        if vocab.is_advisory(vid):
+            vid = e["named"] = db_advisory(vid, c.distro)
+            if vid not in known:
+                e["outcome"], e["reason"] = NOT_IN_DB, f"grype's DB has no {vid}, so the id grype reports for it today is unknown"
                 continue
-            e["outcome"] = CARRIED if len(ids) == 1 else FANNED_OUT
-        elif not vocab.accepts(vuln):
-            e["outcome"], e["reason"] = REFUSED, f"{vuln} is in no namespace vocabulary.yaml accepts"
+        elif not vocab.accepts(vid):
+            e["outcome"], e["reason"] = REFUSED, f"{vid} is in no namespace vocabulary.yaml accepts"
             continue
         for typ, purl in c.packages:
-            for vid in ids:
-                key = (image_dir(c.repository, c.digest), typ, purl, vid)
-                by_key.setdefault(key, []).append((c, len(ids) == 1, via, len(ids)))
+            by_key.setdefault((image_dir(c.repository, c.digest), typ, purl, vid), []).append(c)
 
     files = {}
     for (d, typ, purl, vid), cs in sorted(by_key.items()):
-        c = cs[0][0]
+        c = cs[0]
         f = files.setdefault(f"{d}/{typ}.json", {"schema": SCHEMA_VERSION, "subject": {"image": f"{c.repository}@{c.digest}"}, "labels": []})
         if c.platform:
             f["subject"]["platform"] = c.platform
         label = merge(purl, vid, cs)
         f["labels"].append(label)
-        for call, *_ in cs:
+        for call in cs:
             call.entry.setdefault("became", []).append(
                 {"file": f"{d}/{typ}.json", "package": purl, "vulnerability": vid, "verdict": label["verdict"]}
             )
@@ -381,3 +388,51 @@ def parse_grype_search(data):
     for r in json.loads(data or "[]"):
         out.setdefault(r["id"], []).extend(r.get("aliases") or [])
     return out
+
+
+# a note the port wrote when it moved an advisory's call to a CVE, before advisory labels kept the
+# advisory: "...: tp on AVG-2845, which names 2 CVEs; not assessed for this one"
+DEREFERENCED = re.compile(
+    r"^ported from vulnerability-match-labels (?P<id>\S+): (?P<verdict>\w+) on (?P<advisory>\S+)(?: \(\S+ in grype's DB\))?, "
+    r"which names (?:only (?P<only>\S+)|(?P<n>\d+) CVEs; not assessed for this one)"
+)
+PORTED = "ported from vulnerability-match-labels "
+
+
+def dereferenced(label):
+    """Return the notes of label that say the port moved an advisory's call to it."""
+    return [m for n in label.get("notes") or [] if (m := DEREFERENCED.match(n.get("text", "")))]
+
+
+def ported_only(label):
+    """Say whether every note on label is one the port wrote, so nobody has added to it since."""
+    notes = label.get("notes") or []
+    return bool(notes) and all(n.get("text", "").startswith(PORTED) for n in notes)
+
+
+def reconcile(old, new):
+    """Return (labels, changes): a label file's committed labels (old) with the port's (new) folded in.
+
+    Only a label the port made from dereferencing an advisory is replaced, by whatever the port now
+    writes for its key (nothing, for a call that stays on its advisory). Every other committed label
+    stays as it is: one somebody added to or wrote is listed as kept, and one the port made from a
+    CVE or GHSA call that the port would now write differently is listed as differs.
+    """
+    key = lambda lb: (lb.get("package", ""), lb["vulnerability"])
+    fresh = {key(lb): lb for lb in new}
+    changes = {"removed": [], "added": [], "kept": [], "differs": []}
+    out = {}
+    for lb in old:
+        if not ported_only(lb):
+            changes["kept"].append(lb)
+        elif dereferenced(lb):
+            changes["removed"].append(lb)
+            continue
+        elif fresh.get(key(lb)) != lb:
+            changes["differs"].append(lb)
+        out[key(lb)] = lb
+    for k, lb in fresh.items():
+        if k not in out:
+            out[k] = lb
+            changes["added"].append(lb)
+    return sorted(out.values(), key=key), changes

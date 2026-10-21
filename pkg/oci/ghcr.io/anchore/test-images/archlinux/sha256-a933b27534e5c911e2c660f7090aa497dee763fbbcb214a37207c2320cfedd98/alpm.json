@@ -7,37 +7,12 @@
   "labels": [
     {
       "package": "pkg:alpm/arch/curl@7.87.0-3",
-      "vulnerability": "CVE-2023-38545",
-      "verdict": "unclear",
-      "justification": "not-assessed",
+      "vulnerability": "AVG-2845",
+      "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels b5f541d2-2e02-4c64-b35b-3d048ec75013: tp on AVG-2845, which names 2 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:20:18Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:20:18Z",
-      "lastUpdated": "2026-01-08T11:20:18Z"
-    },
-    {
-      "package": "pkg:alpm/arch/curl@7.87.0-3",
-      "vulnerability": "CVE-2023-38546",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels b5f541d2-2e02-4c64-b35b-3d048ec75013: tp on AVG-2845, which names 2 CVEs; not assessed for this one",
+          "text": "ported from vulnerability-match-labels b5f541d2-2e02-4c64-b35b-3d048ec75013: tp",
           "author": "williammurphy",
           "at": "2026-01-08T11:20:18Z"
         }
@@ -55,12 +30,12 @@
     },
     {
       "package": "pkg:alpm/arch/openssl@3.0.7-4",
-      "vulnerability": "CVE-2022-2068",
+      "vulnerability": "AVG-2765",
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 271320cf-37da-4d10-b361-33a44b917982: tp on AVG-2765, which names only CVE-2022-2068",
+          "text": "ported from vulnerability-match-labels 271320cf-37da-4d10-b361-33a44b917982: tp",
           "author": "williammurphy",
           "at": "2026-01-08T11:18:23Z"
         }
@@ -78,12 +53,12 @@
     },
     {
       "package": "pkg:alpm/arch/openssl@3.0.7-4",
-      "vulnerability": "CVE-2023-5363",
+      "vulnerability": "AVG-2848",
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 9f04cbac-1553-4e94-93c2-e8e80f30993b: tp on AVG-2848, which names only CVE-2023-5363",
+          "text": "ported from vulnerability-match-labels 9f04cbac-1553-4e94-93c2-e8e80f30993b: tp",
           "author": "williammurphy",
           "at": "2026-01-08T11:20:39Z"
         }
@@ -101,35 +76,12 @@
     },
     {
       "package": "pkg:alpm/arch/perl@5.36.0-3",
-      "vulnerability": "CVE-2020-16156",
+      "vulnerability": "AVG-2264",
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels d61c3d4a-1272-4a17-97ab-5831c6769021: tp on AVG-2630, which names only CVE-2020-16156",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:07Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:07Z",
-      "lastUpdated": "2026-01-08T11:18:07Z"
-    },
-    {
-      "package": "pkg:alpm/arch/perl@5.36.0-3",
-      "vulnerability": "CVE-2021-36770",
-      "verdict": "tp",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels e1385bc6-b2d9-4928-9561-5e5c371f3622: tp on AVG-2264, which names only CVE-2021-36770",
+          "text": "ported from vulnerability-match-labels e1385bc6-b2d9-4928-9561-5e5c371f3622: tp",
           "author": "williammurphy",
           "at": "2026-01-08T11:17:59Z"
         }
@@ -146,16 +98,15 @@
       "lastUpdated": "2026-01-08T11:17:59Z"
     },
     {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-0392",
-      "verdict": "unclear",
-      "justification": "not-assessed",
+      "package": "pkg:alpm/arch/perl@5.36.0-3",
+      "vulnerability": "AVG-2630",
+      "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
+          "text": "ported from vulnerability-match-labels d61c3d4a-1272-4a17-97ab-5831c6769021: tp",
           "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
+          "at": "2026-01-08T11:18:07Z"
         }
       ],
       "seenIn": {
@@ -166,282 +117,17 @@
           }
         ]
       },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
+      "firstIssued": "2026-01-08T11:18:07Z",
+      "lastUpdated": "2026-01-08T11:18:07Z"
     },
     {
       "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-0417",
-      "verdict": "unclear",
-      "justification": "not-assessed",
+      "vulnerability": "AVG-2843",
+      "verdict": "tp",
       "author": "williammurphy",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-2345",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-2581",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-3099",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-3256",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-3324",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-3591",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2022-47024",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2023-0049",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2023-0054",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2023-0288",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
-          "author": "williammurphy",
-          "at": "2026-01-08T11:18:42Z"
-        }
-      ],
-      "seenIn": {
-        "tools": [
-          {
-            "name": "syft",
-            "version": "v1.14.0"
-          }
-        ]
-      },
-      "firstIssued": "2026-01-08T11:18:42Z",
-      "lastUpdated": "2026-01-08T11:18:42Z"
-    },
-    {
-      "package": "pkg:alpm/arch/vim@9.0.1182-1",
-      "vulnerability": "CVE-2023-0433",
-      "verdict": "unclear",
-      "justification": "not-assessed",
-      "author": "williammurphy",
-      "notes": [
-        {
-          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp on AVG-2843, which names 13 CVEs; not assessed for this one",
+          "text": "ported from vulnerability-match-labels 1ef4cd8a-8be9-4f83-a7d1-fe71725971ae: tp",
           "author": "williammurphy",
           "at": "2026-01-08T11:18:42Z"
         }

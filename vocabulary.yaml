@@ -34,7 +34,8 @@ fact-sources:
   - sbom
   - cve.org
   - euvd
-# advisories, not disclosures: a label names each CVE an advisory addresses instead
+# advisories, not disclosures. A label may name one, for a match grype reported under that advisory
+# id (P-11), and it pairs only a match reporting that exact id: an advisory never joins an alias group
 advisory-ids: ["ALAS*", ALSA, ELSA, RLSA, RHSA, RHBA, RHEA, AVG, FEDORA, BIT, DSA, DLA, USN, "ADV*"]
 # disclosure namespaces a label may name; an id in neither list is refused
 vulnerability-namespaces: [CVE, GHSA, GO, PYSEC, RUSTSEC, BDSA, RSEC]

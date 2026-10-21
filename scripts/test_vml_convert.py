@@ -12,6 +12,7 @@ import vml_convert as vc
 TESTDATA = Path(__file__).parent / "testdata"
 ALPINE = "docker.io/alpine@sha256:ddac200f3ebc9902fb8cfcd599f41feb2151f1118929da21bcef57dc276975f9"
 JAVA = "docker.io/anchore/test_images@sha256:b3534fc2e37943136d5b54e3a58b55d4ccd4363d926cf7aa5bf55a524cf8275b"
+AMAZONLINUX_2 = "docker.io/amazonlinux@sha256:1301cc9f889f21dc45733df9e58034ac1c318202b4b0f0a08d88b3fdc03004de"
 VOCAB = vc.Vocabulary(advisory_ids=["ALAS*", "ELSA"], namespaces=["CVE", "GHSA"])
 
 
@@ -97,7 +98,7 @@ class TestHelpers(unittest.TestCase):
     def test_vocabulary(self):
         v = vc.Vocabulary.read(Path(__file__).parent.parent / "vocabulary.yaml")
         self.assertTrue(v.is_advisory("ALAS2-2021-1") and v.is_advisory("ELSA-2022-9246"))
-        self.assertTrue(v.accepts("CVE-2021-1") and v.accepts("GHSA-x") and not v.accepts("ELSA-2022-1") and not v.accepts("FOO-1"))
+        self.assertTrue(v.accepts("CVE-2021-1") and v.accepts("GHSA-x") and v.accepts("ELSA-2022-1") and not v.accepts("FOO-1"))
 
 
 class TestConvert(unittest.TestCase):
@@ -137,6 +138,39 @@ class TestConvert(unittest.TestCase):
         self.assertEqual(seen[0]["seenIn"], {"tools": [{"name": "grype", "version": "v0.59.0-1-gde25eb9"}, {"name": "syft", "version": "v0.74.0"}]})
         self.assertTrue(seen[0]["notes"][0]["text"].endswith(" with grype@v0.59.0-1-gde25eb9"))
 
+    def test_real_amazonlinux_2_labels(self):
+        # vulnerability-match-labels names Amazon Linux 2 advisories ALAS-..., which grype's DB holds as ALAS2-...
+        d = TESTDATA / "vml" / "labels" / f"docker.io+amazonlinux@{AMAZONLINUX_2.split('@')[1].replace(':', '-')}"
+        records = [(f.name, json.loads(f.read_text())) for f in sorted(d.glob("*.json"))]
+        db = vc.parse_grype_search(gzip.decompress((TESTDATA / "grype-db-search-amazonlinux-2.json.gz").read_bytes()))
+        asked = []
+        files, entries = convert(records, lambda ids: asked.extend(ids) or {i: db[i] for i in ids if i in db})
+        self.assertTrue(asked and all(i.startswith("ALAS2-") for i in asked), asked)
+        self.assertEqual({e["outcome"] for e in entries}, {vc.MIGRATED}, [e for e in entries if e["outcome"] != vc.MIGRATED])
+        (rel,) = files
+        self.assertTrue(rel.endswith("/amazonlinux/sha256-1301cc9f889f21dc45733df9e58034ac1c318202b4b0f0a08d88b3fdc03004de/rpm.json"))
+        got = labels_in(files, rel)
+        # every call stays on its advisory, under the id grype's DB uses, with its verdict
+        for (_, src), e in zip(records, entries):
+            (b,) = e["became"]
+            self.assertEqual(
+                (b["vulnerability"], b["verdict"]), (vc.db_advisory(src["vulnerability_id"], "amzn:2"), vc.VERDICTS[src["label"]]), e["id"]
+            )
+        self.assertTrue(all(v.startswith("ALAS2-") for _, v in got))
+        lb = got[("pkg:rpm/amzn/elfutils-libelf@0.176-2.amzn2", "ALAS2-2023-2197")]
+        self.assertEqual(lb["verdict"], "tp")
+        self.assertIn("tp on ALAS-2023-2197, which grype's DB now names ALAS2-2023-2197", lb["notes"][0]["text"])
+        # one naming several CVEs keeps its verdict too, rather than becoming unclear on each CVE
+        multi = [k for k in got if len(db[k[1]]) > 1]
+        self.assertTrue(multi)
+        self.assertEqual({got[k]["verdict"] for k in multi} - {"tp", "fp"}, set())
+
+    def test_alas_renamed_only_on_amazonlinux_2(self):
+        self.assertEqual(vc.db_advisory("ALASKERNEL-5.10-2022-005", "amzn:2"), "ALAS2KERNEL-5.10-2022-005")
+        self.assertEqual(vc.db_advisory("ALAS2-2023-2197", "amzn:2"), "ALAS2-2023-2197")
+        self.assertEqual(vc.db_advisory("ALAS-2023-2197", "amzn:2018.03"), "ALAS-2023-2197")
+        self.assertEqual(vc.db_advisory("ELSA-2022-1", "amzn:2"), "ELSA-2022-1")
+
     def test_merges_keep_every_call(self):
         files, _ = convert(
             [
@@ -152,26 +186,6 @@ class TestConvert(unittest.TestCase):
         self.assertEqual(lb["notes"][1]["text"], "ported from vulnerability-match-labels id-CVE-2018-5407-bob: fp with grype@v0.83.0. NOT_REACHABLE")
         # the latest call's tools
         self.assertEqual(lb["seenIn"]["tools"], [{"name": "grype", "version": "v0.83.0"}, {"name": "syft", "version": "v1.14.0"}])
-
-    def test_advisories(self):
-        lookup = {"ALAS-2021-1": ["CVE-2021-1"], "ALAS-2021-2": ["CVE-2021-2", "CVE-2021-3", "ELSA-2021-9"], "ALAS-2021-4": []}
-        files, entries = convert(
-            [
-                ("a", label("ALAS-2021-1", "FP")),
-                ("b", label("ALAS-2021-2", "TP")),
-                ("c", label("ALAS-2021-4", "TP")),
-                ("d", label("FOO-2021-5", "TP")),
-            ],
-            lambda ids: {i: lookup[i] for i in ids},
-        )
-        self.assertEqual([e["outcome"] for e in entries], [vc.CARRIED, vc.FANNED_OUT, vc.NO_CVE, vc.REFUSED])
-        (f,) = files.values()
-        got = {lb["vulnerability"]: lb for lb in f["labels"]}
-        # one CVE: the verdict moves to it; several: unclear on each, and only the accepted ids
-        self.assertEqual((got["CVE-2021-1"]["verdict"], got["CVE-2021-1"]["justification"]), ("fp", vc.NOT_RECORDED))
-        self.assertIn("on ALAS-2021-1, which names only CVE-2021-1", got["CVE-2021-1"]["notes"][0]["text"])
-        self.assertEqual(sorted(got), ["CVE-2021-1", "CVE-2021-2", "CVE-2021-3"])
-        self.assertEqual((got["CVE-2021-2"]["verdict"], got["CVE-2021-2"]["justification"]), ("unclear", vc.NOT_ASSESSED))
 
     def test_location(self):
         # a nested archive's virtual path names one package; the outer jar holds 65, so it names none
@@ -196,9 +210,109 @@ class TestConvert(unittest.TestCase):
                 ("b", label("CVE-1", image="docker.io/library/debian@sha256:" + "0" * 64)),
                 ("c", label("CVE-1", pkg=None)),
                 ("d", label("CVE-1", verdict="maybe")),
+                ("e", label("FOO-2021-5")),
             ]
         )
-        self.assertEqual([e["outcome"] for e in entries], [vc.NOT_IN_SBOM, vc.NO_SBOM, vc.NO_PACKAGE, vc.UNREADABLE])
+        self.assertEqual([e["outcome"] for e in entries], [vc.NOT_IN_SBOM, vc.NO_SBOM, vc.NO_PACKAGE, vc.UNREADABLE, vc.REFUSED])
+
+
+ORACLE_6 = "pkg/oci/docker.io/library/oraclelinux/sha256-a06327c0f1d18d753f2a60bb17864c84a850bb6dcbcf5946dd1a8123f6e75495"
+ORACLE_8 = "pkg/oci/ghcr.io/anchore/test-images/appstreams-oraclelinux-8/sha256-c8d664b0e728d52f57eeb98ed1899c16d3b265f02ddfb41303d7a16c31e0b0f1"
+AMAZONLINUX_2_TEST = (
+    "pkg/oci/ghcr.io/anchore/test-images/vulnerabilities-amazonlinux-2/sha256-cf742eca189b02902a0a7926ac3fbb423e799937bf4358b0d2acc6cc36ab82aa"
+)
+
+
+class TestAdvisoryLabels(unittest.TestCase):
+    """The port of advisory calls, and the cleanup of the labels an earlier port moved from advisories to CVEs."""
+
+    db = vc.parse_grype_search(gzip.decompress((TESTDATA / "grype-db-search-advisories.json.gz").read_bytes()))
+
+    def port(self, image_dir):
+        """Convert the fixture labels of one corpus image, as port does: test_images are named by their ghcr mirror."""
+        repo, digest = image_dir.removeprefix("pkg/oci/").rsplit("/", 1)
+        digest = digest.replace("-", ":", 1)
+        vml = repo.replace("docker.io/library/", "docker.io/")
+        if repo.startswith("ghcr.io/anchore/test-images/"):
+            vml = "docker.io/anchore/test_images"
+        records = []
+        for f in sorted((TESTDATA / "vml" / "labels" / f"{vml.replace('/', '+')}@{digest.replace(':', '-')}").glob("*.json")):
+            src = json.loads(f.read_text())
+            src["image"]["exact"] = f"{repo}@{digest}"
+            records.append((f.name, src))
+        files, entries = convert(records, lambda ids: {i: self.db[i] for i in ids if i in self.db})
+        return records, files, entries
+
+    def committed(self, rel):
+        return json.loads((TESTDATA / "corpus" / rel).read_text())["labels"]
+
+    def test_advisories_stay_on_the_advisory(self):
+        records, files, entries = self.port(ORACLE_6)
+        self.assertEqual({e["outcome"] for e in entries}, {vc.MIGRATED})
+        got = labels_in(files, f"{ORACLE_6}/rpm.json")
+        elsa = [(src, e) for (_, src), e in zip(records, entries) if src["vulnerability_id"].startswith("ELSA-")]
+        self.assertEqual(len(elsa), 13)
+        for src, e in elsa:
+            (b,) = e["became"]
+            self.assertEqual((b["vulnerability"], b["verdict"]), (src["vulnerability_id"], "tp"), e["id"])
+        # no CVE label comes from an advisory, whether it names one CVE or several
+        self.assertEqual({v for _, v in got}, {src["vulnerability_id"] for src, _ in elsa})
+        self.assertEqual(self.db["ELSA-2021-9137"], ["CVE-2020-1971"])
+        self.assertEqual(got[("pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10", "ELSA-2021-9137")]["verdict"], "tp")
+        self.assertEqual(len(self.db["ELSA-2022-9359"]), 3)
+        lb = got[("pkg:rpm/ol/expat@2.0.1-13.el6_8", "ELSA-2022-9359")]
+        self.assertEqual(lb["verdict"], "tp")
+        self.assertNotIn("CVE", lb["notes"][0]["text"])
+
+    def test_cve_and_ghsa_labels_unchanged(self):
+        # the python labels came from CVE and GHSA calls, so the port writes them as the earlier one did
+        _, files, _ = self.port(ORACLE_6)
+        rel = f"{ORACLE_6}/python.json"
+        self.assertEqual(files[rel]["labels"], self.committed(rel))
+        self.assertEqual({lb["vulnerability"].split("-")[0] for lb in files[rel]["labels"]}, {"CVE", "GHSA"})
+
+    def test_unresolvable_advisory_reported(self):
+        _, files, entries = self.port(AMAZONLINUX_2_TEST)
+        by_vuln = {e["vulnerability"]: e for e in entries}
+        for vid, named in (("ALAS-2022-1814", "ALAS2-2022-1814"), ("ALASKERNEL-5.4-2022-027", "ALAS2KERNEL-5.4-2022-027")):
+            self.assertEqual((by_vuln[vid]["outcome"], by_vuln[vid]["named"]), (vc.NOT_IN_DB, named))
+            self.assertNotIn("became", by_vuln[vid])
+        got = labels_in(files, f"{AMAZONLINUX_2_TEST}/rpm.json")
+        self.assertEqual(list(got), [("pkg:rpm/amzn/kernel-headers@4.14.275-207.503.amzn2", "ALAS2KERNEL-5.4-2022-015")])
+        self.assertEqual(by_vuln["GHSA-pjjw-qhg8-p2p9"]["became"][0]["vulnerability"], "GHSA-pjjw-qhg8-p2p9")
+
+    def test_cleanup_removes_derived_labels_only(self):
+        _, files, _ = self.port(ORACLE_6)
+        rel = f"{ORACLE_6}/rpm.json"
+        old = self.committed(rel)
+        # somebody added a note to one moved label since the port, so its origin is no longer only the port
+        touched = {**old[0], "notes": [*old[0]["notes"], {"text": "checked the changelog", "author": "someone", "at": "2026-10-20T00:00:00Z"}]}
+        labels, ch = vc.reconcile([touched, *old[1:]], files[rel]["labels"])
+        self.assertTrue(all(vc.dereferenced(lb) for lb in old))
+        self.assertEqual(ch["removed"], old[1:])
+        self.assertEqual(ch["kept"], [touched])
+        self.assertEqual(len(ch["added"]), 13)
+        self.assertIn(touched, labels)
+        self.assertEqual({lb["vulnerability"] for lb in labels if lb is not touched}, {lb["vulnerability"] for lb in files[rel]["labels"]})
+        # a file with no moved labels comes through untouched
+        py = f"{ORACLE_6}/python.json"
+        labels, ch = vc.reconcile(self.committed(py), files[py]["labels"])
+        self.assertEqual((labels, ch), (self.committed(py), {"removed": [], "added": [], "kept": [], "differs": []}))
+
+    def test_cleanup_splits_a_label_merged_with_an_advisory(self):
+        # the earlier port merged a call on ELSA-2022-1860 (naming only CVE-2020-13956) into the CVE label from a CVE call
+        _, files, _ = self.port(ORACLE_8)
+        rel = f"{ORACLE_8}/rpm.json"
+        old = [lb for lb in self.committed(rel) if "/aopalliance@" in lb["package"]]
+        merged = {lb["vulnerability"]: lb for lb in old}["CVE-2020-13956"]
+        self.assertEqual(len(merged["notes"]), 2)
+        labels, ch = vc.reconcile(old, files[rel]["labels"])
+        self.assertEqual((ch["removed"], ch["kept"], ch["differs"]), ([merged], [], []))
+        got = {lb["vulnerability"]: lb for lb in labels}
+        self.assertEqual(sorted(got), ["CVE-2020-13956", "CVE-2022-29599", "ELSA-2022-1860"])
+        self.assertEqual([n["text"].split()[3] for n in got["CVE-2020-13956"]["notes"]], ["f26393c6-86cd-447e-8b9f-876561a305a7:"])
+        self.assertEqual(got["CVE-2022-29599"], {lb["vulnerability"]: lb for lb in old}["CVE-2022-29599"])
+        self.assertEqual(got["ELSA-2022-1860"]["verdict"], "tp")
 
 
 if __name__ == "__main__":
