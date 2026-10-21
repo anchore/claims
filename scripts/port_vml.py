@@ -6,13 +6,18 @@
 - each image's sbom.syft.json comes from R2 as sboms.py fetches it, else from the SBOMs
   vulnerability-match-labels publishes when built with the syft catalog.yaml pins, else is built
   with `yardstick collect sboms`, since a label's package type and purl come from the SBOM
-- labels are converted by vml_convert.py, with grype's DB saying which CVEs an advisory names
+- labels are converted by vml_convert.py, with grype's DB saying which advisory ids it holds
 
-  port_vml.py status [--vml DIR]   read-only summary of how far the port has got
-  port_vml.py port [--vml DIR]     download or build missing SBOMs, then convert every label
+  port_vml.py status [--vml DIR]       read-only summary of how far the port has got
+  port_vml.py advisories [--vml DIR]   read-only report of the labels an earlier port made by moving
+                                       advisories to CVEs, the advisory labels they should be, and
+                                       the advisory ids grype's DB lacks
+  port_vml.py port [--vml DIR]         download or build missing SBOMs, then convert every label
 
-Rerunning port is safe: SBOMs already in the corpus are not rebuilt, and the label files of every
-ported image are written whole from the labels each time, so the same labels give the same files.
+Rerunning port is safe: SBOMs already in the corpus are not rebuilt, and the same labels give the
+same files. A label an earlier port moved from an advisory to a CVE is replaced; every other label
+already in the corpus is kept as it is, and listed when the port would now write it differently or
+somebody has added to it.
 """
 
 import argparse
@@ -243,7 +248,7 @@ def cmd_status(args):
     moved = [e for e, t in targets.items() if t != e]
     print(f"\nimages: {len(images)}, ported: {done}, remaining: {len(images) - done}")
     print(
-        f"labels: {vml_total} in vulnerability-match-labels, {claims_total} in the corpus (advisories fan out and disagreements merge, so these differ)"
+        f"labels: {vml_total} in vulnerability-match-labels, {claims_total} in the corpus (disagreements merge and a label is per purl, so these differ)"
     )
     print(f"test_images moved to ghcr: {len(moved)}, left on Docker Hub (not mirrored): {len(hub)}")
     for e in hub:
@@ -271,6 +276,150 @@ def cmd_status(args):
         print(f"\nlast port report ({report}):")
         for o, n in sorted(outcomes.items()):
             print(f"  {o:<22} {n}")
+    return 0
+
+
+def convert_images(args, images, targets):
+    """Return (files, entries): every label of images converted, against the SBOMs the corpus holds."""
+    vocab = vml_convert.Vocabulary.read(CORPUS / "vocabulary.yaml")
+    records = []
+    for d, files in images.items():
+        for name, labels in files:
+            for label in labels:
+                label["image"]["exact"] = targets[label["image"]["exact"]]
+                records.append((f"{d}/{name}", label))
+
+    have_sboms, _, _ = corpus_state()
+    cache = {}
+
+    def sbom_for(repository, digest):
+        d = vml_convert.image_dir(repository, digest)
+        if d not in cache:
+            cache[d] = vml_convert.SbomIndex.read(CORPUS / d / "sbom.syft.json", digest) if d in have_sboms else None
+        return cache[d]
+
+    def lookup(ids):
+        print(f"looking up {len(ids)} advisories with {args.grype}", flush=True)
+        res = subprocess.run(
+            [args.grype, "db", "search", "vuln", "--limit", "0", "-o", "json", "-q", *ids], capture_output=True, text=True, check=False
+        )
+        if res.returncode != 0:
+            raise Abort(f"grype db search failed:\n{res.stderr.strip()}")
+        return vml_convert.parse_grype_search(res.stdout)
+
+    print(f"\nconverting {len(records)} labels on {len(images)} images from {args.vml} ({vml_head(args.vml)})", flush=True)
+    return vml_convert.convert(records, vocab, split_ref, sbom_for, lookup)
+
+
+def reconciled(targets, files):
+    """Return {image dir: {file: (label file or None to remove it, changes)}} for every ported image.
+
+    Each image's committed label files are folded together with what the port converted, so only
+    the labels an earlier port moved from an advisory to a CVE are replaced.
+    """
+    out = {}
+    for target in sorted(set(targets.values())):
+        d = vml_convert.image_dir(*split_ref(target))
+        old = {f"{d}/{p.name}": json.loads(p.read_text()) for p in sorted((CORPUS / d).glob("*.json")) if p.name != "sbom.syft.json"}
+        new = {rel: f for rel, f in files.items() if rel.startswith(d + "/")}
+        written = {}
+        for rel in sorted({*old, *new}):
+            base = new.get(rel) or old[rel]
+            labels, ch = vml_convert.reconcile(old.get(rel, {}).get("labels", []), new.get(rel, {}).get("labels", []))
+            written[rel] = ({**base, "labels": labels} if labels else None, ch)
+        out[d] = written
+    return out
+
+
+def print_kept(changes):
+    """Print the committed labels the port left alone although it would not write them so.
+
+    changes is [(file, reconcile's changes)].
+    """
+    for what, why in (("kept", "somebody added to them since the port"), ("differs", "the port would now write them differently")):
+        rows = [(rel, lb) for rel, ch in changes for lb in ch[what]]
+        if rows:
+            print(f"\n{len(rows)} labels kept as committed, since {why}:")
+            for rel, lb in rows:
+                print(f"  {rel}: {lb.get('package', '')} {lb['vulnerability']} {lb['verdict']}")
+
+
+def cmd_advisories(args):
+    """Report the labels the advisory-dereferencing port made, what they should be, and the ids the DB lacks."""
+    images = read_vml(args.vml, args.only)
+    # only the label directories that hold an advisory call, unless --only picked them
+    vocab = vml_convert.Vocabulary.read(CORPUS / "vocabulary.yaml")
+    if not args.only:
+        images = {d: fs for d, fs in images.items() if any(vocab.is_advisory(lb.get("vulnerability_id", "")) for _, ls in fs for lb in ls)}
+    by_id = {lb.get("ID"): lb for fs in images.values() for _, ls in fs for lb in ls}
+    targets = plan(images)
+    files, entries = convert_images(args, images, targets)
+    done = reconciled(targets, files)
+
+    def verdicts(labels):
+        n = {}
+        for lb in labels:
+            n[lb["verdict"]] = n.get(lb["verdict"], 0) + 1
+        return " ".join(f"{v} {n[v]}" for v in ("tp", "fp", "unclear") if v in n) or "-"
+
+    total = {"removed": [], "added": [], "present": [], "missing": set(), "unported": 0, "mismatch": []}
+    changes = [(rel, ch) for out in done.values() for rel, (_, ch) in out.items()]
+    for d, out in done.items():
+        removed = [lb for _, ch in out.values() for lb in ch["removed"]]
+        added = [lb for _, ch in out.values() for lb in ch["added"]]
+        advisory = [lb for lb in added if vocab.is_advisory(lb["vulnerability"])]
+        present = [lb for f, _ in out.values() if f for lb in f["labels"] if vocab.is_advisory(lb["vulnerability"])]
+        total["present"] += present
+        # an advisory call the port could not write: the DB lacks its id, or its package is not in the SBOM
+        mine = [e for e in entries if vocab.is_advisory(e["vulnerability"]) and vml_convert.image_dir(*split_ref(e["image"])) == d]
+        missing = sorted({e["named"] for e in mine if e["outcome"] == vml_convert.NOT_IN_DB})
+        unported = [e for e in mine if e["outcome"] not in vml_convert.CONVERTED]
+        # each removed label's note names the call it came from, which must be an advisory call in vulnerability-match-labels
+        mismatch = [
+            (lb["vulnerability"], m["id"])
+            for lb in removed
+            for m in vml_convert.dereferenced(lb)
+            if (by_id.get(m["id"]) or {}).get("vulnerability_id") != m["advisory"]
+        ]
+        single = [lb for lb in removed if all(m["only"] for m in vml_convert.dereferenced(lb))]
+        if not (removed or mine):
+            continue
+        print(f"\n{d}")
+        print(f"  CVE labels moved from an advisory, to remove: {len(removed)} ({verdicts(removed)})")
+        print(f"    from single-CVE advisories {len(single)}, multi-CVE {len(removed) - len(single)}; vml cross-check mismatches {len(mismatch)}")
+        print(f"  vml advisory calls: {len(mine)}, ported {len(mine) - len(unported)}")
+        print(f"  advisory labels to add: {len(advisory)} ({verdicts(advisory)}), already in the corpus: {len(present) - len(advisory)}")
+        other = [lb for lb in added if not vocab.is_advisory(lb["vulnerability"])]
+        if other:
+            print(f"  CVE labels rewritten from their own calls (were merged with an advisory's): {len(other)} ({verdicts(other)})")
+        for o in sorted({e["outcome"] for e in unported}):
+            print(f"  advisory calls not ported, {o}: {sum(e['outcome'] == o for e in unported)}")
+        if missing:
+            print(f"  not in grype's DB: {', '.join(missing)}")
+        for k, v in (("removed", removed), ("added", added), ("mismatch", mismatch)):
+            total[k] += v
+        total["missing"] |= set(missing)
+        total["unported"] += len(unported)
+
+    print("\noverall")
+    print(f"  CVE labels moved from an advisory, to remove: {len(total['removed'])} ({verdicts(total['removed'])})")
+    print(f"  vml cross-check mismatches: {len(total['mismatch'])} {total['mismatch'] or ''}")
+    added = [lb for lb in total["added"] if vocab.is_advisory(lb["vulnerability"])]
+    print(f"  advisory labels to add: {len(added)} ({verdicts(added)}), already in the corpus: {len(total['present']) - len(added)}")
+    print(f"  advisory calls not ported: {total['unported']}")
+    print(f"  not in grype's DB: {', '.join(sorted(total['missing'])) or '-'}")
+    print_kept(changes)
+    # labels moved from an advisory anywhere in the corpus, so none hides outside the label directories read
+    elsewhere = sorted(
+        f.parent.relative_to(CORPUS).as_posix()
+        for f in (CORPUS / "pkg").rglob("*.json")
+        if f.name != "sbom.syft.json"
+        and f.parent.relative_to(CORPUS).as_posix() not in done
+        and any(vml_convert.dereferenced(lb) for lb in json.loads(f.read_text()).get("labels", []))
+    )
+    print(f"  image directories outside these with labels moved from an advisory: {len(elsewhere)}")
+    for d in elsewhere:
+        print(f"    {d}")
     return 0
 
 
@@ -306,44 +455,18 @@ def cmd_port(args):
         for t in failed:
             print(f"  {t}", file=sys.stderr)
 
-    vocab = vml_convert.Vocabulary.read(CORPUS / "vocabulary.yaml")
-    records = []
-    for d, files in images.items():
-        for name, labels in files:
-            for label in labels:
-                label["image"]["exact"] = targets[label["image"]["exact"]]
-                records.append((f"{d}/{name}", label))
-
-    have_sboms, _, _ = corpus_state()
-    cache = {}
-
-    def sbom_for(repository, digest):
-        d = vml_convert.image_dir(repository, digest)
-        if d not in cache:
-            cache[d] = vml_convert.SbomIndex.read(CORPUS / d / "sbom.syft.json", digest) if d in have_sboms else None
-        return cache[d]
-
-    def lookup(ids):
-        print(f"looking up the CVEs {len(ids)} advisories name with {args.grype}", flush=True)
-        res = subprocess.run(
-            [args.grype, "db", "search", "vuln", "--limit", "0", "-o", "json", "-q", *ids], capture_output=True, text=True, check=False
-        )
-        if res.returncode != 0:
-            raise Abort(f"grype db search failed:\n{res.stderr.strip()}")
-        return vml_convert.parse_grype_search(res.stdout)
-
-    print(f"\nconverting {len(records)} labels on {len(images)} images from {args.vml} ({vml_head(args.vml)})", flush=True)
-    files, entries = vml_convert.convert(records, vocab, split_ref, sbom_for, lookup)
-
-    # each ported image's label files are written whole, so a rerun leaves no stale file behind
-    for target in set(targets.values()):
-        d = CORPUS / vml_convert.image_dir(*split_ref(target))
-        for f in d.glob("*.json") if d.is_dir() else []:
-            if f.name != "sbom.syft.json":
-                f.unlink()
-    for rel, f in files.items():
-        (CORPUS / rel).parent.mkdir(parents=True, exist_ok=True)
-        (CORPUS / rel).write_text(vml_convert.marshal(f))
+    files, entries = convert_images(args, images, targets)
+    changes, written = [], 0
+    for d, out in reconciled(targets, files).items():
+        for rel, (f, ch) in out.items():
+            if f is None:
+                (CORPUS / rel).unlink()
+            else:
+                (CORPUS / rel).parent.mkdir(parents=True, exist_ok=True)
+                (CORPUS / rel).write_text(vml_convert.marshal(f))
+                written += len(f["labels"])
+            changes.append((rel, ch))
+    print_kept(changes)
 
     args.report.mkdir(parents=True, exist_ok=True)
     unknown = [e for e in entries if e["outcome"] not in vml_convert.CONVERTED]
@@ -356,7 +479,7 @@ def cmd_port(args):
     for o, n in sorted(counts.items()):
         print(f"  {o:<22} {n}")
     print(
-        f"wrote {sum(len(f['labels']) for f in files.values())} labels in {len(files)} files; labels not converted are in {args.report / 'unknown.json'}"
+        f"converted {sum(len(f['labels']) for f in files.values())} labels and wrote {written}; labels not converted are in {args.report / 'unknown.json'}"
     )
     return 1 if failed else 0
 
@@ -378,12 +501,16 @@ def main(argv=None):
     )
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("status", help="read-only summary of the port").set_defaults(fn=cmd_status)
-    port = sub.add_parser("port", help="download or build missing SBOMs and convert every label")
+    grype = argparse.ArgumentParser(add_help=False)
+    grype.add_argument(
+        "--grype", default=str(CORPUS / ".tool" / "grype"), help="the grype whose DB says which advisory ids exist (default: the pinned one)"
+    )
+    sub.add_parser(
+        "advisories", parents=[grype], help="read-only report of labels moved from advisories to CVEs, and what they should be"
+    ).set_defaults(fn=cmd_advisories)
+    port = sub.add_parser("port", parents=[grype], help="download or build missing SBOMs and convert every label")
     port.add_argument(
         "--yardstick", default=str(CORPUS / ".tool" / "yardstick"), help="the yardstick binary (default: the one .binny.yaml pins, from `make tools`)"
-    )
-    port.add_argument(
-        "--grype", default=str(CORPUS / ".tool" / "grype"), help="the grype whose DB says which CVEs an advisory names (default: the pinned one)"
     )
     port.set_defaults(fn=cmd_port)
     args = parser.parse_args(argv)

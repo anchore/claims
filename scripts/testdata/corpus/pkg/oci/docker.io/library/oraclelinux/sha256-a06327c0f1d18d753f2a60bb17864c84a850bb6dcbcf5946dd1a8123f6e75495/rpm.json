@@ -1,0 +1,393 @@
+{
+  "schema": "1.0.0",
+  "subject": {
+    "image": "docker.io/library/oraclelinux@sha256:a06327c0f1d18d753f2a60bb17864c84a850bb6dcbcf5946dd1a8123f6e75495",
+    "platform": "linux/amd64"
+  },
+  "labels": [
+    {
+      "package": "pkg:rpm/ol/cyrus-sasl-lib@2.1.23-15.el6_6.2",
+      "vulnerability": "CVE-2022-24407",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4b569321-09d2-4169-badc-05449586ecf6: tp on ELSA-2022-9239, which names only CVE-2022-24407 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:48Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:48Z",
+      "lastUpdated": "2022-11-01T22:42:48Z"
+    },
+    {
+      "package": "pkg:rpm/ol/dhclient@4.1.1-63.P1.0.1.el6_10?epoch=12",
+      "vulnerability": "CVE-2021-25217",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 2989af43-9ade-47fb-829b-20cf91529869: tp on ELSA-2021-9314, which names only CVE-2021-25217 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:52Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:52Z",
+      "lastUpdated": "2022-11-01T22:42:52Z"
+    },
+    {
+      "package": "pkg:rpm/ol/dhcp-common@4.1.1-63.P1.0.1.el6_10?epoch=12",
+      "vulnerability": "CVE-2021-25217",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 8a3700da-1f20-4a44-8743-31246b29711e: tp on ELSA-2021-9314, which names only CVE-2021-25217 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:54Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:54Z",
+      "lastUpdated": "2022-11-01T22:42:54Z"
+    },
+    {
+      "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
+      "vulnerability": "CVE-2022-25235",
+      "verdict": "unclear",
+      "justification": "not-assessed",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a9dfd3a-3a0a-449e-a497-02728a8c8d95: tp on ELSA-2022-9359, which names 3 CVEs; not assessed for this one with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:58Z",
+      "lastUpdated": "2022-11-01T22:42:58Z"
+    },
+    {
+      "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
+      "vulnerability": "CVE-2022-25236",
+      "verdict": "unclear",
+      "justification": "not-assessed",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a9dfd3a-3a0a-449e-a497-02728a8c8d95: tp on ELSA-2022-9359, which names 3 CVEs; not assessed for this one with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:58Z",
+      "lastUpdated": "2022-11-01T22:42:58Z"
+    },
+    {
+      "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
+      "vulnerability": "CVE-2022-25315",
+      "verdict": "unclear",
+      "justification": "not-assessed",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 4a9dfd3a-3a0a-449e-a497-02728a8c8d95: tp on ELSA-2022-9359, which names 3 CVEs; not assessed for this one with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:58Z",
+      "lastUpdated": "2022-11-01T22:42:58Z"
+    },
+    {
+      "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
+      "vulnerability": "CVE-2022-40674",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels ada1b5ba-f5be-4641-88b2-0e8c7eaa77d4: tp on ELSA-2022-9962, which names only CVE-2022-40674 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:42:58Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:42:58Z",
+      "lastUpdated": "2022-11-01T22:42:58Z"
+    },
+    {
+      "package": "pkg:rpm/ol/glib2@2.28.8-10.el6",
+      "vulnerability": "CVE-2021-27219",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e08b75c5-cdc5-4510-9c0f-f2beab693c9e: tp on ELSA-2021-9318, which names only CVE-2021-27219 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:00Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:00Z",
+      "lastUpdated": "2022-11-01T22:43:00Z"
+    },
+    {
+      "package": "pkg:rpm/ol/nss-sysinit@3.44.0-7.0.1.el6_10",
+      "vulnerability": "CVE-2021-43527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 45730daf-10e9-4938-8a8b-1e87ed2df5ee: tp on ELSA-2021-9591, which names only CVE-2021-43527 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:03Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:03Z",
+      "lastUpdated": "2022-11-01T22:43:03Z"
+    },
+    {
+      "package": "pkg:rpm/ol/nss-tools@3.44.0-7.0.1.el6_10",
+      "vulnerability": "CVE-2021-43527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels e4e60438-7b46-4443-b2d1-6bc73007db48: tp on ELSA-2021-9591, which names only CVE-2021-43527 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:04Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:04Z",
+      "lastUpdated": "2022-11-01T22:43:04Z"
+    },
+    {
+      "package": "pkg:rpm/ol/nss@3.44.0-7.0.1.el6_10",
+      "vulnerability": "CVE-2021-43527",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 46380a6a-24a3-4156-985f-d34940840168: tp on ELSA-2021-9591, which names only CVE-2021-43527 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:01Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:01Z",
+      "lastUpdated": "2022-11-01T22:43:01Z"
+    },
+    {
+      "package": "pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10",
+      "vulnerability": "CVE-2020-1971",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 37f7f214-2d07-4f98-8336-800b2bf37147: tp on ELSA-2021-9137, which names only CVE-2020-1971",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:34:09Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:34:09Z",
+      "lastUpdated": "2022-09-15T23:34:09Z"
+    },
+    {
+      "package": "pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10",
+      "vulnerability": "CVE-2022-0778",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 0970eda6-2f25-4dd8-9594-597bfb4058a1: tp on ELSA-2022-9246, which names only CVE-2022-0778 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:06Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:06Z",
+      "lastUpdated": "2022-11-01T22:43:06Z"
+    },
+    {
+      "package": "pkg:rpm/ol/rsyslog@5.8.10-12.0.1.el6",
+      "vulnerability": "CVE-2022-24903",
+      "verdict": "tp",
+      "author": "westonsteimel",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels b7765970-34ab-426a-9c4f-5d642b1378a5: tp on ELSA-2022-9783, which names only CVE-2022-24903 with grype@v0.51.0",
+          "author": "westonsteimel",
+          "at": "2022-11-01T22:43:08Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "grype",
+            "version": "v0.51.0"
+          },
+          {
+            "name": "syft",
+            "version": "v0.60.1"
+          }
+        ]
+      },
+      "firstIssued": "2022-11-01T22:43:08Z",
+      "lastUpdated": "2022-11-01T22:43:08Z"
+    },
+    {
+      "package": "pkg:rpm/ol/zlib@1.2.3-29.el6",
+      "vulnerability": "CVE-2018-25032",
+      "verdict": "tp",
+      "author": "wagoodman",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 31f5c507-3172-421d-aeae-20b22d8fc155: tp on ELSA-2022-9565, which names only CVE-2018-25032",
+          "author": "wagoodman",
+          "at": "2022-09-15T23:35:49Z"
+        }
+      ],
+      "firstIssued": "2022-09-15T23:35:49Z",
+      "lastUpdated": "2022-09-15T23:35:49Z"
+    }
+  ]
+}
