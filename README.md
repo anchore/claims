@@ -1,4 +1,4 @@
-# match-claims
+# claims
 
 Labeled vulnerability matches: for a package in a known image, is a given vulnerability really there? Each label says `tp` (the installed code is vulnerable), `fp` (it isn't) or `unclear` (nobody has shown either), with a justification and the evidence behind it.
 
@@ -14,7 +14,7 @@ What it is not:
 
 ## How it's used
 
-yardstick reads the published snapshot by default (`github.com/anchore/match-claims@main` as a claims source), so nobody needs a checkout just to run a gate. To add labels:
+yardstick reads the published snapshot by default (`github.com/anchore/claims@main` as a claims source), so nobody needs a checkout just to run a gate. To add labels:
 
 1. run a gate and label what changed with `yardstick claims serve` (or `yardstick claims add`), which writes to a local scratch directory
 2. `yardstick claims promote <scratch dir> --to <this checkout>` to move the labels here

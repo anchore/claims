@@ -39,7 +39,7 @@ CORPUS = Path(__file__).resolve().parent.parent
 TEST_IMAGES_HUB = "docker.io/anchore/test_images"
 TEST_IMAGES_GHCR = "ghcr.io/anchore/test-images"
 HUB_TAGS_URL = "https://hub.docker.com/v2/namespaces/anchore/repositories/test_images/tags?page_size=100"
-DEFAULT_REPORT = Path(tempfile.gettempdir()) / "match-claims-port"
+DEFAULT_REPORT = Path(tempfile.gettempdir()) / "claims-port"
 VML_SBOMS = "ghcr.io/anchore/vml-sbom"
 
 # a truncated Docker Hub listing must not read as "nothing is mirrored". It held 885 tags when
