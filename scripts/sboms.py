@@ -5,6 +5,7 @@ SBOMs are not committed. An image's directory and catalog.yaml are the recipe fo
 the SBOM itself lives in R2 at the same path under claims/, named by the syft that built it:
 
   pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft.json                       (local, ignored)
+  pkg/oci/<registry>/<repository>/sha256-<hex>/matches/<type>.json                  (the labels it pairs)
   claims/pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft-v<version>.json     (R2, write-once)
 
   sboms.py fetch [-v] [<image dir>...]
@@ -28,6 +29,8 @@ from pathlib import Path
 
 CORPUS = Path(__file__).resolve().parent.parent
 SBOM = "sbom.syft.json"
+# the kind directory match labels sit in, under an image's directory beside its SBOM
+MATCHES = "matches"
 # the same variable yardstick reads published snapshots from
 URL_VAR = "YARDSTICK_CLAIMS_URL"
 # the public custom domain of the bucket publish.yaml writes to
@@ -68,8 +71,8 @@ def local_version(d):
 
 
 def labeled_dirs():
-    """Return every image directory holding a label file."""
-    return sorted({f.parent.relative_to(CORPUS).as_posix() for f in (CORPUS / "pkg" / "oci").rglob("*.json") if f.name != SBOM})
+    """Return every image directory holding a label file, in its matches/."""
+    return sorted({f.parent.parent.relative_to(CORPUS).as_posix() for f in (CORPUS / "pkg" / "oci").rglob(f"{MATCHES}/*.json")})
 
 
 def download(d, version):

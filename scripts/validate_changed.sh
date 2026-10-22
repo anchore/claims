@@ -25,11 +25,12 @@ if grep -qxE 'catalog\.yaml|vocabulary\.yaml' <<<"$changed"; then
   exec make validate-corpus
 fi
 
-# image directories still in the tree, so a removed image is not validated
+# image directories still in the tree, so a removed image is not validated. A changed label file
+# sits in a kind directory under its image's (matches/deb.json), so the image's is the sha256-<hex> one
 dirs=()
 while IFS= read -r d; do
   [ -d "$d" ] && dirs+=("$d")
-done < <(grep '^pkg/oci/' <<<"$changed" | xargs -r -n1 dirname | sort -u)
+done < <(grep '^pkg/oci/' <<<"$changed" | sed -nE 's#^(pkg/oci/.*/sha256-[0-9a-f]{64})/.*#\1#p' | sort -u)
 
 echo "validating ${#dirs[@]} image directories changed since $base"
 if [ ${#dirs[@]} -gt 0 ]; then

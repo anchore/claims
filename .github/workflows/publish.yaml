@@ -1,7 +1,7 @@
 name: "Publish"
 
 # every merge to main that touches the corpus (or publish.yaml) is validated, bundled and uploaded
-# to R2 as a snapshot, and claims/latest-<format>.json is moved to what publish.yaml names: the tip
+# to R2 as a snapshot, and claims/matches/latest-<format>.json is moved to what publish.yaml names: the tip
 # of main by default, or a pinned commit's snapshot. Beside it, schema/ is copied to R2 under
 # claims/schema/, so each schema-<version>.json a label file names is readable at a stable address.
 on:
