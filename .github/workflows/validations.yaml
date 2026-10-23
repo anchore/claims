@@ -45,6 +45,8 @@ jobs:
 
   Validate-Corpus:
     name: "Validate Corpus"
+    # a merge to main is validated whole by publish.yaml, so this only gates pull requests
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -61,5 +63,5 @@ jobs:
       # only the images this change touches; publishing validates the whole corpus on every merge
       - name: Validate the changed corpus
         env:
-          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || github.event.before }}
+          BASE: origin/${{ github.base_ref }}
         run: make validate-changed

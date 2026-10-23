@@ -139,7 +139,7 @@ tasks:
           fi
 
   validate-changed:
-    desc: "Validate only the image directories changed since BASE (default origin/main); a catalog or vocabulary change validates the whole corpus"
+    desc: "Validate only the image directories changed since BASE (default origin/main); a catalog, vocabulary or .binny.yaml change validates the whole corpus"
     deps: [tools]
     env:
       PATH: "{{ .ABS_TOOL_DIR }}:{{ .PATH }}"
