@@ -2,11 +2,11 @@
 """Fetch, build and upload the SBOM of every image in the corpus.
 
 SBOMs are not committed. An image's directory and catalog.yaml are the recipe for its SBOM, and
-the SBOM itself lives in R2 at the same path under claims/, named by the syft that built it:
+the SBOM itself lives in R2 at the same path under claims/sboms/, named by the syft that built it:
 
   pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft.json                       (local, ignored)
   pkg/oci/<registry>/<repository>/sha256-<hex>/matches/<type>.json                  (the labels it pairs)
-  claims/pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft-v<version>.json     (R2, write-once)
+  claims/sboms/pkg/oci/<registry>/<repository>/sha256-<hex>/sbom.syft-v<version>.json  (R2, write-once)
 
   sboms.py fetch [-v] [<image dir>...]
                      download each labeled image's SBOM for catalog.yaml's syft, building any R2 lacks;
@@ -56,7 +56,7 @@ def base_url():
 
 
 def r2_key(d, version):
-    return f"claims/{d}/sbom.syft-v{version}.json"
+    return f"claims/sboms/{d}/sbom.syft-v{version}.json"
 
 
 def image_ref(d):
