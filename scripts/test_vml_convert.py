@@ -108,7 +108,7 @@ class TestConvert(unittest.TestCase):
         records = [(f.name, json.loads(f.read_text())) for f in sorted(d.glob("*.json"))]
         files, entries = convert(records)
         self.assertEqual({e["outcome"] for e in entries}, {vc.MIGRATED}, [e for e in entries if e["outcome"] != vc.MIGRATED])
-        rel = "pkg/oci/docker.io/library/alpine/sha256-ddac200f3ebc9902fb8cfcd599f41feb2151f1118929da21bcef57dc276975f9/apk.json"
+        rel = "pkg/oci/docker.io/library/alpine/sha256-ddac200f3ebc9902fb8cfcd599f41feb2151f1118929da21bcef57dc276975f9/matches/apk.json"
         self.assertEqual(list(files), [rel])
         # the digest is an index, so the file says which platform's packages the SBOM cataloged
         self.assertEqual(
@@ -148,7 +148,7 @@ class TestConvert(unittest.TestCase):
         self.assertTrue(asked and all(i.startswith("ALAS2-") for i in asked), asked)
         self.assertEqual({e["outcome"] for e in entries}, {vc.MIGRATED}, [e for e in entries if e["outcome"] != vc.MIGRATED])
         (rel,) = files
-        self.assertTrue(rel.endswith("/amazonlinux/sha256-1301cc9f889f21dc45733df9e58034ac1c318202b4b0f0a08d88b3fdc03004de/rpm.json"))
+        self.assertTrue(rel.endswith("/amazonlinux/sha256-1301cc9f889f21dc45733df9e58034ac1c318202b4b0f0a08d88b3fdc03004de/matches/rpm.json"))
         got = labels_in(files, rel)
         # every call stays on its advisory, under the id grype's DB uses, with its verdict
         for (_, src), e in zip(records, entries):
@@ -198,7 +198,7 @@ class TestConvert(unittest.TestCase):
         )
         self.assertEqual([e["outcome"] for e in entries], [vc.MIGRATED, vc.NO_PACKAGE])
         (rel,) = files
-        self.assertTrue(rel.endswith("/java-archive.json"))
+        self.assertTrue(rel.endswith("/matches/java-archive.json"))
         (lb,) = files[rel]["labels"]
         self.assertEqual(lb["package"], "pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14")
         self.assertIn(f"on the package at {nested}", lb["notes"][0]["text"])
@@ -249,7 +249,7 @@ class TestAdvisoryLabels(unittest.TestCase):
     def test_advisories_stay_on_the_advisory(self):
         records, files, entries = self.port(ORACLE_6)
         self.assertEqual({e["outcome"] for e in entries}, {vc.MIGRATED})
-        got = labels_in(files, f"{ORACLE_6}/rpm.json")
+        got = labels_in(files, f"{ORACLE_6}/matches/rpm.json")
         elsa = [(src, e) for (_, src), e in zip(records, entries) if src["vulnerability_id"].startswith("ELSA-")]
         self.assertEqual(len(elsa), 13)
         for src, e in elsa:
@@ -267,7 +267,7 @@ class TestAdvisoryLabels(unittest.TestCase):
     def test_cve_and_ghsa_labels_unchanged(self):
         # the python labels came from CVE and GHSA calls, so the port writes them as the earlier one did
         _, files, _ = self.port(ORACLE_6)
-        rel = f"{ORACLE_6}/python.json"
+        rel = f"{ORACLE_6}/matches/python.json"
         self.assertEqual(files[rel]["labels"], self.committed(rel))
         self.assertEqual({lb["vulnerability"].split("-")[0] for lb in files[rel]["labels"]}, {"CVE", "GHSA"})
 
@@ -277,13 +277,13 @@ class TestAdvisoryLabels(unittest.TestCase):
         for vid, named in (("ALAS-2022-1814", "ALAS2-2022-1814"), ("ALASKERNEL-5.4-2022-027", "ALAS2KERNEL-5.4-2022-027")):
             self.assertEqual((by_vuln[vid]["outcome"], by_vuln[vid]["named"]), (vc.NOT_IN_DB, named))
             self.assertNotIn("became", by_vuln[vid])
-        got = labels_in(files, f"{AMAZONLINUX_2_TEST}/rpm.json")
+        got = labels_in(files, f"{AMAZONLINUX_2_TEST}/matches/rpm.json")
         self.assertEqual(list(got), [("pkg:rpm/amzn/kernel-headers@4.14.275-207.503.amzn2", "ALAS2KERNEL-5.4-2022-015")])
         self.assertEqual(by_vuln["GHSA-pjjw-qhg8-p2p9"]["became"][0]["vulnerability"], "GHSA-pjjw-qhg8-p2p9")
 
     def test_cleanup_removes_derived_labels_only(self):
         _, files, _ = self.port(ORACLE_6)
-        rel = f"{ORACLE_6}/rpm.json"
+        rel = f"{ORACLE_6}/matches/rpm.json"
         old = self.committed(rel)
         # somebody added a note to one moved label since the port, so its origin is no longer only the port
         touched = {**old[0], "notes": [*old[0]["notes"], {"text": "checked the changelog", "author": "someone", "at": "2026-10-20T00:00:00Z"}]}
@@ -295,14 +295,14 @@ class TestAdvisoryLabels(unittest.TestCase):
         self.assertIn(touched, labels)
         self.assertEqual({lb["vulnerability"] for lb in labels if lb is not touched}, {lb["vulnerability"] for lb in files[rel]["labels"]})
         # a file with no moved labels comes through untouched
-        py = f"{ORACLE_6}/python.json"
+        py = f"{ORACLE_6}/matches/python.json"
         labels, ch = vc.reconcile(self.committed(py), files[py]["labels"])
         self.assertEqual((labels, ch), (self.committed(py), {"removed": [], "added": [], "kept": [], "differs": []}))
 
     def test_cleanup_splits_a_label_merged_with_an_advisory(self):
         # the earlier port merged a call on ELSA-2022-1860 (naming only CVE-2020-13956) into the CVE label from a CVE call
         _, files, _ = self.port(ORACLE_8)
-        rel = f"{ORACLE_8}/rpm.json"
+        rel = f"{ORACLE_8}/matches/rpm.json"
         old = [lb for lb in self.committed(rel) if "/aopalliance@" in lb["package"]]
         merged = {lb["vulnerability"]: lb for lb in old}["CVE-2020-13956"]
         self.assertEqual(len(merged["notes"]), 2)

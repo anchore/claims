@@ -1,4 +1,4 @@
-# match-claims
+# claims
 
 Labeled vulnerability matches: for a package in a known image, is a given vulnerability really there? Each label says `tp` (the installed code is vulnerable), `fp` (it isn't) or `unclear` (nobody has shown either), with a justification and the evidence behind it.
 
@@ -14,7 +14,7 @@ What it is not:
 
 ## How it's used
 
-yardstick reads the published snapshot by default (`github.com/anchore/match-claims@main` as a claims source), so nobody needs a checkout just to run a gate. To add labels:
+yardstick reads the published snapshot by default (`github.com/anchore/claims@main` as a claims source), so nobody needs a checkout just to run a gate. To add labels:
 
 1. run a gate and label what changed with `yardstick claims serve` (or `yardstick claims add`), which writes to a local scratch directory
 2. `yardstick claims promote <scratch dir> --to <this checkout>` to move the labels here
@@ -24,8 +24,8 @@ The walkthrough in yardstick's [demo](https://github.com/anchore/yardstick/tree/
 
 ## What's here
 
-- `pkg/oci/<registry>/<repository>/sha256-<digest>/` holds one image's labels: `<type>.json` per package type (`apk.json`, `rpm.json`, `go-module.json`, ...), and `image.json` for labels that name no package
-- `sbom/sha256-<digest>/` is the same for a subject that is an SBOM rather than an image, and `global/<type>.json` holds labels that apply to every subject. Neither has any labels yet
+- `pkg/oci/<registry>/<repository>/sha256-<digest>/` is one image: its labels sit in a directory per kind of label, and today the only kind is `matches/`, with `<type>.json` per package type (`apk.json`, `rpm.json`, `go-module.json`, ...) and `image.json` for labels that name no package. The image's SBOM, when fetched, sits beside `matches/` as `sbom.syft.json`
+- `sbom/sha256-<digest>/matches/` is the same for a subject that is an SBOM rather than an image, and `global/matches/<type>.json` holds labels that apply to every subject. Neither has any labels yet
 - `catalog.yaml` pins the syft version and platform every image's SBOM is built with
 - `vocabulary.yaml` lists the allowed justifications, fact sources and namespaces, and the labeling rules: each rule's verdict, confidence ceiling and the policy decision behind it
 - `labeling-policy.md` says what a label means, what each kind of evidence can support, and the decisions (P-1, P-2, ...) the rules cite. Change a rule in `vocabulary.yaml` and its decision here in the same pull request
@@ -38,9 +38,9 @@ The walkthrough in yardstick's [demo](https://github.com/anchore/yardstick/tree/
 
 Every merge to `main` that touches the corpus is validated, bundled and published to the `oss-prod-yardstick` R2 bucket, served at `https://yardstick.anchore.io`:
 
-- `claims/snapshots/<sha256>.zip` is the corpus at that commit, named by its digest and never overwritten
-- `claims/commits/<sha>.json` names the snapshot for a commit
-- `claims/latest-v1.json` names the snapshot yardstick's `@main` reads. It follows the tip of `main` unless `publish.yaml` pins it to a commit
+- `claims/matches/snapshots/<sha256>.zip` is the corpus at that commit, named by its digest and never overwritten
+- `claims/matches/commits/<sha>.json` names the snapshot for a commit
+- `claims/matches/latest-v1.json` names the snapshot yardstick's `@main` reads. It follows the tip of `main` unless `publish.yaml` pins it to a commit
 - `claims/schema/schema-<version>.json` is the label file schema
 - `claims/pkg/oci/.../sbom.syft-v<version>.json` is each image's SBOM, built by the syft in `catalog.yaml` and uploaded once
 

@@ -33,13 +33,13 @@ from pathlib import Path
 
 import sboms
 import vml_convert
-from sboms import Abort, catalog_syft
+from sboms import MATCHES, SBOM, Abort, catalog_syft
 
 CORPUS = Path(__file__).resolve().parent.parent
 TEST_IMAGES_HUB = "docker.io/anchore/test_images"
 TEST_IMAGES_GHCR = "ghcr.io/anchore/test-images"
 HUB_TAGS_URL = "https://hub.docker.com/v2/namespaces/anchore/repositories/test_images/tags?page_size=100"
-DEFAULT_REPORT = Path(tempfile.gettempdir()) / "match-claims-port"
+DEFAULT_REPORT = Path(tempfile.gettempdir()) / "claims-port"
 VML_SBOMS = "ghcr.io/anchore/vml-sbom"
 
 # a truncated Docker Hub listing must not read as "nothing is mirrored". It held 885 tags when
@@ -207,15 +207,15 @@ def corpus_state():
     """
     want = catalog_syft()
     sboms, counts, stale = set(), {}, []
-    for f in (CORPUS / "pkg" / "oci").rglob("*.json"):
+    for f in (CORPUS / "pkg" / "oci").rglob(SBOM):
         d = f.parent.relative_to(CORPUS).as_posix()
-        if f.name == "sbom.syft.json":
-            if want and json.loads(f.read_text())["descriptor"]["version"] != want:
-                stale.append(d)
-            else:
-                sboms.add(d)
+        if want and json.loads(f.read_text())["descriptor"]["version"] != want:
+            stale.append(d)
         else:
-            counts[d] = counts.get(d, 0) + len(json.loads(f.read_text()).get("labels", []))
+            sboms.add(d)
+    for f in (CORPUS / "pkg" / "oci").rglob(f"{MATCHES}/*.json"):
+        d = f.parent.parent.relative_to(CORPUS).as_posix()
+        counts[d] = counts.get(d, 0) + len(json.loads(f.read_text()).get("labels", []))
     return sboms, counts, sorted(stale)
 
 
@@ -320,7 +320,7 @@ def reconciled(targets, files):
     out = {}
     for target in sorted(set(targets.values())):
         d = vml_convert.image_dir(*split_ref(target))
-        old = {f"{d}/{p.name}": json.loads(p.read_text()) for p in sorted((CORPUS / d).glob("*.json")) if p.name != "sbom.syft.json"}
+        old = {f"{d}/{MATCHES}/{p.name}": json.loads(p.read_text()) for p in sorted((CORPUS / d / MATCHES).glob("*.json"))}
         new = {rel: f for rel, f in files.items() if rel.startswith(d + "/")}
         written = {}
         for rel in sorted({*old, *new}):
@@ -411,10 +411,9 @@ def cmd_advisories(args):
     print_kept(changes)
     # labels moved from an advisory anywhere in the corpus, so none hides outside the label directories read
     elsewhere = sorted(
-        f.parent.relative_to(CORPUS).as_posix()
-        for f in (CORPUS / "pkg").rglob("*.json")
-        if f.name != "sbom.syft.json"
-        and f.parent.relative_to(CORPUS).as_posix() not in done
+        f.parent.parent.relative_to(CORPUS).as_posix()
+        for f in (CORPUS / "pkg").rglob(f"{MATCHES}/*.json")
+        if f.parent.parent.relative_to(CORPUS).as_posix() not in done
         and any(vml_convert.dereferenced(lb) for lb in json.loads(f.read_text()).get("labels", []))
     )
     print(f"  image directories outside these with labels moved from an advisory: {len(elsewhere)}")

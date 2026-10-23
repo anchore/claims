@@ -30,6 +30,8 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 
+from sboms import MATCHES
+
 # the label file format this conversion writes, as in schema/schema-<version>.json. It is the
 # pinned yardstick's (`yardstick claims schema`), so bump it with the pin when the format moves.
 SCHEMA_VERSION = "1.0.0"
@@ -363,14 +365,16 @@ def convert(records, vocab, split_ref, sbom_for, lookup):
     files = {}
     for (d, typ, purl, vid), cs in sorted(by_key.items()):
         c = cs[0]
-        f = files.setdefault(f"{d}/{typ}.json", {"schema": SCHEMA_VERSION, "subject": {"image": f"{c.repository}@{c.digest}"}, "labels": []})
+        f = files.setdefault(
+            f"{d}/{MATCHES}/{typ}.json", {"schema": SCHEMA_VERSION, "subject": {"image": f"{c.repository}@{c.digest}"}, "labels": []}
+        )
         if c.platform:
             f["subject"]["platform"] = c.platform
         label = merge(purl, vid, cs)
         f["labels"].append(label)
         for call in cs:
             call.entry.setdefault("became", []).append(
-                {"file": f"{d}/{typ}.json", "package": purl, "vulnerability": vid, "verdict": label["verdict"]}
+                {"file": f"{d}/{MATCHES}/{typ}.json", "package": purl, "vulnerability": vid, "verdict": label["verdict"]}
             )
     for f in files.values():
         f["labels"].sort(key=lambda lb: (lb.get("package", ""), lb["vulnerability"]))
