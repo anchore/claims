@@ -83,7 +83,7 @@ class TestHelpers(unittest.TestCase):
     def test_sbom_paths(self):
         d = "pkg/oci/ghcr.io/anchore/test-images/bitnami/spark/sha256-267d"
         self.assertEqual(sboms.image_ref(d), "ghcr.io/anchore/test-images/bitnami/spark@sha256:267d")
-        self.assertEqual(sboms.r2_key(d, "1.14.0"), f"claims/{d}/sbom.syft-v1.14.0.json")
+        self.assertEqual(sboms.r2_key(d, "1.14.0"), f"claims/sboms/{d}/sbom.syft-v1.14.0.json")
 
     def test_parse_time(self):
         self.assertEqual(vc.rfc3339(vc.parse_time("2022-09-15T14:54:05-04:00")), "2022-09-15T18:54:05Z")

@@ -32,7 +32,7 @@ from pathlib import Path
 
 from sboms import MATCHES
 
-# the label file format this conversion writes, as in schema/schema-<version>.json. It is the
+# the label file format this conversion writes, as in schema/matches/schema-<version>.json. It is the
 # pinned yardstick's (`yardstick claims schema`), so bump it with the pin when the format moves.
 SCHEMA_VERSION = "1.0.0"
 

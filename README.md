@@ -30,7 +30,7 @@ The walkthrough in yardstick's [demo](https://github.com/anchore/yardstick/tree/
 - `vocabulary.yaml` lists the allowed justifications, fact sources and namespaces, and the labeling rules: each rule's verdict, confidence ceiling and the policy decision behind it
 - `labeling-policy.md` says what a label means, what each kind of evidence can support, and the decisions (P-1, P-2, ...) the rules cite. Change a rule in `vocabulary.yaml` and its decision here in the same pull request
 - `publish.yaml` names the label file format this corpus is in (`v1`) and which snapshot `latest` points at
-- `schema/` holds the JSON schema label files are validated against (`yardstick claims schema` writes it)
+- `schema/matches/` holds the JSON schema match label files are validated against (`yardstick claims schema` writes it)
 - `scripts/` holds the bundling, publishing, SBOM and validation scripts, plus the one-time port from vulnerability-match-labels
 - `Taskfile.yaml`, `Makefile` and `.binny.yaml` hold the tasks and pinned tools, including the yardstick that validates the corpus. `make help` lists the tasks
 
@@ -41,7 +41,7 @@ Every merge to `main` that touches the corpus is validated, bundled and publishe
 - `claims/matches/snapshots/<sha256>.zip` is the corpus at that commit, named by its digest and never overwritten
 - `claims/matches/commits/<sha>.json` names the snapshot for a commit
 - `claims/matches/latest-v1.json` names the snapshot yardstick's `@main` reads. It follows the tip of `main` unless `publish.yaml` pins it to a commit
-- `claims/schema/schema-<version>.json` is the label file schema
-- `claims/pkg/oci/.../sbom.syft-v<version>.json` is each image's SBOM, built by the syft in `catalog.yaml` and uploaded once
+- `claims/matches/schema/schema-<version>.json` is the match label file schema
+- `claims/sboms/pkg/oci/.../sbom.syft-v<version>.json` is each image's SBOM, built by the syft in `catalog.yaml` and uploaded once. It sits under `sboms/` rather than beside `matches/`, since every kind of label reads it
 
 A snapshot holds only the corpus (`catalog.yaml`, `vocabulary.yaml`, `pkg/`, `sbom/`, `global/`). `make sboms` fetches the SBOMs into a checkout, building any R2 doesn't have yet.

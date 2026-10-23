@@ -127,13 +127,13 @@ tasks:
       - "{{ .YARDSTICK }} claims validate {{ .BUNDLE_DIR }}/tree"
 
   check-schema:
-    desc: Check schema/ holds the label file schema the pinned yardstick enforces (`yardstick claims schema` writes it)
+    desc: Check schema/matches/ holds the match label file schema the pinned yardstick enforces (`yardstick claims schema` writes it)
     deps: [tools]
     cmds:
-      - "{{ .YARDSTICK }} claims schema schema"
+      - "{{ .YARDSTICK }} claims schema schema/matches"
       - cmd: |
           if [ -n "$(git status --porcelain -- schema)" ]; then
-            echo "schema/ is not what the pinned yardstick writes; commit what 'make check-schema' left there" >&2
+            echo "schema/matches/ is not what the pinned yardstick writes; commit what 'make check-schema' left there" >&2
             git status --short -- schema >&2
             exit 1
           fi
