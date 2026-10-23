@@ -7,7 +7,8 @@
 #
 # Every check yardstick runs is per file or per image directory, so the subset validates the
 # same as it would inside the whole corpus. A change to catalog.yaml or vocabulary.yaml can
-# affect any label, so it, or a base this clone does not hold, validates the whole corpus.
+# affect any label, and so can a new yardstick pinned in .binny.yaml, so any of those, or a base
+# this clone does not hold, validates the whole corpus.
 set -euo pipefail
 
 base=${1:-${BASE:-origin/main}}
@@ -20,8 +21,8 @@ if ! git rev-parse --verify -q "$base^{commit}" >/dev/null; then
   exec make validate-corpus
 fi
 changed=$(git diff --name-only "$base"...HEAD)
-if grep -qxE 'catalog\.yaml|vocabulary\.yaml' <<<"$changed"; then
-  echo "catalog.yaml or vocabulary.yaml changed since $base; validating the whole corpus"
+if grep -qxE 'catalog\.yaml|vocabulary\.yaml|\.binny\.yaml' <<<"$changed"; then
+  echo "catalog.yaml, vocabulary.yaml or .binny.yaml changed since $base; validating the whole corpus"
   exec make validate-corpus
 fi
 
