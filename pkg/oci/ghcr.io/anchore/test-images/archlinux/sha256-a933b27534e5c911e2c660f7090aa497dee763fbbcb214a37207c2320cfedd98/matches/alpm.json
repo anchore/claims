@@ -1,5 +1,5 @@
 {
-  "schema": "1.0.0",
+  "schema": "1.0.1",
   "subject": {
     "image": "ghcr.io/anchore/test-images/archlinux@sha256:a933b27534e5c911e2c660f7090aa497dee763fbbcb214a37207c2320cfedd98",
     "platform": "linux/amd64"
@@ -8,6 +8,9 @@
     {
       "package": "pkg:alpm/arch/curl@7.87.0-3",
       "vulnerability": "AVG-2845",
+      "aliases": [
+        "CVE-2023-38546"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
@@ -31,6 +34,9 @@
     {
       "package": "pkg:alpm/arch/openssl@3.0.7-4",
       "vulnerability": "AVG-2765",
+      "aliases": [
+        "CVE-2022-2068"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
@@ -54,6 +60,9 @@
     {
       "package": "pkg:alpm/arch/openssl@3.0.7-4",
       "vulnerability": "AVG-2848",
+      "aliases": [
+        "CVE-2023-5363"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
@@ -77,6 +86,9 @@
     {
       "package": "pkg:alpm/arch/perl@5.36.0-3",
       "vulnerability": "AVG-2264",
+      "aliases": [
+        "CVE-2021-36770"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
@@ -100,6 +112,9 @@
     {
       "package": "pkg:alpm/arch/perl@5.36.0-3",
       "vulnerability": "AVG-2630",
+      "aliases": [
+        "CVE-2020-16156"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [
@@ -123,6 +138,9 @@
     {
       "package": "pkg:alpm/arch/vim@9.0.1182-1",
       "vulnerability": "AVG-2843",
+      "aliases": [
+        "CVE-2023-0433"
+      ],
       "verdict": "tp",
       "author": "williammurphy",
       "notes": [

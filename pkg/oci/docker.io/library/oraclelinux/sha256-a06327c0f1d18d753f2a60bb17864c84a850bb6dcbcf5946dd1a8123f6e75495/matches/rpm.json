@@ -1,5 +1,5 @@
 {
-  "schema": "1.0.0",
+  "schema": "1.0.1",
   "subject": {
     "image": "docker.io/library/oraclelinux@sha256:a06327c0f1d18d753f2a60bb17864c84a850bb6dcbcf5946dd1a8123f6e75495",
     "platform": "linux/amd64"
@@ -8,6 +8,9 @@
     {
       "package": "pkg:rpm/ol/cyrus-sasl-lib@2.1.23-15.el6_6.2",
       "vulnerability": "ELSA-2022-9239",
+      "aliases": [
+        "CVE-2022-24407"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -35,6 +38,9 @@
     {
       "package": "pkg:rpm/ol/dhclient@4.1.1-63.P1.0.1.el6_10?epoch=12",
       "vulnerability": "ELSA-2021-9314",
+      "aliases": [
+        "CVE-2021-25217"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -62,6 +68,9 @@
     {
       "package": "pkg:rpm/ol/dhcp-common@4.1.1-63.P1.0.1.el6_10?epoch=12",
       "vulnerability": "ELSA-2021-9314",
+      "aliases": [
+        "CVE-2021-25217"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -89,6 +98,9 @@
     {
       "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
       "vulnerability": "ELSA-2022-9359",
+      "aliases": [
+        "CVE-2022-25236"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -116,6 +128,9 @@
     {
       "package": "pkg:rpm/ol/expat@2.0.1-13.el6_8",
       "vulnerability": "ELSA-2022-9962",
+      "aliases": [
+        "CVE-2022-40674"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -143,6 +158,9 @@
     {
       "package": "pkg:rpm/ol/glib2@2.28.8-10.el6",
       "vulnerability": "ELSA-2021-9318",
+      "aliases": [
+        "CVE-2021-27219"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -170,6 +188,9 @@
     {
       "package": "pkg:rpm/ol/nss-sysinit@3.44.0-7.0.1.el6_10",
       "vulnerability": "ELSA-2021-9591",
+      "aliases": [
+        "CVE-2021-43527"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -197,6 +218,9 @@
     {
       "package": "pkg:rpm/ol/nss-tools@3.44.0-7.0.1.el6_10",
       "vulnerability": "ELSA-2021-9591",
+      "aliases": [
+        "CVE-2021-43527"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -224,6 +248,9 @@
     {
       "package": "pkg:rpm/ol/nss@3.44.0-7.0.1.el6_10",
       "vulnerability": "ELSA-2021-9591",
+      "aliases": [
+        "CVE-2021-43527"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -251,6 +278,9 @@
     {
       "package": "pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10",
       "vulnerability": "ELSA-2021-9137",
+      "aliases": [
+        "CVE-2020-1971"
+      ],
       "verdict": "tp",
       "author": "wagoodman",
       "notes": [
@@ -266,6 +296,9 @@
     {
       "package": "pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10",
       "vulnerability": "ELSA-2022-9246",
+      "aliases": [
+        "CVE-2022-0778"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -293,6 +326,9 @@
     {
       "package": "pkg:rpm/ol/rsyslog@5.8.10-12.0.1.el6",
       "vulnerability": "ELSA-2022-9783",
+      "aliases": [
+        "CVE-2022-24903"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -320,6 +356,9 @@
     {
       "package": "pkg:rpm/ol/zlib@1.2.3-29.el6",
       "vulnerability": "ELSA-2022-9565",
+      "aliases": [
+        "CVE-2018-25032"
+      ],
       "verdict": "tp",
       "author": "wagoodman",
       "notes": [
