@@ -259,10 +259,20 @@ class TestAdvisoryLabels(unittest.TestCase):
         self.assertEqual({v for _, v in got}, {src["vulnerability_id"] for src, _ in elsa})
         self.assertEqual(self.db["ELSA-2021-9137"], ["CVE-2020-1971"])
         self.assertEqual(got[("pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10", "ELSA-2021-9137")]["verdict"], "tp")
+        self.assertEqual(got[("pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10", "ELSA-2021-9137")]["aliases"], ["CVE-2020-1971"])
         self.assertEqual(len(self.db["ELSA-2022-9359"]), 3)
         lb = got[("pkg:rpm/ol/expat@2.0.1-13.el6_8", "ELSA-2022-9359")]
         self.assertEqual(lb["verdict"], "tp")
+        # aliases are the CVE --by-cve reports the advisory as: the DB's first, never all it names
+        self.assertEqual(lb["aliases"], [self.db["ELSA-2022-9359"][0]])
+        self.assertEqual(list(lb)[:4], ["package", "vulnerability", "aliases", "verdict"])
+        self.assertEqual(files[f"{ORACLE_6}/matches/rpm.json"]["schema"], "1.0.1")
         self.assertNotIn("CVE", lb["notes"][0]["text"])
+
+    def test_by_cve(self):
+        self.assertEqual(vc.by_cve(["GHSA-x", "CVE-2022-2", "CVE-2022-1"]), "CVE-2022-2")
+        self.assertIsNone(vc.by_cve([]))
+        self.assertIsNone(vc.by_cve(None))
 
     def test_cve_and_ghsa_labels_unchanged(self):
         # the python labels came from CVE and GHSA calls, so the port writes them as the earlier one did

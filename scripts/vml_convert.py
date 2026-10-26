@@ -19,8 +19,12 @@ What a label carries across:
   It is never moved to the CVEs the advisory names, since not every one of them affects every
   package it lists. It is named as grype's DB names it today (ALAS-... on Amazon Linux 2 is
   ALAS2-...), and an advisory the DB does not hold is reported rather than guessed at
+- an advisory label's aliases: the CVE grype --by-cve reports its match as, the first CVE the
+  DB's record of the advisory names. It only lets the label pair that match too; the verdict
+  stays on the advisory. An advisory naming no CVE gets none
 
-What does not: effective_cve, and an image's tag (labels name images by digest).
+What does not: effective_cve (aliases come from today's DB instead), and an image's tag (labels
+name images by digest).
 """
 
 import fnmatch
@@ -34,7 +38,7 @@ from sboms import MATCHES
 
 # the label file format this conversion writes, as in schema/matches/schema-<version>.json. It is the
 # pinned yardstick's (`yardstick claims schema`), so bump it with the pin when the format moves.
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.0.1"
 
 # justifications this conversion writes; vocabulary.yaml defines them
 NOT_RECORDED = "not-recorded"
@@ -293,14 +297,27 @@ def note_for(call, vuln):
     return {"text": text, "author": src.get("user") or "unknown", "at": rfc3339(call.at)}
 
 
-def merge(purl, vuln, contributions):
+def by_cve(aliases):
+    """Return the CVE grype --by-cve reports an advisory as, given its DB aliases: the first CVE, else None.
+
+    grype takes the first CVE of the advisory's related vulnerabilities, which lead with the DB
+    record's aliases in order. A match grype merged from two records (a binary rpm found directly
+    and through its source rpm) has them sorted instead, so it may report another of them.
+    """
+    return next((a for a in aliases or [] if a.startswith("CVE-")), None)
+
+
+def merge(purl, vuln, contributions, alias=None):
     """Return the one corpus label for a key from every call on it.
 
-    Calls that disagree become one unclear label, each call's verdict kept in its note.
+    Calls that disagree become one unclear label, each call's verdict kept in its note. alias,
+    for an advisory, is the CVE grype --by-cve reports it as.
     """
     calls = contributions
     verdicts = {c.verdict for c in calls}
     label = {"package": purl, "vulnerability": vuln}
+    if alias:
+        label["aliases"] = [alias]
     if len(verdicts) > 1:
         label["verdict"], label["justification"] = "unclear", LABELERS_DISAGREE
     else:
@@ -345,8 +362,8 @@ def convert(records, vocab, split_ref, sbom_for, lookup):
         if vocab.is_advisory(e["vulnerability"]):
             advisories.add(db_advisory(e["vulnerability"], call.distro))
 
-    # only whether the DB holds the id matters: the label stays on the advisory
-    known = set(lookup(sorted(advisories))) if advisories else set()
+    # the label stays on the advisory; the DB says whether it holds the id, and its CVE for aliases
+    known = lookup(sorted(advisories)) if advisories else {}
 
     by_key = {}
     for c in calls:
@@ -370,7 +387,7 @@ def convert(records, vocab, split_ref, sbom_for, lookup):
         )
         if c.platform:
             f["subject"]["platform"] = c.platform
-        label = merge(purl, vid, cs)
+        label = merge(purl, vid, cs, by_cve(known.get(vid)))
         f["labels"].append(label)
         for call in cs:
             call.entry.setdefault("became", []).append(
