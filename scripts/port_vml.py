@@ -6,7 +6,8 @@
 - each image's sbom.syft.json comes from R2 as sboms.py fetches it, else from the SBOMs
   vulnerability-match-labels publishes when built with the syft catalog.yaml pins, else is built
   with `yardstick collect sboms`, since a label's package type and purl come from the SBOM
-- labels are converted by vml_convert.py, with grype's DB saying which advisory ids it holds
+- labels are converted by vml_convert.py, with grype's DB saying which advisory ids it holds and
+  which CVE --by-cve reports each as (the label's aliases)
 
   port_vml.py status [--vml DIR]       read-only summary of how far the port has got
   port_vml.py advisories [--vml DIR]   read-only report of the labels an earlier port made by moving
@@ -502,7 +503,9 @@ def main(argv=None):
     sub.add_parser("status", help="read-only summary of the port").set_defaults(fn=cmd_status)
     grype = argparse.ArgumentParser(add_help=False)
     grype.add_argument(
-        "--grype", default=str(CORPUS / ".tool" / "grype"), help="the grype whose DB says which advisory ids exist (default: the pinned one)"
+        "--grype",
+        default=str(CORPUS / ".tool" / "grype"),
+        help="the grype whose DB says which advisory ids exist and their CVEs (default: the pinned one)",
     )
     sub.add_parser(
         "advisories", parents=[grype], help="read-only report of labels moved from advisories to CVEs, and what they should be"

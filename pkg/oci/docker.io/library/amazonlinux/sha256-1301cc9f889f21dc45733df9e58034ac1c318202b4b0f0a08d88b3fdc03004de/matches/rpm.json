@@ -1,5 +1,5 @@
 {
-  "schema": "1.0.0",
+  "schema": "1.0.1",
   "subject": {
     "image": "docker.io/library/amazonlinux@sha256:1301cc9f889f21dc45733df9e58034ac1c318202b4b0f0a08d88b3fdc03004de",
     "platform": "linux/amd64"
@@ -8,6 +8,9 @@
     {
       "package": "pkg:rpm/amzn/ca-certificates@2021.2.50-72.amzn2.0.3",
       "vulnerability": "ALAS2-2023-1957",
+      "aliases": [
+        "CVE-2022-23491"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -35,6 +38,9 @@
     {
       "package": "pkg:rpm/amzn/ca-certificates@2021.2.50-72.amzn2.0.3",
       "vulnerability": "ALAS2-2023-2203",
+      "aliases": [
+        "CVE-2023-32803"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -62,6 +68,9 @@
     {
       "package": "pkg:rpm/amzn/cpio@2.11-28.amzn2",
       "vulnerability": "ALAS2-2023-1972",
+      "aliases": [
+        "CVE-2021-38185"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -89,6 +98,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1792",
+      "aliases": [
+        "CVE-2022-22576"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -116,6 +128,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1808",
+      "aliases": [
+        "CVE-2022-27782"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -143,6 +158,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1875",
+      "aliases": [
+        "CVE-2022-32205"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -170,6 +188,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1882",
+      "aliases": [
+        "CVE-2022-32221"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -197,6 +218,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-1924",
+      "aliases": [
+        "CVE-2022-27781"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -224,6 +248,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-1986",
+      "aliases": [
+        "CVE-2023-23914"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -251,6 +278,9 @@
     {
       "package": "pkg:rpm/amzn/curl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-2070",
+      "aliases": [
+        "CVE-2023-27533"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -278,6 +308,9 @@
     {
       "package": "pkg:rpm/amzn/elfutils-libelf@0.176-2.amzn2",
       "vulnerability": "ALAS2-2023-2197",
+      "aliases": [
+        "CVE-2021-33294"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -305,6 +338,9 @@
     {
       "package": "pkg:rpm/amzn/expat@2.1.0-12.amzn2.0.3",
       "vulnerability": "ALAS2-2022-1788",
+      "aliases": [
+        "CVE-2021-45960"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -332,6 +368,9 @@
     {
       "package": "pkg:rpm/amzn/expat@2.1.0-12.amzn2.0.3",
       "vulnerability": "ALAS2-2022-1809",
+      "aliases": [
+        "CVE-2021-46143"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -359,6 +398,9 @@
     {
       "package": "pkg:rpm/amzn/expat@2.1.0-12.amzn2.0.3",
       "vulnerability": "ALAS2-2022-1877",
+      "aliases": [
+        "CVE-2022-40674"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -386,6 +428,9 @@
     {
       "package": "pkg:rpm/amzn/expat@2.1.0-12.amzn2.0.3",
       "vulnerability": "ALAS2-2022-1885",
+      "aliases": [
+        "CVE-2022-43680"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -413,6 +458,9 @@
     {
       "package": "pkg:rpm/amzn/glib2@2.56.1-9.amzn2.0.2",
       "vulnerability": "ALAS2-2023-2049",
+      "aliases": [
+        "CVE-2018-16428"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -440,6 +488,9 @@
     {
       "package": "pkg:rpm/amzn/glib2@2.56.1-9.amzn2.0.2",
       "vulnerability": "ALAS2-2023-2058",
+      "aliases": [
+        "CVE-2021-3800"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -467,6 +518,9 @@
     {
       "package": "pkg:rpm/amzn/glib2@2.56.1-9.amzn2.0.2",
       "vulnerability": "ALAS2-2023-2107",
+      "aliases": [
+        "CVE-2015-8390"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -494,6 +548,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-common@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1857",
+      "aliases": [
+        "CVE-2021-3999"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -521,6 +578,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-common@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1869",
+      "aliases": [
+        "CVE-2009-5155"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -548,6 +608,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-langpack-en@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1857",
+      "aliases": [
+        "CVE-2021-3999"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -575,6 +638,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-langpack-en@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1869",
+      "aliases": [
+        "CVE-2009-5155"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -602,6 +668,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-minimal-langpack@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1857",
+      "aliases": [
+        "CVE-2021-3999"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -629,6 +698,9 @@
     {
       "package": "pkg:rpm/amzn/glibc-minimal-langpack@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1869",
+      "aliases": [
+        "CVE-2009-5155"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -656,6 +728,9 @@
     {
       "package": "pkg:rpm/amzn/glibc@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1857",
+      "aliases": [
+        "CVE-2021-3999"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -683,6 +758,9 @@
     {
       "package": "pkg:rpm/amzn/glibc@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1869",
+      "aliases": [
+        "CVE-2009-5155"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -710,6 +788,9 @@
     {
       "package": "pkg:rpm/amzn/gnupg2@2.0.22-5.amzn2.0.4",
       "vulnerability": "ALAS2-2022-1834",
+      "aliases": [
+        "CVE-2022-34903"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -737,6 +818,9 @@
     {
       "package": "pkg:rpm/amzn/krb5-libs@1.15.1-37.amzn2.2.4",
       "vulnerability": "ALAS2-2023-1915",
+      "aliases": [
+        "CVE-2022-42898"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -764,6 +848,9 @@
     {
       "package": "pkg:rpm/amzn/libblkid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1878",
+      "aliases": [
+        "CVE-2018-7738"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -791,6 +878,9 @@
     {
       "package": "pkg:rpm/amzn/libblkid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1901",
+      "aliases": [
+        "CVE-2022-0563"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -818,6 +908,9 @@
     {
       "package": "pkg:rpm/amzn/libblkid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2023-1920",
+      "aliases": [
+        "CVE-2021-37600"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -845,6 +938,9 @@
     {
       "package": "pkg:rpm/amzn/libcap@2.54-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-2136",
+      "aliases": [
+        "CVE-2023-2602"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -872,6 +968,9 @@
     {
       "package": "pkg:rpm/amzn/libcom_err@1.42.9-19.amzn2",
       "vulnerability": "ALAS2-2022-1884",
+      "aliases": [
+        "CVE-2022-1304"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -899,6 +998,9 @@
     {
       "package": "pkg:rpm/amzn/libcrypt@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1857",
+      "aliases": [
+        "CVE-2021-3999"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -926,6 +1028,9 @@
     {
       "package": "pkg:rpm/amzn/libcrypt@2.26-58.amzn2",
       "vulnerability": "ALAS2-2022-1869",
+      "aliases": [
+        "CVE-2009-5155"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -953,6 +1058,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1792",
+      "aliases": [
+        "CVE-2022-22576"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -980,6 +1088,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1808",
+      "aliases": [
+        "CVE-2022-27782"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1007,6 +1118,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1875",
+      "aliases": [
+        "CVE-2022-32205"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1034,6 +1148,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1882",
+      "aliases": [
+        "CVE-2022-32221"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1061,6 +1178,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-1924",
+      "aliases": [
+        "CVE-2022-27781"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1088,6 +1208,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-1986",
+      "aliases": [
+        "CVE-2023-23914"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1115,6 +1238,9 @@
     {
       "package": "pkg:rpm/amzn/libcurl@7.79.1-1.amzn2.0.1",
       "vulnerability": "ALAS2-2023-2070",
+      "aliases": [
+        "CVE-2023-27533"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1142,6 +1268,9 @@
     {
       "package": "pkg:rpm/amzn/libdb-utils@5.3.21-24.amzn2.0.3",
       "vulnerability": "ALAS2-2023-1965",
+      "aliases": [
+        "CVE-2017-10140"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1169,6 +1298,9 @@
     {
       "package": "pkg:rpm/amzn/libdb@5.3.21-24.amzn2.0.3",
       "vulnerability": "ALAS2-2023-1965",
+      "aliases": [
+        "CVE-2017-10140"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1196,6 +1328,9 @@
     {
       "package": "pkg:rpm/amzn/libgcc@7.3.1-13.amzn2",
       "vulnerability": "ALAS2-2022-1784",
+      "aliases": [
+        "CVE-2021-42574"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1223,6 +1358,9 @@
     {
       "package": "pkg:rpm/amzn/libmount@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1878",
+      "aliases": [
+        "CVE-2018-7738"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1250,6 +1388,9 @@
     {
       "package": "pkg:rpm/amzn/libmount@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1901",
+      "aliases": [
+        "CVE-2022-0563"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1277,6 +1418,9 @@
     {
       "package": "pkg:rpm/amzn/libmount@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2023-1920",
+      "aliases": [
+        "CVE-2021-37600"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1304,6 +1448,9 @@
     {
       "package": "pkg:rpm/amzn/libnghttp2@1.41.0-1.amzn2",
       "vulnerability": "ALAS2-2023-2180",
+      "aliases": [
+        "CVE-2023-35945"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1331,6 +1478,9 @@
     {
       "package": "pkg:rpm/amzn/libssh2@1.4.3-12.amzn2.2.3",
       "vulnerability": "ALAS2-2023-2046",
+      "aliases": [
+        "CVE-2019-3859"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1358,6 +1508,9 @@
     {
       "package": "pkg:rpm/amzn/libstdc%2B%2B@7.3.1-13.amzn2",
       "vulnerability": "ALAS2-2022-1784",
+      "aliases": [
+        "CVE-2021-42574"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1385,6 +1538,9 @@
     {
       "package": "pkg:rpm/amzn/libtasn1@4.10-1.amzn2.0.2",
       "vulnerability": "ALAS2-2023-1908",
+      "aliases": [
+        "CVE-2021-46848"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1412,6 +1568,9 @@
     {
       "package": "pkg:rpm/amzn/libuuid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1878",
+      "aliases": [
+        "CVE-2018-7738"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1439,6 +1598,9 @@
     {
       "package": "pkg:rpm/amzn/libuuid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2022-1901",
+      "aliases": [
+        "CVE-2022-0563"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1466,6 +1628,9 @@
     {
       "package": "pkg:rpm/amzn/libuuid@2.30.2-2.amzn2.0.7",
       "vulnerability": "ALAS2-2023-1920",
+      "aliases": [
+        "CVE-2021-37600"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1493,6 +1658,9 @@
     {
       "package": "pkg:rpm/amzn/libxml2@2.9.1-6.amzn2.5.4",
       "vulnerability": "ALAS2-2022-1826",
+      "aliases": [
+        "CVE-2022-23308"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1520,6 +1688,9 @@
     {
       "package": "pkg:rpm/amzn/libxml2@2.9.1-6.amzn2.5.4",
       "vulnerability": "ALAS2-2022-1848",
+      "aliases": [
+        "CVE-2022-29824"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1547,6 +1718,9 @@
     {
       "package": "pkg:rpm/amzn/libxml2@2.9.1-6.amzn2.5.4",
       "vulnerability": "ALAS2-2023-1996",
+      "aliases": [
+        "CVE-2022-40303"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1574,6 +1748,9 @@
     {
       "package": "pkg:rpm/amzn/libxml2@2.9.1-6.amzn2.5.4",
       "vulnerability": "ALAS2-2023-2021",
+      "aliases": [
+        "CVE-2023-28484"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1601,6 +1778,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses-base@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2022-1893",
+      "aliases": [
+        "CVE-2021-39537"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1628,6 +1808,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses-base@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2023-2096",
+      "aliases": [
+        "CVE-2023-29491"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1655,6 +1838,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses-libs@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2022-1893",
+      "aliases": [
+        "CVE-2021-39537"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1682,6 +1868,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses-libs@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2023-2096",
+      "aliases": [
+        "CVE-2023-29491"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1709,6 +1898,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2022-1893",
+      "aliases": [
+        "CVE-2021-39537"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1736,6 +1928,9 @@
     {
       "package": "pkg:rpm/amzn/ncurses@6.0-8.20170212.amzn2.1.3",
       "vulnerability": "ALAS2-2023-2096",
+      "aliases": [
+        "CVE-2023-29491"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1763,6 +1958,9 @@
     {
       "package": "pkg:rpm/amzn/nss-sysinit@3.67.0-4.amzn2.0.2",
       "vulnerability": "ALAS2-2023-1992",
+      "aliases": [
+        "CVE-2023-0767"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1790,6 +1988,9 @@
     {
       "package": "pkg:rpm/amzn/nss-tools@3.67.0-4.amzn2.0.2",
       "vulnerability": "ALAS2-2023-1992",
+      "aliases": [
+        "CVE-2023-0767"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1817,6 +2018,9 @@
     {
       "package": "pkg:rpm/amzn/nss@3.67.0-4.amzn2.0.2",
       "vulnerability": "ALAS2-2023-1992",
+      "aliases": [
+        "CVE-2023-0767"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1844,6 +2048,9 @@
     {
       "package": "pkg:rpm/amzn/openldap@2.4.44-23.amzn2.0.3",
       "vulnerability": "ALAS2-2023-2033",
+      "aliases": [
+        "CVE-2019-13565"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1871,6 +2078,9 @@
     {
       "package": "pkg:rpm/amzn/openldap@2.4.44-23.amzn2.0.3",
       "vulnerability": "ALAS2-2023-2095",
+      "aliases": [
+        "CVE-2023-2953"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1898,6 +2108,9 @@
     {
       "package": "pkg:rpm/amzn/openssl-libs@1.0.2k-24.amzn2.0.2?epoch=1",
       "vulnerability": "ALAS2-2022-1801",
+      "aliases": [
+        "CVE-2022-1292"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1925,6 +2138,9 @@
     {
       "package": "pkg:rpm/amzn/openssl-libs@1.0.2k-24.amzn2.0.2?epoch=1",
       "vulnerability": "ALAS2-2022-1831",
+      "aliases": [
+        "CVE-2022-2068"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1952,6 +2168,9 @@
     {
       "package": "pkg:rpm/amzn/openssl-libs@1.0.2k-24.amzn2.0.2?epoch=1",
       "vulnerability": "ALAS2-2023-1935",
+      "aliases": [
+        "CVE-2022-4304"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -1979,6 +2198,9 @@
     {
       "package": "pkg:rpm/amzn/openssl-libs@1.0.2k-24.amzn2.0.2?epoch=1",
       "vulnerability": "ALAS2-2023-2073",
+      "aliases": [
+        "CVE-2023-0464"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2006,6 +2228,9 @@
     {
       "package": "pkg:rpm/amzn/pcre@8.32-17.amzn2.0.2",
       "vulnerability": "ALAS2-2023-2082",
+      "aliases": [
+        "CVE-2015-8390"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2033,6 +2258,9 @@
     {
       "package": "pkg:rpm/amzn/python-libs@2.7.18-1.amzn2.0.4",
       "vulnerability": "ALAS2-2022-1802",
+      "aliases": [
+        "CVE-2020-27619"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "wagoodman",
@@ -2049,6 +2277,9 @@
     {
       "package": "pkg:rpm/amzn/python@2.7.18-1.amzn2.0.4",
       "vulnerability": "ALAS2-2022-1802",
+      "aliases": [
+        "CVE-2020-27619"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "wagoodman",
@@ -2065,6 +2296,9 @@
     {
       "package": "pkg:rpm/amzn/sqlite@3.7.17-8.amzn2.1.1",
       "vulnerability": "ALAS2-2023-1911",
+      "aliases": [
+        "CVE-2022-35737"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2092,6 +2326,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1805",
+      "aliases": [
+        "CVE-2022-0393"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2119,6 +2356,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1829",
+      "aliases": [
+        "CVE-2022-1616"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2146,6 +2386,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1868",
+      "aliases": [
+        "CVE-2022-2257"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2173,6 +2416,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1902",
+      "aliases": [
+        "CVE-2022-3520"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2200,6 +2446,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1912",
+      "aliases": [
+        "CVE-2022-4141"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2227,6 +2476,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1927",
+      "aliases": [
+        "CVE-2022-4292"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2254,6 +2506,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1975",
+      "aliases": [
+        "CVE-2022-2522"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2281,6 +2536,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1991",
+      "aliases": [
+        "CVE-2023-1127"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2308,6 +2566,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-2005",
+      "aliases": [
+        "CVE-2023-1170"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2335,6 +2596,9 @@
     {
       "package": "pkg:rpm/amzn/vim-data@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-2085",
+      "aliases": [
+        "CVE-2023-2609"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2362,6 +2626,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1805",
+      "aliases": [
+        "CVE-2022-0393"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2389,6 +2656,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1829",
+      "aliases": [
+        "CVE-2022-1616"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2416,6 +2686,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1868",
+      "aliases": [
+        "CVE-2022-2257"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2443,6 +2716,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2022-1902",
+      "aliases": [
+        "CVE-2022-3520"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2470,6 +2746,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1912",
+      "aliases": [
+        "CVE-2022-4141"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2497,6 +2776,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1927",
+      "aliases": [
+        "CVE-2022-4292"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2524,6 +2806,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1975",
+      "aliases": [
+        "CVE-2022-2522"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2551,6 +2836,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-1991",
+      "aliases": [
+        "CVE-2023-1127"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2578,6 +2866,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-2005",
+      "aliases": [
+        "CVE-2023-1170"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2605,6 +2896,9 @@
     {
       "package": "pkg:rpm/amzn/vim-minimal@8.2.4428-1.amzn2.0.3?epoch=2",
       "vulnerability": "ALAS2-2023-2085",
+      "aliases": [
+        "CVE-2023-2609"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2632,6 +2926,9 @@
     {
       "package": "pkg:rpm/amzn/xz-libs@5.2.2-1.amzn2.0.2",
       "vulnerability": "ALAS2-2022-1782",
+      "aliases": [
+        "CVE-2022-1271"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2659,6 +2956,9 @@
     {
       "package": "pkg:rpm/amzn/zlib@1.2.7-19.amzn2.0.1",
       "vulnerability": "ALAS2-2022-1849",
+      "aliases": [
+        "CVE-2022-37434"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [

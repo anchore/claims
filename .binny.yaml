@@ -25,12 +25,12 @@ tools:
       repo: astral-sh/ruff
 
   # validates and bundles the corpus, and does the conversion in the port from
-  # vulnerability-match-labels. Pinned to a commit on the go-rewrite branch until v0.17.0 is
+  # vulnerability-match-labels. Pinned to a commit on main until v0.17.0 is
   # released; bump by changing the sha. go-build rather than go-install: the module proxy cannot
   # zip yardstick's older python-era tags, and go install trips over them.
   - name: yardstick
     version:
-      want: 61d27c8146eaa3aee368aacb4fb5902a0a45162b
+      want: 7aa47cd235247564e8cc9d46e18d17ab6df79bae
     method: go-build
     with:
       module: github.com/anchore/yardstick

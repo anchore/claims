@@ -1,5 +1,5 @@
 {
-  "schema": "1.0.0",
+  "schema": "1.0.1",
   "subject": {
     "image": "ghcr.io/anchore/test-images/appstreams-oraclelinux-8@sha256:c8d664b0e728d52f57eeb98ed1899c16d3b265f02ddfb41303d7a16c31e0b0f1",
     "platform": "linux/amd64"
@@ -58,6 +58,9 @@
     {
       "package": "pkg:rpm/ol/aopalliance@1.0-17.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -136,6 +139,9 @@
     {
       "package": "pkg:rpm/ol/apache-commons-cli@1.4-4.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -215,6 +221,9 @@
     {
       "package": "pkg:rpm/ol/apache-commons-codec@1.11-3.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -271,6 +280,9 @@
     {
       "package": "pkg:rpm/ol/apache-commons-io@2.6-3.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -350,6 +362,9 @@
     {
       "package": "pkg:rpm/ol/apache-commons-lang3@3.7-3.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -452,6 +467,9 @@
     {
       "package": "pkg:rpm/ol/atinject@1-28.20100611svn86.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -718,6 +736,9 @@
     {
       "package": "pkg:rpm/ol/bind-export-libs@9.11.36-3.el8_6.1?epoch=32",
       "vulnerability": "ELSA-2022-7790",
+      "aliases": [
+        "CVE-2021-25220"
+      ],
       "verdict": "tp",
       "author": "kzantow",
       "notes": [
@@ -823,6 +844,9 @@
     {
       "package": "pkg:rpm/ol/cdi-api@1.2-8.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -1661,6 +1685,9 @@
     {
       "package": "pkg:rpm/ol/geronimo-annotation@1.0-23.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -2232,6 +2259,9 @@
     {
       "package": "pkg:rpm/ol/gnutls@3.6.16-4.el8",
       "vulnerability": "ELSA-2022-9221",
+      "aliases": [
+        "CVE-2021-3580"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -2310,6 +2340,9 @@
     {
       "package": "pkg:rpm/ol/google-guice@4.1-11.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2337,6 +2370,9 @@
     {
       "package": "pkg:rpm/ol/httpcomponents-client@4.5.5-5.module%2Bel8.6.0%2B20537%2B63b96daa",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -2442,6 +2478,9 @@
     {
       "package": "pkg:rpm/ol/httpcomponents-core@4.4.10-3.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -3199,6 +3238,9 @@
     {
       "package": "pkg:rpm/ol/jansi@1.17.1-1.module%2Bel8%2B5185%2B29085240",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -3952,6 +3994,9 @@
     {
       "package": "pkg:rpm/ol/jcl-over-slf4j@1.7.25-4.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -4031,6 +4076,9 @@
     {
       "package": "pkg:rpm/ol/jsoup@1.11.3-3.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -4581,6 +4629,9 @@
     {
       "package": "pkg:rpm/ol/libgcrypt@1.8.5-7.el8_6",
       "vulnerability": "ELSA-2022-9263",
+      "aliases": [
+        "CVE-2021-33560"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -4608,6 +4659,9 @@
     {
       "package": "pkg:rpm/ol/libgcrypt@1.8.5-7.el8_6",
       "vulnerability": "ELSA-2022-9564",
+      "aliases": [
+        "CVE-2021-40528"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -5180,6 +5234,9 @@
     {
       "package": "pkg:rpm/ol/libxml2@2.9.7-13.el8_6.1",
       "vulnerability": "ELSA-2022-7715",
+      "aliases": [
+        "CVE-2016-3709"
+      ],
       "verdict": "tp",
       "author": "kzantow",
       "notes": [
@@ -5257,6 +5314,9 @@
     {
       "package": "pkg:rpm/ol/mariadb-common@10.3.35-1.module%2Bel8.6.0%2B20730%2Be6b28fc7?epoch=3",
       "vulnerability": "ELSA-2022-1557",
+      "aliases": [
+        "CVE-2021-35604"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5285,6 +5345,9 @@
     {
       "package": "pkg:rpm/ol/mariadb-common@10.3.35-1.module%2Bel8.6.0%2B20730%2Be6b28fc7?epoch=3",
       "vulnerability": "ELSA-2022-5826",
+      "aliases": [
+        "CVE-2021-46659"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5336,6 +5399,9 @@
     {
       "package": "pkg:rpm/ol/mariadb@10.3.35-1.module%2Bel8.6.0%2B20730%2Be6b28fc7?epoch=3",
       "vulnerability": "ELSA-2022-1557",
+      "aliases": [
+        "CVE-2021-35604"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5364,6 +5430,9 @@
     {
       "package": "pkg:rpm/ol/mariadb@10.3.35-1.module%2Bel8.6.0%2B20730%2Be6b28fc7?epoch=3",
       "vulnerability": "ELSA-2022-5826",
+      "aliases": [
+        "CVE-2021-46659"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5443,6 +5512,9 @@
     {
       "package": "pkg:rpm/ol/maven-lib@3.5.4-5.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5522,6 +5594,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-api@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5601,6 +5676,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-connector-basic@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5680,6 +5758,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-impl@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5759,6 +5840,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-spi@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5838,6 +5922,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-transport-wagon@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5917,6 +6004,9 @@
     {
       "package": "pkg:rpm/ol/maven-resolver-util@1.1.1-2.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -5945,6 +6035,9 @@
     {
       "package": "pkg:rpm/ol/maven-shared-utils@3.2.1-0.2.module%2Bel8.6.0%2B20674%2Bd36d0344",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6024,6 +6117,9 @@
     {
       "package": "pkg:rpm/ol/maven-wagon-file@3.1.0-1.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6080,6 +6176,9 @@
     {
       "package": "pkg:rpm/ol/maven-wagon-http-shared@3.1.0-1.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1861",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6159,6 +6258,9 @@
     {
       "package": "pkg:rpm/ol/maven-wagon-http@3.1.0-1.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6238,6 +6340,9 @@
     {
       "package": "pkg:rpm/ol/maven-wagon-provider-api@3.1.0-1.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6317,6 +6422,9 @@
     {
       "package": "pkg:rpm/ol/maven@3.5.4-5.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6575,6 +6683,9 @@
     {
       "package": "pkg:rpm/ol/nginx-filesystem@1.16.1-2.0.1.module%2Bel8.4.0%2B20188%2Ba733e426.1?epoch=1",
       "vulnerability": "ELSA-2021-2259",
+      "aliases": [
+        "CVE-2021-23017"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6603,6 +6714,9 @@
     {
       "package": "pkg:rpm/ol/nginx-filesystem@1.16.1-2.0.1.module%2Bel8.4.0%2B20188%2Ba733e426.1?epoch=1",
       "vulnerability": "ELSA-2022-0323",
+      "aliases": [
+        "CVE-2021-23017"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6631,6 +6745,9 @@
     {
       "package": "pkg:rpm/ol/nginx@1.16.1-2.0.1.module%2Bel8.4.0%2B20188%2Ba733e426.1?epoch=1",
       "vulnerability": "ELSA-2021-2259",
+      "aliases": [
+        "CVE-2021-23017"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6659,6 +6776,9 @@
     {
       "package": "pkg:rpm/ol/nginx@1.16.1-2.0.1.module%2Bel8.4.0%2B20188%2Ba733e426.1?epoch=1",
       "vulnerability": "ELSA-2022-0323",
+      "aliases": [
+        "CVE-2021-23017"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6764,6 +6884,9 @@
     {
       "package": "pkg:rpm/ol/nodejs@14.20.0-2.module%2Bel8.6.0%2B20729%2B8fb6d84e?epoch=1",
       "vulnerability": "ELSA-2021-5171",
+      "aliases": [
+        "CVE-2020-7788"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -6792,6 +6915,9 @@
     {
       "package": "pkg:rpm/ol/nodejs@14.20.0-2.module%2Bel8.6.0%2B20729%2B8fb6d84e?epoch=1",
       "vulnerability": "ELSA-2022-4796",
+      "aliases": [
+        "CVE-2021-43616"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -8446,6 +8572,9 @@
     {
       "package": "pkg:rpm/ol/php-common@7.4.19-4.module%2Bel8.6.0%2B20746%2B7a133c42",
       "vulnerability": "ELSA-2022-7628",
+      "aliases": [
+        "CVE-2021-21707"
+      ],
       "verdict": "tp",
       "author": "kzantow",
       "notes": [
@@ -8596,6 +8725,9 @@
     {
       "package": "pkg:rpm/ol/php@7.4.19-4.module%2Bel8.6.0%2B20746%2B7a133c42",
       "vulnerability": "ELSA-2022-7628",
+      "aliases": [
+        "CVE-2021-32610"
+      ],
       "verdict": "tp",
       "author": "kzantow",
       "notes": [
@@ -8935,6 +9067,9 @@
     {
       "package": "pkg:rpm/ol/plexus-cipher@1.7-14.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9014,6 +9149,9 @@
     {
       "package": "pkg:rpm/ol/plexus-classworlds@2.5.2-9.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9092,6 +9230,9 @@
     {
       "package": "pkg:rpm/ol/plexus-containers-component-annotations@1.7.1-8.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
@@ -9170,6 +9311,9 @@
     {
       "package": "pkg:rpm/ol/plexus-interpolation@1.22-9.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9249,6 +9393,9 @@
     {
       "package": "pkg:rpm/ol/plexus-sec-dispatcher@1.4-26.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9328,6 +9475,9 @@
     {
       "package": "pkg:rpm/ol/plexus-utils@3.1.0-3.module%2Bel8%2B5161%2B5cac467c",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9494,6 +9644,9 @@
     {
       "package": "pkg:rpm/ol/postgresql@12.11-2.module%2Bel8.6.0%2B20676%2B128a094e",
       "vulnerability": "ELSA-2021-2375",
+      "aliases": [
+        "CVE-2021-32027"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -9522,6 +9675,9 @@
     {
       "package": "pkg:rpm/ol/postgresql@12.11-2.module%2Bel8.6.0%2B20676%2B128a094e",
       "vulnerability": "ELSA-2021-5236",
+      "aliases": [
+        "CVE-2021-3677"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10092,6 +10248,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-2584",
+      "aliases": [
+        "CVE-2020-25613"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10120,6 +10279,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-2588",
+      "aliases": [
+        "CVE-2019-3881"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10148,6 +10310,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-3020",
+      "aliases": [
+        "CVE-2021-32066"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10176,6 +10341,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-0543",
+      "aliases": [
+        "CVE-2021-32066"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10204,6 +10372,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-6447",
+      "aliases": [
+        "CVE-2022-28739"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10232,6 +10403,9 @@
     {
       "package": "pkg:rpm/ol/ruby-libs@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-6450",
+      "aliases": [
+        "CVE-2022-28739"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10379,6 +10553,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-2584",
+      "aliases": [
+        "CVE-2020-25613"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10407,6 +10584,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-2588",
+      "aliases": [
+        "CVE-2019-3881"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10435,6 +10615,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2021-3020",
+      "aliases": [
+        "CVE-2021-32066"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10463,6 +10646,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-0543",
+      "aliases": [
+        "CVE-2021-32066"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10491,6 +10677,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-6447",
+      "aliases": [
+        "CVE-2022-28739"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10519,6 +10708,9 @@
     {
       "package": "pkg:rpm/ol/ruby@2.5.9-110.module%2Bel8.6.0%2B20712%2B84e27c2d",
       "vulnerability": "ELSA-2022-6450",
+      "aliases": [
+        "CVE-2022-28739"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10648,6 +10840,9 @@
     {
       "package": "pkg:rpm/ol/sisu-inject@0.3.3-6.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10754,6 +10949,9 @@
     {
       "package": "pkg:rpm/ol/sisu-plexus@0.3.3-6.module%2Bel8%2B5161%2B5cac467c?epoch=1",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10833,6 +11031,9 @@
     {
       "package": "pkg:rpm/ol/slf4j@1.7.25-4.module%2Bel8%2B5161%2B5cac467c?epoch=0",
       "vulnerability": "ELSA-2022-1860",
+      "aliases": [
+        "CVE-2020-13956"
+      ],
       "verdict": "fp",
       "justification": "not-recorded",
       "author": "westonsteimel",
@@ -10961,6 +11162,9 @@
     {
       "package": "pkg:rpm/ol/sqlite-libs@3.26.0-15.el8",
       "vulnerability": "ELSA-2022-7108",
+      "aliases": [
+        "CVE-2020-35525"
+      ],
       "verdict": "tp",
       "author": "westonsteimel",
       "notes": [
