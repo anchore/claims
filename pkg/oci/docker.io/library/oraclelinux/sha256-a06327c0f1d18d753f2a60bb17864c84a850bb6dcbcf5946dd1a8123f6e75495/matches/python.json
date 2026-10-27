@@ -12,7 +12,7 @@
       "author": "wagoodman",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 6256c35c-55c3-4918-945d-fb6b63db8ab4: tp",
+          "text": "ported from vulnerability-match-labels 6256c35c-55c3-4918-945d-fb6b63db8ab4: tp. Package renamed from pyOpenSSL: syft names it pyopenssl, and yardstick matches package names case-sensitively, so this label never applied. pyopenssl 0.13.1 is older than the 17.5.0 fix. Evidence: https://github.com/advisories/GHSA-p28m-34f6-967q https://github.com/advisories/GHSA-2rcm-phc9-3945",
           "author": "wagoodman",
           "at": "2022-09-15T23:35:21Z"
         }
@@ -27,7 +27,7 @@
       "author": "wagoodman",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 9df0194c-4164-4cb6-a70c-877358afc62e: tp",
+          "text": "ported from vulnerability-match-labels 9df0194c-4164-4cb6-a70c-877358afc62e: tp. Package renamed from pyOpenSSL: syft names it pyopenssl, and yardstick matches package names case-sensitively, so this label never applied. pyopenssl 0.13.1 is older than the 17.5.0 fix. Evidence: https://github.com/advisories/GHSA-p28m-34f6-967q https://github.com/advisories/GHSA-2rcm-phc9-3945",
           "author": "wagoodman",
           "at": "2022-09-15T23:35:35Z"
         }
@@ -42,7 +42,7 @@
       "author": "wagoodman",
       "notes": [
         {
-          "text": "ported from vulnerability-match-labels 3e3f1cf3-31ad-46f1-a895-a6c63864a845: tp",
+          "text": "ported from vulnerability-match-labels 3e3f1cf3-31ad-46f1-a895-a6c63864a845: tp. Package renamed from pyOpenSSL: syft names it pyopenssl, and yardstick matches package names case-sensitively, so this label never applied. pyopenssl 0.13.1 is older than the 17.5.0 fix. Evidence: https://github.com/advisories/GHSA-p28m-34f6-967q https://github.com/advisories/GHSA-2rcm-phc9-3945",
           "author": "wagoodman",
           "at": "2022-09-15T23:35:38Z"
         }
