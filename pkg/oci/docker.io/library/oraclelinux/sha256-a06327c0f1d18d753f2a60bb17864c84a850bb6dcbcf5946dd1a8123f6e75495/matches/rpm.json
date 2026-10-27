@@ -276,6 +276,84 @@
       "lastUpdated": "2022-11-01T22:43:01Z"
     },
     {
+      "package": "pkg:rpm/ol/openssh-clients@5.3p1-124.el6_10",
+      "vulnerability": "ELSA-2023-4428",
+      "aliases": [
+        "CVE-2016-6210"
+      ],
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 523cd497-198c-4f76-bf55-6d6adb39844e: tp. ELSA-2023-4428 fixes openssh in 0:5.3p1-124.0.2.el6_10 (124.0.1: CVE-2023-38408 ssh-agent PKCS#11; 124.0.2: incomplete fix for CVE-2016-6210 sshd user enumeration); installed 5.3p1-124.el6_10 is older. grype --by-cve reports this advisory as CVE-2016-6210. Evidence: https://linux.oracle.com/errata/ELSA-2023-4428.html https://access.redhat.com/security/cve/CVE-2016-6210 https://access.redhat.com/security/cve/CVE-2023-38408",
+          "author": "kzantow",
+          "at": "2026-10-27T13:06:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-10-27T13:06:30Z",
+      "lastUpdated": "2026-10-27T13:06:30Z"
+    },
+    {
+      "package": "pkg:rpm/ol/openssh-server@5.3p1-124.el6_10",
+      "vulnerability": "ELSA-2023-4428",
+      "aliases": [
+        "CVE-2016-6210"
+      ],
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels 994b09e9-1407-42a3-aab3-bf31f48db5ef: tp. ELSA-2023-4428 fixes openssh in 0:5.3p1-124.0.2.el6_10 (124.0.1: CVE-2023-38408 ssh-agent PKCS#11; 124.0.2: incomplete fix for CVE-2016-6210 sshd user enumeration); installed 5.3p1-124.el6_10 is older. grype --by-cve reports this advisory as CVE-2016-6210. Evidence: https://linux.oracle.com/errata/ELSA-2023-4428.html https://access.redhat.com/security/cve/CVE-2016-6210 https://access.redhat.com/security/cve/CVE-2023-38408",
+          "author": "kzantow",
+          "at": "2026-10-27T13:06:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-10-27T13:06:30Z",
+      "lastUpdated": "2026-10-27T13:06:30Z"
+    },
+    {
+      "package": "pkg:rpm/ol/openssh@5.3p1-124.el6_10",
+      "vulnerability": "ELSA-2023-4428",
+      "aliases": [
+        "CVE-2023-38408"
+      ],
+      "verdict": "tp",
+      "author": "kzantow",
+      "notes": [
+        {
+          "text": "ported from vulnerability-match-labels d99245b4-8c3e-41a8-b586-fb96a407c47a: tp. ELSA-2023-4428 fixes openssh in 0:5.3p1-124.0.2.el6_10 (124.0.1: CVE-2023-38408 ssh-agent PKCS#11; 124.0.2: incomplete fix for CVE-2016-6210 sshd user enumeration); installed 5.3p1-124.el6_10 is older. grype --by-cve reports this advisory as CVE-2016-6210. Evidence: https://linux.oracle.com/errata/ELSA-2023-4428.html https://access.redhat.com/security/cve/CVE-2016-6210 https://access.redhat.com/security/cve/CVE-2023-38408",
+          "author": "kzantow",
+          "at": "2026-10-27T13:06:30Z"
+        }
+      ],
+      "seenIn": {
+        "tools": [
+          {
+            "name": "syft",
+            "version": "v1.14.0"
+          }
+        ]
+      },
+      "firstIssued": "2026-10-27T13:06:30Z",
+      "lastUpdated": "2026-10-27T13:06:30Z"
+    },
+    {
       "package": "pkg:rpm/ol/openssl@1.0.1e-58.0.1.el6_10",
       "vulnerability": "ELSA-2021-9137",
       "aliases": [
